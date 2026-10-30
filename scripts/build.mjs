@@ -7,7 +7,9 @@ import assert from 'node:assert/strict';
 import {encodeAtlas,decodeAtlas} from './atlas-codec.mjs';
 import {splitAtlas,hydrateAtlas} from '../src/atlas-hydration.js';
 import {decompress} from '../src/vendor/fzstd/esm/index.mjs';
+import {buildProjectOverview} from './build-project-overview.mjs';
 const root=resolve(import.meta.dirname,'..');
+const releaseVersion='2026-10-31';
 const dependencyRoot=process.env.PLANT_EARTH_BUILD_TOOLS;
 const require=createRequire(dependencyRoot?join(resolve(dependencyRoot),'package.json'):import.meta.url);
 const esbuild=require('esbuild');
@@ -76,7 +78,8 @@ notices.push('fzstd 0.1.1\nMIT\n'+await readFile(join(root,'src/vendor/fzstd/LIC
 await writeFile(join(root,'THIRD_PARTY_NOTICES.txt'),notices.join('\n\n'+'='.repeat(72)+'\n\n'));
 const files=JSON.parse(await readFile(join(root,'site-files.json'),'utf8'));
 // Keep older hashed transports available for tabs holding a cached index.
-files.files=[...new Set([...files.files,'startup.js',...(await readdir(join(root,'assets'))).filter(n=>/^atlas-(?:data|details)\.[a-f0-9]+\.bin$/.test(n)).map(n=>'assets/'+n)])].sort();
+files.files=[...new Set([...files.files,'startup.js','about.html','project-overview.css',...(await readdir(join(root,'assets'))).filter(n=>/^atlas-(?:data|details)\.[a-f0-9]+\.bin$/.test(n)).map(n=>'assets/'+n)])].sort();
 await writeFile(join(root,'site-files.json'),JSON.stringify(files,null,2)+'\n');
-await writeFile(join(root,'release.json'),JSON.stringify({version:'2026-10-31',sourceCommit:process.env.GITHUB_SHA||null,plantCount:files.plantCount,regionCount:files.regionCount,audioCount:files.audioCount,imageCount:files.imageCount,assets:{'app.js':sha(await readFile(join(root,'app.js'))),'data.js':sha(await readFile(join(root,'data.js'))),'styles.css':sha(css),'startup.js':sha(await readFile(join(root,'startup.js'))),[dataName]:dataHash,[detailName]:detailHash},transport:{format:'zstd boot / lossless object dictionary v1; gzip detail rows',file:dataName,bytes:packed.length,bootBytes:bootBytes.length,coreBytes:coreBytes.length,detailBytes:detailBytes.length,canonicalBytes:Buffer.byteLength(dataSource),deepEqualityVerified:true,legacyFallback:fallbackUrl},delivery:'One-response critical globe/course assets; large global statistical rows and botanical polygons load after first paint with an explicit pending state.'},null,2)+'\n');
+await buildProjectOverview({root,data,version:releaseVersion,sourceCommit:process.env.GITHUB_SHA||null});
+await writeFile(join(root,'release.json'),JSON.stringify({version:releaseVersion,sourceCommit:process.env.GITHUB_SHA||null,plantCount:files.plantCount,regionCount:files.regionCount,audioCount:files.audioCount,imageCount:files.imageCount,assets:{'app.js':sha(await readFile(join(root,'app.js'))),'data.js':sha(await readFile(join(root,'data.js'))),'styles.css':sha(css),'startup.js':sha(await readFile(join(root,'startup.js'))),'about.html':sha(await readFile(join(root,'about.html'))),'project-overview.css':sha(await readFile(join(root,'project-overview.css'))),[dataName]:dataHash,[detailName]:detailHash},transport:{format:'zstd boot / lossless object dictionary v1; gzip detail rows',file:dataName,bytes:packed.length,bootBytes:bootBytes.length,coreBytes:coreBytes.length,detailBytes:detailBytes.length,canonicalBytes:Buffer.byteLength(dataSource),deepEqualityVerified:true,legacyFallback:fallbackUrl},delivery:'One-response critical globe/course assets; large global statistical rows and botanical polygons load after first paint with an explicit pending state.'},null,2)+'\n');
 console.log(JSON.stringify({built:true,stylesheetsCombined:links.length,thirdPartyPackages:seen.size+1,appBytes:(await readFile(join(root,'app.js'))).length,dataBytes:(await readFile(join(root,'data.js'))).length,criticalHtmlBytes:Buffer.byteLength(html),criticalHtmlGzipBytes:gzipSync(html,{level:6}).length,bootBytes:bootBytes.length,coreBytes:coreBytes.length,detailBytes:detailBytes.length}));

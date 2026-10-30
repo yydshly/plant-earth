@@ -37,10 +37,11 @@ def main():
  assert len(data['crops'])==spec['plantCount'] and len(data['regionalEnvironment']['regions'])==spec['regionCount']
  assert sum(n.lower().endswith(('.jpg','.jpeg','.png','.webp')) for n in names)==spec['imageCount']
  html=(ROOT/'index.html').read_text(encoding='utf-8')
- markup=re.sub(r'<script\b[^>]*>.*?</script>','',html,flags=re.S)
- for name in re.findall(r'(?:src|href)="([^"#?]+)(?:\?[^\"]*)?"',markup):
-  if name.startswith(('https:','http:','data:','#')):continue
-  assert not name.startswith('/') and name in names,'Nonportable page resource: '+name
+ for page in ['index.html','about.html']:
+  markup=re.sub(r'<script\b[^>]*>.*?</script>','',(ROOT/page).read_text(encoding='utf-8'),flags=re.S)
+  for name in re.findall(r'(?:src|href)="([^"#?]+)(?:\?[^\"]*)?"',markup):
+   if name.startswith(('https:','http:','data:','#')):continue
+   assert not name.startswith('/') and name in names,'Nonportable page resource: '+name
  assert 'id="atlas-site-styles"' in html
  config=json.loads(re.search(r'<script id="atlas-startup-config" type="application/json">(.*?)</script>',html).group(1))
  assert config['dataUrl'] in names and digest(ROOT/config['dataUrl'])==config['dataSha256']

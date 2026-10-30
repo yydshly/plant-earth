@@ -15,6 +15,7 @@ export function createCourseDirectory({container=document.body,groups=[],photos=
   const panel=el('div',null,'directory-panel'),header=el('header',null,'directory-header'),heading=el('h1','课程目录','directory-title');heading.id='course-directory-title';heading.tabIndex=-1;
   const closeButton=button('关闭目录，返回原页面',()=>close(),'directory-close');closeButton.id='course-directory-close';
   const titleWrap=el('div');titleWrap.append(el('p','按模块进入 · 随时跳到具体一课','directory-eyebrow'),heading,el('p','不必从头开始。打开课程会保留已有学习记录；点“进入并播放”才开始声音。','directory-lead'));header.append(titleWrap,closeButton);
+  const overview=el('a','项目总览、资料覆盖与后续计划 →','directory-project-link');overview.href='about.html';titleWrap.append(overview);
   const searchLabel=el('label',null,'directory-search');searchLabel.append(el('span','搜索全部课程'));const search=el('input');search.type='search';search.id='course-directory-search';search.placeholder='输入课程、植物、学名或地区';search.setAttribute('aria-label','搜索全部课程');searchLabel.append(search);
   const clear=button('清除搜索',()=>{query='';search.value='';renderContent();renderNavigation();search.focus();},'directory-clear');clear.hidden=true;
   const searchRow=el('div',null,'directory-search-row');searchRow.append(searchLabel,clear);

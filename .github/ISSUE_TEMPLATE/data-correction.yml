@@ -1,0 +1,33 @@
+name: 资料与标注纠错
+description: 指出植物身份、地区位置、气候、土壤、水源或来源解释的问题。
+title: "[资料纠错] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "请提供可复核的出处。来源之间存在分歧时，会保留分歧并核对适用范围。这里是公开议题。"
+  - type: input
+    id: location
+    attributes:
+      label: 植物、地区、页面链接与讲解时间
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 当前表述或标注是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 你认为应怎样修改，为什么？
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 可核对的来源
+      description: 请附链接、出处或公开文献；如有年份、单位和地点范围，也请注明。
+    validations:
+      required: true

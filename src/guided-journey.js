@@ -1,5 +1,6 @@
 import {GUIDED_STAGES,createGuidedJourneyState} from './guided-journey-model.js';
 import {isAutoContinueEnabled,setAutoContinueEnabled,subscribeAutoContinue} from './playback-preferences.js';
+import {createProjectSummary} from './project-overview-model.js';
 
 export {GUIDED_STAGES} from './guided-journey-model.js';
 export const GUIDED_JOURNEY_STORAGE='plant-earth-guided-v1';
@@ -72,6 +73,7 @@ export function createGuidedJourney({container=document.body,onNavigate,onExplor
   function homeContent(){
     const state=model.getState(),stage=stageFor(state.stage);
     const panel=makePanel('植物地球 · 成人通识与自主查阅','植物为什么分布在这些地方？','从一个具体问题出发，在地球上找地区、认植物，再把环境证据与生长需要联系起来。看完应能解释差异，并知道哪些判断还需要资料。');
+    const scope=createProjectSummary(globalThis.ATLAS_DATA),project=element('div',null,'guided-project-summary'),projectLink=element('a','项目总览与后续计划 →');projectLink.href='about.html';project.append(element('span',`${scope.entries}个代表条目 · ${scope.regions}个地区 · 公开试用版`),projectLink);panel.append(project);
     const questions=element('div',null,'guided-question-paths');questions.setAttribute('aria-label','按问题开始观看');
     for(const item of [
       {title:'同样是主食，稻、麦、玉米为何不同？',note:'籽粒与生长季 → 水稻真实地图 → 回顾差异。',location:{courseScope:'agriculture',view:'lesson',classId:'grains',pathId:'staples',cropId:'rice',step:0,questionPath:'grains'}},
@@ -96,7 +98,7 @@ export function createGuidedJourney({container=document.body,onNavigate,onExplor
     panel.append(route);
     const coverage=element('details',null,'guided-coverage');coverage.append(element('summary','现在支持什么？信息覆盖到哪里？'));
     coverage.append(element('p',`图鉴有${globalThis.ATLAS_DATA.catalogue.entryCount}个代表条目：${globalThis.ATLAS_DATA.catalogue.agricultureCount}个农业与园艺条目按13类学习，其他${globalThis.ATLAS_DATA.catalogue.biodiversityCount}个植物各有完整课程。真实环境证据连接${regionalCount}个地区案例，地区课堂按气候、土壤和水源逐步解释。`));
-    coverage.append(element('p','农业统计覆盖92个条目，原生与引入资料覆盖137个条目；每个条目都有环境说明。地区气候和土壤包含网格模型，水源资料包含卫星与生境记录，来源和尺度分别标明。'));
+    coverage.append(element('p',`农业统计覆盖${scope.production}个条目，原生与引入资料覆盖${scope.botanical}个条目；实物照片覆盖${scope.photos}个条目。土壤模型数值覆盖${scope.soilNumeric}处，${scope.soilDocumented}处保留文献根区解释与数值缺项，${scope.soilNotApplicable}处注明不适用。来源、时期和空间尺度在各课分别标明。`));
     coverage.append(element('p','这些资料帮助理解分布与环境关系；全球逐地实测、所有物种与全部品种还未覆盖。'));
     panel.append(coverage,element('p','各阶段可以自由切换。“看过”、作答结果和独立解释分别记录；浏览路线不等于已经学会。','guided-journey-disclaimer'));
     return panel;

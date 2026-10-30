@@ -3,6 +3,7 @@
   "files": [
     ".nojekyll",
     "THIRD_PARTY_NOTICES.txt",
+    "about.html",
     "app.js",
     "assets/atlas-data.3f5603fbfd1b5fdc.bin",
     "assets/atlas-data.435ed4c3c13a796b.bin",
@@ -486,6 +487,7 @@
     "images/plants/wangtianshu.jpg",
     "images/plants/wheat.jpg",
     "index.html",
+    "project-overview.css",
     "release.json",
     "sources/agriculture-wave2-food.json",
     "sources/agriculture-wave2-fruit.json",

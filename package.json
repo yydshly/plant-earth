@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node --max-old-space-size=192 scripts/check-transport.mjs && node --max-old-space-size=128 scripts/check-wave3.mjs && python scripts/site.py --check"
+    "check": "node --max-old-space-size=192 scripts/check-transport.mjs && node --max-old-space-size=128 scripts/check-wave3.mjs && node --max-old-space-size=128 scripts/check-overview.mjs && python scripts/site.py --check"
   },
   "dependencies": {
     "d3": "7.9.0",
