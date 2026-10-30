@@ -40,7 +40,7 @@ export function summarizeRegionalCourses(regions=[]){
     water:regions.filter(r=>finite(r.water?.surfaceWaterSample?.occurrencePct)).length};
 }
 
-export function createRegionalClassroom({container,data={},crops,onScene,onChange,onProgress,onClose,onPlayingChange}={}){
+export function createRegionalClassroom({container,playerContainer,data={},crops,onScene,onChange,onProgress,onClose,onPlayingChange}={}){
   if(!container)throw new TypeError('A regional classroom container is required');
   const cropMap=crops instanceof Map?crops:new Map((crops||data.crops||[]).map(crop=>[crop.id,crop]));
   const regions=regionalCourseCatalogue(data.regionalEnvironment).map(region=>({...region,searchText:region.cropIds.map(id=>cropMap.get(id)?.name||id).join(' ')})),byId=new Map(regions.map(region=>[region.id,region]));
@@ -49,7 +49,9 @@ export function createRegionalClassroom({container,data={},crops,onScene,onChang
   let enabled=false,view='home',regionId=null,step=0,following=true,status='',comparisonCropId=null,filters={continent:'',environment:'',cropId:'',query:''};
   let destroyed=false,readingFollow=true,automaticPlayback=false,followFrame=0,followEpoch=0;
   const header=el('header',null,'regional-course-header'),toolbar=el('div',null,'regional-course-toolbar'),audioHost=el('div',null,'regional-course-audio'),content=el('div',null,'regional-course-content');
-  container.classList.add('regional-classroom');container.setAttribute('aria-label','全球真实地区课程');container.hidden=true;container.replaceChildren(header,toolbar,audioHost,content);
+  container.classList.add('regional-classroom');container.setAttribute('aria-label','全球真实地区课程');container.hidden=true;container.replaceChildren(header,toolbar,audioHost,content);audioHost.hidden=true;
+  // Keep the existing media/player mounted while the reading drawer folds.
+  if(playerContainer&&playerContainer!==container)playerContainer.append(audioHost);
   const chapterFor=()=>chapters.get(view==='overview'?overviewId:regionId);
   const visibleRegions=()=>filterRegionalCourses(regions,filters);
   const name=id=>cropMap.get(id)?.name||id;
@@ -69,8 +71,9 @@ export function createRegionalClassroom({container,data={},crops,onScene,onChang
     cancelFollowScroll();if(!enabled||view==='home'||!following||!readingFollow||!intro.isPlaying())return;
     const epoch=followEpoch,run=()=>{followFrame=0;if(epoch!==followEpoch||!enabled||view==='home'||!following||!readingFollow||!intro.isPlaying())return;
       const topic=content.querySelector('#regional-course-topic'),outer=container.getBoundingClientRect?.(),target=topic?.getBoundingClientRect?.(),player=audioHost.getBoundingClientRect?.();
-      if(!outer||!target||!player||![outer.top,target.top,player.height].every(finite))return;
-      const current=container.scrollTop||0,wanted=Math.max(0,current+target.top-outer.top-player.height-12),limit=Number.isFinite(container.scrollHeight)&&Number.isFinite(container.clientHeight)?Math.max(0,container.scrollHeight-container.clientHeight):wanted,top=Math.min(wanted,limit);
+      if(!outer||!target||!player||!outer.height||!target.height||![outer.top,target.top,player.height].every(finite))return;
+      const stickyHeight=container.contains(audioHost)?player.height:0;
+      const current=container.scrollTop||0,wanted=Math.max(0,current+target.top-outer.top-stickyHeight-12),limit=Number.isFinite(container.scrollHeight)&&Number.isFinite(container.clientHeight)?Math.max(0,container.scrollHeight-container.clientHeight):wanted,top=Math.min(wanted,limit);
       if(Math.abs(top-current)>1)container.scrollTo?.({top,behavior:'auto'});
     };
     if(typeof globalThis.requestAnimationFrame==='function')followFrame=globalThis.requestAnimationFrame(run);else queueMicrotask(run);
@@ -170,10 +173,10 @@ export function createRegionalClassroom({container,data={},crops,onScene,onChang
     if(options.cropId)filters={continent:'',environment:'',cropId:options.cropId,query:''};
     if(options.regionId&&byId.has(options.regionId))selectRegion(options.regionId);else showHome();return true;
   }
-  function close(){cancelFollowScroll();intro.pause();if(!enabled)return;comparisonCropId=null;enabled=false;container.hidden=true;container.dataset.enabled='false';onScene?.(null);onClose?.();onChange?.(getState());}
+  function close(){cancelFollowScroll();intro.pause();audioHost.hidden=true;if(!enabled)return;comparisonCropId=null;enabled=false;container.hidden=true;container.dataset.enabled='false';onScene?.(null);onClose?.();onChange?.(getState());}
   function pause(){cancelFollowScroll();intro.pause();}
   function play(){if(!enabled||destroyed)return Promise.resolve(false);if(view==='home'){const first=visibleRegions()[0];if(!first)return Promise.resolve(false);selectRegion(first.id);}return startPlayback();}
   function getState(){const region=selectedRegion(),chapter=chapterFor(),action=chapter?.beats?.[step]?.action,narrationCropId=action?.cropId||chapter?.cropId||region?.cropIds?.[0]||null;return {enabled,view,regionId:view==='overview'?action?.regionId||null:regionId,cropId:comparisonCropId||narrationCropId,narrationCropId,comparisonCropId,step,evidence:STEPS[step].id,following,readingFollow,playing:intro.isPlaying(),filters:{...filters},order:visibleRegions().map(region=>region.id),totalRegions:regions.length};}
   return {open,close,pause,play,isEnabled:()=>enabled,getState,setFollowing(value){following=value!==false;if(following)readingFollow=true;else cancelFollowScroll();if(enabled&&view!=='home'){scene();renderLesson();report();queueFollowScroll();}},
-    showHome,selectRegion,selectStep,startOverview,comparePlant,destroy(){if(destroyed)return;close();destroyed=true;intro.destroy();container.removeEventListener('wheel',interruptReading);container.removeEventListener('touchmove',interruptReading);container.removeEventListener('keydown',readingKey);container.removeEventListener('pointerdown',readingPointer);container.replaceChildren();}};
+    showHome,selectRegion,selectStep,startOverview,comparePlant,destroy(){if(destroyed)return;close();destroyed=true;intro.destroy();audioHost.remove();container.removeEventListener('wheel',interruptReading);container.removeEventListener('touchmove',interruptReading);container.removeEventListener('keydown',readingKey);container.removeEventListener('pointerdown',readingPointer);container.replaceChildren();}};
 }

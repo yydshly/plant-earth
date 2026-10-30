@@ -47,3 +47,7 @@ body.is-learning[data-learning-compact-header=true] .learn-collapsed .learn-head
 body.is-learning .learning-journey:not(.learn-collapsed) .learn-panel-heading{display:flex;flex-wrap:wrap;gap:8px}
 body.is-learning .learning-journey:not(.learn-collapsed) .learn-panel-heading>div{flex:1 1 150px}
 @media(max-width:760px){body.is-learning .learn-collapsed .learn-panel-heading{gap:7px!important}body.is-learning .learn-collapsed .learn-panel-heading>div{order:0;flex:1 1 calc(100% - 90px)!important}body.is-learning .learn-collapsed #learn-collapse{order:1}body.is-learning .learn-collapsed .learning-view-switch{order:2}body.is-learning .learn-collapsed .learning-globe-actions{order:3;margin-left:auto}}
+/* Keep auxiliary globe controls in the same margin below the measured toolbar. */
+body.is-global-evidence #globe-guide-controls{left:20px!important;right:auto!important;top:var(--global-utilities-top,130px)!important}
+body.is-global-evidence.global-show-world #globe-guide-controls{display:none!important}
+@media(max-width:760px){body.is-global-evidence #globe-guide-controls{left:10px!important}}

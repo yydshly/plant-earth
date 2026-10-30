@@ -25,12 +25,12 @@ export function spokenClassRepresentative({chapter,characterOffset,step,represen
 
 // Classification lessons, representative visits and answers are separate
 // records. Reading or listening never marks an answer as understood.
-export function createCropClassroom({container,crops,narrationPack,getCurrentCropId=()=>null,onExplore,onBrowse,onChange,onProgress,onContinue,onPlayingChange,onScene,onLectureComplete}){
+export function createCropClassroom({container,playerContainer,crops,narrationPack,getCurrentCropId=()=>null,onExplore,onBrowse,onChange,onProgress,onContinue,onPlayingChange,onScene,onLectureComplete}){
   const plants=Array.from(crops.values()),byId=new Map(plants.map(p=>[p.id,p]));
   let progress={};try{progress=JSON.parse(localStorage.getItem(STORAGE)||'{}');}catch{}
   const state=createClassroomState({progress});
   let view='home',pathId=null,classId=null,step=0,lastLessonClassId=null,quiz=null,answers=readClassCheckAnswers(),lectureStatus='';
-  let spokenClassId=null,spokenStep=null,spokenPlantId=null,lastPositionKey=null,reportingSpoken=false,rendering=false;
+  let spokenClassId=null,spokenStep=null,spokenPlantId=null,lastPositionKey=null,reportingSpoken=false,rendering=false,active=true,destroyed=false;
   const lectureOrder=CROP_LEARNING_PATHS.flatMap(path=>path.classIds).filter(id=>CROP_CLASSES.some(c=>c.id===id));
   const classById=id=>CROP_CLASSES.find(c=>c.id===id);
   const pathById=id=>CROP_LEARNING_PATHS.find(p=>p.id===id);
@@ -38,11 +38,13 @@ export function createCropClassroom({container,crops,narrationPack,getCurrentCro
   // Only replace these siblings' content. The audio element stays attached
   // while the visible lesson follows a narration beat or a manual step.
   const header=el('div',null,'classroom-header'),audioHost=el('div',null,'classroom-audio-host'),content=el('div',null,'classroom-content');
-  container.replaceChildren(header,audioHost,content);
+  if(playerContainer){container.replaceChildren(header,content);playerContainer.append(audioHost);}else container.replaceChildren(header,audioHost,content);
+  audioHost.setAttribute('role','region');audioHost.setAttribute('aria-label','类别课程配音与字幕');
+  const syncPlayerVisibility=()=>{audioHost.hidden=!active||view!=='lesson'||!classId||step===3;};
   const getUIState=()=>({view,pathId,classId,step});
   const report=()=>onProgress?.(getUIState());
-  const intro=createClassIntroPlayer({container:audioHost,pack:narrationPack,onPlayingChange:playing=>onPlayingChange?.(playing),onPosition:position=>{
-    if(rendering||reportingSpoken||view!=='lesson'||step>=3)return;
+  const intro=createClassIntroPlayer({container:audioHost,pack:narrationPack,labels:{sentenceCaptions:true},onPlayingChange:playing=>onPlayingChange?.(playing),onPosition:position=>{
+    if(destroyed||rendering||reportingSpoken||view!=='lesson'||step>=3)return;
     const c=currentClass();if(!c||position.chapter?.classId!==c.id||position.step!==step)return;
     // A paused scrub must still match the caption, but a pause or repaint at
     // the same character must not reclaim a plant the user selected manually.
@@ -98,6 +100,7 @@ export function createCropClassroom({container,crops,narrationPack,getCurrentCro
     intro.play({userInitiated:true});return true;
   }
   function playCurrentCourse(){
+    if(destroyed||!active)return Promise.resolve(false);
     if(view!=='lesson'){const path=pathById(pathId),id=path?.classIds?.[0]||lectureOrder[0];if(!id)return Promise.resolve(false);const c=classById(id);applyLocation({view:'lesson',classId:id,pathId:c.pathId,step:0},{notify:true});}
     else if(step===3){lectureStatus='';step=0;intro.seekStep(0);render();report();}
     return intro.play({userInitiated:true});
@@ -176,10 +179,10 @@ export function createCropClassroom({container,crops,narrationPack,getCurrentCro
     onScene?.({classId:c.id,step,title:c.group+' · '+STEPS[step],text,representativeIds:[...c.representativeIds],...(step<3&&spokenPlantId?{spokenPlantId}:{})});
   }
   function render(){
-    if(rendering)return;rendering=true;
+    if(destroyed||rendering)return;rendering=true;
     try{
-      quiz?.destroy();quiz=null;header.replaceChildren();content.replaceChildren();container.dataset.view=view;container.dataset.classId=classId||'';container.dataset.lessonStep=String(step);audioHost.hidden=view!=='lesson'||step===3;
-      if(view==='home')renderHome();else if(view==='path')renderPath();else renderLesson();emitCurrentScene();
+      quiz?.destroy();quiz=null;header.replaceChildren();content.replaceChildren();container.dataset.view=view;container.dataset.classId=classId||'';container.dataset.lessonStep=String(step);
+      if(view==='home')renderHome();else if(view==='path')renderPath();else renderLesson();syncPlayerVisibility();emitCurrentScene();
     }finally{rendering=false;}
   }
   render();
@@ -198,7 +201,9 @@ export function createCropClassroom({container,crops,narrationPack,getCurrentCro
     classesForCrop,
     pause:()=>intro.pause(),
     play:playCurrentCourse,playCurrentCourse,cancelContinuation:()=>intro.cancelContinuation(),
-    getUIState,selectStep,
+    getUIState,selectStep,playerElement:audioHost,
+    setActive:value=>{active=value===true;if(!active)intro.pause();syncPlayerVisibility();},
+    destroy:()=>{if(destroyed)return;destroyed=true;quiz?.destroy();quiz=null;intro.destroy();audioHost.remove();container.replaceChildren();},
     restoreUI:location=>applyLocation(location),
   };
 }

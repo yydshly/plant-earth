@@ -7,13 +7,15 @@ import {evidenceRegion,renderRegionalEvidence} from './regional-evidence-view.js
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!=null)n.textContent=text;if(cls)n.className=cls;return n;};
 const STEPS=['认识形态','环境机制','地区证据','想一想'];
 const text=value=>Array.isArray(value)?value.map(text).join(' '):typeof value==='string'?value:'';
-export function createBiodiversityClassroom({container,crops,narrationPack,regionalData,getCurrentCropId,onExplore,onProgress,onContinue,onPlayingChange,onScene,onLectureComplete}){
+export function createBiodiversityClassroom({container,playerContainer,crops,narrationPack,regionalData,getCurrentCropId,onExplore,onProgress,onContinue,onPlayingChange,onScene,onLectureComplete}){
   const byId=new Map(BIODIVERSITY_COURSES.map(c=>[c.id,c])),pathFor=id=>BIODIVERSITY_PATHS.find(p=>p.id===id),idsFor=p=>p?.courseIds||p?.cropIds||[];
-  let view='home',cropId=null,pathId=null,step=0,following=true,lectureStatus='';
+  let view='home',cropId=null,pathId=null,step=0,following=true,lectureStatus='',active=true,destroyed=false;
   const lectureOrder=BIODIVERSITY_PATHS.flatMap(p=>idsFor(p)).filter(id=>byId.has(id));
-  const header=el('div',null,'bio-header'),audioHost=el('div',null,'bio-audio-host'),content=el('div',null,'bio-content');container.replaceChildren(header,audioHost,content);
+  const header=el('div',null,'bio-header'),audioHost=el('div',null,'bio-audio-host'),content=el('div',null,'bio-content');if(playerContainer){container.replaceChildren(header,content);playerContainer.append(audioHost);}else container.replaceChildren(header,audioHost,content);
+  audioHost.setAttribute('role','region');audioHost.setAttribute('aria-label','植物课程配音与字幕');
+  const syncPlayerVisibility=()=>{audioHost.hidden=!active||view!=='lesson'||!byId.has(cropId)||step===3;};
   const pack={...narrationPack,chapters:(narrationPack?.chapters||[]).map(c=>({...c,classId:c.cropId}))};
-  const intro=createClassIntroPlayer({container:audioHost,pack,labels:{listen:'听植物课程',pause:'暂停植物课程',resume:'继续植物课程',seek:'植物课程音频进度',rate:'植物课程语速',note:'MiniMax 配音 · 形态、机制、地区证据与地球同步。可暂停阅读或切步骤跳听。'},onPlayingChange,onEnded:result=>{
+  const intro=createClassIntroPlayer({container:audioHost,pack,labels:{listen:'听植物课程',pause:'暂停植物课程',resume:'继续植物课程',seek:'植物课程音频进度',rate:'植物课程语速',note:'MiniMax 配音 · 形态、机制、地区证据与地球同步。可暂停阅读或切步骤跳听。',sentenceCaptions:true},onPlayingChange,onEnded:result=>{
     if(view!=='lesson'||result.classId!==cropId)return;
     if(result.userInitiated&&result.autoContinue&&onLectureComplete?.({courseScope:'biodiversity',cropId,regionId:byId.get(cropId)?.regionId,beforeNext:true})===true)return;
     if(result.userInitiated&&result.autoContinue&&continueLecture({automatic:true}))return;
@@ -40,6 +42,7 @@ export function createBiodiversityClassroom({container,crops,narrationPack,regio
     if(automatic)container.closest('.global-catalog')?.scrollTo({top:0});intro.play({userInitiated:true});return true;
   }
   function playCurrentCourse(){
+    if(destroyed||!active)return Promise.resolve(false);
     if(view!=='lesson'){const id=idsFor(pathFor(pathId))[0]||lectureOrder[0];if(!id)return Promise.resolve(false);go({view:'lesson',cropId:id,step:0},{notify:true,focus:false});}
     else if(step===3){lectureStatus='';step=0;intro.seekStep(0);render();report();}
     return intro.play({userInitiated:true});
@@ -71,7 +74,7 @@ export function createBiodiversityClassroom({container,crops,narrationPack,regio
     if(step===3)renderQuestion(body,c);content.append(body);
     const nav=el('div',null,'classroom-lesson-nav'),back=button('上一步',()=>selectStep(step-1));back.disabled=step===0;nav.append(back);if(step<3)nav.append(button('下一步：'+STEPS[step+1],()=>selectStep(step+1),'classroom-primary'));else nav.append(button('接着看这个植物的真实地图',()=>{intro.pause();onContinue?.({courseScope:'biodiversity',cropId:c.id,regionId:c.regionId});},'classroom-primary'));if(step===3&&nextLectureId())nav.append(button('下一课并播放：'+byId.get(nextLectureId()).name,()=>continueLecture(),'classroom-next-lecture'));content.append(nav);sources(content,c.sources);
   }
-  function render(){header.replaceChildren();content.replaceChildren();container.dataset.view=view;container.dataset.cropId=cropId||'';container.dataset.lessonStep=String(step);audioHost.hidden=view!=='lesson'||step===3;if(view==='home')renderHome();else if(view==='path')renderPath();else renderLesson();
+  function render(){if(destroyed)return;header.replaceChildren();content.replaceChildren();container.dataset.view=view;container.dataset.cropId=cropId||'';container.dataset.lessonStep=String(step);if(view==='home')renderHome();else if(view==='path')renderPath();else renderLesson();syncPlayerVisibility();
     const c=view==='lesson'?byId.get(cropId):null;if(!c){onScene?.(null);return;}const beat=narrationPack?.chapters?.find(ch=>ch.cropId===c.id)?.beats?.[Math.min(step,2)];onScene?.({scope:'biodiversity',classId:'bio-'+c.id,cropId:c.id,step,title:c.name+' · '+STEPS[step],text:step===3?c.question.prompt:beat?.text||[c.definition+' '+text(c.organs),text(c.environment)+' '+text(c.adaptations),c.caseText||c.regionExplanation||'查看地区的逐月气候、土壤与水源资料。'][step],representativeIds:[c.id],regionId:c.regionId,action:step<3?beat?.action||{kind:['morphology','environment','region'][step],regionId:c.regionId}:{kind:'question',regionId:c.regionId},following});
   }
   render();
@@ -81,7 +84,9 @@ export function createBiodiversityClassroom({container,crops,narrationPack,regio
     getContext:()=>{const c=byId.get(cropId),ids=idsFor(pathFor(c?.pathId));if(!c)return null;const current=getCurrentCropId?.(),index=ids.indexOf(current);return {classId:'bio-'+c.pathId,index:Math.max(0,index),total:ids.length,viewedCount:ids.filter(id=>readBiodiversityProgress().viewed.includes(id)).length,currentMatches:index>=0,representativeId:c.id};},
     getClass:()=>{const p=pathFor(pathId);return p?{id:'bio-'+p.id,group:p.title,representativeIds:idsFor(p)}:null;},
     move:delta=>{const ids=idsFor(pathFor(pathId)),index=ids.indexOf(getCurrentCropId?.()),id=ids[Math.max(0,Math.min(ids.length-1,index+delta))];if(id){cropId=id;onExplore?.(id,{play:false,caseRegionId:byId.get(id).regionId});}},
-    resume:()=>{if(cropId)onExplore?.(cropId,{play:false,caseRegionId:byId.get(cropId).regionId});},clear:()=>{intro.pause();cropId=null;onScene?.(null);},snapshot:()=>readBiodiversityProgress(),
-    setFollowing:value=>{following=!!value;render();report();}
+    resume:()=>{if(cropId)onExplore?.(cropId,{play:false,caseRegionId:byId.get(cropId).regionId});},clear:()=>{intro.pause();cropId=null;syncPlayerVisibility();onScene?.(null);},snapshot:()=>readBiodiversityProgress(),
+    setFollowing:value=>{following=!!value;render();report();},playerElement:audioHost,
+    setActive:value=>{active=value===true;if(!active)intro.pause();syncPlayerVisibility();},
+    destroy:()=>{if(destroyed)return;destroyed=true;intro.destroy();audioHost.remove();container.replaceChildren();}
   };
 }

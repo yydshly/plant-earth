@@ -27,7 +27,7 @@ export function createClassGlobeAnchors({data,crops,globe,camera,globeRoot,vecto
     const r=element.getBoundingClientRect();return r.width>0&&r.height>0?r:null;
   }
   function blockers(){
-    const origin=globeRoot.getBoundingClientRect(),selectors=['.global-header','#global-catalog','.global-tour','.class-globe-companion','.class-course-caption','.course-globe-caption','#globe-guide-controls','#globe-appearance-controls','.guided-route-bar','.regional-map-label','.course-directory','.guided-journey-home'];
+    const origin=globeRoot.getBoundingClientRect(),selectors=['.global-header','#global-catalog','.global-tour','#course-player-dock','#regional-player-dock','.class-globe-companion','.class-course-caption','.course-globe-caption','#globe-guide-controls','#globe-appearance-controls','.guided-route-bar','.regional-map-label','.course-directory','.guided-journey-home'];
     return selectors.map(visibleRect).filter(Boolean).map(r=>rectangle(r.left-origin.left,r.top-origin.top,r.width,r.height));
   }
   function clearEntries(){

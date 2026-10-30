@@ -10,7 +10,6 @@
 .teaching-focus .teaching-focus-conclusion{font-size:12px!important;line-height:1.8!important;margin:0!important;max-height:none!important;color:#dce7d9;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
 .teaching-focus-evidence{margin-top:5px;font-size:10px;line-height:1.8;color:#b7cdc1}.teaching-focus-evidence summary{cursor:pointer;color:#cfdbba}.teaching-focus-evidence p{font-size:11px!important;max-height:none!important;margin:7px 0!important}.teaching-focus-evidence a{display:block;color:#c9dece;font-size:10px;overflow-wrap:anywhere;margin-top:5px}
 .teaching-focus summary:focus-visible,.teaching-focus a:focus-visible{outline:2px solid #f3d997;outline-offset:3px}
-#global-evidence[data-globe-course=true] .class-globe-companion{width:320px;max-height:min(300px,42dvh)}
 .class-globe-companion .course-geography-reference{font-size:10px;line-height:1.7;margin:6px 0;color:#eedca5;max-height:none}
 .course-globe-tools{font-size:10px;line-height:1.8;color:#bdcfc1;margin-top:6px}.course-globe-tools summary{cursor:pointer}
 #globe-data-controls{max-height:min(340px,44dvh)}
@@ -25,10 +24,8 @@ body:has(#global-evidence[data-regional-focus=true][data-regional-scene=lesson])
 #narration-stage.narration-tight:not(.narration-details-open) .narration-explain{display:block}
 #narration-stage.narration-tight:not(.narration-details-open) .narration-explain>span:last-child{display:-webkit-box;-webkit-line-clamp:2}
 #narration-stage.narration-details-open .narration-explain>span:last-child{display:block;-webkit-line-clamp:unset}
-@media(max-width:1000px) and (min-width:761px){#global-evidence[data-globe-course=true] .class-globe-companion{width:280px}}
 @media(max-width:760px){
  .guided-question-paths{grid-template-columns:1fr;gap:10px;margin:18px 0}.guided-journey-shell .guided-question-path{padding:16px;gap:7px}.guided-question-path strong{font-size:17px}.guided-question-path>span{font-size:12px}
- #global-evidence[data-globe-course=true] .class-globe-companion{width:auto;max-height:156px}
  #globe-data-controls{max-height:166px}
  .teaching-focus{padding:5px 0 5px 8px;margin:6px 0}.teaching-focus .teaching-focus-question{font-size:12px;margin-bottom:4px}.teaching-focus .teaching-focus-conclusion{font-size:11px!important;-webkit-line-clamp:2}.teaching-focus>small{font-size:9px!important}
  .course-review-topic .teaching-focus-conclusion{-webkit-line-clamp:unset}.course-review-topic{padding:10px}.course-review-topic .teaching-focus{max-height:none}
