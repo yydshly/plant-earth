@@ -6,3 +6,4 @@ _site/
 *.key
 .plant-earth-publication
 __pycache__/
+.local-checks/

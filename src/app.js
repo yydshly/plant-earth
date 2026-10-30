@@ -26,6 +26,9 @@ import {createEarthSurface} from './earth-surface.js';
 import {createVisualFocus} from './visual-focus.js';
 import {scenesForPlayback,sceneAtCharacter,timeAtCharacter,characterAtTime,captionAtTime} from './narration-clock.js';
 
+// Release the boot-only input guard before controllers install their own modal
+// focus rules. Do not overwrite those rules after the learning entry opens.
+for(const node of document.querySelectorAll('[data-startup-inert]'))node.inert=false;
 const D=window.ATLAS_DATA;
 const $=id=>document.getElementById(id);
 const audio=$('audio');
@@ -502,4 +505,5 @@ document.body.dataset.startupInteractiveMs=performance.now().toFixed(1);
 requestAnimationFrame(()=>requestAnimationFrame(()=>{
   document.body.dataset.startupFrameMs=performance.now().toFixed(1);
   document.body.dataset.startupComplete='true';
+  window.dispatchEvent(new Event('atlas:ready'));
 }));

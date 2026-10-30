@@ -34,16 +34,20 @@
 
 
 
+<link rel="preload" as="fetch" crossorigin href="assets/atlas-data.76d96960376a063f.bin">
+<link rel="preload" as="script" href="app.js?v=a8885da58eb3">
+<style>#atlas-startup{position:fixed;left:50%;top:46%;transform:translate(-50%,-50%);z-index:10000;max-width:calc(100vw - 40px);padding:22px 26px;border:1px solid #496663;border-radius:14px;background:#132a31;color:#e3eed8;font:16px/1.7 system-ui,sans-serif;box-shadow:0 12px 45px #0006}#atlas-startup[hidden]{display:none}#atlas-startup strong{font-size:22px}#atlas-startup p{margin:8px 0}#atlas-startup button{background:#d7e4b5;color:#17302b;padding:7px 14px;border:0;border-radius:6px;font:inherit}</style>
 </head>
-<body>
-  <header class="topbar">
+<body aria-busy="true">
+<section id="atlas-startup" role="status" aria-live="polite"><strong>植物地球</strong><p>正在打开地球与课程…</p><button hidden>重新加载</button></section><noscript>请启用 JavaScript 以查看交互地球和课程。</noscript>
+  <header class="topbar" inert data-startup-inert>
     <div class="brand"><span class="brand-mark" aria-hidden="true">◉</span><div><strong>植物地球</strong><span>有声图谱 / PLANT ATLAS</span></div></div>
     <div class="edition"><span id="catalog-total">代表植物图鉴</span><span id="runtime">完整中文导览</span><span>MiniMax 合成旁白</span></div>
     <button id="top-play" class="primary">播放讲解</button>
     <button id="enter-immersive" class="quiet">沉浸地球 ↗</button>
     <button id="chapter-toggle" class="quiet mobile-only" aria-expanded="false" aria-controls="chapters">章节目录</button>
   </header>
-  <div class="layout">
+  <div class="layout" inert data-startup-inert>
     <aside class="chapters" id="chapters" aria-label="导览章节">
       <div class="chapter-intro"><span class="eyebrow">从一颗种子，看见世界</span><h1>它们为何<br>生长在这里？</h1><p>形态 · 水热 · 地理 · 季节</p></div>
       <button id="open-catalog" class="quiet catalog-entry">植物图鉴 · 分类与筛选 ↗</button>
@@ -89,8 +93,9 @@
       <footer class="data-note">原34个作物条目的颜色表示历史气候候选；新增植物展示有来源的代表地区，未计算全球适生范围。不表示真实种植面积、产量或农田边界。土壤、坡度、品种、灌溉可用性与土地用途仍需另行评估。河流采用 Natural Earth 真实线几何，形态图为结构示意，不按比例。</footer>
     </main>
   </div>
-  <div class="player-dock" aria-label="快捷播放控制"><button id="dock-play" class="primary">播放讲解</button><div class="dock-description"><strong id="dock-title">植物地球</strong><span id="dock-time">00:00 / 00:00</span></div><p id="dock-subtitle"></p><button id="dock-caption" class="quiet">完整字幕</button><button id="dock-next" class="quiet" aria-label="下一章">下一章 →</button></div>
-  <script src="data.js?v=3fa8b6bec0e0"></script>
-  <script src="app.js?v=d21956398c17"></script>
+  <div inert data-startup-inert class="player-dock" aria-label="快捷播放控制"><button id="dock-play" class="primary">播放讲解</button><div class="dock-description"><strong id="dock-title">植物地球</strong><span id="dock-time">00:00 / 00:00</span></div><p id="dock-subtitle"></p><button id="dock-caption" class="quiet">完整字幕</button><button id="dock-next" class="quiet" aria-label="下一章">下一章 →</button></div>
+  
+  <script id="atlas-startup-config" type="application/json">{"dataUrl":"assets/atlas-data.76d96960376a063f.bin","dataSha256":"76d96960376a063f9a6c8bfabd9df3eaf83dfa5ee470fb41f0857e5b84be7ca5","appUrl":"app.js?v=a8885da58eb3","fallbackUrl":"data.js?v=3fa8b6bec0e0"}</script>
+<script defer src="startup.js?v=7831e9bf8939"></script>
 </body>
 </html>

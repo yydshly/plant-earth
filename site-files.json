@@ -4,6 +4,7 @@
     ".nojekyll",
     "THIRD_PARTY_NOTICES.txt",
     "app.js",
+    "assets/atlas-data.76d96960376a063f.bin",
     "audio/adzuki.mp3",
     "audio/agave.mp3",
     "audio/alfalfa.mp3",
@@ -506,6 +507,7 @@
     "sources/regional-narration-segments.json",
     "sources/regional-narration-verification.json",
     "sources/river-source.json",
+    "startup.js",
     "styles.css"
   ],
   "audioCount": 437,

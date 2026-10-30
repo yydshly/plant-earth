@@ -306,7 +306,7 @@ export function createGlobalEvidence(api){
   }
   function renderEnvironment(){
     const e=$('global-environment-body'),p=profiles.get(cropId),c=current(),b=dist();e.replaceChildren();
-    const media=node('details');media.append(node('summary','展开植物形态对照'));const image=photos.get(cropId);if(image){const figure=node('figure');const img=node('img');img.src=image.file;img.alt=image.caption||c.name+'实物照片';figure.append(img,node('figcaption','实物形态对照；不代表当前地图位置。'));media.append(figure);}else{const miniature=node('div',null,'global-recognition');miniature.append(renderMiniaturePreview(cropId,{width:360,height:220}));media.append(miniature,node('small','教学形态示意，比例简化。'));}
+    const media=node('details');media.append(node('summary','展开植物形态对照'));const image=photos.get(cropId);if(image){const figure=node('figure');const img=node('img');img.loading='lazy';img.decoding='async';img.src=image.file;img.alt=image.caption||c.name+'实物照片';figure.append(img,node('figcaption','实物形态对照；不代表当前地图位置。'));media.append(figure);}else{const miniature=node('div',null,'global-recognition');miniature.append(renderMiniaturePreview(cropId,{width:360,height:220}));media.append(miniature,node('small','教学形态示意，比例简化。'));}
     if(b?.climateDescriptionZh&&mode==='botanical')e.append(node('p','Kew 主要生物群系归类：'+b.climateDescriptionZh+'。这是来源的物种归类，不是全部栽培条件。'));
     for(const [title,text] of [['植物与环境概况',p?.summary],['环境要求',c.needs],['温度与季节',p?.temperatureNote],['水分',p?.water?.summary],['土壤与排水',p?.soil?.drainage],['限制条件',p?.misconception||c.limits]]){if(text){const line=node('p');line.append(node('strong',title+'：'),document.createTextNode(text));e.append(line);}}
     e.append(node('small','这些是物种层面的环境知识；国家统计和区域分布本身不能证明每一地块为何适合。'),media);

@@ -36,6 +36,10 @@ def main():
   if name.startswith(('https:','http:','data:','#')):continue
   assert not name.startswith('/') and name in names,'Nonportable page resource: '+name
  assert html.count('rel="stylesheet"')==1
+ config=json.loads(re.search(r'<script id="atlas-startup-config" type="application/json">(.*?)</script>',html).group(1))
+ assert config['dataUrl'] in names and digest(ROOT/config['dataUrl'])==config['dataSha256']
+ assert not re.search(r'<script src="data\.js',html),'Full data fallback must not block normal startup'
+ assert '<link rel="preload" as="fetch" crossorigin' in html and '<link rel="preload" as="script"' in html
  for p in [ROOT/'data.js',ROOT/'app.js',*(ROOT/'src').glob('*.js'),*(ROOT/'sources').glob('*')]:
   if not p.is_file():continue
   text=p.read_text(encoding='utf-8')

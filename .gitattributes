@@ -4,3 +4,4 @@ sources/** -text
 *.mp3 binary -delta
 *.jpg binary -delta
 *.png binary -delta
+*.bin binary -delta
