@@ -215,8 +215,41 @@ function fiberOrSpice(id){
 
 const waveTwoIds=['waterchestnut','teff','fonio','proso','amaranth','mungbean','adzuki','pigeonpea','faba','commonbean','lupin','taro','yam','yacon','jerusalemartichoke','okra','broccoli','cauliflower','beetroot','radish','almond','walnut','cashew','pistachio','hazelnut','chestnut','pear','peach','plum','cherry','apricot','strawberry','blueberry','raspberry','papaya','guava','sisal','jute','alfalfa','clove'];
 const expandedIds=['tomato','pepper','eggplant','cucumber','pumpkin','watermelon','melon','cabbage','carrot','onion','garlic','lettuce','spinach','pea','sesame','buckwheat','quinoa','flax','rubber','mango','pineapple','avocado','blackpepper','ginger','cinnamon','vanilla','englishoak','silverbirch','sugarmaple','baobab','eucalyptus','redmangrove','bamboo','saguaro','pricklypear','agave','aloe','lotus','waterlily','eelgrass','duckweed','lavender','rosemary','dogrose','tulip','orchid','venusflytrap','sundew','edelweiss','ginkgo','scotspine','norwayspruce','coastredwood','dawnredwood','cedar','cycad','welwitschia','treefern','birdsnestfern','maidenhair','horsetail','clubmoss','resurrection','sphagnum','liverwort','hornwort',...waveTwoIds];
+const waveThreeIds=['themeda','wangtianshu','arcticwillow','camphor'];
+expandedIds.push(...waveThreeIds);
 export const supportedCropIds=Object.freeze([...legacyIds,...expandedIds]);
+function ecosystemPlant(id){
+  const r=new THREE.Group();
+  if(id==='themeda'){
+    for(let k=0;k<7;k++){const a=k*TAU/7;leaf(r,[0,.025,0],.47+(k%3)*.1,.045,.65+(k%2)*.2,a,k%3===0?'cream':'leaf',G.strap);}
+    for(let k=0;k<4;k++){const x=(k-1.5)*.065,h=.63+(k%2)*.15;line(r,[x,0,0],[x,h,0],.007,'stem');
+      for(let j=0;j<3;j++){const bx=x+(j-1)*.12,by=h+.12+(j===1?.06:0);polyline(r,[[x,h,0],[bx,by,0],[bx+.015,by-.055,.015]],.004,'stem');
+        for(let n=0;n<2;n++){const yy=by-.025-n*.035;mesh(r,G.cone,'brown',[bx+(n-.5)*.02,yy,0],[.023,.06,.018]);polyline(r,[[bx,yy,.02],[bx+.06,yy+.08,.02],[bx+.095,yy+.18,.025]],.0025,'dark');}}
+    }
+    r.userData.morphologyNote='丛生叶、成组小穗与弯折长芒；芒已放大，非草地覆盖率或单位面积产量。';
+  }else if(id==='wangtianshu'){
+    line(r,[0,0,0],[0,.97,0],.043,'bark');G.wave3Buttress??=shape([[0,0],[.27,0],[.04,.34],[0,.41]]);
+    for(let k=0;k<5;k++){const root=mesh(r,G.wave3Buttress,'bark');root.rotation.y=k*TAU/5;}
+    for(let k=0;k<7;k++){const a=k*2.4,x=Math.sin(a)*.23,z=Math.cos(a)*.14,y=.89+(k%3)*.075;line(r,[0,.76,0],[x,y,z],.012,'bark');ell(r,[x,y,z],[.18,.075,.12],k%2?'leaf':'dark');}
+    r.userData.morphologyNote='突出通直主干、高处树冠和板根；不从板根推断现场根深、养分或土壤剖面。';
+  }else if(id==='arcticwillow'){
+    for(let k=0;k<5;k++){const a=k*TAU/5,x=Math.sin(a)*.3,z=Math.cos(a)*.14;polyline(r,[[0,.055,0],[x*.5,.07,z*.5],[x,.14,z]],.014,'bark');
+      for(let j=0;j<3;j++){const t=.45+j*.22,bx=x*t,y=.09+j*.06;line(r,[bx,.08,z*t],[bx,y+.12,z*t],.006,'bark');leaf(r,[bx,y,z*t],.15,.11,(j%2?1:-1)*.55,a,'leaf');}
+      line(r,[x,.14,z],[x,.37,z],.005,'stem');ell(r,[x,.39,z],[.027,.08,.027],'rose');for(let j=0;j<5;j++)ell(r,[x+(j%2?.015:-.015),.34+j*.023,z+.018],[.014,.016,.012],'cream');}
+    r.userData.morphologyNote='贴地木质枝与柔荑花序；只示意一种花序阶段，雌雄异株。屏幕大小不表示与高树的真实比例。';
+  }else{
+    line(r,[0,0,0],[0,.8,0],.03,'bark');M.wave3Fruit??=new THREE.MeshStandardMaterial({color:'#252630',roughness:.85});
+    for(let k=0;k<7;k++){const a=k*2.4,x=Math.sin(a)*.23,z=Math.cos(a)*.14,y=.45+(k%4)*.12;line(r,[0,y-.17,0],[x,y,z],.012,'bark');
+      const blade=leaf(r,[x,y,z],.29,.18,(k%2?1:-1)*.55,a,k%2?'light':'leaf');
+      for(const side of[-1,0,1])line(blade,[0,.1,.04],[side*.24,.8,.04],.012,'cream');
+      leaf(r,[x*.8,y+.02,z+.03],.24,.15,(k%2?-1:1)*.6,a+.7,'leaf');
+      if(k<3){line(r,[x,y,z],[x+.04,y-.1,z+.045],.004,'stem');ell(r,[x+.04,y-.12,z+.045],[.027,.032,.027],M.wave3Fruit);}}
+    r.userData.morphologyNote='强调离基三出脉、常绿树冠与成熟核果；叶果为观察并置，不能单靠本模型鉴定。';
+  }
+  return r;
+}
 function construct(id){
+  if(waveThreeIds.includes(id))return ecosystemPlant(id);
   if(['waterchestnut','teff','fonio','proso'].includes(id))return newGrass(id);
   if(id==='amaranth')return grainAmaranth();
   if(['mungbean','adzuki','pigeonpea','faba','commonbean','lupin','alfalfa'].includes(id))return newLegume(id);

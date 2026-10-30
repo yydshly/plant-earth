@@ -12,7 +12,7 @@ export function renderRegionalSceneCard(container,{scene,region,chapter,plant,pr
   const focus=regionalTeachingFocus({scene,region,chapter,profile});if(focus)renderTeachingFocus(container,focus);else container.append(el('h3',titles[key]));
   if(key==='climate')container.append(renderClimateChart(region.climate,{compact:true}));
   else if(key==='soil'){
-    const metrics=el('div',null,'regional-scene-values');for(const [field,name,unit]of [['ph','表土 pH',''],['sandPct','砂粒','%'],['clayPct','黏粒','%']])if(finite(region.soil?.[field])){const value=el('span');value.append(el('small',name),el('strong',region.soil[field].toFixed(1)+unit));metrics.append(value);}container.append(metrics);
+    const metrics=el('div',null,'regional-scene-values');for(const [field,name,unit]of [['ph','表土 pH',''],['sandPct','砂粒','%'],['clayPct','黏粒','%']])if(finite(region.soil?.[field])){const value=el('span');value.append(el('small',name),el('strong',region.soil[field].toFixed(1)+unit));metrics.append(value);}container.append(metrics);if(region.soil?.status==='documented')container.append(el('p',region.soil.summary,'regional-source-note'));
     const soil=region.soil;if(finite(soil?.sampleLat)&&finite(soil?.sampleLon))container.append(el('small',`土壤模型取样：${soil.sampleLat.toFixed(4)}°，${soil.sampleLon.toFixed(4)}°；气候教学点：${region.lat.toFixed(4)}°，${region.lon.toFixed(4)}°。`));
     const process=el('div',null,'regional-mechanism-flow');['根区水','孔隙与空气','根系吸收'].forEach((text,index)=>{if(index)process.append(el('span','↔','regional-flow-arrow'));process.append(el('span',text));});container.append(process,el('small','机制示意，非现场剖面。表土质地不能单独测出排水或全部根层。'));
   }else{

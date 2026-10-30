@@ -26,6 +26,7 @@ jobs:
       - run: npm ci --no-audit --no-fund
       - run: npm run build
       - run: node --max-old-space-size=192 scripts/check-transport.mjs
+      - run: node --max-old-space-size=128 scripts/check-wave3.mjs
       - run: python scripts/site.py --check --stage
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

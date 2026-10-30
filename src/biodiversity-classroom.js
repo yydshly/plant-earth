@@ -48,7 +48,7 @@ export function createBiodiversityClassroom({container,crops,narrationPack,regio
   function sources(target,rows){const d=el('details',null,'bio-sources');d.append(el('summary','查看植物知识与地区资料来源'));for(const s of rows||[]){const a=el('a',s.title);a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';d.append(a);}target.append(d);}
   function image(id){const figure=el('figure',null,'bio-organ-preview');figure.append(renderMiniaturePreview(id,{width:360,height:220}),el('figcaption',(crops.get(id)?.name||id)+' · 器官放大的形态示意'));return figure;}
   function renderHome(){
-    heading('认识其他 40 个代表植物','从森林、旱地、水域到蕨类与苔藓：先分清类群与生活方式，再用真实地区资料找环境线索。');
+    heading('认识其他 '+BIODIVERSITY_COURSES.length+' 个代表植物','从草原、雨林、苔原与城市，到森林、旱地、水域、蕨类与苔藓：先分清类群与生活方式，再用真实地区资料找环境线索。');
     const progress=biodiversityProgress();content.append(el('p',`已浏览 ${progress.viewed} / 40 · 已作答 ${progress.attempted} / 40 · 当前相符 ${progress.correct} 题。浏览与答题分别记录。`,'bio-progress'));
     const grid=el('div',null,'bio-paths');for(const path of BIODIVERSITY_PATHS){const ids=idsFor(path),card=button('',()=>go({view:'path',pathId:path.id}),'bio-path-card');card.append(el('strong',path.title),el('span',path.intro||path.description),el('small',`${ids.length} 个课程 · `+ids.slice(0,5).map(id=>byId.get(id)?.name).filter(Boolean).join(' · ')));grid.append(card);}content.append(grid);
     let last;try{last=JSON.parse(localStorage.getItem('plant-earth-biodiversity-location-v1')||'null');}catch{}if(last?.cropId&&byId.has(last.cropId))content.append(button('继续：'+byId.get(last.cropId).name,()=>go(last),'classroom-continue'));

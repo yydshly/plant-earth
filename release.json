@@ -1,28 +1,28 @@
 {
-  "version": "2026-10-30",
+  "version": "2026-10-31",
   "sourceCommit": null,
-  "plantCount": 140,
-  "regionCount": 85,
-  "audioCount": 437,
-  "imageCount": 21,
+  "plantCount": 144,
+  "regionCount": 89,
+  "audioCount": 445,
+  "imageCount": 25,
   "assets": {
-    "app.js": "0a16226432a4bedddab8e3d32dc6bc3d65aafa5542881c4b44edba29a0e94b18",
-    "data.js": "3fa8b6bec0e059c7c01b0d4c83ff951f7763c208cdb69564468f17608eeeb13d",
-    "styles.css": "ca9878cd4fa6e80ca179d969680a0402913e33a1be4ccabb2479ab9f57183032",
+    "app.js": "5a96a9866d5a9913252d1538d5ff678a9fd6074de245812ec5596d1738e7c7ac",
+    "data.js": "56c92dc42d1f6c120b7023029cc11364b0612db5b134703d6ad22fec24e8d7b0",
+    "styles.css": "871f171c99036718412e6b60654d17fef3dba2fe4fa984a0ab1d269458d33ca2",
     "startup.js": "a69bc4487b9e89cb4c2e54612423dd4ce9e103fe2adb76f06e51f345c648835e",
-    "assets/atlas-data.435ed4c3c13a796b.bin": "435ed4c3c13a796b6a2e5f2101cc3a04c7235136d4a386b09e3029e4d77fccfc",
-    "assets/atlas-details.b98c0999d830e410.bin": "b98c0999d830e410300abaaf39badc11163e205662acc63be4c0a4a71427fb8d"
+    "assets/atlas-data.4f25a0ee8761b38e.bin": "4f25a0ee8761b38e5018d9b862dd3ab7c0a307bd64b1150bceeac999e4a8ec4e",
+    "assets/atlas-details.46985a5f54009e50.bin": "46985a5f54009e5096e2a29333186ab958e2bcd628555b8ba725c5fa4799a799"
   },
   "transport": {
     "format": "zstd boot / lossless object dictionary v1; gzip detail rows",
-    "file": "assets/atlas-data.435ed4c3c13a796b.bin",
-    "bytes": 1248227,
-    "bootBytes": 764191,
-    "coreBytes": 620543,
-    "detailBytes": 612499,
-    "canonicalBytes": 8766664,
+    "file": "assets/atlas-data.4f25a0ee8761b38e.bin",
+    "bytes": 1272080,
+    "bootBytes": 780275,
+    "coreBytes": 641733,
+    "detailBytes": 613536,
+    "canonicalBytes": 8950485,
     "deepEqualityVerified": true,
-    "legacyFallback": "data.js?v=3fa8b6bec0e0"
+    "legacyFallback": "data.js?v=56c92dc42d1f"
   },
   "delivery": "One-response critical globe/course assets; large global statistical rows and botanical polygons load after first paint with an explicit pending state."
 }

@@ -20,7 +20,7 @@ const visibleRect=e=>{if(!e||e.hidden||getComputedStyle(e).display==='none'||get
 const px=value=>Math.round(value*10)/10;
 
 /** Geographic orientation only: country labels never assert plant occurrence. */
-export function createGlobalGeographyLabels({world,globe,camera,globeRoot,vector,svgRoot,projection,path,getContext,requestDraw}){
+export function createGlobalGeographyLabels({world,globe,camera,globeRoot,vector,svgRoot,projection,path,getContext,getPlantBounds,requestDraw}){
   const features=new Map(world.features.map(f=>[f.properties.id,f]));
   const globeLayer=document.createElement('div');globeLayer.className='global-geographic-labels';globeLayer.setAttribute('aria-hidden','true');globeRoot.append(globeLayer);
   const globeLeaders=svg('svg',{class:'global-geographic-leaders','aria-hidden':'true'});globeRoot.append(globeLeaders);
@@ -72,7 +72,9 @@ export function createGlobalGeographyLabels({world,globe,camera,globeRoot,vector
       const projected=worldPoint.project(camera),x=(projected.x+1)*bounds.width/2,y=(1-projected.y)*bounds.height/2;
       if(x<3||y<3||x>bounds.width-3||y>bounds.height-3)continue;points.push({...p,x,y,...sizes(p,fontSize)});
     }
-    const placed=layoutGeographyLabels(points,{bounds:{left:5,top:5,width:bounds.width-10,height:bounds.height-10},obstacles:obstacles().map(r=>({left:r.left-bounds.left,top:r.top-bounds.top,width:r.width,height:r.height})),maxLabels:context.density==='more'?42:context.selected?16:24,gap:4});
+    const blocked=obstacles().map(r=>({left:r.left-bounds.left,top:r.top-bounds.top,width:r.width,height:r.height}));
+    const plantBounds=getPlantBounds?.();if(plantBounds)blocked.push(plantBounds);
+    const placed=layoutGeographyLabels(points,{bounds:{left:5,top:5,width:bounds.width-10,height:bounds.height-10},obstacles:blocked,maxLabels:context.density==='more'?42:context.selected?16:24,gap:4});
     prioritizeCountryNames(placed,bounds);
     const ids=new Set(placed.map(p=>p.id));for(const [id,n] of globeNodes)if(!ids.has(id)){n.remove();globeNodes.delete(id);}for(const [id,n] of leaderNodes)if(!ids.has(id)){n.remove();leaderNodes.delete(id);}
     for(const item of placed){let label=globeNodes.get(item.id);if(!label){label=document.createElement('span');label.dataset.placeId=item.id;globeNodes.set(item.id,label);globeLayer.append(label);}label.className='global-country-label '+item.kind+(item.active?' is-current':'');label.textContent=item.text;label.style.left=px(item.left)+'px';label.style.top=px(item.top)+'px';label.style.fontSize=fontSize+'px';label.style.width=px(item.width)+'px';label.style.height=px(item.height)+'px';let line=leaderNodes.get(item.id);if(item.leader){if(!line){line=svg('line');leaderNodes.set(item.id,line);globeLeaders.append(line);}for(const [key,value] of Object.entries({x1:item.anchorX,y1:item.anchorY,x2:item.leaderEndX,y2:item.leaderEndY}))line.setAttribute(key,px(value));line.setAttribute('class',item.active?'is-current':'');line.style.display='';}else if(line)line.style.display='none';}

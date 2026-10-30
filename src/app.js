@@ -394,7 +394,7 @@ function teachingPlacement(id,stop){return (D.placements?.placements||[]).filter
 function learningPlaybackInput(){return getLearningPlaybackInput(learningContext,teachingPlacement);}
 function startDistributionRoute(input){
   if(learningContext?.mode==='foundation')learning?.prepareFoundationPlayback?.();
-  const points=input==null?[{chapterId:'plant-world-intro-v2',beatIndex:null},{chapterId:'plant-world-map',beatIndex:null}]:Array.isArray(input)?input:[input];
+  const points=input==null?[{chapterId:chapters.find(c=>c.id.startsWith('plant-world-intro-'))?.id||'plant-world-map',beatIndex:null},{chapterId:'plant-world-map',beatIndex:null}]:Array.isArray(input)?input:[input];
   const items=points.map(p=>({chapterId:p.chapterId||p.id,beatIndex:Number.isInteger(p.beatIndex)?p.beatIndex:null,placementId:p.cropId?p.id:null,region:p.region||'全球概览',focus:Number.isFinite(p.lon)&&Number.isFinite(p.lat)?{lon:p.lon,lat:p.lat}:null})).filter(p=>chapters.some(c=>c.id===p.chapterId)&&recordings.has(p.chapterId));
   if(items.length)startDistributionRouteItems(items);
 }

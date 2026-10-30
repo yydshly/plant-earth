@@ -1449,6 +1449,8 @@ body.has-narration-scene .learning-journey.learn-collapsed #learn-collapse{posit
 
 .course-globe-map-key{display:flex;gap:5px 11px;flex-wrap:wrap;font-size:10px;line-height:1.6;margin:5px 0 0!important}.course-globe-map-key span:before{content:"● ";font-size:8px}
 
+.course-real-photo{float:right;width:106px;margin:3px 0 8px 10px}.course-real-photo img{display:block;width:106px;height:92px;object-fit:cover;border-radius:6px}.course-real-photo figcaption{font-size:9px;line-height:1.4;margin-top:3px;overflow-wrap:anywhere}.course-real-photo a{color:#bfd9bd}.course-globe-steps{clear:both}
+
 /* globe-first-data.css */
 /* Distribution and regional courses keep their original media nodes mounted.
    Only user-opened detail drawers reserve a reading column. */

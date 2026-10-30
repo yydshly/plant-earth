@@ -86,7 +86,7 @@ export function connectGuidedLearning({learning,globalEvidence,audio,onLayout,on
     textarea.oninput=()=>{try{localStorage.setItem('plant-earth-self-explanation-v1',textarea.value);status.textContent='解释已保存到当前浏览器；请用下方三项自查。';}catch{status.textContent='浏览器未能保存，请保留你的文字。';}};
     label.append(textarea);const rubric=el('ul');['事实：说明记录来自哪里、哪一年、用什么单位。','解释：把温度、水分、季节或土壤与植物需要联系起来。','边界：不把国家总产量当作当地适生性，不把引入野生记录当作种植范围。'].forEach(t=>rubric.append(el('li',t)));explanation.append(label,status,rubric);root.append(explanation);
     root.append(records,el('p','球面保留当前参考植物，方便核对地理位置；它不是理解题的答案。可返回主题重新观察或重听。','course-review-note'));
-    root.append(el('p','当前图鉴有 140 条目，植物课程包含 13 类农业与园艺学习单元和 40 个其他代表植物的独立课程，并连接真实地区气候、土壤与水源资料。区域统计和植物地理记录并不等于全球每块土地的种植建议。','course-review-note'));
+    root.append(el('p',`当前图鉴有 ${globalThis.ATLAS_DATA.catalogue.entryCount} 条目，植物课程包含 13 类农业与园艺学习单元和 ${globalThis.ATLAS_DATA.catalogue.biodiversityCount} 个其他代表植物的独立课程，并连接真实地区气候、土壤与水源资料。区域统计和植物地理记录并不等于全球每块土地的种植建议。`,'course-review-note'));
     return root;
   }
   const old=learning.getState(),oldStage=old.resumeStage==='bridge'?'environments':['foundation','environments'].includes(old.resumeStage)?old.resumeStage:null;

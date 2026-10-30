@@ -19,18 +19,23 @@ def main():
  dataText=(ROOT/'data.js').read_text(encoding='utf-8');assert 'data:audio/' not in dataText
  data=json.loads(dataText[len('window.ATLAS_DATA='):].rstrip(';\n'))
  packs=[(data['chapters'],data['audioManifest']),(data['globalEvidence']['narration']['chapters'],data['globalEvidence']['narration']['manifest']),*( (data[k]['chapters'],data[k]['manifest']) for k in ['classroomNarration','biodiversityNarration','regionalNarration'])]
- audio=[];cues=0
+ audio=[];cues=0;shared={}
  for chapters,manifest in packs:
-  by={r['id']:r for r in manifest['chapters']};assert set(by)=={c['id'] for c in chapters}
+  by={r['id']:r for r in manifest['chapters']};assert len(by)==len(manifest['chapters'])==len(chapters) and set(by)=={c['id'] for c in chapters}
   for c in chapters:
    r=by[c['id']];audio.append(r['file']);assert r['file'] in names
    assert ''.join(q['text'] for q in r['cues'])==c['text'],c['id']
    assert hashlib.sha256(c['text'].encode()).hexdigest()==r['textHash'] if 'textHash' in r else True
    assert set(r)<={'id','classId','regionId','cropId','file','duration','cues','textHash','provider','model','voiceId','speed','normalization','status','crop'},c['id']
    cues+=len(r['cues'])
- assert len(audio)==len(set(audio))==437
- assert set(audio)=={n for n in names if n.endswith('.mp3')}
- assert len(data['crops'])==140 and len(data['regionalEnvironment']['regions'])==85
+   identity=(c['text'],r['duration'],r['cues'])
+   if r['file'] in shared:assert shared[r['file']]==identity,'A shared MP3 must have identical text, cues and duration'
+   else:shared[r['file']]=identity
+ assert len(audio)==spec['audioReferenceCount'] and len(set(audio))==spec['audioCount']
+ compatibility=set(spec.get('compatibilityAudio',[]));assert not compatibility&set(audio)
+ assert set(audio)|compatibility=={n for n in names if n.endswith('.mp3')}
+ assert len(data['crops'])==spec['plantCount'] and len(data['regionalEnvironment']['regions'])==spec['regionCount']
+ assert sum(n.lower().endswith(('.jpg','.jpeg','.png','.webp')) for n in names)==spec['imageCount']
  html=(ROOT/'index.html').read_text(encoding='utf-8')
  markup=re.sub(r'<script\b[^>]*>.*?</script>','',html,flags=re.S)
  for name in re.findall(r'(?:src|href)="([^"#?]+)(?:\?[^\"]*)?"',markup):
@@ -57,5 +62,5 @@ def main():
   for name in names:
    dest=target/name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(ROOT/name,dest)
   shutil.copy2(ROOT/'site-files.json',target/'site-files.json')
- print(json.dumps({'passed':True,'publishedFiles':len(names)+1,'audio':len(audio),'subtitleCues':cues,'plants':140,'regions':85,'imageCount':21,'siteBytes':total,'separateAudioAssets':True,'relativePaths':True,'allowlistOnly':True,'staged':args.stage}))
+ print(json.dumps({'passed':True,'publishedFiles':len(names)+1,'activeAudioFiles':len(set(audio)),'narrationReferences':len(audio),'compatibilityAudioFiles':len(compatibility),'subtitleCueReferences':cues,'plants':len(data['crops']),'regions':len(data['regionalEnvironment']['regions']),'imageCount':spec['imageCount'],'siteBytes':total,'separateAudioAssets':True,'relativePaths':True,'allowlistOnly':True,'staged':args.stage}))
 if __name__=='__main__':main()

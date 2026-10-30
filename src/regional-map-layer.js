@@ -28,7 +28,19 @@ export function createRegionalMapLayer({globe,camera,globeRoot,vector,svgRoot,pr
     const changed=region?.id!==next?.id||cropId!==id;region=next||null;cropId=id||null;group.replaceChildren();
     if(!region){releasePlant();root.visible=false;label.hidden=true;requestDraw();return;}
     marker.position.copy(vector(region.lon,region.lat,1.022));ring.position.copy(vector(region.lon,region.lat,1.012));ring.quaternion.setFromUnitVectors(new THREE.Vector3(0,0,1),vector(region.lon,region.lat,1).normalize());
-    if(changed){releasePlant();plant=createCropMiniature(id);const owned=new Map();plant.traverse(o=>{if(!o.isMesh)return;const clone=m=>{if(!owned.has(m)){const c=m.clone();c.depthTest=false;c.depthWrite=false;if(c.emissive&&c.color&&c.emissive.getHex()===0){c.emissive.copy(c.color);c.emissiveIntensity=.1;}owned.set(m,c);}return owned.get(m);};o.material=Array.isArray(o.material)?o.material.map(clone):clone(o.material);o.renderOrder=21;});plant.userData.ownMaterials=[...owned.values()];plant.position.copy(vector(region.lon,region.lat,1.045));root.add(plant);}
+    if(changed){
+      releasePlant();plant=createCropMiniature(id);const owned=new Map(),meshes=[];
+      plant.traverse(o=>{if(o.isMesh)meshes.push(o);});
+      // A pale silhouette separates the teaching miniature from country fills.
+      // Geometry stays shared; only this one active marker gets an extra pass.
+      const outlineMaterial=new THREE.MeshBasicMaterial({color:'#f3eed4',side:THREE.DoubleSide,transparent:true,depthTest:false,depthWrite:false,toneMapped:false});
+      for(const o of meshes){
+        const clone=m=>{if(!owned.has(m)){const c=m.clone();c.depthTest=false;c.depthWrite=false;c.transparent=true;c.opacity=1;if(c.emissive&&c.color){c.emissive.copy(c.color);c.emissiveIntensity=.35;}owned.set(m,c);}return owned.get(m);};
+        o.material=Array.isArray(o.material)?o.material.map(clone):clone(o.material);o.renderOrder=21;
+        const outline=new THREE.Mesh(o.geometry,outlineMaterial);outline.scale.setScalar(1.13);outline.renderOrder=20;o.add(outline);
+      }
+      plant.userData.ownMaterials=[...owned.values(),outlineMaterial];plant.position.copy(vector(region.lon,region.lat,1.045));root.add(plant);
+    }
     label.replaceChildren();const title=document.createElement('strong');title.textContent=(crops.get(id)?.name||id)+' · '+region.name;const note=document.createElement('small');note.textContent='环境教学采样点 · 非植物观测点';label.append(title,note);
     const point=projection([region.lon,region.lat]);if(point){const dot=document.createElementNS(group.namespaceURI,'circle');for(const [k,v]of Object.entries({cx:point[0],cy:point[1],r:5,fill:'#ffe2a1',stroke:'#172f35','stroke-width':2}))dot.setAttribute(k,String(v));const t=document.createElementNS(group.namespaceURI,'text');t.setAttribute('x',String(Math.min(770,point[0]+10)));t.setAttribute('y',String(point[1]-8));t.setAttribute('fill','#ffe2a1');t.setAttribute('paint-order','stroke');t.setAttribute('stroke','#172f35');t.setAttribute('stroke-width','3');t.setAttribute('font-size','12');t.textContent=region.name+' · 环境采样';group.append(dot,t);}
     if(move)moveTo(region.lon,region.lat);requestDraw();

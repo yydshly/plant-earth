@@ -50,6 +50,9 @@ export function resolveRegionalGlobeCues({scene,region,plant,chapter}={}){
       if(!values.length)lines.push('该模型位置暂无有效土壤属性');
       const depth=list(soil.depthCm).every(finite)&&soil.depthCm?.length===2?soil.depthCm.join('–')+' cm':'已记录深度';dataNote=`${depth} · SoilGrids 模型`;
       scopeNote='土柱与根系为示意，不能据表土值推定全部根层、排水或盐分。';
+    }else if(soil.status==='documented'){
+      lines.push('已接入地区根区文献；本点表土数值尚缺');
+      dataNote='地区文献背景 · 非土壤数值模型或现场土样';scopeNote='不从土类名称推定pH、质地、根深或冻土厚度。';
     }else{
       lines.push(soil.status==='not-applicable'?'陆地表土模型不适用于本例实际基质':'该位置暂无可用陆地土壤模型');
       dataNote='请区分陆地、底泥、岩缝与附生根区';scopeNote='保留缺失或不适用，不用邻点数值补造，也不把示意土柱当现场剖面。';
@@ -72,5 +75,5 @@ export function resolveRegionalGlobeCues({scene,region,plant,chapter}={}){
     else lines.unshift(claim);
   }
   const coordinateMeaning=focus.positionSource==='climate-region'?'地区气候教学位置':focus.positionSource==='soil-sample'?'表土模型取样位置，非植株或根旁实测':focus.positionSource==='soil-region'?'地区背景位置，土壤数据不适用或未另定位采样':focus.positionSource==='water-sample'?'卫星开阔水面像元取样位置，非植株观测':'地区水源背景位置，未定位卫星像元';
-  return {kind,teachingContext:marine?'marine':'terrestrial',focus,title:`${plant?.name?plant.name+' · ':''}${marine?({climate:'水下光',soil:'海床与扎根',water:'潮汐与水体'})[kind]:kind==='climate'?'冷热与雨季':kind==='soil'?'根区背景':'水源证据'}`,regionName:region.name,lines,values,dataNote,period,sourceUrl,scopeNote,references,missing:values.length===0,coordinateMeaning};
+  return {missingLabel:kind==='soil'?(region.soil?.status==='documented'?'表土数值缺项':region.soil?.status==='not-applicable'?'本例不适用':'数值待补'):'数值待补',kind,teachingContext:marine?'marine':'terrestrial',focus,title:`${plant?.name?plant.name+' · ':''}${marine?({climate:'水下光',soil:'海床与扎根',water:'潮汐与水体'})[kind]:kind==='climate'?'冷热与雨季':kind==='soil'?'根区背景':'水源证据'}`,regionName:region.name,lines,values,dataNote,period,sourceUrl,scopeNote,references,missing:values.length===0,coordinateMeaning};
 }

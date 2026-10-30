@@ -5,7 +5,7 @@ import {BIODIVERSITY_COURSES} from './biodiversity-content.js';
 export function createPlantCourseHub(api){
   const {container,data}=api;let scope='agriculture',agriculture,biodiversity;
   const tabs=document.createElement('div');tabs.className='plant-course-scopes';tabs.setAttribute('role','group');tabs.setAttribute('aria-label','选择植物课程范围');
-  const buttons=['农业与园艺 · 100 条目','其他代表植物 · 40 课'].map((label,i)=>{const b=document.createElement('button');b.type='button';b.textContent=label;b.onclick=()=>showScope(i?'biodiversity':'agriculture',true);tabs.append(b);return b;});
+  const buttons=['农业与园艺 · '+data.crops.filter(c=>c.collection==='agriculture').length+' 条目','其他代表植物 · '+BIODIVERSITY_COURSES.length+' 课'].map((label,i)=>{const b=document.createElement('button');b.type='button';b.textContent=label;b.onclick=()=>showScope(i?'biodiversity':'agriculture',true);tabs.append(b);return b;});
   const cropHost=document.createElement('div'),bioHost=document.createElement('div');cropHost.id='agriculture-classroom';bioHost.id='biodiversity-classroom';container.replaceChildren(tabs,cropHost,bioHost);
   const current=()=>scope==='biodiversity'?biodiversity:agriculture;
   function showScope(next,home=false){agriculture?.pause();biodiversity?.pause();scope=next==='biodiversity'?'biodiversity':'agriculture';container.dataset.courseScope=scope;cropHost.hidden=scope!=='agriculture';bioHost.hidden=scope!=='biodiversity';buttons.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===(scope==='biodiversity'?1:0))));if(home)current()?.showHome();else api.onScene?.(null);api.onChange?.();}

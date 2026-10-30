@@ -95,7 +95,7 @@ export function createGuidedJourney({container=document.body,onNavigate,onExplor
     GUIDED_STAGES.forEach((row,index)=>{const li=element('li');const b=button('',()=>navigate(row.id));b.append(element('span',String(index+1),'guided-home-step'),element('strong',row.title),element('span',row.goal));li.append(b);route.append(li);});
     panel.append(route);
     const coverage=element('details',null,'guided-coverage');coverage.append(element('summary','现在支持什么？信息覆盖到哪里？'));
-    coverage.append(element('p',`图鉴有140个代表条目：100个农业与园艺条目按13类学习，其他40个植物各有完整课程。真实环境证据连接${regionalCount}个地区案例，地区课堂按气候、土壤和水源逐步解释。`));
+    coverage.append(element('p',`图鉴有${globalThis.ATLAS_DATA.catalogue.entryCount}个代表条目：${globalThis.ATLAS_DATA.catalogue.agricultureCount}个农业与园艺条目按13类学习，其他${globalThis.ATLAS_DATA.catalogue.biodiversityCount}个植物各有完整课程。真实环境证据连接${regionalCount}个地区案例，地区课堂按气候、土壤和水源逐步解释。`));
     coverage.append(element('p','农业统计覆盖92个条目，原生与引入资料覆盖137个条目；每个条目都有环境说明。地区气候和土壤包含网格模型，水源资料包含卫星与生境记录，来源和尺度分别标明。'));
     coverage.append(element('p','这些资料帮助理解分布与环境关系；全球逐地实测、所有物种与全部品种还未覆盖。'));
     panel.append(coverage,element('p','各阶段可以自由切换。“看过”、作答结果和独立解释分别记录；浏览路线不等于已经学会。','guided-journey-disclaimer'));

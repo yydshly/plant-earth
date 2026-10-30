@@ -1,6 +1,7 @@
+import {WAVE3_PATH,WAVE3_COURSES} from './biodiversity-wave3.js';
 // Observation paths are teaching perspectives, not taxonomic ranks.
 const freeze=value=>{if(value&&typeof value==='object'){Object.values(value).forEach(freeze);Object.freeze(value);}return value;};
-export const BIODIVERSITY_PATHS=freeze([
+export const BIODIVERSITY_PATHS=freeze([WAVE3_PATH,
   {
     "id": "seasonal-woods",
     "title": "看落叶林怎样过四季",
@@ -105,7 +106,7 @@ export const BIODIVERSITY_PATHS=freeze([
     ]
   }
 ]);
-export const BIODIVERSITY_COURSES=freeze([
+export const BIODIVERSITY_COURSES=freeze([...WAVE3_COURSES,
   {
     "id": "englishoak",
     "cropId": "englishoak",
