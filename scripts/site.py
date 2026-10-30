@@ -43,7 +43,7 @@ def main():
  assert hashlib.sha256(core).hexdigest()==config['coreSha256']
  assert config['detailUrl'] in names and digest(ROOT/config['detailUrl'])==config['detailSha256']
  assert not re.search(r'<script src="data\.js',html),'Full data fallback must not block normal startup'
- assert not re.search(r'<script src="app\.js',html) and 'id="atlas-app"' in html
+ assert not re.search(r'<script src="app\.js',html) and config['bootFormat']=='zstd-v1'
  for p in [ROOT/'data.js',ROOT/'app.js',*(ROOT/'src').glob('*.js'),*(ROOT/'sources').glob('*')]:
   if not p.is_file():continue
   text=p.read_text(encoding='utf-8')

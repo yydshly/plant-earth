@@ -2,16 +2,17 @@ import {createRequire} from 'node:module';
 import {readFile,writeFile,mkdir,readdir} from 'node:fs/promises';
 import {resolve,dirname,join} from 'node:path';
 import {createHash} from 'node:crypto';
-import {gzipSync,gunzipSync} from 'node:zlib';
+import {gzipSync,gunzipSync,zstdCompressSync,constants} from 'node:zlib';
 import assert from 'node:assert/strict';
 import {encodeAtlas,decodeAtlas} from './atlas-codec.mjs';
 import {splitAtlas,hydrateAtlas} from '../src/atlas-hydration.js';
+import {decompress} from '../src/vendor/fzstd/esm/index.mjs';
 const root=resolve(import.meta.dirname,'..');
 const dependencyRoot=process.env.PLANT_EARTH_BUILD_TOOLS;
 const require=createRequire(dependencyRoot?join(resolve(dependencyRoot),'package.json'):import.meta.url);
 const esbuild=require('esbuild');
 const sha=s=>createHash('sha256').update(s).digest('hex');
-const bundle=await esbuild.build({absWorkingDir:root,entryPoints:['src/app.js'],bundle:true,minify:true,format:'iife',target:'es2022',outfile:'app.js',metafile:true,logLevel:'warning',nodePaths:dependencyRoot?[join(resolve(dependencyRoot),'node_modules')]:[]});
+const bundle=await esbuild.build({absWorkingDir:root,entryPoints:['src/app.js'],bundle:true,minify:true,charset:'utf8',format:'iife',target:'es2022',outfile:'app.js',metafile:true,logLevel:'warning',nodePaths:dependencyRoot?[join(resolve(dependencyRoot),'node_modules')]:[]});
 // The complete canonical data and audio clock remain unchanged. Ship a smaller
 // reversible representation, and verify the actual compressed bytes end to end.
 const dataSource=await readFile(join(root,'data.js'),'utf8');
@@ -29,6 +30,14 @@ const coreBytes=compress(core),detailBytes=compress(details),detailHash=sha(deta
 const decode=bytes=>decodeAtlas(JSON.parse(gunzipSync(bytes).toString('utf8')));
 assert.deepStrictEqual(hydrateAtlas(decode(coreBytes),decode(detailBytes)),data);
 await writeFile(join(root,detailName),detailBytes);
+// One bounded frame shares a larger compression window across code and course
+// text. The exact browser decoder verifies the actual build artifact here.
+const appSource=await readFile(join(root,'app.js'),'utf8');
+const bootSource=JSON.stringify({core:encodeAtlas(core),app:appSource});
+assert(Buffer.byteLength(bootSource)<8*1024*1024);
+const bootBytes=zstdCompressSync(bootSource,{params:{[constants.ZSTD_c_compressionLevel]:19,[constants.ZSTD_c_windowLog]:23,[constants.ZSTD_c_checksumFlag]:1}});
+const restoredBoot=JSON.parse(new TextDecoder().decode(decompress(bootBytes)));
+assert.deepStrictEqual(decodeAtlas(restoredBoot.core),core);assert.equal(restoredBoot.app,appSource);
 await esbuild.build({absWorkingDir:root,entryPoints:['src/startup.js'],bundle:true,minify:true,format:'iife',target:'es2022',outfile:'startup.js',logLevel:'warning'});
 let html=await readFile(join(root,'src/index.template.html'),'utf8');
 const links=[...html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"?]+)(?:\?[^\"]*)?"[^>]*>/g)];
@@ -39,11 +48,11 @@ const css=styles.join('\n');await writeFile(join(root,'styles.css'),css);
 let first=true;html=html.replace(/<link\b[^>]*rel="stylesheet"[^>]*>/g,()=>{if(!first)return '';first=false;return '<link rel="stylesheet" href="styles.css?v='+sha(css).slice(0,12)+'">';});
 for(const name of ['app.js','data.js']){const digest=sha(await readFile(join(root,name)));html=html.replace(new RegExp('src="'+name.replace('.','\\.')+'(?:\\?[^\"]*)?"','g'),'src="'+name+'?v='+digest.slice(0,12)+'"');}
 const appUrl='app.js?v='+sha(await readFile(join(root,'app.js'))).slice(0,12),fallbackUrl='data.js?v='+sha(await readFile(join(root,'data.js'))).slice(0,12);
-const config={dataUrl:dataName,dataSha256:dataHash,coreSha256:sha(coreBytes),detailUrl:detailName,detailSha256:detailHash,appUrl,fallbackUrl};
+const config={dataUrl:dataName,dataSha256:dataHash,bootFormat:'zstd-v1',coreSha256:sha(bootBytes),detailUrl:detailName,detailSha256:detailHash,appUrl,fallbackUrl};
 html=html.replace(/<script src="data\.js(?:\?[^\"]*)?"><\/script>/,'');
 const safeScript=s=>s.replace(/<\/script/gi,'<\\/script');
-const inlineApp=safeScript(await readFile(join(root,'app.js'),'utf8')),inlineStartup=safeScript(await readFile(join(root,'startup.js'),'utf8'));
-html=html.replace(/<script src="app\.js(?:\?[^\"]*)?"><\/script>/,()=>'<script id="atlas-startup-config" type="application/json">'+JSON.stringify(config)+'</script>\n<script id="atlas-core" type="application/octet-stream">'+coreBytes.toString('base64')+'</script>\n<script id="atlas-app" type="text/plain">'+inlineApp+'</script>\n<script>'+inlineStartup+'</script>');
+const inlineStartup=safeScript(await readFile(join(root,'startup.js'),'utf8'));
+html=html.replace(/<script src="app\.js(?:\?[^\"]*)?"><\/script>/,()=>'<script id="atlas-startup-config" type="application/json">'+JSON.stringify(config)+'</script>\n<script id="atlas-core" type="application/octet-stream">'+bootBytes.toString('base64')+'</script>\n<script>'+inlineStartup+'</script>');
 html=html.replace('<link rel="stylesheet" href="styles.css?v='+sha(css).slice(0,12)+'">','<style id="atlas-site-styles">'+css+'</style>');
 html=html.replace('</head>','<style>#atlas-startup{position:fixed;left:50%;top:46%;transform:translate(-50%,-50%);z-index:10000;max-width:calc(100vw - 40px);padding:22px 26px;border:1px solid #496663;border-radius:14px;background:#132a31;color:#e3eed8;font:16px/1.7 system-ui,sans-serif;box-shadow:0 12px 45px #0006}#atlas-startup[hidden]{display:none}#atlas-startup strong{font-size:22px}#atlas-startup p{margin:8px 0}#atlas-startup button{background:#d7e4b5;color:#17302b;padding:7px 14px;border:0;border-radius:6px;font:inherit}</style>\n</head>');
 html=html.replace('<body>','<body aria-busy="true">\n<section id="atlas-startup" role="status" aria-live="polite"><strong>植物地球</strong><p>正在打开地球与课程…</p><button hidden>重新加载</button></section><noscript>请启用 JavaScript 以查看交互地球和课程。</noscript>');
@@ -63,10 +72,11 @@ for(const input of Object.keys(bundle.metafile.inputs)){
   }catch{p=dirname(p);}
  }
 }
+notices.push('fzstd 0.1.1\nMIT\n'+await readFile(join(root,'src/vendor/fzstd/LICENSE'),'utf8'));
 await writeFile(join(root,'THIRD_PARTY_NOTICES.txt'),notices.join('\n\n'+'='.repeat(72)+'\n\n'));
 const files=JSON.parse(await readFile(join(root,'site-files.json'),'utf8'));
 // Keep older hashed transports available for tabs holding a cached index.
 files.files=[...new Set([...files.files,'startup.js',...(await readdir(join(root,'assets'))).filter(n=>/^atlas-(?:data|details)\.[a-f0-9]+\.bin$/.test(n)).map(n=>'assets/'+n)])].sort();
 await writeFile(join(root,'site-files.json'),JSON.stringify(files,null,2)+'\n');
-await writeFile(join(root,'release.json'),JSON.stringify({version:'2026-10-30',sourceCommit:process.env.GITHUB_SHA||null,plantCount:files.plantCount,regionCount:files.regionCount,audioCount:files.audioCount,imageCount:files.imageCount,assets:{'app.js':sha(await readFile(join(root,'app.js'))),'data.js':sha(await readFile(join(root,'data.js'))),'styles.css':sha(css),'startup.js':sha(await readFile(join(root,'startup.js'))),[dataName]:dataHash,[detailName]:detailHash},transport:{format:'gzip / lossless object dictionary v1',file:dataName,bytes:packed.length,coreBytes:coreBytes.length,detailBytes:detailBytes.length,canonicalBytes:Buffer.byteLength(dataSource),deepEqualityVerified:true,legacyFallback:fallbackUrl},delivery:'One-response critical globe/course assets; large global statistical rows and botanical polygons load after first paint with an explicit pending state.'},null,2)+'\n');
-console.log(JSON.stringify({built:true,stylesheetsCombined:links.length,thirdPartyPackages:seen.size,appBytes:(await readFile(join(root,'app.js'))).length,dataBytes:(await readFile(join(root,'data.js'))).length,criticalHtmlBytes:Buffer.byteLength(html),criticalHtmlGzipBytes:gzipSync(html,{level:6}).length,coreBytes:coreBytes.length,detailBytes:detailBytes.length}));
+await writeFile(join(root,'release.json'),JSON.stringify({version:'2026-10-30',sourceCommit:process.env.GITHUB_SHA||null,plantCount:files.plantCount,regionCount:files.regionCount,audioCount:files.audioCount,imageCount:files.imageCount,assets:{'app.js':sha(await readFile(join(root,'app.js'))),'data.js':sha(await readFile(join(root,'data.js'))),'styles.css':sha(css),'startup.js':sha(await readFile(join(root,'startup.js'))),[dataName]:dataHash,[detailName]:detailHash},transport:{format:'zstd boot / lossless object dictionary v1; gzip detail rows',file:dataName,bytes:packed.length,bootBytes:bootBytes.length,coreBytes:coreBytes.length,detailBytes:detailBytes.length,canonicalBytes:Buffer.byteLength(dataSource),deepEqualityVerified:true,legacyFallback:fallbackUrl},delivery:'One-response critical globe/course assets; large global statistical rows and botanical polygons load after first paint with an explicit pending state.'},null,2)+'\n');
+console.log(JSON.stringify({built:true,stylesheetsCombined:links.length,thirdPartyPackages:seen.size+1,appBytes:(await readFile(join(root,'app.js'))).length,dataBytes:(await readFile(join(root,'data.js'))).length,criticalHtmlBytes:Buffer.byteLength(html),criticalHtmlGzipBytes:gzipSync(html,{level:6}).length,bootBytes:bootBytes.length,coreBytes:coreBytes.length,detailBytes:detailBytes.length}));
