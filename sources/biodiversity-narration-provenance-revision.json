@@ -1,0 +1,13 @@
+{
+  "reviewedBy": "root",
+  "recordedAt": 1793246189.1858366,
+  "kind": "coordinate-only provenance revision",
+  "region": "liguria",
+  "oldLatitude": 44.3,
+  "newLatitude": 44.4,
+  "reason": "Move the environmental sample from coast to land; the corresponding NASA monthly and annual numeric values were compared by the regional/content agents and are identical.",
+  "narrationSegmentsSha256": "420c7a51a1be43296631b7c15486d707894b299ad5f0cf502e39c1468be8344f",
+  "narrationTextUnchanged": true,
+  "audioRegenerated": false,
+  "climateSourceSha256": "a093a4b8fb47d80651550271443e47c5d31917211051393f2e7cff162620d9d5"
+}

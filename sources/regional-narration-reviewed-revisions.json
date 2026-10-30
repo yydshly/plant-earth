@@ -1,0 +1,715 @@
+{
+  "date": "2026-10-30",
+  "revisions": {
+    "punjab-india": {
+      "previousId": "region-course-punjab-india-v1",
+      "previousTextHash": "772955d72583e5aeaed23e1f14543dea573d3987a2054ff4baeb525add12baf5",
+      "chapter": {
+        "id": "region-course-punjab-india-v2",
+        "classId": "punjab-india",
+        "regionId": "punjab-india",
+        "cropId": "rice",
+        "cropIds": [
+          "rice",
+          "wheat",
+          "cotton"
+        ],
+        "title": "印度旁遮普平原 · 气候、根区与水源",
+        "text": "来到印度旁遮普平原。这一课只抓住一个问题：同一片平原为什么既种水稻，又种小麦？答案先看季节：水稻利用较暖的生长季，小麦利用较凉的生长季。NASA二〇〇一年至二〇二五年格点中，一月月均温约十二度，六月约三十六度。这说明季节差别很大，不表示水稻在最热月份一定长得最好；开花时的高温仍可能造成压力。再看同一块土怎样被管理。稻作常通过田面与灌排管理留水；轮到小麦时，又要让根区保有空气。土中孔隙若长期被水占满，氧气供应就会受限。因此，稻麦轮作不能只比较土壤酸碱度，还要比较不同季节的水分状态、排水和根层条件。图中表土模型保留真实数值，但它不是田间排水实测。最后看水源。降雨之外，灌溉使作物在供水不足时仍能生长，也把分布与水利设施、地下水利用联系起来。FAO指出印度旁遮普的稻麦系统面临地下水压力。本项目没有这块地的抽水量，水面像元也看不到井里抽出的水。记住这条联系：冷热季节安排作物，灌排改变根区，供水与管理共同支撑稻麦系统。",
+        "textHash": "7e6335aa9e6af2c12962749e449a6af140d1a632d6dbcff7e462abcf50073a43",
+        "beats": [
+          {
+            "title": "气候怎样安排生长季",
+            "lessonStep": 0,
+            "text": "来到印度旁遮普平原。这一课只抓住一个问题：同一片平原为什么既种水稻，又种小麦？答案先看季节：水稻利用较暖的生长季，小麦利用较凉的生长季。NASA二〇〇一年至二〇二五年格点中，一月月均温约十二度，六月约三十六度。这说明季节差别很大，不表示水稻在最热月份一定长得最好；开花时的高温仍可能造成压力。",
+            "action": {
+              "regionId": "punjab-india",
+              "cropId": "rice",
+              "evidence": "climate",
+              "lon": 75.8,
+              "lat": 30.9,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "同一平原按季节利用：暖季水稻、较凉季小麦；月均温不是最适阈值。"
+            }
+          },
+          {
+            "title": "土壤怎样影响根区",
+            "lessonStep": 1,
+            "text": "再看同一块土怎样被管理。稻作常通过田面与灌排管理留水；轮到小麦时，又要让根区保有空气。土中孔隙若长期被水占满，氧气供应就会受限。因此，稻麦轮作不能只比较土壤酸碱度，还要比较不同季节的水分状态、排水和根层条件。图中表土模型保留真实数值，但它不是田间排水实测。",
+            "action": {
+              "regionId": "punjab-india",
+              "cropId": "rice",
+              "evidence": "soil",
+              "lon": 75.8,
+              "lat": 30.9,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "稻作留水与小麦根区通气要分季节看，灌排会改变同一土壤的状态。"
+            }
+          },
+          {
+            "title": "水源怎样改变限制",
+            "lessonStep": 2,
+            "text": "最后看水源。降雨之外，灌溉使作物在供水不足时仍能生长，也把分布与水利设施、地下水利用联系起来。FAO指出印度旁遮普的稻麦系统面临地下水压力。本项目没有这块地的抽水量，水面像元也看不到井里抽出的水。记住这条联系：冷热季节安排作物，灌排改变根区，供水与管理共同支撑稻麦系统。",
+            "action": {
+              "regionId": "punjab-india",
+              "cropId": "rice",
+              "evidence": "water",
+              "lon": 75.8,
+              "lat": 30.9,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "灌溉补充降雨，也连接地下水压力；水面像元不能表示抽水量。"
+            }
+          }
+        ],
+        "explanations": {
+          "climate": "同一平原按季节利用：暖季水稻、较凉季小麦；月均温不是最适阈值。",
+          "soil": "稻作留水与小麦根区通气要分季节看，灌排会改变同一土壤的状态。",
+          "water": "灌溉补充降雨，也连接地下水压力；水面像元不能表示抽水量。"
+        },
+        "sources": [
+          {
+            "title": "FAO：气候、作物与生育期怎样影响蒸散需水",
+            "url": "https://www.fao.org/4/s2022e/s2022e02.htm",
+            "supports": "温度、日照、湿度、风以及叶面积和生育期影响蒸散；土壤储水与灌溉不等于每天降雨。"
+          },
+          {
+            "title": "FAO：作物需水的气候与生育阶段机制",
+            "url": "https://www.fao.org/4/S2022E/s2022e07.htm",
+            "supports": "气候改变大气需水，物种和生育期改变冠层需水；不据本数据包估算实际灌溉量。"
+          },
+          {
+            "title": "ISRIC SoilGrids：属性、单位、深度与预测不确定性",
+            "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html",
+            "supports": "pH和质地为土壤预测；表层不能代表全部根层、基质、排水与盐度。"
+          },
+          {
+            "title": "EC JRC/Google：Global Surface Water 数据",
+            "url": "https://global-surface-water.appspot.com/download",
+            "supports": "开阔地表水出现频率，不能代替土壤水、地下水、灌溉量或水深。"
+          },
+          {
+            "title": "FAO EcoCrop：水稻",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+            "supports": "物种层面的环境范围参考；不代表每个品种或地点的最适条件"
+          },
+          {
+            "title": "IRRI：水稻土壤与间歇灌溉",
+            "url": "https://www.ricetoday.irri.org/healthy-soils-healthy-rice/",
+            "supports": "稻田水分、土壤通气及间歇灌溉"
+          },
+          {
+            "title": "FAO：可持续稻作系统",
+            "url": "https://www.fao.org/agriculture/crops/core-themes/theme/spi/scpi-home/managing-ecosystems/sustainable-rice-systems/en/",
+            "supports": "灌溉、雨养、低地与旱稻系统的区分"
+          },
+          {
+            "title": "IRRI：水稻根系通气与适应",
+            "url": "https://climatesmart-africanrice.irri.org/blog/mitigation-of-greenhouse-gas-emissions-from-rice-via-manipulation-of-key-ro",
+            "supports": "根系通气组织和内部氧扩散"
+          },
+          {
+            "title": "ICAR：旁遮普稻麦、土壤与地下水背景",
+            "url": "https://icar.org.in/en/node/17283",
+            "scope": "地区农业/水文背景"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=75.8&latitude=30.9&format=JSON"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://docs.isric.org/globaldata/soilgrids/"
+          },
+          {
+            "title": "JRC v1.5 原生栅格",
+            "url": "https://s3.waw4-1.cloudferro.com/swift/v1/global-surface-water/download2024/Aggregated/VER1-5/occurrence/occurrence_70E_40N_v1_5_2024.tif"
+          },
+          {
+            "title": "FAO：旁遮普稻作可持续性，2026",
+            "url": "https://www.fao.org/india/news/detail/fao-highlights-dsr-for-sustainable-rice-cultivation-in-punjab/en",
+            "supports": "印度旁遮普的稻麦系统与地下水压力；不是巴基斯坦旁遮普的数据。"
+          }
+        ],
+        "spokenFacts": [
+          {
+            "kind": "temperature-seasonality",
+            "months": [
+              1,
+              6
+            ],
+            "values": [
+              12.45,
+              36.03
+            ],
+            "unit": "°C",
+            "spokenRounding": "nearest degree"
+          }
+        ],
+        "evidenceFingerprint": "3a8b2b9c996e6f8955185f3a565cba48cd36a14f12852311a9955d1fad670e8c",
+        "pointMeaning": "地区教学采样点，不是物种观测点、农田位置、植株精确位置、全地区平均或地块适生结论。",
+        "previousEdition": {
+          "id": "region-course-punjab-india-v1",
+          "textHash": "772955d72583e5aeaed23e1f14543dea573d3987a2054ff4baeb525add12baf5"
+        }
+      }
+    },
+    "iowa-cornbelt": {
+      "previousId": "region-course-iowa-cornbelt-v1",
+      "previousTextHash": "43b5cff9897cb56864be2e41999b3a01622a320cc462e073340322532c0795c7",
+      "chapter": {
+        "id": "region-course-iowa-cornbelt-v2",
+        "classId": "iowa-cornbelt",
+        "regionId": "iowa-cornbelt",
+        "cropId": "maize",
+        "cropIds": [
+          "maize",
+          "soybean"
+        ],
+        "title": "美国艾奥瓦玉米带 · 气候、根区与水源",
+        "text": "来到美国艾奥瓦玉米带。冬天这么冷，为什么仍是玉米和大豆的重要种植区？关键是它们主要利用暖季完成一年的生长，不需要以绿色植株熬过整个冬天。NASA二〇〇一年至二〇二五年格点中，一月月均温约零下六度，七月约二十四度。看图时应找春季到秋季的生长窗口；播种还要考虑土温、霜冻和品种成熟期，不能用冬季均温直接否定夏季作物。再看雨水进入土壤后会怎样。根层深、结构合适的土壤可以储存一部分水，供两场雨之间使用；排水太慢又可能让根缺氧。玉米和大豆的根系不同，但都需要可吸收的水和通气条件。这里的表土酸碱度与砂黏比例是真实模型背景，不能单凭这几项就认定某块田高产。最后把降雨时间和作物需水时间放在一起看。叶片旺盛、开花和籽粒形成时遇到热干天气，土中储水不足就可能造成压力。即使多年平均雨量看着不少，也不能排除某几周的干旱。卫星没检出这个像元的开阔水面，不代表根区没有水。带走的结论是：暖季窗口解释能不能完成生长，根层储水和降雨时序解释生长期间是否缺水。",
+        "textHash": "8083c2599ba707ef42513dec7f9e062e583406ced3689d0a370d7c9cc2722491",
+        "beats": [
+          {
+            "title": "气候怎样安排生长季",
+            "lessonStep": 0,
+            "text": "来到美国艾奥瓦玉米带。冬天这么冷，为什么仍是玉米和大豆的重要种植区？关键是它们主要利用暖季完成一年的生长，不需要以绿色植株熬过整个冬天。NASA二〇〇一年至二〇二五年格点中，一月月均温约零下六度，七月约二十四度。看图时应找春季到秋季的生长窗口；播种还要考虑土温、霜冻和品种成熟期，不能用冬季均温直接否定夏季作物。",
+            "action": {
+              "regionId": "iowa-cornbelt",
+              "cropId": "maize",
+              "evidence": "climate",
+              "lon": -93.5,
+              "lat": 42.0,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "一年生玉米和大豆利用暖季窗口；冬季寒冷不等于夏季不能种。"
+            }
+          },
+          {
+            "title": "土壤怎样影响根区",
+            "lessonStep": 1,
+            "text": "再看雨水进入土壤后会怎样。根层深、结构合适的土壤可以储存一部分水，供两场雨之间使用；排水太慢又可能让根缺氧。玉米和大豆的根系不同，但都需要可吸收的水和通气条件。这里的表土酸碱度与砂黏比例是真实模型背景，不能单凭这几项就认定某块田高产。",
+            "action": {
+              "regionId": "iowa-cornbelt",
+              "cropId": "maize",
+              "evidence": "soil",
+              "lon": -93.5,
+              "lat": 42.0,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "土壤储水与通气共同影响两场雨之间的供水，表土属性不能单独预测高产。"
+            }
+          },
+          {
+            "title": "水源怎样改变限制",
+            "lessonStep": 2,
+            "text": "最后把降雨时间和作物需水时间放在一起看。叶片旺盛、开花和籽粒形成时遇到热干天气，土中储水不足就可能造成压力。即使多年平均雨量看着不少，也不能排除某几周的干旱。卫星没检出这个像元的开阔水面，不代表根区没有水。带走的结论是：暖季窗口解释能不能完成生长，根层储水和降雨时序解释生长期间是否缺水。",
+            "action": {
+              "regionId": "iowa-cornbelt",
+              "cropId": "maize",
+              "evidence": "water",
+              "lon": -93.5,
+              "lat": 42.0,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "多年平均雨量不能排除关键生育期缺水，要对照降雨时序与根层储水。"
+            }
+          }
+        ],
+        "explanations": {
+          "climate": "一年生玉米和大豆利用暖季窗口；冬季寒冷不等于夏季不能种。",
+          "soil": "土壤储水与通气共同影响两场雨之间的供水，表土属性不能单独预测高产。",
+          "water": "多年平均雨量不能排除关键生育期缺水，要对照降雨时序与根层储水。"
+        },
+        "sources": [
+          {
+            "title": "FAO：气候、作物与生育期怎样影响蒸散需水",
+            "url": "https://www.fao.org/4/s2022e/s2022e02.htm",
+            "supports": "温度、日照、湿度、风以及叶面积和生育期影响蒸散；土壤储水与灌溉不等于每天降雨。"
+          },
+          {
+            "title": "FAO：作物需水的气候与生育阶段机制",
+            "url": "https://www.fao.org/4/S2022E/s2022e07.htm",
+            "supports": "气候改变大气需水，物种和生育期改变冠层需水；不据本数据包估算实际灌溉量。"
+          },
+          {
+            "title": "ISRIC SoilGrids：属性、单位、深度与预测不确定性",
+            "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html",
+            "supports": "pH和质地为土壤预测；表层不能代表全部根层、基质、排水与盐度。"
+          },
+          {
+            "title": "EC JRC/Google：Global Surface Water 数据",
+            "url": "https://global-surface-water.appspot.com/download",
+            "supports": "开阔地表水出现频率，不能代替土壤水、地下水、灌溉量或水深。"
+          },
+          {
+            "title": "FAO EcoCrop：玉米",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2175",
+            "supports": "物种层面的环境范围参考；不代表每个品种或地点的最适条件"
+          },
+          {
+            "title": "明尼苏达大学：玉米授粉期干旱",
+            "url": "https://extension.umn.edu/agriculture/crop-production/corn/dry-conditions-during-corn-pollination",
+            "supports": "抽雄授粉期水分与热胁迫"
+          },
+          {
+            "title": "明尼苏达大学：玉米生长发育",
+            "url": "https://extension.umn.edu/agriculture/crop-production/corn/growth-and-development",
+            "supports": "生育阶段、积温与成熟"
+          },
+          {
+            "title": "艾奥瓦州立大学农业推广",
+            "url": "https://crops.extension.iastate.edu/",
+            "scope": "地区农业/水文背景"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=-93.5&latitude=42.0&format=JSON"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://docs.isric.org/globaldata/soilgrids/"
+          },
+          {
+            "title": "JRC v1.5 原生栅格",
+            "url": "https://s3.waw4-1.cloudferro.com/swift/v1/global-surface-water/download2024/Aggregated/VER1-5/occurrence/occurrence_100W_50N_v1_5_2024.tif"
+          },
+          {
+            "title": "Iowa State Extension：玉米与大豆播期",
+            "url": "https://crops.extension.iastate.edu/post/corn-and-soybean-planting-date-considerations",
+            "supports": "生长季、春季土温与霜冻风险共同影响播种。"
+          }
+        ],
+        "spokenFacts": [
+          {
+            "kind": "temperature-seasonality",
+            "months": [
+              1,
+              7
+            ],
+            "values": [
+              -6.44,
+              24.25
+            ],
+            "unit": "°C",
+            "spokenRounding": "nearest degree"
+          }
+        ],
+        "evidenceFingerprint": "e76a7282a82bf375e87cfb945877750bbaaba061779c99233e7af4e9e5f147ff",
+        "pointMeaning": "地区教学采样点，不是物种观测点、农田位置、植株精确位置、全地区平均或地块适生结论。",
+        "previousEdition": {
+          "id": "region-course-iowa-cornbelt-v1",
+          "textHash": "43b5cff9897cb56864be2e41999b3a01622a320cc462e073340322532c0795c7"
+        }
+      }
+    },
+    "uk-lowland": {
+      "previousId": "region-course-uk-lowland-v1",
+      "previousTextHash": "817392546438b04223a56c140399e3ba8daf6e5f8dd7be6f196897ad3df7b039",
+      "chapter": {
+        "id": "region-course-uk-lowland-v2",
+        "classId": "uk-lowland",
+        "regionId": "uk-lowland",
+        "cropId": "englishoak",
+        "cropIds": [
+          "englishoak",
+          "dogrose",
+          "waterlily",
+          "duckweed",
+          "horsetail",
+          "liverwort",
+          "hornwort"
+        ],
+        "title": "英国低地林地与淡水环境 · 气候、根区与水源",
+        "text": "来到英国低地。这一课比较林地里的夏栎，与附近淡水中的睡莲和浮萍：它们在同一地区，为什么不能用一套环境要求解释？NASA二〇〇一年至二〇二五年格点中，一月月均温约四度，七月约十七度，提供共同的季节背景。但共同的空气气候，不等于根处在同样的环境。先看夏栎：它是落叶乔木，暖季展叶，根在陆地土壤中；水生植物则生活在水体里。现在只讨论陆地上的夏栎。它的根既需要水，也需要空气；湿润土壤与长期缺氧不是同一回事。图中的表土酸碱度和质地只能提供周围陆地背景。接着换到睡莲与浮萍：睡莲的根状茎扎在水底基质，叶片浮在水面；浮萍漂浮生活，并不把根扎进这块陆地土。两者都不能套用夏栎的陆地排水要求。最后比较供水位置。夏栎从根区取得土壤水；睡莲和浮萍直接处在淡水环境，水位、光照和水质更直接影响它们。一个陆地采样像元未检出开阔水面，不能说明附近没有池塘，也不能说明水生植物不存在。记住：同一地区、相同空气背景，可以包含陆地土壤、水底基质和漂浮水面等不同生活空间。",
+        "textHash": "80365a794d9e6a7a0bdeb763b1281de566a099eb376c7a248797756a645e3f77",
+        "beats": [
+          {
+            "title": "共同气候，不同生活空间",
+            "lessonStep": 0,
+            "text": "来到英国低地。这一课比较林地里的夏栎，与附近淡水中的睡莲和浮萍：它们在同一地区，为什么不能用一套环境要求解释？NASA二〇〇一年至二〇二五年格点中，一月月均温约四度，七月约十七度，提供共同的季节背景。但共同的空气气候，不等于根处在同样的环境。先看夏栎：它是落叶乔木，暖季展叶，根在陆地土壤中；水生植物则生活在水体里。",
+            "action": {
+              "regionId": "uk-lowland",
+              "cropId": "englishoak",
+              "evidence": "climate",
+              "lon": -1,
+              "lat": 52,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "共同空气气候提供季节背景，夏栎与水生植物的实际生活空间不同。"
+            }
+          },
+          {
+            "title": "分别看夏栎、睡莲与浮萍",
+            "lessonStep": 1,
+            "text": "现在只讨论陆地上的夏栎。它的根既需要水，也需要空气；湿润土壤与长期缺氧不是同一回事。图中的表土酸碱度和质地只能提供周围陆地背景。接着换到睡莲与浮萍：睡莲的根状茎扎在水底基质，叶片浮在水面；浮萍漂浮生活，并不把根扎进这块陆地土。两者都不能套用夏栎的陆地排水要求。",
+            "action": {
+              "regionId": "uk-lowland",
+              "cropId": "englishoak",
+              "evidence": "soil",
+              "lon": -1,
+              "lat": 52,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "夏栎看陆地根区；睡莲看水底基质；浮萍漂浮，不能共用陆地排水要求。"
+            }
+          },
+          {
+            "title": "分清土壤水和淡水水体",
+            "lessonStep": 2,
+            "text": "最后比较供水位置。夏栎从根区取得土壤水；睡莲和浮萍直接处在淡水环境，水位、光照和水质更直接影响它们。一个陆地采样像元未检出开阔水面，不能说明附近没有池塘，也不能说明水生植物不存在。记住：同一地区、相同空气背景，可以包含陆地土壤、水底基质和漂浮水面等不同生活空间。",
+            "action": {
+              "regionId": "uk-lowland",
+              "cropId": "englishoak",
+              "evidence": "water",
+              "lon": -1,
+              "lat": 52,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "土壤水与淡水水体必须区分；一个陆地点不能代表周围所有池塘。"
+            }
+          }
+        ],
+        "explanations": {
+          "climate": "共同空气气候提供季节背景，夏栎与水生植物的实际生活空间不同。",
+          "soil": "夏栎看陆地根区；睡莲看水底基质；浮萍漂浮，不能共用陆地排水要求。",
+          "water": "土壤水与淡水水体必须区分；一个陆地点不能代表周围所有池塘。"
+        },
+        "sources": [
+          {
+            "title": "FAO：气候、作物与生育期怎样影响蒸散需水",
+            "url": "https://www.fao.org/4/s2022e/s2022e02.htm",
+            "supports": "温度、日照、湿度、风以及叶面积和生育期影响蒸散；土壤储水与灌溉不等于每天降雨。"
+          },
+          {
+            "title": "FAO：作物需水的气候与生育阶段机制",
+            "url": "https://www.fao.org/4/S2022E/s2022e07.htm",
+            "supports": "气候改变大气需水，物种和生育期改变冠层需水；不据本数据包估算实际灌溉量。"
+          },
+          {
+            "title": "ISRIC SoilGrids：属性、单位、深度与预测不确定性",
+            "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html",
+            "supports": "pH和质地为土壤预测；表层不能代表全部根层、基质、排水与盐度。"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://global-surface-water.appspot.com/download"
+          },
+          {
+            "title": "地区物种水分/生境来源",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:304293-2/general-information"
+          },
+          {
+            "title": "地区物种水分/生境来源",
+            "url": "https://pza.sanbi.org/quercus-robur"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=-1&latitude=52&format=JSON"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://docs.isric.org/globaldata/soilgrids/"
+          },
+          {
+            "title": "JRC v1.5 原生栅格",
+            "url": "https://s3.waw4-1.cloudferro.com/swift/v1/global-surface-water/download2024/Aggregated/VER1-5/occurrence/occurrence_10W_60N_v1_5_2024.tif"
+          }
+        ],
+        "spokenFacts": [
+          {
+            "kind": "temperature-seasonality",
+            "months": [
+              1,
+              7
+            ],
+            "values": [
+              3.72,
+              17.05
+            ],
+            "unit": "°C",
+            "spokenRounding": "nearest degree"
+          }
+        ],
+        "evidenceFingerprint": "70468e854aa7893d52e7c31518f2e44afa5f7dd84a184fbfb54671c7fade04db",
+        "pointMeaning": "地区教学采样点，不是物种观测点、植物精确位置或全地区平均。",
+        "previousEdition": {
+          "id": "region-course-uk-lowland-v1",
+          "textHash": "817392546438b04223a56c140399e3ba8daf6e5f8dd7be6f196897ad3df7b039"
+        }
+      }
+    },
+    "california-coast": {
+      "previousId": "region-course-california-coast-v1",
+      "previousTextHash": "73d0d9a6a6608482ada8db800e3579b606a6e609411b9ec54c58d7d22ad85508",
+      "chapter": {
+        "id": "region-course-california-coast-v2",
+        "classId": "california-coast",
+        "regionId": "california-coast",
+        "cropId": "coastredwood",
+        "cropIds": [
+          "coastredwood"
+        ],
+        "title": "美国加州北部海岸 · 气候、根区与水源",
+        "text": "把地球转到美国加州北部海岸，观察沿海红杉。这一课的问题是：夏季少雨，为什么沿海仍能有高大的红杉林？先分清少雨与干燥。海洋调节温度，沿海雾使空气冷却增湿，可以降低树木向空气散失水分的压力。NASA二〇〇一年至二〇二五年格点中，最冷月约五度，最暖月约二十度；这些空气均温只是季节背景，并没有测量雾水贡献。再看林地根区。红杉需要从土壤中取得水，湿润、较深并能通气的根层有利于生长。冬季降雨进入土壤后能否留到少雨季，还受土层、坡位和排水影响。图中的表层酸碱度与质地不能告诉我们全部根层储水，更不能把河谷湿润直接说成长期积水都适合。最后把雾加入水源图景。美国国家公园局说明，雾能润湿林冠，水滴可落到林地，在夏季少雨时补充水分；冷却增湿还会改变失水条件。雾滴输入与降低失水是两条不同作用。它们的强弱因地点和季节而变，本项目没有给出具体比例。带走的结论是：单看降雨会漏掉沿海雾和土壤储水，卫星开阔水面也不能测出这两项。",
+        "textHash": "8be1a761c4c00389213567fb6ba32f9f968f44a5d03c317490d9e31f8469eeac",
+        "beats": [
+          {
+            "title": "气候怎样安排生长季",
+            "lessonStep": 0,
+            "text": "把地球转到美国加州北部海岸，观察沿海红杉。这一课的问题是：夏季少雨，为什么沿海仍能有高大的红杉林？先分清少雨与干燥。海洋调节温度，沿海雾使空气冷却增湿，可以降低树木向空气散失水分的压力。NASA二〇〇一年至二〇二五年格点中，最冷月约五度，最暖月约二十度；这些空气均温只是季节背景，并没有测量雾水贡献。",
+            "action": {
+              "regionId": "california-coast",
+              "cropId": "coastredwood",
+              "evidence": "climate",
+              "lon": -124,
+              "lat": 41.3,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "夏季少雨不等于空气始终干燥：沿海雾冷却增湿，改变失水条件。"
+            }
+          },
+          {
+            "title": "土壤怎样影响根区",
+            "lessonStep": 1,
+            "text": "再看林地根区。红杉需要从土壤中取得水，湿润、较深并能通气的根层有利于生长。冬季降雨进入土壤后能否留到少雨季，还受土层、坡位和排水影响。图中的表层酸碱度与质地不能告诉我们全部根层储水，更不能把河谷湿润直接说成长期积水都适合。",
+            "action": {
+              "regionId": "california-coast",
+              "cropId": "coastredwood",
+              "evidence": "soil",
+              "lon": -124,
+              "lat": 41.3,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "较深而通气的根层影响储水；表层属性不能代表整个根层。"
+            }
+          },
+          {
+            "title": "水源怎样改变限制",
+            "lessonStep": 2,
+            "text": "最后把雾加入水源图景。美国国家公园局说明，雾能润湿林冠，水滴可落到林地，在夏季少雨时补充水分；冷却增湿还会改变失水条件。雾滴输入与降低失水是两条不同作用。它们的强弱因地点和季节而变，本项目没有给出具体比例。带走的结论是：单看降雨会漏掉沿海雾和土壤储水，卫星开阔水面也不能测出这两项。",
+            "action": {
+              "regionId": "california-coast",
+              "cropId": "coastredwood",
+              "evidence": "water",
+              "lon": -124,
+              "lat": 41.3,
+              "teachingContext": "terrestrial",
+              "teachingClaim": "雾滴补水与降低失水是不同作用；本项目未测雾水贡献比例。"
+            }
+          }
+        ],
+        "explanations": {
+          "climate": "夏季少雨不等于空气始终干燥：沿海雾冷却增湿，改变失水条件。",
+          "soil": "较深而通气的根层影响储水；表层属性不能代表整个根层。",
+          "water": "雾滴补水与降低失水是不同作用；本项目未测雾水贡献比例。"
+        },
+        "sources": [
+          {
+            "title": "FAO：气候、作物与生育期怎样影响蒸散需水",
+            "url": "https://www.fao.org/4/s2022e/s2022e02.htm",
+            "supports": "温度、日照、湿度、风以及叶面积和生育期影响蒸散；土壤储水与灌溉不等于每天降雨。"
+          },
+          {
+            "title": "FAO：作物需水的气候与生育阶段机制",
+            "url": "https://www.fao.org/4/S2022E/s2022e07.htm",
+            "supports": "气候改变大气需水，物种和生育期改变冠层需水；不据本数据包估算实际灌溉量。"
+          },
+          {
+            "title": "ISRIC SoilGrids：属性、单位、深度与预测不确定性",
+            "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html",
+            "supports": "pH和质地为土壤预测；表层不能代表全部根层、基质、排水与盐度。"
+          },
+          {
+            "title": "EC JRC/Google：Global Surface Water 数据",
+            "url": "https://global-surface-water.appspot.com/download",
+            "supports": "开阔地表水出现频率，不能代替土壤水、地下水、灌溉量或水深。"
+          },
+          {
+            "title": "俄勒冈州立大学：北美红杉",
+            "url": "https://landscapeplants.oregonstate.edu/plants/sequoia-sempervirens",
+            "supports": "接受学名与现代柏科分类、常绿叶与小球果、土壤及沿海原生范围。"
+          },
+          {
+            "title": "美国国家公园管理局：海岸红杉林生态",
+            "url": "https://home.nps.gov/pore/learn/nature/wildlandfire_fireecology_vegtypes_redwoods.htm",
+            "supports": "北加州至蒙特雷原生分布、海雾作用及对盐雾敏感。"
+          },
+          {
+            "title": "美国林务局：北美红杉造林生态",
+            "url": "https://www.srs.fs.usda.gov/pubs/misc/ag_654/volume_1/sequoia/sempervirens.htm",
+            "supports": "天然海岸带、季节降水和雾、土壤水分；历史杉科分类未沿用。"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=-124&latitude=41.3&format=JSON"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://docs.isric.org/globaldata/soilgrids/"
+          },
+          {
+            "title": "地区物种水分/生境来源",
+            "url": "https://www.nps.gov/articles/000/fog-redwoods-and-a-changing-climate.htm"
+          },
+          {
+            "title": "JRC v1.5 原生栅格",
+            "url": "https://s3.waw4-1.cloudferro.com/swift/v1/global-surface-water/download2024/Aggregated/VER1-5/occurrence/occurrence_130W_50N_v1_5_2024.tif"
+          },
+          {
+            "title": "NPS：沿海红杉与雾",
+            "url": "https://www.nps.gov/redw/learn/nature/about-the-trees.htm",
+            "supports": "沿海冷却增湿，雾滴落入林地，补充夏季干旱时的水分。"
+          }
+        ],
+        "spokenFacts": [
+          {
+            "kind": "temperature-seasonality",
+            "months": [
+              12,
+              7
+            ],
+            "values": [
+              4.62,
+              19.87
+            ],
+            "unit": "°C",
+            "spokenRounding": "nearest degree"
+          }
+        ],
+        "evidenceFingerprint": "f6da312bd326560b0f1b7a8133e5539b71dc61ac95df78da89d6d6876aec4d4c",
+        "pointMeaning": "地区教学采样点，不是物种观测点、植物精确位置或全地区平均。",
+        "previousEdition": {
+          "id": "region-course-california-coast-v1",
+          "textHash": "73d0d9a6a6608482ada8db800e3579b606a6e609411b9ec54c58d7d22ad85508"
+        }
+      }
+    },
+    "tomales-bay": {
+      "previousId": "region-course-tomales-bay-v1",
+      "previousTextHash": "f3be09bb7d531fd43e96c5375f8a25d993199c8a491877743d5fcbe358f4ca51",
+      "chapter": {
+        "id": "region-course-tomales-bay-v2",
+        "classId": "tomales-bay",
+        "regionId": "tomales-bay",
+        "cropId": "eelgrass",
+        "cropIds": [
+          "eelgrass"
+        ],
+        "title": "美国加州托马莱斯湾 · 气候、根区与水源",
+        "text": "来到美国加州托马莱斯湾，观察大叶藻。为什么海湾里都有水，海草却不是到处都能长？第一步看水下光：叶片要得到足够的光才能进行光合作用。水深增加，或泥沙和藻类使水变浑，都可能减少到达叶面的光。这里的空气温度与降雨曲线仅是周边气象背景，不能当作水温或透明度实测。第二步看海床。大叶藻用根和根茎固定在底质中；海床是否合适、是否被锚链等反复扰动，会影响扎根和草床维持。这里不套用陆地零到五厘米表土模型，也不讨论附生树皮。NOAA记录了当地海草床及其保护问题；教学坐标用来定位海湾，不是海草床边界或单株记录。第三步看水体本身。潮汐改变淹没和暴露的时间，水温与盐度也影响海草生活。卫星水面出现频率只说明像元在记录中多常呈现水面，不能给出水深、透明度或盐度。本点缺少这些实测，所以我们能解释哪些条件重要，却不能据此绘出整个海湾的适生范围。总结这条原因链：光能到达叶片、海床能让根茎固定、水体条件合适，才有海草生活的可能。",
+        "textHash": "ca9e874f83ed24a050f2df90b993a12d7486b0ab00794f751cc79014ba106504",
+        "beats": [
+          {
+            "title": "先看水下光",
+            "lessonStep": 0,
+            "text": "来到美国加州托马莱斯湾，观察大叶藻。为什么海湾里都有水，海草却不是到处都能长？第一步看水下光：叶片要得到足够的光才能进行光合作用。水深增加，或泥沙和藻类使水变浑，都可能减少到达叶面的光。这里的空气温度与降雨曲线仅是周边气象背景，不能当作水温或透明度实测。",
+            "action": {
+              "regionId": "tomales-bay",
+              "cropId": "eelgrass",
+              "evidence": "climate",
+              "lon": -122.9,
+              "lat": 38.15,
+              "teachingContext": "marine",
+              "teachingClaim": "先看水下光：深度和浑浊会影响叶片受光；空气均温不是水温。"
+            }
+          },
+          {
+            "title": "再看海床与扎根",
+            "lessonStep": 1,
+            "text": "第二步看海床。大叶藻用根和根茎固定在底质中；海床是否合适、是否被锚链等反复扰动，会影响扎根和草床维持。这里不套用陆地零到五厘米表土模型，也不讨论附生树皮。NOAA记录了当地海草床及其保护问题；教学坐标用来定位海湾，不是海草床边界或单株记录。",
+            "action": {
+              "regionId": "tomales-bay",
+              "cropId": "eelgrass",
+              "evidence": "soil",
+              "lon": -122.9,
+              "lat": 38.15,
+              "teachingContext": "marine",
+              "teachingClaim": "海床固定根与根茎，锚泊扰动会损害生境；陆地表土不适用。"
+            }
+          },
+          {
+            "title": "最后看潮汐和水体",
+            "lessonStep": 2,
+            "text": "第三步看水体本身。潮汐改变淹没和暴露的时间，水温与盐度也影响海草生活。卫星水面出现频率只说明像元在记录中多常呈现水面，不能给出水深、透明度或盐度。本点缺少这些实测，所以我们能解释哪些条件重要，却不能据此绘出整个海湾的适生范围。总结这条原因链：光能到达叶片、海床能让根茎固定、水体条件合适，才有海草生活的可能。",
+            "action": {
+              "regionId": "tomales-bay",
+              "cropId": "eelgrass",
+              "evidence": "water",
+              "lon": -122.9,
+              "lat": 38.15,
+              "teachingContext": "marine",
+              "teachingClaim": "潮汐、水温和盐度需当地监测；本点缺少实测，水面频率不能替代。"
+            }
+          }
+        ],
+        "explanations": {
+          "climate": "先看水下光：深度和浑浊会影响叶片受光；空气均温不是水温。",
+          "soil": "海床固定根与根茎，锚泊扰动会损害生境；陆地表土不适用。",
+          "water": "潮汐、水温和盐度需当地监测；本点缺少实测，水面频率不能替代。"
+        },
+        "sources": [
+          {
+            "title": "FAO：气候、作物与生育期怎样影响蒸散需水",
+            "url": "https://www.fao.org/4/s2022e/s2022e02.htm",
+            "supports": "温度、日照、湿度、风以及叶面积和生育期影响蒸散；土壤储水与灌溉不等于每天降雨。"
+          },
+          {
+            "title": "FAO：作物需水的气候与生育阶段机制",
+            "url": "https://www.fao.org/4/S2022E/s2022e07.htm",
+            "supports": "气候改变大气需水，物种和生育期改变冠层需水；不据本数据包估算实际灌溉量。"
+          },
+          {
+            "title": "ISRIC SoilGrids：属性、单位、深度与预测不确定性",
+            "url": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs_01.html",
+            "supports": "pH和质地为土壤预测；表层不能代表全部根层、基质、排水与盐度。"
+          },
+          {
+            "title": "EC JRC/Google：Global Surface Water 数据",
+            "url": "https://global-surface-water.appspot.com/download",
+            "supports": "开阔地表水出现频率，不能代替土壤水、地下水、灌溉量或水深。"
+          },
+          {
+            "title": "Kew POWO · Zostera marina",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:603618-1",
+            "supports": "接受名、大叶藻科、北半球温带至亚热带原生范围，包括加州和弗吉尼亚。"
+          },
+          {
+            "title": "USDA · Eelgrass factsheet",
+            "url": "https://plants.usda.gov/DocumentLibrary/factsheet/pdf/fs_zoma.pdf",
+            "supports": "北美两岸原生分布、形态、根茎生长和水质限制。"
+          },
+          {
+            "title": "地区物种水分/生境来源",
+            "url": "https://farallones.noaa.gov/eco/tomales/seagrass.html"
+          },
+          {
+            "title": "VIMS · Eelgrass",
+            "url": "https://www.vims.edu/research/units/programs/sav/species/eelgrass.php",
+            "supports": "切萨皮克湾南部、形态繁殖、遮光及夏季热胁迫。"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=-122.9&latitude=38.15&format=JSON"
+          },
+          {
+            "title": "地区证据来源",
+            "url": "https://docs.isric.org/globaldata/soilgrids/"
+          },
+          {
+            "title": "JRC v1.5 原生栅格",
+            "url": "https://s3.waw4-1.cloudferro.com/swift/v1/global-surface-water/download2024/Aggregated/VER1-5/occurrence/occurrence_130W_40N_v1_5_2024.tif"
+          },
+          {
+            "title": "NOAA Fisheries：美国西岸海草",
+            "url": "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast",
+            "supports": "大叶藻常受水下光限制；减少光照可损害生境。"
+          },
+          {
+            "title": "NOAA：托马莱斯湾海草保护",
+            "url": "https://farallones.noaa.gov/eco/tomales/seagrass.html",
+            "supports": "当地海草床与锚泊对海床的扰动。"
+          }
+        ],
+        "spokenFacts": [],
+        "evidenceFingerprint": "1d47673f7dede55ba1adb5c89254fff7359d8e41780588215a1e9a34ba26ac0d",
+        "pointMeaning": "地区教学采样点，不是物种观测点、植物精确位置或全地区平均。",
+        "previousEdition": {
+          "id": "region-course-tomales-bay-v1",
+          "textHash": "f3be09bb7d531fd43e96c5375f8a25d993199c8a491877743d5fcbe358f4ca51"
+        }
+      }
+    }
+  }
+}

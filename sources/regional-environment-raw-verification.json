@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "assertions": 5645,
+  "errors": [],
+  "climateResponses": 85,
+  "monthlyRecords": 1020,
+  "soilCells": 81,
+  "explicitSoilNa": 4,
+  "surfaceWaterSamples": 85,
+  "referenceWaterSamples": 2,
+  "independentZstdAndPillowBlocks": 87,
+  "floatingBoundaryTolerancePixels": 1e-06,
+  "sha256": "9aa46a4eeb26d7b6a81ce64ec54ebdba2e74f1bdc89312b3152c57c9d9e25c38",
+  "scope": "Real cached NASA/ISRIC/JRC values and units/coordinates; bounded TIFF blocks independently decoded with pyzstd/libzstd; TIFF tags/pixel addressing independently checked by Pillow, including 3 named positive and 1 negative water controls. Expanded links independently compared against FAOSTAT; original 25 fields and 40 primary mappings frozen. It does not claim local sensor validation or distribution causation."
+}

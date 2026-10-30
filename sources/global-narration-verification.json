@@ -1,0 +1,3824 @@
+{
+  "passed": true,
+  "chapterCount": 141,
+  "expectedChapterCount": 141,
+  "complete": true,
+  "provider": "MiniMax",
+  "model": "speech-2.8-hd",
+  "voiceId": "Chinese (Mandarin)_Gentleman",
+  "speed": 0.95,
+  "totalDuration": 7674.516,
+  "totalBytes": 123034212,
+  "cueAlignedBeats": 254,
+  "estimatedBeats": 169,
+  "segmentsHash": "2d1113d818a8e993999f5ba0c0ddee7f4372c2a0c4b176ca1b5d7346c7536c75",
+  "chapters": [
+    {
+      "id": "global-intro-v2",
+      "characters": 325,
+      "duration": 72.792,
+      "probeDuration": 72.792,
+      "bytes": 1166388,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 116,
+          "time": 26.603612811791383,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 222,
+          "time": 50.35715995115995,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "fa4b31d6ce42d77bcf7d825368070e0cd5cc13fe17ec8c89666146e06d224202",
+      "audioHash": "850a8c429ed98987f635aa79611551f505e1f852be29eca9c0bb60d16929efd2"
+    },
+    {
+      "id": "global-rice",
+      "characters": 261,
+      "duration": 59.22,
+      "probeDuration": 59.22,
+      "bytes": 949236,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 15.761307116453883,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 144,
+          "time": 33.0580589569161,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "d38ed64642866126a5fd16885cd0bd6b9cfa84ca15ac39a2cfef8671e264f85d",
+      "audioHash": "68c4d05a5911c4319d84ecf5a0da00048005b45152d364f0dead93529a4f8fb6"
+    },
+    {
+      "id": "global-wheat",
+      "characters": 267,
+      "duration": 60.912,
+      "probeDuration": 60.912,
+      "bytes": 976308,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 80,
+          "time": 17.729953866604113,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 156,
+          "time": 35.66508843537415,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "72e8ec1a010b09ea42b9b0b7418430ceba2483201e0e3d54129c3456b37896c5",
+      "audioHash": "c4dde8039cd3e82874f5db1df6c1384495008354d5c00d08e384169aae10aac3"
+    },
+    {
+      "id": "global-maize",
+      "characters": 228,
+      "duration": 51.228,
+      "probeDuration": 51.228,
+      "bytes": 821364,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 62,
+          "time": 12.99312011371713,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 136,
+          "time": 30.58440816326531,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "2849892740b363267e07d973b4acd6e75505f2caf016a6ef227b37033fc40cf0",
+      "audioHash": "8cfaf6194b4ef7362d911641b466cc3e75082b3844ff29ca4eedd7ee4878ac7f"
+    },
+    {
+      "id": "global-barley",
+      "characters": 225,
+      "duration": 52.128,
+      "probeDuration": 52.128,
+      "bytes": 835764,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 55,
+          "time": 12.460982863090592,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 138,
+          "time": 31.14,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "25661e4554fb084e3ebb642fb3ff385faf7c192a186f760263bdb4f80a9f4d75",
+      "audioHash": "33faeedc3d14d843fdd81cf9e24e8e0068e8ac4cbf6a3991b1372c10124d356e"
+    },
+    {
+      "id": "global-oats",
+      "characters": 244,
+      "duration": 55.584,
+      "probeDuration": 55.584,
+      "bytes": 891060,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 61,
+          "time": 12.783553660270078,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 138,
+          "time": 33.32436281179138,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "b0b4081e579756e43d1ab9cbf7e284e17d985e51227dd9541aa81e874a7c9581",
+      "audioHash": "1c10aead092eb66641cfdabe3a76dccc9b00c22d34a123e99c5c7daaaa6cd4cb"
+    },
+    {
+      "id": "global-rye",
+      "characters": 248,
+      "duration": 55.08,
+      "probeDuration": 55.08,
+      "bytes": 882996,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 61,
+          "time": 13.14893080464509,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 140,
+          "time": 29.988,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "cc3c42c205873a32fafd2c730dbc683dfe815d24420fc6eb59c56bdc57220fd0",
+      "audioHash": "e390d2dd93a524750b04381ce149724f7ff48aefa80df9b56d2f7c5983938615"
+    },
+    {
+      "id": "global-sorghum",
+      "characters": 227,
+      "duration": 51.696,
+      "probeDuration": 51.696,
+      "bytes": 828852,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 62,
+          "time": 13.82037431888178,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 140,
+          "time": 32.328,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "b8cadaff163881914e36fc19b877bfa24b78c169cbed3037379ac1dd03d22eb5",
+      "audioHash": "9592528b8c25ca9004ce1db36405e3631355bbb7cad925dea02ec14d2b0724d5"
+    },
+    {
+      "id": "global-foxtail",
+      "characters": 274,
+      "duration": 61.704,
+      "probeDuration": 61.704,
+      "bytes": 988980,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 84,
+          "time": 19.024481397497272,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 164,
+          "time": 36.288,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "784d55b06cad7d1cc765945e16834619e784344bb8d766c6f56486d81dd127a0",
+      "audioHash": "cff7ddb0d9defbe01e01ad2663e4a9f1f7b81b8bbbf75dae8017b667bf1725d7"
+    },
+    {
+      "id": "global-pearl",
+      "characters": 259,
+      "duration": 59.58,
+      "probeDuration": 59.58,
+      "bytes": 954996,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 86,
+          "time": 20.375537738905084,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 166,
+          "time": 38.376,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "696029665aad67dbc61cd04c50750dab864ae86f85cdb8dd5b2b0485d84d81b5",
+      "audioHash": "91fc980f9ecb40a39c9f657b352889b0c695370d9d570ebbdfffe70e920ade3c"
+    },
+    {
+      "id": "global-potato",
+      "characters": 232,
+      "duration": 53.172,
+      "probeDuration": 53.172,
+      "bytes": 852468,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 59,
+          "time": 12.790468631897204,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 144,
+          "time": 34.02,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "7340707d1dc492b12f236c909a48fcf734fc647ab20a80991bd9789f04a4d22e",
+      "audioHash": "6d97bd67a461afbe706e0321eddbe9cc1e95b66c08b75bf443935fceb70eb12e"
+    },
+    {
+      "id": "global-cassava",
+      "characters": 233,
+      "duration": 54.396,
+      "probeDuration": 54.396,
+      "bytes": 872052,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 57,
+          "time": 13.70467899659864,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 138,
+          "time": 31.104,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "9695d47d40cf3feedd9d0556ebae58e65a7085c6591d871dfc69833879cacd5a",
+      "audioHash": "5f3d441c5c0e3d6600fb3a156c28d6014faf802703da040b5c06b93ca3d5d3a8"
+    },
+    {
+      "id": "global-sweetpotato",
+      "characters": 230,
+      "duration": 51.804,
+      "probeDuration": 51.804,
+      "bytes": 830580,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 13.499319727891155,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 142,
+          "time": 32.94,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "3056cc0ff2ce9a4629d52a602383409a50b76c420816a48affe44a3d94bbc6be",
+      "audioHash": "280eff645d65ed8b6d3bb944b68a2dd64a847fcd48d2dda27c483ae1c9ca1e63"
+    },
+    {
+      "id": "global-soybean",
+      "characters": 218,
+      "duration": 49.932,
+      "probeDuration": 49.932,
+      "bytes": 800628,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 57,
+          "time": 13.196807109940751,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 133,
+          "time": 30.641378684807258,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "510f83c47d178d33b4bea40c07146714b3ea68865456760ef85e0fa726b25f95",
+      "audioHash": "741c2e71e093d52c1f9f08b0a1f257d0fe7a007f406716c132f9256980853523"
+    },
+    {
+      "id": "global-peanut",
+      "characters": 264,
+      "duration": 57.348,
+      "probeDuration": 57.348,
+      "bytes": 919284,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 14.561323496534762,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 147,
+          "time": 31.932,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "ca5b89a6b1feda570120730efad657538696fdf829932821fdb7073aae802cdd",
+      "audioHash": "646eda06e0375852904e90acca31fa157a6141dc546a4ab64ce997503fa6ecd2"
+    },
+    {
+      "id": "global-sunflower",
+      "characters": 230,
+      "duration": 50.652,
+      "probeDuration": 50.652,
+      "bytes": 812148,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 13.721035196687371,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 144,
+          "time": 30.996,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "38141c004026bde38f22c6405cd7f5b344e441db183dfd9db40e76650bc94a0e",
+      "audioHash": "b5f1f3540e52860aad674cd1928ee64bd5f50ef9b9d1d4fd989865d1f506a01b"
+    },
+    {
+      "id": "global-rapeseed",
+      "characters": 277,
+      "duration": 60.66,
+      "probeDuration": 60.66,
+      "bytes": 972276,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 84,
+          "time": 18.714321347586655,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 166,
+          "time": 37.656,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "f7d98c0f15c863c21b2d6ab7a57afa748e48f93fac757d94061a4c5f0e0dc605",
+      "audioHash": "e0ed60e865d048f7d6071e0bac9b83fc347fb263146efbb9c736b28deb870ff3"
+    },
+    {
+      "id": "global-chickpea",
+      "characters": 228,
+      "duration": 52.056,
+      "probeDuration": 52.056,
+      "bytes": 834612,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 62,
+          "time": 14.196398957592988,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 142,
+          "time": 31.176,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "40c09d35761613e0706af319345cfdd8fd28b7a4c538c0502498754473976e52",
+      "audioHash": "8f984658d9c10ccae5634448ea579dd93babe788efa8312dd8c66286f7d06c7e"
+    },
+    {
+      "id": "global-lentil",
+      "characters": 225,
+      "duration": 49.284,
+      "probeDuration": 49.284,
+      "bytes": 790260,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 62,
+          "time": 13.045512871815392,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 141,
+          "time": 30.78,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "647ec9eda77dbc237c7d439cf99093d219cd95cf9dfdaccfd5e0850df52914b7",
+      "audioHash": "0ce4f3ffbc0737c18a5be046a9eacf39387e97a1250e5b247440885e50e50489"
+    },
+    {
+      "id": "global-cowpea",
+      "characters": 231,
+      "duration": 52.488,
+      "probeDuration": 52.488,
+      "bytes": 841524,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 13.457731749416185,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 144,
+          "time": 32.328,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "aa936e4d36a74d34f5a1104798bbf56570deca5a2ba48a586420228d51ca00ea",
+      "audioHash": "f08c777a7e5af1647691aa8917216b9ab10c50fe918d906a92516ce5c4ed1e7c"
+    },
+    {
+      "id": "global-cotton",
+      "characters": 255,
+      "duration": 55.476,
+      "probeDuration": 55.476,
+      "bytes": 889332,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 83,
+          "time": 16.603585894127768,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 162,
+          "time": 35.777405895691615,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "b14aadee23925daa95618511984ed9146755d0efca275665544acad79bf50bf2",
+      "audioHash": "3a10e97839e596e784de988dca2f9121b504405c144c856284c8e391acae20e9"
+    },
+    {
+      "id": "global-sugarcane",
+      "characters": 225,
+      "duration": 48.168,
+      "probeDuration": 48.168,
+      "bytes": 772404,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 56,
+          "time": 12.186604215456676,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 28.92282993197279,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "c720d59b9dbd20f26de6065ff35b1ef89564e93226f196e8fbbfc61a5aaa6792",
+      "audioHash": "1b48f33e218f40b493e35fc42a1b7da88a72e6ff2bd621e77e68cf673086f791"
+    },
+    {
+      "id": "global-sugarbeet",
+      "characters": 223,
+      "duration": 50.544,
+      "probeDuration": 50.544,
+      "bytes": 810420,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 56,
+          "time": 13.489605734767023,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 138,
+          "time": 30.276,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "f2d7fa1874dfdfb0ee964cb530775175f96c4ae123d75741dbc9d5b899bc3c90",
+      "audioHash": "52cbf59238cac09f2123efacc798b3810696a18bd845d54b3e857a62d541fe2e"
+    },
+    {
+      "id": "global-tea",
+      "characters": 230,
+      "duration": 52.02,
+      "probeDuration": 52.02,
+      "bytes": 834036,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 12.334856330591938,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 142,
+          "time": 31.068,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "2bd0f506f8a53a490f3096552bb620dd75b277669eb7ec9173e559efe15880a8",
+      "audioHash": "40ce79f7c9c6dea29a0003c7f658eaa60e13a4d5cf77467abd8cfc3516fad334"
+    },
+    {
+      "id": "global-arabica",
+      "characters": 269,
+      "duration": 56.088,
+      "probeDuration": 56.088,
+      "bytes": 899124,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 95,
+          "time": 18.924075585789872,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 171,
+          "time": 35.2372970521542,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "50338c5aed1f67be40223b0e075cf6660b360a36dff2903dc9808edd6563dae1",
+      "audioHash": "bbfa8f21faa42408d8e4085b1572fd375f1be23b5946f71caee1c5775dfd4315"
+    },
+    {
+      "id": "global-robusta",
+      "characters": 259,
+      "duration": 57.276,
+      "probeDuration": 57.276,
+      "bytes": 918132,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 95,
+          "time": 20.818125472411186,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 171,
+          "time": 37.60153477510407,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "5de0e0c5b1765701f0413ddbc3794a05ef5a794bade3940636a2a1d0ab5a942f",
+      "audioHash": "eb6cf987dcfcf168b7f28e7ac0aa022b5c81a5d10f3e0afd0339fd68af39e9d4"
+    },
+    {
+      "id": "global-cocoa",
+      "characters": 227,
+      "duration": 52.704,
+      "probeDuration": 52.704,
+      "bytes": 844980,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 12.89629404000406,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 139,
+          "time": 30.758648526077096,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "04a2b5831e45ccf8f5bd06fdcd609f2e657fe8f32480f5e467d4f3ac27fbebd7",
+      "audioHash": "970a2a5221a7ab6bb9226df6624719aa9ff6e7c7dd2c272ef898e42df9ba4d48"
+    },
+    {
+      "id": "global-oilpalm",
+      "characters": 221,
+      "duration": 50.436,
+      "probeDuration": 50.436,
+      "bytes": 808692,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 57,
+          "time": 11.997222396650969,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 133,
+          "time": 30.944226757369613,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "90f9a6410d428164173cc393d9ef017481407c29bc6e6bc253b0fbe21054ee31",
+      "audioHash": "d7cf18b2753ffd9cdb13de5305ff8651f9eb3b6819a199df9c884a9ba95889fc"
+    },
+    {
+      "id": "global-banana",
+      "characters": 246,
+      "duration": 51.624,
+      "probeDuration": 51.624,
+      "bytes": 827700,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 80,
+          "time": 15.411348539415766,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 159,
+          "time": 32.328,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "0bfefd3fb86d45bfc7e6b5ee189386a1d95746abcf725e1a2cf9b44b91282c35",
+      "audioHash": "d66d82a3283b648510eb58e04962dac2cabbb94c29a3b2c6c126376661e4bae0"
+    },
+    {
+      "id": "global-coconut",
+      "characters": 238,
+      "duration": 53.748,
+      "probeDuration": 53.748,
+      "bytes": 861684,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 15.013722334004022,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 150,
+          "time": 33.012,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "c7eaea8dc1684a0d51dac7322c79a9638734166e0acb11d803d80ccc85e03964",
+      "audioHash": "4ecbecbeb256f3805bf5faac79b29438384f80b421551127be581f4ab9842bb2"
+    },
+    {
+      "id": "global-grape",
+      "characters": 235,
+      "duration": 51.48,
+      "probeDuration": 51.48,
+      "bytes": 825396,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 12.376444309066912,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 146,
+          "time": 31.392,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "cfae9f7c22fe1e88f922bfe0c329a9dd0ce6b906c331c957b9c6bc2345317fb8",
+      "audioHash": "1555618aa2fb87e4a69e482aa6d8a9ddef8e6a28f97e3113fefe088d5f9134d0"
+    },
+    {
+      "id": "global-olive",
+      "characters": 229,
+      "duration": 52.344,
+      "probeDuration": 52.344,
+      "bytes": 839220,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 13.890641821946168,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 141,
+          "time": 31.366058956916103,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "f394225fd01a7bb3615471375241e5e19f84a10a10eea9eb64e260ca2d36e37a",
+      "audioHash": "63f31644e2d04b68516cb51812d7b657fbaea61b0849750d5cc196ffec8ba0c3"
+    },
+    {
+      "id": "global-citrus",
+      "characters": 253,
+      "duration": 55.26,
+      "probeDuration": 55.26,
+      "bytes": 885876,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 62,
+          "time": 13.487323924594714,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 143,
+          "time": 31.212,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "e59c6963ae7c0411d4b51a10f885f14664fb06aaa39d76db668cf7052dfb12e2",
+      "audioHash": "a6bd9246e442abf05e214344661571504b0da785929de046b7f182dd49ce5dc8"
+    },
+    {
+      "id": "global-apple",
+      "characters": 231,
+      "duration": 51.588,
+      "probeDuration": 51.588,
+      "bytes": 827124,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 59,
+          "time": 13.47545729402872,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 142,
+          "time": 31.32,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "dbf547d0146125996d0d77ac4da5cc603a7f452be59a0c4a4bf425f931ce5f73",
+      "audioHash": "e1236692ec302bf2240d9ba4aea8384d7a2fcb6a42fb15d80298b9023439c31c"
+    },
+    {
+      "id": "global-date",
+      "characters": 234,
+      "duration": 51.516,
+      "probeDuration": 51.516,
+      "bytes": 825972,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 13.341776710684274,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 144,
+          "time": 31.572,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "1c7e14468c23ce5ce57a3a9b0c6d925217a80da95ca7427510573b5892f66964",
+      "audioHash": "639026e9396b06358bf8cc2e560efd3f65f1db42f799991712a58a32b568eb1d"
+    },
+    {
+      "id": "global-tomato",
+      "characters": 250,
+      "duration": 55.692,
+      "probeDuration": 55.692,
+      "bytes": 892788,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 58,
+          "time": 13.254026862026864,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 140,
+          "time": 31.896,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "c47b8597b7c6f242cb02f60e3307fbad47759d9b913a88c57b4966960be6cdfd",
+      "audioHash": "015daa0b316064f44b482b44dee62d010003e425520e7b1c5e5fa9a5bb1a2541"
+    },
+    {
+      "id": "global-pepper",
+      "characters": 263,
+      "duration": 58.284,
+      "probeDuration": 58.284,
+      "bytes": 934260,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 92,
+          "time": 19.44,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 173,
+          "time": 38.34,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "66ac040bb082257b7212ecbdb7a29b13a525b9d3c1910e6411de895a7e4a1f56",
+      "audioHash": "4af5b4adff1249991e2d86d7844c2cc5d6d77ce81aa75e7751797f85b13b46d4"
+    },
+    {
+      "id": "global-eggplant",
+      "characters": 227,
+      "duration": 49.968,
+      "probeDuration": 49.968,
+      "bytes": 801204,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 59,
+          "time": 12.634789390503675,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 140,
+          "time": 30.348,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "72b02f636dc6d084fdb31bdbae82ac5be4f3f7bdf4494303dbb06e089b260a04",
+      "audioHash": "c08d90f12834938d1a987d703c1644374d0ca8ab661c674e10ca73c189431f33"
+    },
+    {
+      "id": "global-cucumber",
+      "characters": 241,
+      "duration": 51.084,
+      "probeDuration": 51.084,
+      "bytes": 819060,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 13.73239259667831,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 149,
+          "time": 31.32,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "a48297e6466f82ee1de3b7624eed3021686c5af5279796062b65ac04214a804d",
+      "audioHash": "cbc947328a4c31a8a11b3af49b9d0cfcbcc1b7c7b163bbc052e99a3c3ec52f6c"
+    },
+    {
+      "id": "global-pumpkin",
+      "characters": 287,
+      "duration": 66.708,
+      "probeDuration": 66.708,
+      "bytes": 1069044,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 98,
+          "time": 24.004132167152573,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 175,
+          "time": 40.920891362605644,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "3de3aaa33921ffa97257e7a5ac8e06ef3a98c7ddb4ccdcfd005fab5e3b248b76",
+      "audioHash": "4d98cd592fad9ee5dea4f82de6754bc3342b3342241c9279b81ba439900bfdf5"
+    },
+    {
+      "id": "global-watermelon",
+      "characters": 233,
+      "duration": 51.84,
+      "probeDuration": 51.84,
+      "bytes": 831156,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 58,
+          "time": 12.33201604744462,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 141,
+          "time": 30.672,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "773de2aeadf5793551ed9e15138fdaef01ea25c188707934e9297eeb646617d7",
+      "audioHash": "00536239597255ba0d463ea9c100d86a7cf9cfeb8893d7bfba687d8abec50825"
+    },
+    {
+      "id": "global-melon",
+      "characters": 234,
+      "duration": 53.388,
+      "probeDuration": 53.388,
+      "bytes": 855924,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 13.582495684841101,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 142,
+          "time": 32.976,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "5608e265bc0d4691db6b412e485e924cd59367ab2481ba8ca8de40e797628943",
+      "audioHash": "2e924da561a09a0b432aff4e7a702e844eb775397c71d4c9b0aeed78ec3e7388"
+    },
+    {
+      "id": "global-cabbage",
+      "characters": 236,
+      "duration": 52.344,
+      "probeDuration": 52.344,
+      "bytes": 839220,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 15.803204633204633,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 150,
+          "time": 34.02,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "c5970599005b4dfa60862ccbaeb361c8184369fb63862d3f431f8a99d2215dbd",
+      "audioHash": "7843997e1155e4b5621e7a8e696e17bbe195e30417de2797779d4c7daea8ab6e"
+    },
+    {
+      "id": "global-carrot",
+      "characters": 256,
+      "duration": 53.928,
+      "probeDuration": 53.928,
+      "bytes": 864564,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 92,
+          "time": 18.684,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 171,
+          "time": 34.74,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "6e77657177589f67b9cf46666c4d1c5c8a1b87d30cefbd05af071b404d781911",
+      "audioHash": "7486dc231f51029666398f64d97fafef910cad2628b07f5309bac1ce997bab2f"
+    },
+    {
+      "id": "global-onion",
+      "characters": 277,
+      "duration": 62.1,
+      "probeDuration": 62.1,
+      "bytes": 995316,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 85,
+          "time": 19.445450575291844,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 166,
+          "time": 38.196,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "dc59175e25772ca63901bea375ccd7c2bf0ae27ba13e9cd201c998761dfc3e15",
+      "audioHash": "91f3a7371f9f5309cf5eccaa53a2ecd66f6c14f1cf56a2997714aca86953b363"
+    },
+    {
+      "id": "global-garlic",
+      "characters": 230,
+      "duration": 50.76,
+      "probeDuration": 50.76,
+      "bytes": 813876,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 13.650408163265306,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 145,
+          "time": 32.04,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "443cca63c23028694934ff2a2d2a46b68b2b638942473d0622ff1e6aa51b8e0a",
+      "audioHash": "0b86502680d9fe2fc833aa6527398f967d4fd24b104bc6e1ea51051f804f3c97"
+    },
+    {
+      "id": "global-lettuce",
+      "characters": 280,
+      "duration": 60.912,
+      "probeDuration": 60.912,
+      "bytes": 976308,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 89,
+          "time": 18.684,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 171,
+          "time": 35.928,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "2ae9ccc2fdfa146e5a79afa65abe7aa2d8f101968ce9ac5342f51d3bcf2c849d",
+      "audioHash": "16c31e35839ae248140571fe4f5e5d9cafbfad37b3f1ad93f53a3b85cb1e5aa4"
+    },
+    {
+      "id": "global-spinach",
+      "characters": 227,
+      "duration": 50.652,
+      "probeDuration": 50.652,
+      "bytes": 812148,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 12.771530104579144,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 142,
+          "time": 30.924,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "c00e9b41c9acd6f7786d7af655224265ffdfa7093588513b88f0381b5b1bc078",
+      "audioHash": "2adcd832b797f60f8fcf286576d28aadd9e3debbd554464878dbe7c532244144"
+    },
+    {
+      "id": "global-pea",
+      "characters": 227,
+      "duration": 51.912,
+      "probeDuration": 51.912,
+      "bytes": 832308,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 62,
+          "time": 13.784909132735221,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 143,
+          "time": 31.32,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "cdeb870727c5782125293c5a51c879de75f684e0192b90c0c084989d1ecc5cee",
+      "audioHash": "ec410950eb68dbfb9744cbe990aa1b20c7aedaa5f11dbd9422f3fe51669f955e"
+    },
+    {
+      "id": "global-sesame",
+      "characters": 226,
+      "duration": 52.128,
+      "probeDuration": 52.128,
+      "bytes": 835764,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 13.164500261643118,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 134,
+          "time": 30.974557823129253,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "87f68b4cab49e25ded8d1640c1609ea0b4f248154f9f6f59fb6b12c59f90f75f",
+      "audioHash": "2817b16bc0270789b1cba7f264e2ff5ac4aa54b42f78ba7422ae2f695d6b87c6"
+    },
+    {
+      "id": "global-buckwheat",
+      "characters": 241,
+      "duration": 53.1,
+      "probeDuration": 53.1,
+      "bytes": 851316,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 78,
+          "time": 17.191755749919015,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 157,
+          "time": 35.172,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "3afa15ae38e03a0509845de0c6a90b5929f5df56e238233876f19861cfa0556d",
+      "audioHash": "af6a63b0724516c7b5f9ffb0e4ff1df14720c1ae3a80b677a7b7b63a4cbb2dc8"
+    },
+    {
+      "id": "global-quinoa",
+      "characters": 213,
+      "duration": 48.636,
+      "probeDuration": 48.636,
+      "bytes": 779892,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 54,
+          "time": 11.820311310965062,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 128,
+          "time": 29.735437641723355,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "38783a673c77db6fa62694564e273968331dfd1348b44f36e30973618a045874",
+      "audioHash": "620656e26340896dd570a39a683cf00c3b121b43ad7da34413a5cf12ac505e38"
+    },
+    {
+      "id": "global-flax",
+      "characters": 224,
+      "duration": 50.184,
+      "probeDuration": 50.184,
+      "bytes": 804660,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 14.170210084033613,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 141,
+          "time": 30.672,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "f90bac6c24bc4569d1eeb34e1a45161d8569654b3173d4f3950bbd0d0b8ddb25",
+      "audioHash": "6e6ed3924a84deeeef9f1bab8d13450ed8ea1448b6d6667a962269b51b88dbc7"
+    },
+    {
+      "id": "global-rubber",
+      "characters": 258,
+      "duration": 57.24,
+      "probeDuration": 57.24,
+      "bytes": 917556,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 91,
+          "time": 20.844,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 170,
+          "time": 37.152,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "79a7c23213270aea3a4fa642a16e8d9b10b84e4f5d61f34f6a4f5851d0fc76cb",
+      "audioHash": "ab2ee5eddb24a38cbeb6522946135b4ff9fad6b3ccd4db5213b4e957185398c7"
+    },
+    {
+      "id": "global-mango",
+      "characters": 266,
+      "duration": 58.608,
+      "probeDuration": 58.608,
+      "bytes": 939444,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 93,
+          "time": 20.088,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 174,
+          "time": 37.44,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "538001fb298d9409c68c3b04feb0ea22c115b315a0258eeae0c1958e03ccbf74",
+      "audioHash": "8dd01e02af8b6f0693e2fd2aacee07deb63b088dc5c097033724080c9073d673"
+    },
+    {
+      "id": "global-pineapple",
+      "characters": 233,
+      "duration": 52.38,
+      "probeDuration": 52.38,
+      "bytes": 839796,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 61,
+          "time": 13.244391205757667,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 141,
+          "time": 32.72784580498866,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "ff430eada1b8937dc78ca1a2c820d22fbc83ac31e3fc45d2d984901449d1a5ba",
+      "audioHash": "cc9d5e1a0fd606ae9783810a3dd19c0ae7db108e4d69f589bf119e3e4ce3847f"
+    },
+    {
+      "id": "global-avocado",
+      "characters": 234,
+      "duration": 52.128,
+      "probeDuration": 52.128,
+      "bytes": 835764,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 62,
+          "time": 14.029970654928638,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 142,
+          "time": 31.86,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "856de4c84c20fee599f3a5204b56524e3d0bb1c78d8aab5de70327a27cb112ca",
+      "audioHash": "23ba0f9dc91eaf5d66e2f78aef826f7a849cd276ee76a1bc0937878246588ed1"
+    },
+    {
+      "id": "global-blackpepper",
+      "characters": 248,
+      "duration": 53.064,
+      "probeDuration": 53.064,
+      "bytes": 850740,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 82,
+          "time": 16.659077853363566,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 159,
+          "time": 33.54702947845805,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "f46fe6f3b06db12f6169ac8165d48dfaacb8f76575b0e7e59b5f07448659adac",
+      "audioHash": "722467e644bc9f2794ea6b108690b3288d6dda07013752ee1fca696f4e1991fe"
+    },
+    {
+      "id": "global-ginger",
+      "characters": 228,
+      "duration": 50.58,
+      "probeDuration": 50.58,
+      "bytes": 810996,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 58,
+          "time": 14.006134686678903,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 137,
+          "time": 30.96,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "7e4387c69a12d2d1b2fba416fddfb3dfe1b4b9cbaf7002ca7bd3c990231bf432",
+      "audioHash": "7d7bf69b65e4bece6f0a267bebd3069d5c0efce6be36a852fe923fe9319cb056"
+    },
+    {
+      "id": "global-cinnamon",
+      "characters": 257,
+      "duration": 58.032,
+      "probeDuration": 58.032,
+      "bytes": 930228,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 88,
+          "time": 19.404,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 168,
+          "time": 36.828,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "3e558ec179d3440bbffa86deaaa63ec977274b9ecf0c95af209af5aa3a8ab749",
+      "audioHash": "ec7dd679a7be2d8fbf7ec5cc440ab7c7ea03fde0c955c7b713f39b99d10ca0e9"
+    },
+    {
+      "id": "global-vanilla",
+      "characters": 250,
+      "duration": 60.264,
+      "probeDuration": 60.264,
+      "bytes": 965940,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 83,
+          "time": 20.450752688172045,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 161,
+          "time": 38.303619047619044,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "6f600b1991acf08a7e783b16aa7462889be733053dd8c7afd873c7cfafa2f9e2",
+      "audioHash": "d0792c89a6beb4282eee2e9732b04b80ffcf3e27bf6adb5062c59f6738f913ac"
+    },
+    {
+      "id": "global-englishoak",
+      "characters": 224,
+      "duration": 50.616,
+      "probeDuration": 50.616,
+      "bytes": 811572,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 66,
+          "time": 15.222860922146637,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 30.18051398337112,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "155bfc3f69835dcf6630bd94c2350c36cf5bf96f9cc78dceaaf8e8e9845f8f05",
+      "audioHash": "68c2241d475c913f9d6e4ba2c1985ca82feed6f50052b11ba7b7b6b9615fec43"
+    },
+    {
+      "id": "global-silverbirch",
+      "characters": 220,
+      "duration": 47.304,
+      "probeDuration": 47.304,
+      "bytes": 758580,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 14.020362811791383,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 134,
+          "time": 28.36546469622332,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "7d4f268077d521a70af9a591b9a641b2516f7899cd40e3fd6b7847209930d8f5",
+      "audioHash": "4e63f63a5da55c5935dd36aaac5db1d032abcddc96799e1f91dae08183ce0583"
+    },
+    {
+      "id": "global-sugarmaple",
+      "characters": 224,
+      "duration": 49.212,
+      "probeDuration": 49.212,
+      "bytes": 789108,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 65,
+          "time": 14.21660052910053,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 27.563676492819347,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "0f4baeb85f3e64919e62e857d5a3a4bc79159f0ec05e5f0aada7c541877c30ca",
+      "audioHash": "660c5ad5eb1fb42109de82e283383769fe341b70751afc6f5a02cc88bcd7eaa0"
+    },
+    {
+      "id": "global-baobab",
+      "characters": 231,
+      "duration": 51.3,
+      "probeDuration": 51.3,
+      "bytes": 822516,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 69,
+          "time": 16.307528344671205,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 138,
+          "time": 29.876231761670184,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "ef3c797a9409a57145665ec25ce9e6f5c35de0a882abd842ba310e8058a189e5",
+      "audioHash": "b5ce9d67141f3023abc3a83059aae37d1a9bd4dc5beadff33feb98313137520b"
+    },
+    {
+      "id": "global-eucalyptus",
+      "characters": 224,
+      "duration": 50.112,
+      "probeDuration": 50.112,
+      "bytes": 803508,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 65,
+          "time": 14.693741496598639,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 133,
+          "time": 28.579776266061984,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "f5ecbccdd65af822d61e1cefe74f2ab40e18504e2151fe6b15e6c5e6bca8741c",
+      "audioHash": "49b0ac1d32bed46eb4c4d9753909cc708e1ee97e2190817d758f9eda2fde6d19"
+    },
+    {
+      "id": "global-redmangrove",
+      "characters": 262,
+      "duration": 57.312,
+      "probeDuration": 57.312,
+      "bytes": 918708,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 13.254104308390023,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 164,
+          "time": 33.35739612768184,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "9d2dbbc876971458bdb5df737ef133f75120d2bc14b168fbca86c791487e8f7a",
+      "audioHash": "576b556964b2d3f125b75dfdb9324c87bbc74294325d40cea4a3f45ed24b40d3"
+    },
+    {
+      "id": "global-bamboo",
+      "characters": 213,
+      "duration": 47.196,
+      "probeDuration": 47.196,
+      "bytes": 756852,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 13.968989531885814,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 28.024656084656087,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "c2b9d2271e53a25cafe36ac9387fe10a2001ef9e7c3c3230c6ed71159b360136",
+      "audioHash": "1ee0681d9c8e86d3af5914419a7935ff5e40b5302100ac481c1fb73cc7cae1e9"
+    },
+    {
+      "id": "global-saguaro",
+      "characters": 224,
+      "duration": 52.776,
+      "probeDuration": 52.776,
+      "bytes": 846132,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 14.875081884605693,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 29.497787114845938,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "825c260fb40aff0629b6e1840b2e195748dec9772cf848904f613e12705597b2",
+      "audioHash": "83ed18f11d120db1263516dc8ce269fd6e1446d37bdb80907433cb26365447d1"
+    },
+    {
+      "id": "global-pricklypear",
+      "characters": 228,
+      "duration": 50.436,
+      "probeDuration": 50.436,
+      "bytes": 808692,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 14.234769463340895,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 137,
+          "time": 29.433091923949068,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "dbd0b9ac1a013c3a85287a8b52b7366a10557a472c0a20250b0d03f86726f4c6",
+      "audioHash": "f00c45074f28014c9945d8a5544817db54b844a9464f34c658fb3e010631f6e7"
+    },
+    {
+      "id": "global-agave",
+      "characters": 233,
+      "duration": 52.236,
+      "probeDuration": 52.236,
+      "bytes": 837492,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 15.901179138321995,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 137,
+          "time": 29.95273803007794,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "d875238a629a7dbec7a9855a432b8af3385a90107b5ee49821feb9054afa39aa",
+      "audioHash": "e437a1701dd23916a2505c72bac39463a1109d3e0e5c8bd36e89dd8e585776b8"
+    },
+    {
+      "id": "global-aloe",
+      "characters": 223,
+      "duration": 49.716,
+      "probeDuration": 49.716,
+      "bytes": 797172,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 14.507981859410432,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 133,
+          "time": 28.958224089635856,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "d6ee132360b7cd2788a286aa65ccada4eadd761eb89fa22575c846eff340ca74",
+      "audioHash": "ec27dce858fa86e7b8633fce68ea9eb2fd3e918cd70d2ab146c2edf62dbd6193"
+    },
+    {
+      "id": "global-lotus",
+      "characters": 222,
+      "duration": 51.84,
+      "probeDuration": 51.84,
+      "bytes": 831156,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 66,
+          "time": 15.180291005291007,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 28.706946428571435,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "47ccfd2ac49c39358611d54b8f9ec23b68109b22ae8c97edd26bcf81bc95ca6f",
+      "audioHash": "d692960b3cbf29c808f1417d68398a70236c96449cc892c7f0e1ad0198637600"
+    },
+    {
+      "id": "global-waterlily",
+      "characters": 223,
+      "duration": 53.856,
+      "probeDuration": 53.856,
+      "bytes": 863412,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 17.387256235827667,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 133,
+          "time": 32.81733333333334,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "abe598101a1e1f584bd84b1621f4618df6af4b38e1445c7821e18eda32cc40b6",
+      "audioHash": "bc25e616086548302393346fa631e15228f36ccd1e2102c2a3b94d7eadcc3879"
+    },
+    {
+      "id": "global-eelgrass",
+      "characters": 252,
+      "duration": 57.924,
+      "probeDuration": 57.924,
+      "bytes": 928500,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 66,
+          "time": 15.581149939427823,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 162,
+          "time": 36.81164835164835,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "afeaf7471366238c1d06f00323121f85070d7e9ae06566b2027bfe28ed62aee8",
+      "audioHash": "d307be61983b06ecc7c740dac99df4ecad12a689e18c65aba0d49becba6bdaca"
+    },
+    {
+      "id": "global-duckweed",
+      "characters": 225,
+      "duration": 48.96,
+      "probeDuration": 48.96,
+      "bytes": 785076,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 14.507981859410432,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 134,
+          "time": 28.442615268329554,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "d4e305a322e2caa011907ddf74aa92dbd3b603ee09140deb1d80af875c316ef6",
+      "audioHash": "efd0e4af0d835c8bb43538ad340bbac6ee445e5a0422b2dd31eb5318280738df"
+    },
+    {
+      "id": "global-lavender",
+      "characters": 220,
+      "duration": 50.544,
+      "probeDuration": 50.544,
+      "bytes": 810420,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 15.52952318827074,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 30.192574452003022,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "b6c6ab950e2462f951007c2a80f8c94f28d23a7ceba1c8a33d9904f0b54fda6c",
+      "audioHash": "de7d6a7089e5ebc66862752eac012c1f08ebcb3cc504490db690bc282a55c681"
+    },
+    {
+      "id": "global-rosemary",
+      "characters": 219,
+      "duration": 46.944,
+      "probeDuration": 46.944,
+      "bytes": 752820,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 66,
+          "time": 12.961575207860923,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 26.909735449735447,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "7f82d9882e61043855e4ea9073c4649e5d3fa9ab7b1094f623c995e6f21020e3",
+      "audioHash": "348e796def5c8b50dfe7ba79157ef594701f08b205c2a7e7ae883f185e27c109"
+    },
+    {
+      "id": "global-dogrose",
+      "characters": 225,
+      "duration": 51.624,
+      "probeDuration": 51.624,
+      "bytes": 827700,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 14.194512471655328,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 133,
+          "time": 29.46645200302343,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "e7bc14e22213150269dcb4c7dc612e4b5688504334b3c7a84517bb504aed7a3d",
+      "audioHash": "ce44ae6ce91a199b4df5637df655d00872d4de81fa403d66b6d0e86de37b29fc"
+    },
+    {
+      "id": "global-tulip",
+      "characters": 255,
+      "duration": 58.68,
+      "probeDuration": 58.68,
+      "bytes": 940596,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 94,
+          "time": 21.990100185528757,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 164,
+          "time": 38.08133333333333,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "f0807dc4ad98faba2fc1a1bb3328be5f73c5b09c1a7ea2f2ac87468cf3c90324",
+      "audioHash": "e1db9623ad38de8ec6242a120b18aa2e3821eaba242958231484e81db8b5bd93"
+    },
+    {
+      "id": "global-orchid",
+      "characters": 225,
+      "duration": 50.868,
+      "probeDuration": 50.868,
+      "bytes": 815604,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 66,
+          "time": 14.038136240797689,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 28.154080586080585,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "4ce52906ebe7e924b951dd5a0f3c7794935585a5e05710b45415106d8da8d442",
+      "audioHash": "77375f869fe52c18de1a4985cb642e017b11ac9d16b9bf16937c8a63b7532b79"
+    },
+    {
+      "id": "global-venusflytrap",
+      "characters": 227,
+      "duration": 51.48,
+      "probeDuration": 51.48,
+      "bytes": 825396,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 14.905421675519522,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 29.688089285714284,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "837b0035cc4b2eda35d7721ef2172df026dd579d62256cc69775d77d851fde62",
+      "audioHash": "5d530eebdb7433d9298e0d911456dfbaac936adf805c506e177a7246318a30a7"
+    },
+    {
+      "id": "global-sundew",
+      "characters": 231,
+      "duration": 49.68,
+      "probeDuration": 49.68,
+      "bytes": 796596,
+      "cues": 3,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 70,
+          "time": 13.89283679283679,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 137,
+          "time": 27.8714835600907,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "5fc2d51a5fab325ec505a4fdb663c08b082b507922e6216ee6fbed51d11e9f3d",
+      "audioHash": "dc5398d8e02ba2232fd460738ea7e45cc616764a2ec08f6d06f5941d5f48e78e"
+    },
+    {
+      "id": "global-edelweiss",
+      "characters": 233,
+      "duration": 51.048,
+      "probeDuration": 51.048,
+      "bytes": 818484,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 15.028703755474792,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 29.233193277310924,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "e9e306df84c06cc5167c716ca286982295cc27a3de8a4774c381c5ba3043dd15",
+      "audioHash": "624162a81ad85a2f23618c39c8fbda8d838212b47fc512679afdd2df95d48d9d"
+    },
+    {
+      "id": "global-ginkgo",
+      "characters": 230,
+      "duration": 51.408,
+      "probeDuration": 51.408,
+      "bytes": 824244,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 13.779166666666667,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 27.931361344537816,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "eb981ea18dad59168b008d074eed8b994232472b5f5cfa6209e12f6c5e17bce1",
+      "audioHash": "aac10d0c45b91d711240a1a7c3bf8fa8b59140c89cb3112213adfe69de503ed0"
+    },
+    {
+      "id": "global-scotspine",
+      "characters": 235,
+      "duration": 51.408,
+      "probeDuration": 51.408,
+      "bytes": 824244,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 14.507981859410432,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 133,
+          "time": 28.743912794033278,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "d96bd2efa214a703925da6bf4b91d84ad8ba5c82569507a13b73469450b5e421",
+      "audioHash": "ff0746535e7d546a62aa950b73858f8bf971565c7a603ece4667342ff322fb85"
+    },
+    {
+      "id": "global-norwayspruce",
+      "characters": 235,
+      "duration": 48.888,
+      "probeDuration": 48.888,
+      "bytes": 783924,
+      "cues": 3,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 69,
+          "time": 13.854473684210527,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 135,
+          "time": 27.287302154195018,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "143858a54ded23949ac96c28444cfdc97e993feedcaac33c7dd9cb8366d49c58",
+      "audioHash": "26dbbf783dba7e2c2231683ce4006f64274cf9e999d2270aa07b51e68944ce6f"
+    },
+    {
+      "id": "global-coastredwood",
+      "characters": 233,
+      "duration": 51.552,
+      "probeDuration": 51.552,
+      "bytes": 826548,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 65,
+          "time": 13.346984126984127,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 133,
+          "time": 28.240474678760393,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "9b91f14e06b89cafb0750aecdb1e082f35496fe235ac99a95298f2654ad99492",
+      "audioHash": "d342369368611fe5c51c4f595748b1edb4c0b79f9a35d244d242ff2b0c8a0947"
+    },
+    {
+      "id": "global-dawnredwood",
+      "characters": 234,
+      "duration": 58.032,
+      "probeDuration": 58.032,
+      "bytes": 930228,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 15.628055555555553,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 31.700432350718067,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "2a6ac2e13b83ad86b157af49a23ecfa750192618c4051b133995afaf67441a1a",
+      "audioHash": "c131b4bdf997ed02fc4b0d4d83082f0a41356070bea632d7db22949353c4ae2c"
+    },
+    {
+      "id": "global-cedar",
+      "characters": 238,
+      "duration": 52.56,
+      "probeDuration": 52.56,
+      "bytes": 842676,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 66,
+          "time": 13.34052871781624,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 138,
+          "time": 28.27273526077098,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "b3e0e866d18a19edf71404ac9a33abd079f671b4a2331cafc906e2cb312e5238",
+      "audioHash": "4dbf1a3adb71f8d05c220f9b70715b41ace8b5ed288ddec2e38d3b2f925e366c"
+    },
+    {
+      "id": "global-cycad",
+      "characters": 224,
+      "duration": 49.86,
+      "probeDuration": 49.86,
+      "bytes": 799476,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 14.16897384305835,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 130,
+          "time": 28.613613095238094,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "20d4f56bf691f655488ec293a174e21b40648eba59c403ca02a95d3677ef8917",
+      "audioHash": "14788c37cfab5651be83b0b89fe83b2d80b4845cc5a26cd332425d64a5ec1b17"
+    },
+    {
+      "id": "global-welwitschia",
+      "characters": 239,
+      "duration": 56.628,
+      "probeDuration": 56.628,
+      "bytes": 907764,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 15.711000251952633,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 131,
+          "time": 30.68971988795518,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "5e5a0906761d34598360728bfc735d3f941f0ad92b0015689ea859f6aabd5d01",
+      "audioHash": "2e3d8effeecee3d52adb23f01bf13a8569620b96f7b14823d164dca66115db5f"
+    },
+    {
+      "id": "global-treefern",
+      "characters": 212,
+      "duration": 47.88,
+      "probeDuration": 47.88,
+      "bytes": 767796,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 14.559348926785326,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 29.279323308270676,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "8b966334eb50aac9e7e71f97f235351da680812be0248e62e429557af38082dc",
+      "audioHash": "65121487389a47fae87c0917a2f79a32a4a7d3eb2e1d858a99de8c7fc974e3fe"
+    },
+    {
+      "id": "global-birdsnestfern",
+      "characters": 213,
+      "duration": 47.52,
+      "probeDuration": 47.52,
+      "bytes": 762036,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 15.00086742678292,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 130,
+          "time": 29.28418324291742,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "582ca9997cb79566bdbd53db058fc028da4ce46de6f869309e5dbd373cdfb9b8",
+      "audioHash": "8562e59d49cf22c4dcb7f636ed2b7c0aad0241cd02230d795ed33561111e5b6b"
+    },
+    {
+      "id": "global-maidenhair",
+      "characters": 214,
+      "duration": 46.296,
+      "probeDuration": 46.296,
+      "bytes": 742452,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 68,
+          "time": 14.554421768707483,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 134,
+          "time": 28.78388471177945,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "b0d2484376faee71d797b1d66de4176f912f4b525b662448c2081494312f3c81",
+      "audioHash": "78e2723a30c53ed26ce0ac40a1604ee170d86d3a4bd6742256fda7ebe2d0fe74"
+    },
+    {
+      "id": "global-horsetail",
+      "characters": 216,
+      "duration": 49.176,
+      "probeDuration": 49.176,
+      "bytes": 788532,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 15.6041133165595,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 30.134246642246644,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "9f8d29a4269205589f2c5a1161dca68eef344cb6137d897c34db346cc3212b78",
+      "audioHash": "dd8a747f0a6b3a6d47f0120d1caeeec1a0b0c05ce8a53e68d716a85c816cc3f1"
+    },
+    {
+      "id": "global-clubmoss",
+      "characters": 214,
+      "duration": 46.872,
+      "probeDuration": 46.872,
+      "bytes": 751668,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 67,
+          "time": 14.538540055291524,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 27.63328822055138,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "7701f928c9d31cc0084d2c9cdd1b739dda34340a4d6094ca9885741208a5965c",
+      "audioHash": "1e662124fc5eb2752a1332d34c3c7e8bd712c35c6c5bcd9efad639fc81910115"
+    },
+    {
+      "id": "global-resurrection",
+      "characters": 217,
+      "duration": 49.176,
+      "probeDuration": 49.176,
+      "bytes": 788532,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 65,
+          "time": 14.104553784984315,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 132,
+          "time": 29.672380952380955,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "0cceb34596034be3d3a964d1fcea4075127d95eb7e11df07e699c280a21dd0f1",
+      "audioHash": "daa6eb19aee6d5c55414fd7121514a916d91d095b962d3fd203867519a38d945"
+    },
+    {
+      "id": "global-sphagnum",
+      "characters": 254,
+      "duration": 57.42,
+      "probeDuration": 57.42,
+      "bytes": 920436,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 74,
+          "time": 16.178002148227712,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 161,
+          "time": 36.6737026239067,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "4324d391dbf5a295449ac6a901ed0ee2c642c0b4c291c0e822efb14744f7a80b",
+      "audioHash": "3d15e280dfcd1bc87ee180c4ecab045db6666a40910dfdb340a1196bb9948ec7"
+    },
+    {
+      "id": "global-liverwort",
+      "characters": 245,
+      "duration": 55.224,
+      "probeDuration": 55.224,
+      "bytes": 885300,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 73,
+          "time": 14.601285314125649,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 151,
+          "time": 32.06179954648526,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "d7265abceae832b0d0cd037866e486f9235db284c4ae39e50484c181517970d2",
+      "audioHash": "4ab5e86cb19089c377ce566fd946037248055155709f4bccbd2c9c55ee52a05e"
+    },
+    {
+      "id": "global-hornwort",
+      "characters": 253,
+      "duration": 54.288,
+      "probeDuration": 54.288,
+      "bytes": 870324,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 75,
+          "time": 16.02829454588853,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 164,
+          "time": 35.27891286038225,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "28d54e801b02135872adcee43e3f98186fd5372748ee5b9129fa7cf9b9fadb9f",
+      "audioHash": "32c6c135cc9b335b99850fcf20ba33f37a4defc2b3e856596b0fd7f080fe45a8"
+    },
+    {
+      "id": "global-waterchestnut",
+      "characters": 263,
+      "duration": 61.344,
+      "probeDuration": 61.344,
+      "bytes": 983220,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 96,
+          "time": 21.70815053506783,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 164,
+          "time": 37.209418621179815,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "610d4da36c0de05b48d15bfd90d97471d25d4f18a9f1f434f873a9d46c8567af",
+      "audioHash": "9d5440e2e36ffde865a2872582da118fbab642f9a6c8e47ee5a93cfa3f027e5c"
+    },
+    {
+      "id": "global-teff",
+      "characters": 276,
+      "duration": 63.72,
+      "probeDuration": 63.72,
+      "bytes": 1021236,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 106,
+          "time": 23.269346859211524,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 174,
+          "time": 38.232408163265305,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "798b87debfcf683c7d52f4a7722afaf1ebf38fa10bb6f092597c5365d691b469",
+      "audioHash": "9d42cfe513f90a95a33f489a5b1d72303ffe088ab7cd6d378685e07b87e20e97"
+    },
+    {
+      "id": "global-fonio",
+      "characters": 267,
+      "duration": 55.872,
+      "probeDuration": 55.872,
+      "bytes": 895668,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 89,
+          "time": 18.864,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 169,
+          "time": 35.496,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "f5cc33b5e677e951deb923cbbadbfa4c401aae10732685256159fce30aa79c9d",
+      "audioHash": "edda54f195470ee096f8bb24102f349eb87fd78655d363e19fa0e5563c1226df"
+    },
+    {
+      "id": "global-proso",
+      "characters": 270,
+      "duration": 64.548,
+      "probeDuration": 64.548,
+      "bytes": 1034484,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 90,
+          "time": 22.73592894935752,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 170,
+          "time": 41.37628722600151,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "b811afcde49c14ba896f268314f48ee3571f93fcc08d71ad654d46017bdbffdf",
+      "audioHash": "661bfe163bf4b47f92d9955c2892a94f93f422ed27178b5138ddc728db1cf246"
+    },
+    {
+      "id": "global-amaranth",
+      "characters": 272,
+      "duration": 55.26,
+      "probeDuration": 55.26,
+      "bytes": 885876,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 104,
+          "time": 21.41392703982178,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 172,
+          "time": 35.03133766233766,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "8f8d4b9f3f36d13c96ac4a08635d5861e766b2e3860d3d07f450762d8a05c74a",
+      "audioHash": "daee4f652cc7d319aafe5aab0ab1120a0076bcf68ed5eefc73e7081c6d4f4fb6"
+    },
+    {
+      "id": "global-mungbean",
+      "characters": 264,
+      "duration": 58.212,
+      "probeDuration": 58.212,
+      "bytes": 933108,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 86,
+          "time": 18.18856303015033,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 168,
+          "time": 36.108,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "be9ab6d2be68880b5fc4ef6f2997e283020975acb528a3db73a7b5dce29c1afe",
+      "audioHash": "ef234109b9b29942f33744bb362bd034be51f0e23c69ee0912f916d840fac4d4"
+    },
+    {
+      "id": "global-adzuki",
+      "characters": 260,
+      "duration": 57.924,
+      "probeDuration": 57.924,
+      "bytes": 928500,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 88,
+          "time": 19.548,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 170,
+          "time": 38.16,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "243e17dda089be1e1f14db39d129c514d7d88130e9984d98fd35bb360151c260",
+      "audioHash": "8eb424fd24f687918d50d5685056cba5d2d317b2918a93075f1ac97c315619f3"
+    },
+    {
+      "id": "global-pigeonpea",
+      "characters": 236,
+      "duration": 51.192,
+      "probeDuration": 51.192,
+      "bytes": 820788,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 12.628655154369442,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 139,
+          "time": 29.88,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "4b48a442f6eb6b765c4e1905258bb9770f32acc7fe4e87054b1420725172d33d",
+      "audioHash": "6355d727841960623585ed4fa7c933cd3f1acf356563ee308e3f90539c0f8ecf"
+    },
+    {
+      "id": "global-faba",
+      "characters": 252,
+      "duration": 55.836,
+      "probeDuration": 55.836,
+      "bytes": 895092,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 13.343364808610012,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 138,
+          "time": 31.52967800453515,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "ccbf296644649f43dd085f830ce68452dfbf1a0a5b6c99ea4cd5ee9e97fb3b42",
+      "audioHash": "35c18851df67b37756eb59189298c0e8021e7e88ed41b37c0d96a009cd2b32e5"
+    },
+    {
+      "id": "global-commonbean",
+      "characters": 261,
+      "duration": 56.52,
+      "probeDuration": 56.52,
+      "bytes": 906036,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 86,
+          "time": 19.32376081296716,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 168,
+          "time": 36.72,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "3b49b70985ea0dc09502bfca0a08a07c532c710103492e08e4fbb65f88348a27",
+      "audioHash": "34a481a2c25642fb97d3a048d1976b150abfe06ebfceebb60fb8dc9642b49935"
+    },
+    {
+      "id": "global-lupin",
+      "characters": 257,
+      "duration": 58.284,
+      "probeDuration": 58.284,
+      "bytes": 934260,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 88,
+          "time": 18.936,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 167,
+          "time": 35.244,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "359d3580a2934bc9a74d4312c999306c66fbcde9a34b0736c0c9d82e95a26477",
+      "audioHash": "2ab65033caca4cd11c7295bd4663ae7dc2401c3abc2d6b320078b847614731ba"
+    },
+    {
+      "id": "global-taro",
+      "characters": 230,
+      "duration": 52.704,
+      "probeDuration": 52.704,
+      "bytes": 844980,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 58,
+          "time": 13.45086063143206,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 141,
+          "time": 32.112,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "0fc058014949ee44c78668850dc87a8174e4457c2b1c0a438002b6e87b55c1cf",
+      "audioHash": "89b8dace72cd611441bb2078ec0dd31eacfd1e5f4b0167c58c32a253f47cbb6c"
+    },
+    {
+      "id": "global-yam",
+      "characters": 270,
+      "duration": 64.404,
+      "probeDuration": 64.404,
+      "bytes": 1032180,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 94,
+          "time": 22.882523465952033,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 175,
+          "time": 41.36750045689917,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "302742d982b9fdb6a3ac382206e0444646eaff1237a475fcb39b671c0c526497",
+      "audioHash": "0a9d30741c3caea141a90087a94ad5a7fda01b815c0ddbbbc22d9470f92ace88"
+    },
+    {
+      "id": "global-yacon",
+      "characters": 256,
+      "duration": 55.8,
+      "probeDuration": 55.8,
+      "bytes": 894516,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 95,
+          "time": 20.879629965566473,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 160,
+          "time": 34.82054421768707,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "630f4574c91bbbb4e3f37ebfc833bc230bcb4f5784a125a6189860000c6ea08b",
+      "audioHash": "197e7b1ce8b1cde52ba5219b477102e841963322fcb3a64000e817fe598471ce"
+    },
+    {
+      "id": "global-jerusalemartichoke",
+      "characters": 259,
+      "duration": 57.024,
+      "probeDuration": 57.024,
+      "bytes": 914100,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 101,
+          "time": 21.348861678004535,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 167,
+          "time": 35.69298490127758,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "fda679f613eb75b28be569ee34049aa9d0515c93a4e0185c9814a05631debdcc",
+      "audioHash": "3390c2bea63112a72d03b5b7d0d9f414cf4fe13b6f82248f822bf1cbd15dd3d5"
+    },
+    {
+      "id": "global-okra",
+      "characters": 234,
+      "duration": 52.416,
+      "probeDuration": 52.416,
+      "bytes": 840372,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 61,
+          "time": 12.440722187865044,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 139,
+          "time": 31.572,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "222313d67ecd33dedab7221919c175d1e1a45210db07b06c5c76b45d3a5e1dae",
+      "audioHash": "ffeec63b7d995664650f9ae8f643f9c476b607853c07f5edd04287b3d833264e"
+    },
+    {
+      "id": "global-broccoli",
+      "characters": 289,
+      "duration": 62.136,
+      "probeDuration": 62.136,
+      "bytes": 995892,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 90,
+          "time": 19.44,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 169,
+          "time": 36.504,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "9a41fe338caa5d7ffad8627e29800f721d6c6d8e2af870fb601a99f8f677f9e6",
+      "audioHash": "f22771fc9e93e0f366dd1ba42d428cfa3aab02c72a3107267af98e91c91dc05d"
+    },
+    {
+      "id": "global-cauliflower",
+      "characters": 289,
+      "duration": 64.188,
+      "probeDuration": 64.188,
+      "bytes": 1028724,
+      "cues": 7,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 90,
+          "time": 19.152,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 169,
+          "time": 38.376,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "773db6407e2f1a0a9f301ef86c46264e982bf71951075132943b48fc6ba5e2df",
+      "audioHash": "b588c4f3ac7b32ad1594f706a7cd2da6a5abbc546f0ca8a12fafb7fb71c8dfc5"
+    },
+    {
+      "id": "global-beetroot",
+      "characters": 290,
+      "duration": 63.216,
+      "probeDuration": 63.216,
+      "bytes": 1013172,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 133,
+          "time": 27.003399759903964,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 200,
+          "time": 42.02451398337112,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "80b0930a5595032b797a0846be12cbca7e3a7f79edf4347b5be4b596b67d442f",
+      "audioHash": "90c8720d3baa967d4c03fc873ae045327763513e247e13d7f29ef468343d660e"
+    },
+    {
+      "id": "global-radish",
+      "characters": 276,
+      "duration": 59.832,
+      "probeDuration": 59.832,
+      "bytes": 959028,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 125,
+          "time": 25.997911144704794,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 190,
+          "time": 39.781595238095235,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "3fc851d536436f099bc2b1ce2f60207d980581a33df66ca786ce807853fd73f7",
+      "audioHash": "df57884c598754b7c3d0d80b8cbfc88adaeefc865c7b7e7c01f1e0005a5670ca"
+    },
+    {
+      "id": "global-almond",
+      "characters": 248,
+      "duration": 55.584,
+      "probeDuration": 55.584,
+      "bytes": 891060,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 61,
+          "time": 13.556687280972994,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 134,
+          "time": 30.826058956916103,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "088ff3bd12211e183c21e0228e6f06ce26fc7a9698bcb48db78fb330dca1e7d2",
+      "audioHash": "3141febc458fa65e6a2c4c53509102fddcc389bb6cff31370a2d37b59d8c85eb"
+    },
+    {
+      "id": "global-walnut",
+      "characters": 252,
+      "duration": 55.08,
+      "probeDuration": 55.08,
+      "bytes": 882996,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 83,
+          "time": 17.043163656267104,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 163,
+          "time": 35.496,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "121f744849145d6eba9e04aadd900b952a8635feefc2cc28c853eaa32a82c866",
+      "audioHash": "db01e51f3eaa42f774b716562f0ec97c519485afc35d0e08cbf1ee8dec15f39e"
+    },
+    {
+      "id": "global-cashew",
+      "characters": 231,
+      "duration": 52.74,
+      "probeDuration": 52.74,
+      "bytes": 845556,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 61,
+          "time": 14.532719087635057,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 140,
+          "time": 32.245179138321994,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "87cad62c323a06a4c5aaa448ec5b277591894b9c7bef16c01cbff3f0cf3f5a0f",
+      "audioHash": "82d9e4c42783877c02355a5104ce52d582554b9fdc6640d0ce5a76376e446349"
+    },
+    {
+      "id": "global-pistachio",
+      "characters": 226,
+      "duration": 53.136,
+      "probeDuration": 53.136,
+      "bytes": 851892,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 60,
+          "time": 12.382166405023549,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 137,
+          "time": 31.13340589569161,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "5a00318523ee5a9dac9e967727ee06451ec538035a152eb9cb7f2c9015afc003",
+      "audioHash": "27877ddccbc40d9d4fa0e61dfd653f7fd76b2218fabda7937d5edc323647fca7"
+    },
+    {
+      "id": "global-hazelnut",
+      "characters": 252,
+      "duration": 57.276,
+      "probeDuration": 57.276,
+      "bytes": 918132,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 85,
+          "time": 17.795564938619126,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 163,
+          "time": 36.43593650793651,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "73f1fd4224550d43422e9f79aa2e11e39826eb5cfd95e19ba233c44338f8b67e",
+      "audioHash": "5996365bacf355447194c6a439fdd7b1b98512c7d7ea0b61eb4b506be9d69bad"
+    },
+    {
+      "id": "global-chestnut",
+      "characters": 253,
+      "duration": 57.492,
+      "probeDuration": 57.492,
+      "bytes": 921588,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 84,
+          "time": 17.842713529856386,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 164,
+          "time": 36.108,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "5ec4886bf9140b4a5058df06c15aace32f029b3e344116b73a4ab2f4d7772181",
+      "audioHash": "ec7879b5cf038a66f2c33b6e82accbc225259fe8ccb4fdd284c0d75e9e1cb19c"
+    },
+    {
+      "id": "global-pear",
+      "characters": 253,
+      "duration": 55.26,
+      "probeDuration": 55.26,
+      "bytes": 885876,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 84,
+          "time": 17.169334845049132,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 166,
+          "time": 35.28,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "8bb1550598400819c7d1d2c1fc766ac3548a851f3f4daee2a72b58f19ab59cb7",
+      "audioHash": "99a528c5a7b36fc15437967f94ab94b205002b0099ba19f8bb4a3bcc74365bcc"
+    },
+    {
+      "id": "global-peach",
+      "characters": 259,
+      "duration": 56.556,
+      "probeDuration": 56.556,
+      "bytes": 906612,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 63,
+          "time": 14.538571428571426,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 145,
+          "time": 33.12,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "c70863163b48ba7a2df4f2ab387a9dc7ebd6333e1f03c61dbd445badb69d501a",
+      "audioHash": "22f68f33de1fd12875b7848a2cadb4a932ae31e9bbc4079d11dd5df22243dc6c"
+    },
+    {
+      "id": "global-plum",
+      "characters": 258,
+      "duration": 59.436,
+      "probeDuration": 59.436,
+      "bytes": 952692,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 90,
+          "time": 20.7,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 169,
+          "time": 39.564,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "8fdc91f9a3bacd59f50093dc89c7497c04451b251f36737d55991caa02cf5f64",
+      "audioHash": "a0ec43d11aa1aa4c281b35fefe6bbc631ec56eae16f926f1a26232f8bed990a7"
+    },
+    {
+      "id": "global-cherry",
+      "characters": 227,
+      "duration": 51.984,
+      "probeDuration": 51.984,
+      "bytes": 833460,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 59,
+          "time": 13.682772021629162,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 137,
+          "time": 32.03475736961451,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "a4c7c1797b22370b19eabd7148e4084306228f988f78b10968576ebe218c7dfe",
+      "audioHash": "c44484a742bf8ba97e42869156f66824b5aacf0b0351705396ab57f82cd72ebc"
+    },
+    {
+      "id": "global-apricot",
+      "characters": 225,
+      "duration": 50.796,
+      "probeDuration": 50.796,
+      "bytes": 814452,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 57,
+          "time": 12.010437317784257,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 137,
+          "time": 30.672,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "d8855dea5bc9490c4ede8c8c334c9bf2b46fe6620f86390f038cf2a3200e9bc6",
+      "audioHash": "538b85d25376fa55199056a111d98e6cd3ec3037b30708c1f9291d24bce7a970"
+    },
+    {
+      "id": "global-strawberry",
+      "characters": 320,
+      "duration": 73.332,
+      "probeDuration": 73.332,
+      "bytes": 1175028,
+      "cues": 7,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 86,
+          "time": 20.772,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 170,
+          "time": 40.32,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "1f8564ba9b6c039a86c55173dd714889face03123502032ccb0b87a6d5f7cd68",
+      "audioHash": "6c6a619d1cb1e664d33bb595da11d8aa73388010b2fc77a9c301c43ac98e1269"
+    },
+    {
+      "id": "global-blueberry",
+      "characters": 255,
+      "duration": 56.988,
+      "probeDuration": 56.988,
+      "bytes": 913524,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 88,
+          "time": 18.756,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 164,
+          "time": 35.064,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "f0581f11e88717c8cf4d45fb09bf2467103adeebfe55d016e67d463ad7a5eda0",
+      "audioHash": "05f5304646cf9e340ba4785391a24d436fcb443254a976786cb3430f5fedf86e"
+    },
+    {
+      "id": "global-raspberry",
+      "characters": 251,
+      "duration": 55.332,
+      "probeDuration": 55.332,
+      "bytes": 887028,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 82,
+          "time": 18.091419188365002,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 163,
+          "time": 35.712,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "5cc89b51908b5db332a75931b87ee3d92578360079e89fbfdeff573f91435b95",
+      "audioHash": "9686a7214d87d96b1743bc94dd137400de927afe89b7d24c8ff5236bc01e479e"
+    },
+    {
+      "id": "global-papaya",
+      "characters": 232,
+      "duration": 54.072,
+      "probeDuration": 54.072,
+      "bytes": 866868,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 64,
+          "time": 14.358807716323243,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 143,
+          "time": 32.184,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "d1aaa83108163675a3faf807c54652d681c91a1175f915d5d382b6332bc9e520",
+      "audioHash": "db477dc8a5bf957e389b7dc7f6da781b4280a01f7f80dad739bec5950abed519"
+    },
+    {
+      "id": "global-guava",
+      "characters": 295,
+      "duration": 65.952,
+      "probeDuration": 65.952,
+      "bytes": 1056948,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 95,
+          "time": 21.474633219954647,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 176,
+          "time": 39.27766591080877,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "60e4f867418bfd4c32b85a673a9efed3581ce500087cbdc01dbf2bd0e22f55c4",
+      "audioHash": "138d66ba25601746d115fcc269a4a7f5e4a90311c01f79f5d030010ce682a59d"
+    },
+    {
+      "id": "global-sisal",
+      "characters": 227,
+      "duration": 48.564,
+      "probeDuration": 48.564,
+      "bytes": 778740,
+      "cues": 4,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 59,
+          "time": 11.745272817460318,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 134,
+          "time": 29.241968253968256,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "124ad7e59c4837f7ab665be3dc6aea855f6d8c0fc3b4d1cb6c55aa13c56a7b65",
+      "audioHash": "ffba850a38f958566c6b3efa95c01d42e27dd278b55eabc0537e4df3d1a84fc9"
+    },
+    {
+      "id": "global-jute",
+      "characters": 260,
+      "duration": 59.832,
+      "probeDuration": 59.832,
+      "bytes": 959028,
+      "cues": 6,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 88,
+          "time": 20.16,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 168,
+          "time": 38.304,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "b8f51eb81624a583dd4c0cb1a0e5d10015354c73bcb94c998c839815f78989ff",
+      "audioHash": "d70b544d9982f34c8a04ea3f4540862564408bf58d6857f654c6f08749a6a6a5"
+    },
+    {
+      "id": "global-alfalfa",
+      "characters": 255,
+      "duration": 55.872,
+      "probeDuration": 55.872,
+      "bytes": 895668,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 101,
+          "time": 20.84226975728563,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 166,
+          "time": 35.05653514739229,
+          "alignment": "within-cue-character-estimate"
+        }
+      ],
+      "textHash": "656ce4b8e617c07b8e4920936b4cce8f427d1300b05c10b26647218ccb20ace3",
+      "audioHash": "5b9ef11cb0eb4e59a9a403d54d53625f723b69258dd43ed5a66f38e5133d287a"
+    },
+    {
+      "id": "global-clove",
+      "characters": 235,
+      "duration": 55.044,
+      "probeDuration": 55.044,
+      "bytes": 882420,
+      "cues": 5,
+      "beatStarts": [
+        {
+          "character": 0,
+          "time": 0.0,
+          "alignment": "provider-cue-boundary"
+        },
+        {
+          "character": 61,
+          "time": 14.681336225311382,
+          "alignment": "within-cue-character-estimate"
+        },
+        {
+          "character": 140,
+          "time": 32.5494693877551,
+          "alignment": "provider-cue-boundary"
+        }
+      ],
+      "textHash": "8f9f2bc514ae87435e8a51f6c792596bbdaf27aa2136006eaa741860739b5e33",
+      "audioHash": "e751191d082bd7600331a9acfc60c3390b5b5caa641daff95586b3236a7bf6c9"
+    }
+  ]
+}

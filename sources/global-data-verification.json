@@ -1,0 +1,876 @@
+{
+  "checkedAt": "2026-10-29",
+  "passed": true,
+  "scope": "Read-only cross-dataset identity, status, geography, version and semantics acceptance. Does not assert that UI or narration has already implemented every caution.",
+  "currentDataJsSha256": "d6c35d6075aaeef48c08318254682d89af11ca6bf61db34a4fb46e27b44388f8",
+  "inputs": [
+    "crop-atlas-narrated/data.js",
+    "crop-globe-work/global-evidence/distribution-global.json",
+    "crop-globe-work/global-evidence/production-data.json"
+  ],
+  "summary": {
+    "catalogueEntries": 140,
+    "availableWcvpEntries": 137,
+    "unsupportedBryophyteEntries": 3,
+    "wcvpRegionRecords": 11754,
+    "wcvpRegionGeometries": 369,
+    "productionEntries": 92,
+    "uniqueFaoCommodities": 85,
+    "broaderCommodityEntries": 38,
+    "cropCommodityEntries": 54,
+    "productionRecords": 7288,
+    "sharedCommodityGroups": {
+      "79": [
+        "foxtail",
+        "pearl",
+        "proso"
+      ],
+      "656": [
+        "arabica",
+        "robusta"
+      ],
+      "571": [
+        "mango",
+        "guava"
+      ],
+      "176": [
+        "mungbean",
+        "adzuki",
+        "commonbean"
+      ],
+      "393": [
+        "broccoli",
+        "cauliflower"
+      ]
+    },
+    "cultigenContextEntries": 19,
+    "synonymToAcceptedEntries": 4
+  },
+  "checks": [
+    {
+      "name": "current-data-js-catalogue-has-140-unique-ids",
+      "passed": true,
+      "evidence": {
+        "count": 140
+      }
+    },
+    {
+      "name": "all-distribution-ids-match-current-data-js",
+      "passed": true,
+      "evidence": {
+        "missing": [],
+        "unexpected": []
+      }
+    },
+    {
+      "name": "production-ids-are-agriculture-with-eight-explicit-unsupported-mappings",
+      "passed": true,
+      "evidence": {
+        "withoutDedicatedCommodity": [
+          "alfalfa",
+          "amaranth",
+          "beetroot",
+          "jerusalemartichoke",
+          "radish",
+          "teff",
+          "waterchestnut",
+          "yacon"
+        ],
+        "unexpected": []
+      }
+    },
+    {
+      "name": "source-scientific-names-still-match-current-catalogue",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "distribution-coverage-explicit",
+      "passed": true,
+      "evidence": {
+        "available": 137,
+        "unsupported": 3
+      }
+    },
+    {
+      "name": "native-introduced-main-codes-disjoint-per-taxon",
+      "passed": true,
+      "evidence": {}
+    },
+    {
+      "name": "all-distribution-codes-have-region-geometry",
+      "passed": true,
+      "evidence": {
+        "unmappedCodes": [],
+        "regionCount": 369
+      }
+    },
+    {
+      "name": "extinct-and-doubtful-records-excluded-from-main-display",
+      "passed": true,
+      "evidence": {
+        "errors": [],
+        "extinctRecordCount": 4,
+        "doubtfulRecordCount": 0
+      }
+    },
+    {
+      "name": "all-region-geometries-valid-and-chinese-names-present",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "source-archive-hash-distribution-wcvp-source.zip",
+      "passed": true,
+      "evidence": {
+        "expected": "d32ea2b3a85e489b14e83bcc9eae7274532e1d113753f7be290d4b2dfde573fa",
+        "actual": "d32ea2b3a85e489b14e83bcc9eae7274532e1d113753f7be290d4b2dfde573fa"
+      }
+    },
+    {
+      "name": "source-archive-hash-production-qcl-2024-official.zip",
+      "passed": true,
+      "evidence": {
+        "expected": "c5835418c18f9322e7decbd6800f93a216eaae3cdfa31acb08f0518c0c6d6853",
+        "actual": "c5835418c18f9322e7decbd6800f93a216eaae3cdfa31acb08f0518c0c6d6853"
+      }
+    },
+    {
+      "name": "source-years-and-retrieval-date-consistent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "wcvp-and-fao-license-and-attribution-present",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "all-production-entries-preserve-commodity-meaning",
+      "passed": true,
+      "evidence": {
+        "crop-commodity": 54,
+        "broader-commodity": 38
+      }
+    },
+    {
+      "name": "production-records-have-source-identifiers-valid-flags-and-units",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "production-statistical-areas-unique-per-entry",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "production-main-records-exclude-world-continents-and-china-aggregate",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "world-total-kept-independent",
+      "passed": true,
+      "evidence": null
+    },
+    {
+      "name": "expected-shared-commodities-identified",
+      "passed": true,
+      "evidence": {
+        "79": [
+          "foxtail",
+          "pearl",
+          "proso"
+        ],
+        "656": [
+          "arabica",
+          "robusta"
+        ],
+        "571": [
+          "mango",
+          "guava"
+        ],
+        "176": [
+          "mungbean",
+          "adzuki",
+          "commonbean"
+        ],
+        "393": [
+          "broccoli",
+          "cauliflower"
+        ]
+      }
+    },
+    {
+      "name": "shared-commodity-records-and-world-totals-identical",
+      "passed": true,
+      "evidence": null
+    }
+  ],
+  "provenance": {
+    "wcvp": {
+      "version": "16",
+      "snapshotDate": "2026-06-04",
+      "retrievedAt": "2026-10-29",
+      "license": "CC BY 3.0",
+      "citation": "Govaerts R (ed.). 2026. WCVP: World Checklist of Vascular Plants. Facilitated by the Royal Botanic Gardens, Kew. https://doi.org/10.34885/egs6-cp24. Version 16, extracted 04 Jun 2026.",
+      "url": "https://sftp.kew.org/pub/data-repositories/WCVP/wcvp.zip"
+    },
+    "fao": {
+      "year": 2024,
+      "sourceUpdatedAt": "2025-12-31",
+      "retrievedAt": "2026-10-29",
+      "license": "CC-BY-4.0",
+      "citation": "FAO. 2025. FAOSTAT: Crops and livestock products. Accessed 29 October 2026. Licence: CC-BY-4.0.",
+      "url": "https://www.fao.org/faostat/en/#data/QCL"
+    },
+    "regionGeometry": {
+      "url": "https://github.com/tdwg/wgsrpd/blob/master/geojson/level3.geojson",
+      "note": "Official TDWG GeoJSON source attribution retained. Source metadata does not identify a separate per-file geometry licence; do not imply WCVP CC BY 3.0 automatically licenses the separate geometry. Original coarse geometry and topology-repair log retained."
+    },
+    "historicalClimate": {
+      "note": "The existing app also contains 1951–2000 historical climate candidate data. That older heuristic layer must remain distinct from 2024 commodity totals and the 2026-06-04 botanical status snapshot."
+    }
+  },
+  "frontEndSemanticRequirements": [
+    {
+      "priority": "P1",
+      "id": "separate-three-questions",
+      "fields": [
+        "plants[].nativeCodes",
+        "plants[].introducedCodes",
+        "production.plants[].records",
+        "metadata.year"
+      ],
+      "cropIds": [
+        "adzuki",
+        "almond",
+        "apple",
+        "apricot",
+        "arabica",
+        "avocado",
+        "banana",
+        "barley",
+        "blackpepper",
+        "blueberry",
+        "broccoli",
+        "buckwheat",
+        "cabbage",
+        "carrot",
+        "cashew",
+        "cassava",
+        "cauliflower",
+        "cherry",
+        "chestnut",
+        "chickpea",
+        "cinnamon",
+        "citrus",
+        "clove",
+        "cocoa",
+        "coconut",
+        "commonbean",
+        "cotton",
+        "cowpea",
+        "cucumber",
+        "date",
+        "eggplant",
+        "faba",
+        "flax",
+        "fonio",
+        "foxtail",
+        "garlic",
+        "ginger",
+        "grape",
+        "guava",
+        "hazelnut",
+        "jute",
+        "lentil",
+        "lettuce",
+        "lupin",
+        "maize",
+        "mango",
+        "melon",
+        "mungbean",
+        "oats",
+        "oilpalm",
+        "okra",
+        "olive",
+        "onion",
+        "papaya",
+        "pea",
+        "peach",
+        "peanut",
+        "pear",
+        "pearl",
+        "pepper",
+        "pigeonpea",
+        "pineapple",
+        "pistachio",
+        "plum",
+        "potato",
+        "proso",
+        "pumpkin",
+        "quinoa",
+        "rapeseed",
+        "raspberry",
+        "rice",
+        "robusta",
+        "rubber",
+        "rye",
+        "sesame",
+        "sisal",
+        "sorghum",
+        "soybean",
+        "spinach",
+        "strawberry",
+        "sugarbeet",
+        "sugarcane",
+        "sunflower",
+        "sweetpotato",
+        "taro",
+        "tea",
+        "tomato",
+        "vanilla",
+        "walnut",
+        "watermelon",
+        "wheat",
+        "yam"
+      ],
+      "mustShow": "原生／引入记录、2024农业商品生产、潜在适生是三种不同问题。用独立标题、图例和时间，不互相证明。国别或区域填色不是实际农田或植被边界。"
+    },
+    {
+      "priority": "P1",
+      "id": "broader-commodity-not-single-species",
+      "fields": [
+        "mappingType",
+        "itemNameZh",
+        "mappingNote"
+      ],
+      "cropIds": [
+        "wheat",
+        "foxtail",
+        "pearl",
+        "rapeseed",
+        "cotton",
+        "arabica",
+        "robusta",
+        "banana",
+        "pepper",
+        "pumpkin",
+        "carrot",
+        "onion",
+        "lettuce",
+        "buckwheat",
+        "rubber",
+        "mango",
+        "blackpepper",
+        "cinnamon",
+        "vanilla",
+        "fonio",
+        "proso",
+        "mungbean",
+        "adzuki",
+        "commonbean",
+        "lupin",
+        "yam",
+        "broccoli",
+        "cauliflower",
+        "walnut",
+        "hazelnut",
+        "chestnut",
+        "pear",
+        "plum",
+        "strawberry",
+        "blueberry",
+        "raspberry",
+        "guava",
+        "jute"
+      ],
+      "mustShow": "broader-commodity 的图标题和旁白必须使用商品合计名称，显示未按所选物种拆分。不能只写“阿拉比卡全球种植分布”或“芒果产量”。"
+    },
+    {
+      "priority": "P1",
+      "id": "shared-commodity-no-double-count",
+      "fields": [
+        "itemCode",
+        "worldTotal",
+        "records"
+      ],
+      "groups": {
+        "79": [
+          "foxtail",
+          "pearl",
+          "proso"
+        ],
+        "656": [
+          "arabica",
+          "robusta"
+        ],
+        "571": [
+          "mango",
+          "guava"
+        ],
+        "176": [
+          "mungbean",
+          "adzuki",
+          "commonbean"
+        ],
+        "393": [
+          "broccoli",
+          "cauliflower"
+        ]
+      },
+      "mustShow": "阿拉比卡与罗布斯塔、谷子与珍珠粟各共用同一商品统计，不能当作独立份额比较或相加。"
+    },
+    {
+      "priority": "P1",
+      "id": "cultigen-origin-is-not-current-cultivation",
+      "fields": [
+        "cultivatedOriginContext",
+        "geographicDescription",
+        "nativeCodes"
+      ],
+      "entries": [
+        {
+          "cropId": "rice",
+          "description": "as a cultigen from China",
+          "nativeCodes": [
+            "CHC",
+            "CHN",
+            "CHS"
+          ]
+        },
+        {
+          "cropId": "wheat",
+          "description": "as a cultigen from Transcaucasus to Israel and NW. Iran, S. Pakistan to NW. India",
+          "nativeCodes": [
+            "IND",
+            "IRN",
+            "LBS",
+            "PAK",
+            "PAL",
+            "TCS",
+            "TUR",
+            "WHM"
+          ]
+        },
+        {
+          "cropId": "oats",
+          "description": "as a cultigen from W. Asia",
+          "nativeCodes": [
+            "BRY",
+            "IRN",
+            "IRQ"
+          ]
+        },
+        {
+          "cropId": "rye",
+          "description": "as a cultigen from S. Türkiye",
+          "nativeCodes": [
+            "TUR"
+          ]
+        },
+        {
+          "cropId": "foxtail",
+          "description": "as a cultigen from China",
+          "nativeCodes": [
+            "CHN",
+            "CHS"
+          ]
+        },
+        {
+          "cropId": "peanut",
+          "description": "as a cultigen from Bolivia",
+          "nativeCodes": [
+            "BOL"
+          ]
+        },
+        {
+          "cropId": "rapeseed",
+          "description": "as a cultigen from S. Europe",
+          "nativeCodes": [
+            "FRA"
+          ]
+        },
+        {
+          "cropId": "citrus",
+          "description": "as a cultigen from S. China",
+          "nativeCodes": []
+        },
+        {
+          "cropId": "tomato",
+          "description": "as a cultigen from Peru",
+          "nativeCodes": [
+            "PER"
+          ]
+        },
+        {
+          "cropId": "pumpkin",
+          "description": "as a cultigen from Mexico",
+          "nativeCodes": [
+            "MXC",
+            "MXE",
+            "MXG",
+            "MXN",
+            "MXS",
+            "MXT"
+          ]
+        },
+        {
+          "cropId": "onion",
+          "description": "as a cultigen from C. Asia",
+          "nativeCodes": [
+            "TKM"
+          ]
+        },
+        {
+          "cropId": "lettuce",
+          "description": "as a cultigen from W. Asia",
+          "nativeCodes": [
+            "IRQ"
+          ]
+        },
+        {
+          "cropId": "tulip",
+          "description": "as a cultigen from Türkiye",
+          "nativeCodes": [
+            "TUR"
+          ]
+        },
+        {
+          "cropId": "faba",
+          "description": "as a cultigen from E. Medit.",
+          "nativeCodes": [
+            "PAL"
+          ]
+        },
+        {
+          "cropId": "radish",
+          "description": "as a cultigen from Medit.",
+          "nativeCodes": [
+            "GRC",
+            "ITA",
+            "SIC",
+            "YUG"
+          ]
+        },
+        {
+          "cropId": "almond",
+          "description": "as a cultigen from Transcaucasus",
+          "nativeCodes": [
+            "TCS"
+          ]
+        },
+        {
+          "cropId": "peach",
+          "description": "as a cultigen from NC. China",
+          "nativeCodes": [
+            "CHN"
+          ]
+        },
+        {
+          "cropId": "strawberry",
+          "description": "as a naturalised artificial hybrid",
+          "nativeCodes": [
+            "BRC",
+            "CAL",
+            "ORE",
+            "WAS"
+          ]
+        },
+        {
+          "cropId": "guava",
+          "description": "as a cultigen from Peru",
+          "nativeCodes": [
+            "PER"
+          ]
+        }
+      ],
+      "mustShow": "来源含 as a cultigen from 的条目是驯化来源语境；不能把它讲成当代野生农田范围。甜橙可有来源描述但 nativeCodes 为空，两者粒度和分类不同，不补猜测原生色块。"
+    },
+    {
+      "priority": "P1",
+      "id": "taxon-name-resolution-visible",
+      "fields": [
+        "scientificName",
+        "acceptedScientificName",
+        "nameMatch",
+        "sourceUrl"
+      ],
+      "entries": [
+        {
+          "cropId": "pearl",
+          "catalogueName": "Pennisetum glaucum",
+          "acceptedName": "Cenchrus americanus"
+        },
+        {
+          "cropId": "lentil",
+          "catalogueName": "Lens culinaris",
+          "acceptedName": "Vicia lens"
+        },
+        {
+          "cropId": "citrus",
+          "catalogueName": "Citrus sinensis",
+          "acceptedName": "Citrus × aurantium f. aurantium"
+        },
+        {
+          "cropId": "radish",
+          "catalogueName": "Raphanus sativus",
+          "acceptedName": "Raphanus raphanistrum subsp. sativus"
+        }
+      ],
+      "mustShow": "项目沿用名称与 WCVP 接受名称并列说明，尤其甜橙解析到 Citrus × aurantium f. aurantium。不能把商品“橙”与整个杂交复合群的所有类型等同。"
+    },
+    {
+      "priority": "P1",
+      "id": "aquatic-record-regions-not-land-habitat",
+      "fields": [
+        "nativeCodes",
+        "introducedCodes",
+        "regions.features[].geometry",
+        "environment.profiles"
+      ],
+      "cropIds": [
+        "eelgrass",
+        "redmangrove",
+        "lotus",
+        "waterlily",
+        "duckweed"
+      ],
+      "mustShow": "鳗草是海洋植物，红树对应潮间带；荷、睡莲、浮萍对应具体水体。陆地区域色块只能定位记录所属区域，不能把整块陆地画成可生长环境。必要时配海岸／水体示意，说明未提供水深、盐度和水体边界数据。"
+    },
+    {
+      "priority": "P1",
+      "id": "coarse-region-does-not-widen-narrow-range",
+      "fields": [
+        "nativeCodes",
+        "geographicDescription",
+        "regions.features[].properties.nameZh"
+      ],
+      "entries": [
+        {
+          "cropId": "ginkgo",
+          "nativeCodes": [
+            "CHS"
+          ],
+          "geographicDescription": "China (Zhejiang)"
+        },
+        {
+          "cropId": "coastredwood",
+          "nativeCodes": [
+            "CAL",
+            "ORE"
+          ],
+          "geographicDescription": "SW. Oregon to W. California"
+        },
+        {
+          "cropId": "dawnredwood",
+          "nativeCodes": [
+            "CHC",
+            "CHS"
+          ],
+          "geographicDescription": "China (Chongqing, Hubei, Hunan)"
+        },
+        {
+          "cropId": "venusflytrap",
+          "nativeCodes": [
+            "NCA",
+            "SCA"
+          ],
+          "geographicDescription": "E. North Carolina to E. South Carolina"
+        },
+        {
+          "cropId": "saguaro",
+          "nativeCodes": [
+            "ARI",
+            "CAL",
+            "MXE",
+            "MXN"
+          ],
+          "geographicDescription": "SE. California to S. Arizona and Mexico (Baja California Norte, Sonora, Chihuahua)"
+        },
+        {
+          "cropId": "welwitschia",
+          "nativeCodes": [
+            "ANG",
+            "NAM"
+          ],
+          "geographicDescription": "SW. Angola to NW. & WC. Namibia"
+        }
+      ],
+      "mustShow": "保留更细的原文范围信息：银杏为浙江语境，海岸红杉为俄勒冈西南至加州西部，捕蝇草为两卡州东部。大区色块不意味着全州或整个中国东南部都是原生生境。"
+    },
+    {
+      "priority": "P1",
+      "id": "unsupported-bryophytes-explicit",
+      "fields": [
+        "status",
+        "missingReason"
+      ],
+      "cropIds": [
+        "sphagnum",
+        "liverwort",
+        "hornwort"
+      ],
+      "mustShow": "WCVP 仅覆盖维管植物，这三个苔藓条目暂无本数据源全球范围。仍可看原有资料支持的代表地区；空白不等于全球没有。"
+    },
+    {
+      "priority": "P2",
+      "id": "historical-extinction-not-current-species-absence",
+      "fields": [
+        "extinctCodes",
+        "records[].extinct"
+      ],
+      "entries": [
+        {
+          "cropId": "waterlily",
+          "records": [
+            {
+              "code": "SAR",
+              "name": "Sardegna",
+              "native": true,
+              "introduced": false,
+              "extinct": true,
+              "doubtful": false,
+              "sourceRecordId": "2216810"
+            },
+            {
+              "code": "SIC",
+              "name": "Sicilia",
+              "native": true,
+              "introduced": false,
+              "extinct": true,
+              "doubtful": false,
+              "sourceRecordId": "2216817"
+            }
+          ]
+        },
+        {
+          "cropId": "scotspine",
+          "records": [
+            {
+              "code": "DEN",
+              "name": "Denmark",
+              "native": true,
+              "introduced": false,
+              "extinct": true,
+              "doubtful": false,
+              "sourceRecordId": "543442"
+            },
+            {
+              "code": "NET",
+              "name": "Netherlands",
+              "native": true,
+              "introduced": false,
+              "extinct": true,
+              "doubtful": false,
+              "sourceRecordId": "543439"
+            }
+          ]
+        }
+      ],
+      "mustShow": "欧洲赤松在丹麦／荷兰、白睡莲在撒丁／西西里的原生记录被来源标为灭绝，已排除主原生数组。此状态不等于当地不存在人工栽培或后续引入个体。"
+    },
+    {
+      "priority": "P1",
+      "id": "missing-is-not-zero-and-flags-are-visible",
+      "fields": [
+        "records[].value",
+        "records[].areaHa",
+        "records[].flag",
+        "records[].areaFlag",
+        "records[].note"
+      ],
+      "mustShow": "真实来源包含官方、估计、插补和外部机构数值。null 与未列出都不等于零。希腊油橄榄2024有面积而产量缺失，应显示缺失。"
+    },
+    {
+      "priority": "P2",
+      "id": "tiny-countries-retain-records-without-polygons",
+      "fields": [
+        "records[].iso3",
+        "world.features[].properties.id"
+      ],
+      "missingGeometryCountryCount": 29,
+      "missingGeometryRecordCount": 495,
+      "missingGeometryCountries": {
+        "FSM": "密克罗尼西亚联邦",
+        "COM": "科摩罗",
+        "MLT": "马耳他",
+        "MUS": "毛里求斯",
+        "HKG": "中国香港特别行政区",
+        "VCT": "圣文森特和格林纳丁斯",
+        "STP": "圣多美和普林西比",
+        "DMA": "多米尼克",
+        "GRD": "格林纳达",
+        "MDV": "马尔代夫",
+        "ATG": "安提瓜和巴布达",
+        "CPV": "佛得角",
+        "BRB": "巴巴多斯",
+        "LCA": "圣卢西亚",
+        "FRO": "法罗群岛",
+        "BHR": "巴林",
+        "KNA": "圣基茨和尼维斯",
+        "PYF": "法属波利尼西亚",
+        "TON": "汤加",
+        "WSM": "萨摩亚",
+        "SYC": "塞舌尔",
+        "NIU": "纽埃",
+        "COK": "库克群岛",
+        "SGP": "新加坡",
+        "KIR": "基里巴斯",
+        "TUV": "图瓦卢",
+        "MHL": "马绍尔群岛",
+        "NRU": "瑙鲁",
+        "MAC": "中国澳门特别行政区"
+      },
+      "explicitMapCodeAlias": {
+        "SSD": "SDS"
+      },
+      "mustShow": "现有110m底图无多边形的29个统计地区仍保留列表和真实数值。地图缺几何不等于无数据或未生产。"
+    }
+  ],
+  "readyToUseChineseExamples": [
+    {
+      "cropId": "rice",
+      "topic": "来源与生产是不同问题",
+      "text": "2024年印度报告稻谷产量约2.18亿吨。这是当年的农业生产统计；Kew另以中国的驯化来源语境记录水稻，两张图回答的是不同问题。",
+      "evidence": {
+        "productionIndiaTonnes": 217867864.16,
+        "productionYear": 2024,
+        "wcvpDescription": "as a cultigen from China"
+      }
+    },
+    {
+      "cropId": "arabica",
+      "topic": "商品合计不能替代单种",
+      "text": "你选择了阿拉比卡；当前FAO地图显示全部咖啡生豆合计。2024年巴西约338.77万吨，不能据此断言这些全部是阿拉比卡。",
+      "evidence": {
+        "itemCode": 656,
+        "itemName": "Coffee, green",
+        "brazilTonnes": 3387724,
+        "sameAsCropId": "robusta"
+      }
+    },
+    {
+      "cropId": "eelgrass",
+      "topic": "植物地理区不是具体生境",
+      "text": "这些色块表示鳗草在有关植物地理区有原生记录。鳗草实际生活在海水中；区域填色不是说整块陆地都长着鳗草，也没有给出海床上的连续分布边界。",
+      "evidence": {
+        "nativeRegionCount": 81,
+        "geographicDescription": "Temp. & Subtrop. Northern Hemisphere"
+      }
+    },
+    {
+      "cropId": "ginkgo",
+      "topic": "避免粗区域扩张误读",
+      "text": "Kew的银杏来源描述具体到中国浙江。地图中的“中国东南部”是记录使用的较大植物地理区，不能理解成整个东南部都有天然银杏林。",
+      "evidence": {
+        "nativeCodes": [
+          "CHS"
+        ],
+        "geographicDescription": "China (Zhejiang)"
+      }
+    }
+  ],
+  "acceptanceConclusion": "Structural and identity checks pass if passed=true. Semantic release remains conditional on the front end and narration preserving the requirements above; no browser or audio acceptance is claimed by this file."
+}

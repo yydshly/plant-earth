@@ -1,0 +1,397 @@
+[
+  {
+    "id": "foundation-landsea",
+    "crop": "climate",
+    "group": "地理与生态基础",
+    "title": "这个球上，哪里是陆地和海洋？",
+    "lon": 105,
+    "lat": 28,
+    "subtitle": "先找“中国”，再看它所在的亚洲。地球转过去，还会看到其他大块陆地和相连的海洋。",
+    "shape": "overview",
+    "text": "先把地球当成一张可以转动的地图。认出陆地和海洋，再找中国。中国所在的大区叫亚洲，海洋则把许多陆地隔开，又彼此相连。转动地球，你会看到非洲、欧洲、美洲和其他地区。洲名帮我们找位置，国家边界帮我们认识国家，但这些线不会替植物挡住阳光或雨水。所以，同一个国家里可能既有森林，也有草原或荒漠。一片森林也可能跨过国界。接下来我们先学会定位，再看植物生活的条件。",
+    "sources": [
+      "https://oceanservice.noaa.gov/facts/howmanyoceans.html",
+      "https://weather.metoffice.gov.uk/climate/climate-explained/climate-zones"
+    ],
+    "labels": [
+      {
+        "text": "这个球上，哪里是陆地和海洋？",
+        "lon": 105,
+        "lat": 28,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "认识地球与生态",
+      "parts": [
+        "位置",
+        "过程",
+        "原因"
+      ],
+      "note": "基础过程教学示意，不是天气或生态模拟结果"
+    },
+    "beats": [
+      {
+        "text": "先把地球当成一张可以转动的地图。认出陆地和海洋，再找中国。中国所在的大区叫亚洲，海洋则把许多陆地隔开，又彼此相连。",
+        "lon": 105,
+        "lat": 28,
+        "label": "这个球上，哪里是陆地和海洋？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "转动地球，你会看到非洲、欧洲、美洲和其他地区。洲名帮我们找位置，国家边界帮我们认识国家，但这些线不会替植物挡住阳光或雨水。",
+        "lon": 105,
+        "lat": 28,
+        "label": "这个球上，哪里是陆地和海洋？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "所以，同一个国家里可能既有森林，也有草原或荒漠。一片森林也可能跨过国界。接下来我们先学会定位，再看植物生活的条件。",
+        "lon": 105,
+        "lat": 28,
+        "label": "这个球上，哪里是陆地和海洋？",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "foundation-equator",
+    "crop": "climate",
+    "group": "地理与生态基础",
+    "title": "赤道和“南北”是什么意思？",
+    "lon": 105,
+    "lat": 8,
+    "subtitle": "赤道把地球分成北半球和南半球。它是一条定位用的假想线，地面上没有绕地球一圈的绳子。",
+    "shape": "overview",
+    "text": "现在看地球中间标出的赤道。它把地球分成北半球和南半球，是帮助定位的假想线，不是地面上真实存在的一圈绳子。中国位于北半球，婆罗洲靠近赤道。沿着赤道转一圈，会经过海洋，也会经过陆地。纬度用角度说明一个地点在赤道以北或以南的位置。你暂时不必记住这些数字。先分清靠近赤道、远离赤道和接近两极，就能开始比较阳光。赤道不是雨林边界，更不能单独决定植物分布。",
+    "sources": [
+      "https://oceanservice.noaa.gov/facts/latitude.html"
+    ],
+    "labels": [
+      {
+        "text": "赤道和“南北”是什么意思？",
+        "lon": 105,
+        "lat": 8,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "认识地球与生态",
+      "parts": [
+        "位置",
+        "过程",
+        "原因"
+      ],
+      "note": "基础过程教学示意，不是天气或生态模拟结果"
+    },
+    "beats": [
+      {
+        "text": "现在看地球中间标出的赤道。它把地球分成北半球和南半球，是帮助定位的假想线，不是地面上真实存在的一圈绳子。",
+        "lon": 105,
+        "lat": 8,
+        "label": "赤道和“南北”是什么意思？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "中国位于北半球，婆罗洲靠近赤道。沿着赤道转一圈，会经过海洋，也会经过陆地。纬度用角度说明一个地点在赤道以北或以南的位置。",
+        "lon": 105,
+        "lat": 8,
+        "label": "赤道和“南北”是什么意思？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "你暂时不必记住这些数字。先分清靠近赤道、远离赤道和接近两极，就能开始比较阳光。赤道不是雨林边界，更不能单独决定植物分布。",
+        "lon": 105,
+        "lat": 8,
+        "label": "赤道和“南北”是什么意思？",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "foundation-sunlight",
+    "crop": "climate",
+    "group": "地理与生态基础",
+    "title": "同样的阳光，为什么有的地方更暖？",
+    "lon": 25,
+    "lat": 0,
+    "subtitle": "同一束光，照得较直时集中在较小面积；斜着照时摊得更开。每小块地面分到的能量就不同。",
+    "shape": "overview",
+    "text": "想象用同一束光照地面。照得较直，光集中在较小面积；斜着照，光就铺得更开，每小块地面分到的能量较少。从一年平均看，赤道附近通常得到较多太阳能，两极较少。这主要与地球形状和日照方式有关，不是因为赤道比两极离太阳近很多。图里是简化比较，不能拿来算今天的气温。云、海洋和海拔都会影响冷暖。地球自转造成昼夜，地轴倾斜并绕太阳运行，才让日照和季节随一年变化。",
+    "sources": [
+      "https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/",
+      "https://www.noaa.gov/jetstream/tropical"
+    ],
+    "labels": [
+      {
+        "text": "同样的阳光，为什么有的地方更暖？",
+        "lon": 25,
+        "lat": 0,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "认识地球与生态",
+      "parts": [
+        "位置",
+        "过程",
+        "原因"
+      ],
+      "note": "基础过程教学示意，不是天气或生态模拟结果"
+    },
+    "beats": [
+      {
+        "text": "想象用同一束光照地面。照得较直，光集中在较小面积；斜着照，光就铺得更开，每小块地面分到的能量较少。",
+        "lon": 25,
+        "lat": 0,
+        "label": "同样的阳光，为什么有的地方更暖？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "从一年平均看，赤道附近通常得到较多太阳能，两极较少。这主要与地球形状和日照方式有关，不是因为赤道比两极离太阳近很多。",
+        "lon": 25,
+        "lat": 0,
+        "label": "同样的阳光，为什么有的地方更暖？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "图里是简化比较，不能拿来算今天的气温。云、海洋和海拔都会影响冷暖。地球自转造成昼夜，地轴倾斜并绕太阳运行，才让日照和季节随一年变化。",
+        "lon": 25,
+        "lat": 0,
+        "label": "同样的阳光，为什么有的地方更暖？",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "foundation-water-cycle",
+    "crop": "climate",
+    "group": "地理与生态基础",
+    "title": "雨水从哪里来？",
+    "lon": 114,
+    "lat": 2,
+    "subtitle": "水先变成水汽进入空气。含水汽的空气上升、冷却，一部分水汽凝成小水滴；水滴长大后，才可能落成雨。",
+    "shape": "overview",
+    "text": "雨不是天空凭空制造的水。海面、河流和潮湿地面的水会蒸发，变成看不见的水汽。植物也会把吸收的一部分水，经叶片送回空气。当含有水汽的空气上升，它会膨胀并冷却。冷却到合适条件，一部分水汽凝成小水滴，形成云。云里的水滴或冰粒继续长大，才可能落成雨。所以不能只说热了就会下雨。还要问水汽从哪里来，空气能不能上升和冷却。水落回地面，再流动、蒸发和被植物利用，接着循环。",
+    "sources": [
+      "https://www.noaa.gov/jetstream/atmosphere/hydro",
+      "https://gpm.nasa.gov/resourcse/faq/why-do-tropics-have-more-precipitation-other-locations",
+      "https://www.usgs.gov/glossary/glossary-water-cycle-terms"
+    ],
+    "labels": [
+      {
+        "text": "雨水从哪里来？",
+        "lon": 114,
+        "lat": 2,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "认识地球与生态",
+      "parts": [
+        "位置",
+        "过程",
+        "原因"
+      ],
+      "note": "基础过程教学示意，不是天气或生态模拟结果"
+    },
+    "beats": [
+      {
+        "text": "雨不是天空凭空制造的水。海面、河流和潮湿地面的水会蒸发，变成看不见的水汽。植物也会把吸收的一部分水，经叶片送回空气。",
+        "lon": 114,
+        "lat": 2,
+        "label": "雨水从哪里来？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "当含有水汽的空气上升，它会膨胀并冷却。冷却到合适条件，一部分水汽凝成小水滴，形成云。云里的水滴或冰粒继续长大，才可能落成雨。",
+        "lon": 114,
+        "lat": 2,
+        "label": "雨水从哪里来？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "所以不能只说热了就会下雨。还要问水汽从哪里来，空气能不能上升和冷却。水落回地面，再流动、蒸发和被植物利用，接着循环。",
+        "lon": 114,
+        "lat": 2,
+        "label": "雨水从哪里来？",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "foundation-forest",
+    "crop": "climate",
+    "group": "地理与生态基础",
+    "title": "有了水和热，森林怎样长起来？",
+    "lon": 114,
+    "lat": 2,
+    "subtitle": "如果许多年里常有温暖条件和可用水，许多树木能持续生长。树冠形成后，又把森林分出明亮的上层和较暗的林下。",
+    "shape": "overview",
+    "text": "把时间拉长来看。如果许多年里常有温暖条件和可用水，许多树木就有机会持续生长。我们把一个地方多年常见的天气特点，叫作气候。树木用光制造生长所需的有机物，也需要水、养分和适合根系的条件。树长高后，枝叶组成树冠，挡住一部分阳光，下面的林下就比较暗。因此，同一片森林也有不同的小环境。树木改变光照和湿度，植物又把水送回空气。生物与环境这样相互影响，就是我们正在认识的生态关系。",
+    "sources": [
+      "https://science.nasa.gov/kids/earth/mission-biomes/biorainforest/",
+      "https://science.nasa.gov/earth/earth-observatory/the-water-cycle/",
+      "https://weather.metoffice.gov.uk/climate/climate-explained/climate-zones"
+    ],
+    "labels": [
+      {
+        "text": "有了水和热，森林怎样长起来？",
+        "lon": 114,
+        "lat": 2,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "认识地球与生态",
+      "parts": [
+        "位置",
+        "过程",
+        "原因"
+      ],
+      "note": "基础过程教学示意，不是天气或生态模拟结果"
+    },
+    "beats": [
+      {
+        "text": "把时间拉长来看。如果许多年里常有温暖条件和可用水，许多树木就有机会持续生长。我们把一个地方多年常见的天气特点，叫作气候。",
+        "lon": 114,
+        "lat": 2,
+        "label": "有了水和热，森林怎样长起来？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "树木用光制造生长所需的有机物，也需要水、养分和适合根系的条件。树长高后，枝叶组成树冠，挡住一部分阳光，下面的林下就比较暗。",
+        "lon": 114,
+        "lat": 2,
+        "label": "有了水和热，森林怎样长起来？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "因此，同一片森林也有不同的小环境。树木改变光照和湿度，植物又把水送回空气。生物与环境这样相互影响，就是我们正在认识的生态关系。",
+        "lon": 114,
+        "lat": 2,
+        "label": "有了水和热，森林怎样长起来？",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "foundation-rainforest",
+    "crop": "climate",
+    "group": "地理与生态基础",
+    "title": "现在把原因连起来：雨林为什么在这里？",
+    "lon": 114,
+    "lat": 2,
+    "subtitle": "婆罗洲靠近赤道，周围有温暖海洋。较充足的太阳能、水汽供应和经常发生的降雨，共同帮助许多地方维持暖湿森林。",
+    "shape": "overview",
+    "text": "现在来到婆罗洲。先在亚洲找到东南亚，再找到这座靠近赤道的大岛。这里的许多地方，长期具备温暖条件，周围海洋又能提供水汽。较充足的太阳能帮助加热和蒸发，含水汽的空气上升冷却，形成云雨。水和热在较长时间里配合，帮助树木生长，逐渐形成层次丰富的暖湿森林。这就是理解热带雨林的一条起点，而不是万能公式。风向、季风、山地和海洋还会改变各地的降雨，土地利用也会改变森林。靠近赤道，不等于每处都有雨林。",
+    "sources": [
+      "https://science.nasa.gov/kids/earth/mission-biomes/biorainforest/",
+      "https://gpm.nasa.gov/resourcse/faq/why-do-tropics-have-more-precipitation-other-locations",
+      "https://weather.metoffice.gov.uk/climate/climate-explained/climate-zones"
+    ],
+    "labels": [
+      {
+        "text": "现在把原因连起来：雨林为什么在这里？",
+        "lon": 114,
+        "lat": 2,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "认识地球与生态",
+      "parts": [
+        "位置",
+        "过程",
+        "原因"
+      ],
+      "note": "基础过程教学示意，不是天气或生态模拟结果"
+    },
+    "beats": [
+      {
+        "text": "现在来到婆罗洲。先在亚洲找到东南亚，再找到这座靠近赤道的大岛。这里的许多地方，长期具备温暖条件，周围海洋又能提供水汽。",
+        "lon": 114,
+        "lat": 2,
+        "label": "现在把原因连起来：雨林为什么在这里？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "较充足的太阳能帮助加热和蒸发，含水汽的空气上升冷却，形成云雨。水和热在较长时间里配合，帮助树木生长，逐渐形成层次丰富的暖湿森林。",
+        "lon": 114,
+        "lat": 2,
+        "label": "现在把原因连起来：雨林为什么在这里？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "这就是理解热带雨林的一条起点，而不是万能公式。风向、季风、山地和海洋还会改变各地的降雨，土地利用也会改变森林。靠近赤道，不等于每处都有雨林。",
+        "lon": 114,
+        "lat": 2,
+        "label": "现在把原因连起来：雨林为什么在这里？",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "foundation-check-pattern",
+    "crop": "climate",
+    "group": "地理与生态基础",
+    "title": "很热，就一定会长雨林吗？",
+    "lon": 20,
+    "lat": 12,
+    "subtitle": "热量相近，植物景观也可能不同。干季太长、水汽少、山地遮挡或人类改变土地，都可能让结果发生变化。",
+    "shape": "overview",
+    "text": "最后做个比较。两处都很暖，也不一定长出相同的森林。如果空气缺少水汽，或一年有很长的少雨时期，植物就要面对不同的缺水压力。山地会让空气被迫抬升，也能改变不同方向的降雨；海洋和风向会影响水汽输送。灌溉、采伐与种植，又可能改变眼前的植物景观。所以先问在哪里，再问阳光、水和季节，最后加上地形与人类活动。带着这套问题，接下来走进六种典型环境，看植物的叶、茎和根怎样回应这些条件。",
+    "sources": [
+      "https://weather.metoffice.gov.uk/climate/climate-explained/climate-zones",
+      "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/rain/how-much-does-it-rain-in-the-uk",
+      "https://science.nasa.gov/kids/earth/mission-biomes/teacherresource/"
+    ],
+    "labels": [
+      {
+        "text": "很热，就一定会长雨林吗？",
+        "lon": 20,
+        "lat": 12,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "认识地球与生态",
+      "parts": [
+        "位置",
+        "过程",
+        "原因"
+      ],
+      "note": "基础过程教学示意，不是天气或生态模拟结果"
+    },
+    "beats": [
+      {
+        "text": "最后做个比较。两处都很暖，也不一定长出相同的森林。如果空气缺少水汽，或一年有很长的少雨时期，植物就要面对不同的缺水压力。",
+        "lon": 20,
+        "lat": 12,
+        "label": "很热，就一定会长雨林吗？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "山地会让空气被迫抬升，也能改变不同方向的降雨；海洋和风向会影响水汽输送。灌溉、采伐与种植，又可能改变眼前的植物景观。",
+        "lon": 20,
+        "lat": 12,
+        "label": "很热，就一定会长雨林吗？",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "所以先问在哪里，再问阳光、水和季节，最后加上地形与人类活动。带着这套问题，接下来走进六种典型环境，看植物的叶、茎和根怎样回应这些条件。",
+        "lon": 20,
+        "lat": 12,
+        "label": "很热，就一定会长雨林吗？",
+        "shapeMode": "geography"
+      }
+    ]
+  }
+]

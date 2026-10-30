@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="140个代表植物条目，含100个农业条目的真实全球生产、原生与引入资料、环境和形态，配合MiniMax旁白的三维导览。">
+  <title>植物地球 · 有声图谱</title>
+  <link rel="stylesheet" href="style.css?v=fc9e108c8921">
+  <link rel="stylesheet" href="immersive.css?v=92db21fba69b">
+  <link rel="stylesheet" href="catalog.css?v=252ca9c2ca89">
+  <link rel="stylesheet" href="distribution.css?v=ff355efdad6f">
+<link rel="stylesheet" href="learning.css?v=6d5b935ff356">
+<link rel="stylesheet" href="narration-stage.css?v=d8012f165457">
+<link rel="stylesheet" href="application.css?v=2f3ede94deae">
+<link rel="stylesheet" href="foundation.css?v=7b1fde7229a5">
+<link rel="stylesheet" href="geography-orientation.css?v=cf11c9f8530a">
+<link rel="stylesheet" href="globe-guides.css?v=17698277e47d">
+<link rel="stylesheet" href="global-evidence.css?v=e3f57a830b4b">
+  <link rel="stylesheet" href="guided-journey.css?v=ecdcd785209c">
+  <link rel="stylesheet" href="guided-integration.css?v=a6c71dbbb805">
+  <link rel="stylesheet" href="biodiversity.css?v=25df97d227ab">
+  <link rel="stylesheet" href="learning-flat-map.css?v=7b3e0b2983c3">
+  <link rel="stylesheet" href="onboarding.css?v=d248ce896154">
+<link rel="stylesheet" href="regional-classroom.css?v=0a2a824b5c97">
+<link rel="stylesheet" href="regional-integration.css?v=2a5264232f58">
+<link rel="stylesheet" href="course-directory.css?v=4f8834743ddc">
+<link rel="stylesheet" href="course-directory-entry.css?v=4c627553d150">
+<link rel="stylesheet" href="environment-demonstration.css?v=45ce0c9fb1bc">
+<link rel="stylesheet" href="class-globe-anchors.css?v=5b2189a2f1f9">
+<link rel="stylesheet" href="globe-first-course.css?v=0794b2cced15">
+<link rel="stylesheet" href="globe-first-data.css?v=a1e23a435d4f">
+<link rel="stylesheet" href="regional-globe-cues.css?v=a25aa147d7c2">
+<link rel="stylesheet" href="unified-globe.css?v=8d2e2104e2cc">
+<link rel="stylesheet" href="directory-visual.css?v=17582721f7ef">
+<link rel="stylesheet" href="visual-depth.css?v=49bff4168f39">
+<link rel="stylesheet" href="adult-learning.css?v=6a183f553ecb">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">◉</span><div><strong>植物地球</strong><span>有声图谱 / PLANT ATLAS</span></div></div>
+    <div class="edition"><span id="catalog-total">代表植物图鉴</span><span id="runtime">完整中文导览</span><span>MiniMax 合成旁白</span></div>
+    <button id="top-play" class="primary">播放讲解</button>
+    <button id="enter-immersive" class="quiet">沉浸地球 ↗</button>
+    <button id="chapter-toggle" class="quiet mobile-only" aria-expanded="false" aria-controls="chapters">章节目录</button>
+  </header>
+  <div class="layout">
+    <aside class="chapters" id="chapters" aria-label="导览章节">
+      <div class="chapter-intro"><span class="eyebrow">从一颗种子，看见世界</span><h1>它们为何<br>生长在这里？</h1><p>形态 · 水热 · 地理 · 季节</p></div>
+      <button id="open-catalog" class="quiet catalog-entry">植物图鉴 · 分类与筛选 ↗</button>
+      <button id="open-distribution" class="quiet catalog-entry">全球分布 · 从整体到地区 ↗</button>
+      <label class="chapter-search"><span>查找植物</span><input id="crop-search" type="search" placeholder="名称、类别或拉丁名" autocomplete="off"></label>
+      <p id="search-status" class="search-status" aria-live="polite"></p>
+      <nav id="chapter-list" aria-label="选择植物或导览章节"></nav>
+      <div class="chapter-foot">历史气候：1951–2000<br>0.5° 网格 · 定性气候候选</div>
+    </aside>
+    <main>
+      <div class="scene-heading"><div><span id="chapter-group" class="eyebrow">导览</span><h2 id="chapter-title">正在准备地球…</h2></div><div class="scene-actions"><button id="follow" class="quiet" aria-pressed="true">跟随讲解</button><button id="focus" class="quiet">回到讲解位置</button></div></div>
+      <div class="map-toolbar"><div class="layer-switch" role="group" aria-label="地图图层"><button data-layer="crop" aria-pressed="true">作物候选</button><button data-layer="climate" aria-pressed="false">气候分区</button><button data-layer="geography" aria-pressed="false">地理底图</button></div><label class="latitude-control"><input id="latitude-lines" type="checkbox" checked> 赤道与回归线</label><div class="zoom-controls"><button id="zoom-out" aria-label="缩小地球">−</button><button id="zoom-in" aria-label="放大地球">＋</button></div></div>
+      <p class="map-context" id="map-context">历史气候 · 1951–2000 · 0.5° 网格 · 气候候选不等同于农田</p>
+      <div class="stage-grid">
+        <section class="globe-area" aria-label="全球植物地球">
+          <div class="map-status"><span id="focus-label">全球视角</span><span id="coordinates"></span></div>
+          <div id="globe" role="group" aria-label="拖动地球旋转；旁白播放时可自动定位到正在讲解的地区">
+            <div id="map-labels" aria-label="地图上的讲解位置"></div>
+            <div id="loading" role="status">正在绘制地球</div>
+          </div>
+          <div class="map-footer"><span>拖动旋转 · 点击地球查当地气候 · 滚轮缩放</span><span>光圈：区域示意</span></div>
+          <div id="legend" class="legend" aria-label="气候图例"></div>
+          <div id="geography" class="geography" aria-live="polite"></div>
+          <section id="location-inspector" class="location-inspector" aria-label="查看地点的气候"><div class="location-title"><span class="eyebrow">看一个地方</span><button id="clear-point" class="quiet" hidden>清除选点</button><button id="inspect-focus" class="quiet">查看当前讲解地点</button></div><p class="location-hint">点击地球上的陆地，查看历史气候与已有气候映射的作物候选；代表地区与全球适生范围分开表达。</p><details class="coordinate-entry"><summary>输入经纬度查询</summary><form id="coordinate-form"><label>经度（东正西负）<input id="point-lon" type="number" min="-180" max="180" step="any" required value="120.25"></label><label>纬度（北正南负）<input id="point-lat" type="number" min="-90" max="90" step="any" required value="30.25"></label><button type="submit">定位查询</button></form></details><div id="location-content" aria-live="polite"></div></section>
+        </section>
+        <aside class="morphology" aria-label="植物形态与环境条件">
+          <div class="morph-heading"><span class="eyebrow">形态识别</span><span id="latin" class="latin"></span></div>
+          <div id="plant-diagram"></div>
+          <p id="morph-caption" class="muted"></p>
+          <div id="crop-needs" class="crop-needs"></div>
+        </aside>
+      </div>
+      <section class="narration" aria-label="同步讲解与播放控制">
+        <div class="narration-heading"><span class="eyebrow">正在讲解</span><span id="chapter-count"></span></div>
+        <div id="caption" class="caption" aria-live="off">点击“播放讲解”，从声音、地理位置和植物形态开始探索。</div>
+        <div class="timeline"><span id="elapsed">00:00</span><input id="seek" type="range" min="0" max="1000" step="1" value="0" aria-label="本章播放进度"><span id="duration">00:00</span></div>
+        <div class="transport"><div class="transport-main"><button id="previous" class="quiet" aria-label="上一章">上一章</button><button id="play" class="primary">播放讲解</button><button id="next" class="quiet" aria-label="下一章">下一章</button></div><div class="transport-options"><label><input id="continuous" type="checkbox" checked> 连续播放</label><label class="speed-label">语速 <select id="speed" aria-label="播放速度"><option value="0.8">0.8×</option><option value="1" selected>1×</option><option value="1.15">1.15×</option><option value="1.3">1.3×</option></select></label></div></div>
+        <div id="audio-status" class="audio-status" role="status"></div>
+        <audio id="audio" preload="metadata"></audio>
+      </section>
+      <details class="transcript"><summary>本章完整讲稿与来源</summary><div id="transcript"></div><div id="sources"></div></details>
+      <section class="learning-space" aria-label="深入理解植物环境"><div class="learning-heading"><div><span class="eyebrow">把差异看明白</span><h2>环境如何塑造植物</h2></div><span class="reading-label">扩展阅读 · 不随旁白自动朗读</span></div><div class="learning-tabs" role="tablist" aria-label="知识视角"><button id="tab-profile" role="tab" aria-selected="true" aria-controls="panel-profile">环境档案</button><button id="tab-compare" role="tab" aria-selected="false" aria-controls="panel-compare" tabindex="-1">植物比较</button><button id="tab-method" role="tab" aria-selected="false" aria-controls="panel-method" tabindex="-1">来源与方法</button></div><div id="panel-profile" class="learning-panel" role="tabpanel" aria-labelledby="tab-profile"></div><div id="panel-compare" class="learning-panel" role="tabpanel" aria-labelledby="tab-compare" hidden></div><div id="panel-method" class="learning-panel" role="tabpanel" aria-labelledby="tab-method" hidden></div></section>
+      <footer class="data-note">原34个作物条目的颜色表示历史气候候选；新增植物展示有来源的代表地区，未计算全球适生范围。不表示真实种植面积、产量或农田边界。土壤、坡度、品种、灌溉可用性与土地用途仍需另行评估。河流采用 Natural Earth 真实线几何，形态图为结构示意，不按比例。</footer>
+    </main>
+  </div>
+  <div class="player-dock" aria-label="快捷播放控制"><button id="dock-play" class="primary">播放讲解</button><div class="dock-description"><strong id="dock-title">植物地球</strong><span id="dock-time">00:00 / 00:00</span></div><p id="dock-subtitle"></p><button id="dock-caption" class="quiet">完整字幕</button><button id="dock-next" class="quiet" aria-label="下一章">下一章 →</button></div>
+  <script src="data.js?v=3fa8b6bec0e0"></script>
+  <script src="app.js?v=d21956398c17"></script>
+</body>
+</html>

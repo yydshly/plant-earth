@@ -1,0 +1,676 @@
+[
+  {
+    "id": "class-intro-grains-v1",
+    "classId": "grains",
+    "title": "谷物与杂粮：从籽粒认识主食",
+    "text": "现在认识谷物与杂粮。这里按主食用途组织：禾本科谷物与荞麦、藜麦等伪谷物，在植物分类上并不相同。能磨成粉或煮成饭，不代表同一植物类群，更不代表能在同一季节种。再看利用的器官。主要利用成熟籽粒；稻、麦、玉米的籽粒属于颖果，不能把所有杂粮都当作禾本科。先看籽粒长在穗、圆锥花序还是果穗上，再比较开花成熟需要的季节。最后比较环境与代表。水稻重视暖季与供水，小麦常利用凉季，玉米利用暖季；品种、播期和灌排仍会改变范围。同是主食，哪一种要重点看田间供水，哪一种要看凉季与播期？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识谷物与杂粮。这里按主食用途组织：禾本科谷物与荞麦、藜麦等伪谷物，在植物分类上并不相同。能磨成粉或煮成饭，不代表同一植物类群，更不代表能在同一季节种。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。主要利用成熟籽粒；稻、麦、玉米的籽粒属于颖果，不能把所有杂粮都当作禾本科。先看籽粒长在穗、圆锥花序还是果穗上，再比较开花成熟需要的季节。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。水稻重视暖季与供水，小麦常利用凉季，玉米利用暖季；品种、播期和灌排仍会改变范围。同是主食，哪一种要重点看田间供水，哪一种要看凉季与播期？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FAO EcoCrop：水稻",
+        "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1574",
+        "supports": "物种层面的环境范围参考；不代表每个品种或地点的最适条件",
+        "cropId": "rice"
+      },
+      {
+        "title": "南非农业研究委员会：小麦气候适应",
+        "url": "https://www.arc.agric.za/arc-iscw/CSA-Toolbox/CSA%20Small%20Grains%20Production/Manual/5-Wheat%20production.pdf",
+        "supports": "冬春性、春化、干旱及灌浆期热害",
+        "cropId": "wheat"
+      },
+      {
+        "title": "明尼苏达大学：玉米授粉期干旱",
+        "url": "https://extension.umn.edu/agriculture/crop-production/corn/dry-conditions-during-corn-pollination",
+        "supports": "抽雄授粉期水分与热胁迫",
+        "cropId": "maize"
+      },
+      {
+        "title": "FAO：藜麦生态型与多样性",
+        "url": "https://www.fao.org/in-action/quinoa-platform/quinua/biodiversidad-de-la-quinua/en/",
+        "supports": "高原、盐湖、谷地、海岸及湿热山地类型，播种水分与土壤保护",
+        "cropId": "quinoa"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "f7a4b6ec1d97f473c87fe79abe764b1532e6cbc305a4c808dedfc4880dd0a9c7"
+  },
+  {
+    "id": "class-intro-pulses-v1",
+    "classId": "pulses",
+    "title": "豆类：同样结荚，收获目标不同",
+    "text": "现在认识豆类。这里把豆科食用作物放在一起认识；既有成熟干籽，也有鲜籽、嫩荚和榨油用途。根瘤共生固氮有条件；豆科作物并不因此无需养分，也不自动适合贫瘠或积水地。再看利用的器官。豆荚是果实，荚中的豆是种子；豌豆可采鲜籽或嫩荚，大豆成熟籽还可榨油。分清豆科的亲缘关系、收获时的成熟程度与商品用途，三条线索可以同时成立。最后比较环境与代表。大豆利用暖季，豌豆常利用凉季，鹰嘴豆还需避开涝害；并非所有豆类都耐旱。为什么大豆也能出现在油料类，豌豆也能出现在蔬菜类？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识豆类。这里把豆科食用作物放在一起认识；既有成熟干籽，也有鲜籽、嫩荚和榨油用途。根瘤共生固氮有条件；豆科作物并不因此无需养分，也不自动适合贫瘠或积水地。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。豆荚是果实，荚中的豆是种子；豌豆可采鲜籽或嫩荚，大豆成熟籽还可榨油。分清豆科的亲缘关系、收获时的成熟程度与商品用途，三条线索可以同时成立。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。大豆利用暖季，豌豆常利用凉季，鹰嘴豆还需避开涝害；并非所有豆类都耐旱。为什么大豆也能出现在油料类，豌豆也能出现在蔬菜类？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FAO EcoCrop：大豆",
+        "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1150",
+        "supports": "物种层面的环境范围参考；不代表每个品种或地点的最适条件",
+        "cropId": "soybean"
+      },
+      {
+        "title": "萨斯喀彻温省：鹰嘴豆适应与品种",
+        "url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/crops-and-irrigation/field-crops/pulse-crop-bean-chickpea-faba-bean-lentils/chickpea/adaptation-and-varieties",
+        "supports": "深根、涝害、成熟与湿润地区病害限制",
+        "cropId": "chickpea"
+      },
+      {
+        "title": "NDSU：大田豌豆生产",
+        "url": "https://www.ndsu.edu/agriculture/sites/default/files/2021-12/a1166.pdf",
+        "supports": "凉季、株型、播期、热害及根瘤固氮",
+        "cropId": "pea"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "989baa58338ad35238064e50e746d7bb00939a43632d7aed701bdfe5f93e4201"
+  },
+  {
+    "id": "class-intro-roots-v1",
+    "classId": "roots",
+    "title": "薯根作物：地下的不是同一种器官",
+    "text": "现在认识薯根作物。这里按地下储藏器官的食用用途组织，包含块茎、储藏根和球茎，不是单一植物类群。耐旱生存不等于能高产；地上叶子茂盛，也不能直接证明地下储藏器官已经长好。再看利用的器官。马铃薯收地下茎形成的块茎，甘薯收储藏根，芋主要收球茎；埋在土里不等于都是根。用芽眼、根与叶柄的连接位置辨认器官，再比较热量、根区供水和通气条件。最后比较环境与代表。马铃薯偏凉爽生长季，甘薯需要暖季；芋有水田与旱地类型，供水方式不能一概而论。哪些地下食物是茎，哪一种是根，三种作物的供水方式又有何不同？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识薯根作物。这里按地下储藏器官的食用用途组织，包含块茎、储藏根和球茎，不是单一植物类群。耐旱生存不等于能高产；地上叶子茂盛，也不能直接证明地下储藏器官已经长好。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。马铃薯收地下茎形成的块茎，甘薯收储藏根，芋主要收球茎；埋在土里不等于都是根。用芽眼、根与叶柄的连接位置辨认器官，再比较热量、根区供水和通气条件。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。马铃薯偏凉爽生长季，甘薯需要暖季；芋有水田与旱地类型，供水方式不能一概而论。哪些地下食物是茎，哪一种是根，三种作物的供水方式又有何不同？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FAO EcoCrop：马铃薯",
+        "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1971",
+        "supports": "物种层面的环境范围参考；不代表每个品种或地点的最适条件",
+        "cropId": "potato"
+      },
+      {
+        "title": "国际马铃薯中心：甘薯生产与管理",
+        "url": "https://www.sweetpotatoknowledge.org/wp-content/uploads/2018/12/xCIP_SP_T6_SweetpotatoProductionAndManagement_v40.pdf",
+        "supports": "甘薯建苗、储藏根、土壤与水分",
+        "cropId": "sweetpotato"
+      },
+      {
+        "title": "夏威夷大学CTAHR：Taro Varieties",
+        "url": "https://www3.ctahr.hawaii.edu/site/Taro.aspx",
+        "supports": "芋的栽培类型与形态识别资料",
+        "cropId": "taro"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "3e4b29af3524076fe2cac3da2431d9db92e8959cae0b6b91381d6515179ad71f"
+  },
+  {
+    "id": "class-intro-vegetables-v1",
+    "classId": "vegetables",
+    "title": "蔬菜：从叶、根、花到果实",
+    "text": "现在认识蔬菜。蔬菜是日常食用与栽培用途的组织方式，不是一个植物分类单元，也不是同一种器官。西兰花、花椰菜与结球甘蓝是甘蓝物种的不同栽培群，不是三份完全独立的物种范围。再看利用的器官。可以吃叶、膨大根、鳞茎、花球、嫩荚或果实；番茄在植物学上是果实，餐桌上仍是蔬菜。先问吃哪一部分、在哪个阶段采，再问植株是否属于同一种或同一栽培群。最后比较环境与代表。番茄利用无霜暖季，胡萝卜与西兰花常利用较凉季节；坐果、根形与花球各有限制。给三种蔬菜标出食用器官，再解释番茄为何能同时是果实和蔬菜。接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识蔬菜。蔬菜是日常食用与栽培用途的组织方式，不是一个植物分类单元，也不是同一种器官。西兰花、花椰菜与结球甘蓝是甘蓝物种的不同栽培群，不是三份完全独立的物种范围。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。可以吃叶、膨大根、鳞茎、花球、嫩荚或果实；番茄在植物学上是果实，餐桌上仍是蔬菜。先问吃哪一部分、在哪个阶段采，再问植株是否属于同一种或同一栽培群。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。番茄利用无霜暖季，胡萝卜与西兰花常利用较凉季节；坐果、根形与花球各有限制。给三种蔬菜标出食用器官，再解释番茄为何能同时是果实和蔬菜。接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UC ANR：加工番茄生产",
+        "url": "https://anrcatalog.ucanr.edu/pdf/7228.pdf",
+        "supports": "暖季生长、霜冻和坐果温度限制、加州产区",
+        "cropId": "tomato"
+      },
+      {
+        "title": "TNAU：胡萝卜栽培",
+        "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_carrot.html",
+        "supports": "凉季、根部品质、土壤及尼尔吉里产区",
+        "cropId": "carrot"
+      },
+      {
+        "title": "爱荷华州立大学：Growing Broccoli in the Home Garden",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-broccoli-home-garden",
+        "supports": "甘蓝同种栽培群、冷凉季、湿润排水土壤、春秋安排与花蕾采收",
+        "cropId": "broccoli"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "f26c1a94b167ed48b9cb11d6e0a1cda6ba3e1173d7a2c412e84dca36cf9e1ba1"
+  },
+  {
+    "id": "class-intro-fruits-v1",
+    "classId": "fruits",
+    "title": "水果：日常叫法与植物器官",
+    "text": "现在认识水果。这里按日常果品用途组织，兼有鲜食、饮品或加工用途；植物学果实与生活中的水果不是同一标准。水果不都长在树上；看见枝叶能生长，也不等于当地一定能顺利开花并成熟结果。再看利用的器官。可食部分可含果肉或附属组织；草莓的红色部分主要是膨大花托，表面小颗粒才是瘦果。先比较乔木、大型草本和低矮草本，再看开花、授粉和成熟如何与当地季节相配。最后比较环境与代表。苹果要看冬季休眠、春霜与品种，香蕉重视暖季无霜；草莓还受结果类型与栽培方式影响。同样卖作水果，苹果、香蕉和草莓的株形与完成结果的季节条件怎样不同？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识水果。这里按日常果品用途组织，兼有鲜食、饮品或加工用途；植物学果实与生活中的水果不是同一标准。水果不都长在树上；看见枝叶能生长，也不等于当地一定能顺利开花并成熟结果。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。可食部分可含果肉或附属组织；草莓的红色部分主要是膨大花托，表面小颗粒才是瘦果。先比较乔木、大型草本和低矮草本，再看开花、授粉和成熟如何与当地季节相配。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。苹果要看冬季休眠、春霜与品种，香蕉重视暖季无霜；草莓还受结果类型与栽培方式影响。同样卖作水果，苹果、香蕉和草莓的株形与完成结果的季节条件怎样不同？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "爱荷华州立大学：苹果栽培",
+        "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-apples-home-garden",
+        "supports": "光照、土壤与空气排水、品种、砧木和授粉",
+        "cropId": "apple"
+      },
+      {
+        "title": "佛罗里达大学：香蕉种植",
+        "url": "https://ask.ifas.ufl.edu/publication/MG040/pdf",
+        "supports": "香蕉低温、缺水、水涝、风与土壤限制",
+        "cropId": "banana"
+      },
+      {
+        "title": "UMN Extension：草莓生长与结果类型",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-strawberries-in-the-home-garden",
+        "supports": "日照、匍匐茎、六月结实型、四季型和日中性型；区域物候不能当全球统一日期",
+        "cropId": "strawberry"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "20c351c1f2ffc0bdfbb8445618cba21de99cf99a2fb81d192822d43ad387dc3d"
+  },
+  {
+    "id": "class-intro-nuts-v1",
+    "classId": "nuts",
+    "title": "坚果：硬壳里装着什么？",
+    "text": "现在认识坚果。这里按食用坚果的消费用途组织，成员在植物学上并不全是真正的坚果，食用部位也有差别。商品上都叫坚果，不说明有同一果实结构、同一亲缘关系或同一耐寒水平。再看利用的器官。扁桃主要吃核果硬核里的种仁，栗的果实属于坚果；腰果真果还连着膨大的果梗。把外果皮、硬壳、种仁与壳斗分开观察，再回到各树种与品种的季节要求。最后比较环境与代表。扁桃与欧洲栗是温带落叶树，腰果是热带常绿树；越冬、开花与果实成熟要分别判断。分别指出扁桃、欧洲栗与腰果的食用部分，再解释为什么不能共用一条耐寒规则。接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识坚果。这里按食用坚果的消费用途组织，成员在植物学上并不全是真正的坚果，食用部位也有差别。商品上都叫坚果，不说明有同一果实结构、同一亲缘关系或同一耐寒水平。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。扁桃主要吃核果硬核里的种仁，栗的果实属于坚果；腰果真果还连着膨大的果梗。把外果皮、硬壳、种仁与壳斗分开观察，再回到各树种与品种的季节要求。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。扁桃与欧洲栗是温带落叶树，腰果是热带常绿树；越冬、开花与果实成熟要分别判断。分别指出扁桃、欧洲栗与腰果的食用部分，再解释为什么不能共用一条耐寒规则。接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "USU Extension：扁桃栽培",
+        "url": "https://extension.usu.edu/yardandgarden/research/almonds-in-the-home-garden",
+        "supports": "扁桃的核果与种仁、日照、排水、花期霜冻、砧木及授粉；犹他州建议不能直接推广到全球",
+        "cropId": "almond"
+      },
+      {
+        "title": "欧盟JRC：欧洲栗树种档案",
+        "url": "https://ies-ows.jrc.ec.europa.eu/efdac/download/Atlas/pdf/Castanea_sativa.pdf",
+        "supports": "欧洲栗的树形、环境生态、分布与长期人为传播背景",
+        "cropId": "chestnut"
+      },
+      {
+        "title": "UF/IFAS：腰果苹果与腰果树",
+        "url": "https://ask.ifas.ufl.edu/publication/HS377",
+        "supports": "季节性干燥的热带气候、无霜要求、坐果供水及排涝；果实结构",
+        "cropId": "cashew"
+      },
+      {
+        "title": "Purdue Plant ID：Almond",
+        "url": "https://www.hort.purdue.edu/plant-id-pal/FruitNuts/almond.html",
+        "supports": "扁桃为核果，可食种子位于硬壳内。"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "2ba9e8eb2aa348ca8f5b18fe5517e8f9b1f095b75e7f76d0272a8da20ba016e7"
+  },
+  {
+    "id": "class-intro-oils-v1",
+    "classId": "oils",
+    "title": "油料：油藏在种子还是果肉里？",
+    "text": "现在认识油料。油料按可提取油脂的用途组织；同一植物还可供食或供纤维，不因此成为新物种。油棕果或葵花籽的重量，不是加工后同重量的油；同一商品也不能跨条目重复相加。再看利用的器官。大豆和芝麻利用含油种子，油棕果肉可产棕榈油，棕榈仁又可产不同口径的油。先认原料来自种子还是果肉，再分清鲜原料、带壳产品、籽粒与成品油的统计单位。最后比较环境与代表。大豆和芝麻利用合适暖季，油棕更依赖长年暖热与稳定供水；不能把油料概括为同一气候。把三个原料画到植物器官上：油来自哪里？地图显示的是原料还是成品油？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识油料。油料按可提取油脂的用途组织；同一植物还可供食或供纤维，不因此成为新物种。油棕果或葵花籽的重量，不是加工后同重量的油；同一商品也不能跨条目重复相加。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。大豆和芝麻利用含油种子，油棕果肉可产棕榈油，棕榈仁又可产不同口径的油。先认原料来自种子还是果肉，再分清鲜原料、带壳产品、籽粒与成品油的统计单位。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。大豆和芝麻利用合适暖季，油棕更依赖长年暖热与稳定供水；不能把油料概括为同一气候。把三个原料画到植物器官上：油来自哪里？地图显示的是原料还是成品油？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FAO EcoCrop：大豆",
+        "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1150",
+        "supports": "物种层面的环境范围参考；不代表每个品种或地点的最适条件",
+        "cropId": "soybean"
+      },
+      {
+        "title": "马来西亚棕榈油局：农艺资料",
+        "url": "https://isopa.mpob.gov.my/agro-info",
+        "supports": "深土、排水、定植季节和可靠水源",
+        "cropId": "oilpalm"
+      },
+      {
+        "title": "FAO EcoCrop：芝麻（历史条目）",
+        "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1937",
+        "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算",
+        "cropId": "sesame"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "cae33a9fe979b6460f42903d480baea0dd4e306676d0e500937bdb50869deb5b"
+  },
+  {
+    "id": "class-intro-sugars-v1",
+    "classId": "sugars",
+    "title": "糖料：茎里的糖与根里的糖",
+    "text": "现在认识糖料。糖料按制糖用途组织，当前用甘蔗与糖用甜菜两个代表比较；不把所有味甜果蔬都列作糖料。甜菜鲜根或甘蔗茎产量都不是成品糖产量；两种用途的甜菜也不能当两个独立物种。再看利用的器官。甘蔗茎积累糖，糖用甜菜利用含糖肉质根；它与食用甜菜根属于同种植物的不同用途类型。把植物原料与制成糖分开，再比较生长期、采收时机及糖在不同器官中的积累。最后比较环境与代表。甘蔗依赖长而暖的生长季，糖用甜菜能利用较凉生长季；二者仍需适当供水和根区条件。只看成品白糖能知道原料吗？把甘蔗茎与甜菜根放回各自生长季比较。接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识糖料。糖料按制糖用途组织，当前用甘蔗与糖用甜菜两个代表比较；不把所有味甜果蔬都列作糖料。甜菜鲜根或甘蔗茎产量都不是成品糖产量；两种用途的甜菜也不能当两个独立物种。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。甘蔗茎积累糖，糖用甜菜利用含糖肉质根；它与食用甜菜根属于同种植物的不同用途类型。把植物原料与制成糖分开，再比较生长期、采收时机及糖在不同器官中的积累。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。甘蔗依赖长而暖的生长季，糖用甜菜能利用较凉生长季；二者仍需适当供水和根区条件。只看成品白糖能知道原料吗？把甘蔗茎与甜菜根放回各自生长季比较。接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sugar Research Australia：甘蔗灌溉与能源",
+        "url": "https://sugarresearch.com.au/growers/irrigation-and-energy/",
+        "supports": "高日照旱区甘蔗依赖可靠灌溉",
+        "cropId": "sugarcane"
+      },
+      {
+        "title": "蒙大拿州立大学：糖用甜菜农艺",
+        "url": "https://waterquality.montana.edu/farm-ranch/irrigation/other_crops/sugarbeet.html",
+        "supports": "苗期水盐敏感与采收前过量灌溉",
+        "cropId": "sugarbeet"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "84c96c25be521d5f419a0a6201da8e16eb4fffda5214d071994ee69f17a79717"
+  },
+  {
+    "id": "class-intro-beverages-v1",
+    "classId": "beverages",
+    "title": "饮料与可可：叶、种子与加工风味",
+    "text": "现在认识饮料与可可。这里按饮品与可可原料用途组织，不是一个植物类群；栽培、采收与加工共同影响最终风味。咖啡商品合计未必分开阿拉比卡和罗布斯塔；豆这个叫法也不说明与大豆有相同亲缘。再看利用的器官。茶采嫩梢与叶，咖啡和可可常利用种子；商品咖啡豆和可可豆并不是豆科的豆。先看采收部位，再看温度、水分与遮阴；加工饮品的名称不能代替植物学名或原料统计。最后比较环境与代表。茶常联系湿润酸性土，阿拉比卡偏好温和无霜环境，可可偏暖湿；海拔只是环境线索之一。从茶叶、咖啡豆和可可豆反推采收器官，哪一种直接采叶，哪两种主要利用种子？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识饮料与可可。这里按饮品与可可原料用途组织，不是一个植物类群；栽培、采收与加工共同影响最终风味。咖啡商品合计未必分开阿拉比卡和罗布斯塔；豆这个叫法也不说明与大豆有相同亲缘。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。茶采嫩梢与叶，咖啡和可可常利用种子；商品咖啡豆和可可豆并不是豆科的豆。先看采收部位，再看温度、水分与遮阴；加工饮品的名称不能代替植物学名或原料统计。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。茶常联系湿润酸性土，阿拉比卡偏好温和无霜环境，可可偏暖湿；海拔只是环境线索之一。从茶叶、咖啡豆和可可豆反推采收器官，哪一种直接采叶，哪两种主要利用种子？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "泰米尔纳德农业大学：茶",
+        "url": "https://agritech.tnau.ac.in/horticulture/horti_plantation%20crops_tea.html",
+        "supports": "酸性土、排水、温暖生长条件；海拔范围为地区经验",
+        "cropId": "tea"
+      },
+      {
+        "title": "泰米尔纳德农业大学：咖啡",
+        "url": "https://www.agritech.tnau.ac.in/horticulture/horti_plantation%20crops_coffee.html",
+        "supports": "两种咖啡的土壤、气候、遮阴与季节管理",
+        "cropId": "arabica"
+      },
+      {
+        "title": "国际可可组织：种植环境与常见问题",
+        "url": "https://www.icco.org/faq/",
+        "supports": "可可的热量、雨量、干季、土壤与遮阴",
+        "cropId": "cocoa"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "918ca72382eb90a2ce432d1dce57410669e59476efcf2d4bc3f148cd9f99eeb6"
+  },
+  {
+    "id": "class-intro-spices-v1",
+    "classId": "spices",
+    "title": "香辛料：香味从不同器官来",
+    "text": "现在认识香辛料。香辛料按调味用途组织；香气可以来自不同器官，不能由商品名称推断植物亲缘或生长条件。胡椒不是辣椒；香料丁香与花园紫丁香也不是同一植物，桂皮商品可能包含不同肉桂种。再看利用的器官。胡椒取果实，肉桂取树皮，丁香取未开放花蕾；姜还利用地下根茎，香荚兰利用果实。先沿着香料找到原植物的器官，再比较攀援、树皮萌发或开花采蕾的生长过程。最后比较环境与代表。本组代表多与热带环境有关，但藤本、乔木和根茎作物在遮阴、排水与旱季管理上不同。把胡椒粒、肉桂皮与丁香花蕾放回各自器官，再解释它们为何都叫香辛料。接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识香辛料。香辛料按调味用途组织；香气可以来自不同器官，不能由商品名称推断植物亲缘或生长条件。胡椒不是辣椒；香料丁香与花园紫丁香也不是同一植物，桂皮商品可能包含不同肉桂种。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。胡椒取果实，肉桂取树皮，丁香取未开放花蕾；姜还利用地下根茎，香荚兰利用果实。先沿着香料找到原植物的器官，再比较攀援、树皮萌发或开花采蕾的生长过程。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。本组代表多与热带环境有关，但藤本、乔木和根茎作物在遮阴、排水与旱季管理上不同。把胡椒粒、肉桂皮与丁香花蕾放回各自器官，再解释它们为何都叫香辛料。接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "喀拉拉农业部：Farm Guide 2023",
+        "url": "https://keralaagriculture.gov.in/wp-content/uploads/2023/02/Farmguide-2023.pdf",
+        "supports": "胡椒气候、关键期供水、遮阴、支持树和排水要求。",
+        "cropId": "blackpepper"
+      },
+      {
+        "title": "斯里兰卡肉桂发展部：环境条件",
+        "url": "https://cinnamon.gov.lk/about-cinnamon/environmental-factors/",
+        "supports": "常绿木本、采收形成多茎矮状、温湿、土层、排水与盐分条件。",
+        "cropId": "cinnamon"
+      },
+      {
+        "title": "印度香料局：丁香",
+        "url": "https://www.indianspices.com/node/24.html",
+        "supports": "丁香香料是未开放花蕾、湿润热带、全年土壤水分与排水；所列引种栽培地",
+        "cropId": "clove"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "ab34bdaeb1fbda4cb3b3e4d6e0eea4d798d7160e2eb214d99e76e058e77fbee2"
+  },
+  {
+    "id": "class-intro-fibres-v1",
+    "classId": "fibres",
+    "title": "纤维：从植物器官到衣料绳索",
+    "text": "现在认识纤维。纤维作物按可利用长纤维的用途组织，来源可在种子表面、茎部或叶片，不是单一植物类群。名字带麻不表示近亲；原茎、沤麻、鲜叶或籽棉重量，也不是同一种加工产品重量。再看利用的器官。棉纤维是种子表面的毛，亚麻和黄麻取茎部韧皮纤维，剑麻取叶片中的纤维。比较纤维所在器官和收获方式；同是亚麻，取茎纤维与取含油种子的栽培目标也不同。最后比较环境与代表。棉花需要较长暖季，亚麻常利用较温和季节，剑麻能应对季节缺水；生长与采收条件应分开。分别在种子、茎和叶上标出纤维来源，为什么三种作物不能用同一采收规则？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识纤维。纤维作物按可利用长纤维的用途组织，来源可在种子表面、茎部或叶片，不是单一植物类群。名字带麻不表示近亲；原茎、沤麻、鲜叶或籽棉重量，也不是同一种加工产品重量。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。棉纤维是种子表面的毛，亚麻和黄麻取茎部韧皮纤维，剑麻取叶片中的纤维。比较纤维所在器官和收获方式；同是亚麻，取茎纤维与取含油种子的栽培目标也不同。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。棉花需要较长暖季，亚麻常利用较温和季节，剑麻能应对季节缺水；生长与采收条件应分开。分别在种子、茎和叶上标出纤维来源，为什么三种作物不能用同一采收规则？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "澳大利亚政府：棉花生物学",
+        "url": "https://www.ogtr.gov.au/sites/default/files/2024-02/the_biology_of_cotton_2024.pdf",
+        "supports": "棉花热量、水分及水涝限制",
+        "cropId": "cotton"
+      },
+      {
+        "title": "OSU：春亚麻栽培与试验",
+        "url": "https://extension.oregonstate.edu/catalog/em-9877-spring-flax-columbia-basin",
+        "supports": "纤维与油用目标、幼苗霜害、杂草、水分与美国生产地区",
+        "cropId": "flax"
+      },
+      {
+        "title": "World Agroforestry：半干旱区剑麻",
+        "url": "https://apps.worldagroforestry.org/downloads/Publications/PDFS/B19034.pdf",
+        "supports": "储水叶片、干旱适应、透水深土与叶纤维用途",
+        "cropId": "sisal"
+      },
+      {
+        "title": "FAO：International Year of Natural Fibres",
+        "url": "https://www.fao.org/docrep/pdf/012/i0987e/i0987e00.pdf",
+        "supports": "棉为种子毛纤维、亚麻为茎韧皮纤维、剑麻为叶纤维。"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "96e83515d7c62d359f5fd134941d5f0debe8888e4d385ddbbe515ab933cfdbbb"
+  },
+  {
+    "id": "class-intro-industrial-v1",
+    "classId": "industrial",
+    "title": "工业原料：认识树皮里的乳胶",
+    "text": "现在认识工业原料。工业原料按主要产品用途组织；本目录先用橡胶树一例认识乳胶，尚未覆盖所有工业作物。同样是树木产品，不代表来自相同分泌组织；生产最多的地区也不一定是植物原生地。再看利用的器官。天然橡胶取自橡胶树的乳胶系统，割胶采集乳胶；它不是把木材熬化，也不等同树脂。把乳胶、树脂、木材和纤维这几类材料分开，再看原产记录与实际生产各回答什么问题。最后比较环境与代表。橡胶树需要温暖、有效供水与排水；原生区域与后来扩展的主要栽培区可以明显不同。与棉花跨类比较：一种收种子表面的纤维，一种取乳胶，它们怎样变成材料？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识工业原料。工业原料按主要产品用途组织；本目录先用橡胶树一例认识乳胶，尚未覆盖所有工业作物。同样是树木产品，不代表来自相同分泌组织；生产最多的地区也不一定是植物原生地。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。天然橡胶取自橡胶树的乳胶系统，割胶采集乳胶；它不是把木材熬化，也不等同树脂。把乳胶、树脂、木材和纤维这几类材料分开，再看原产记录与实际生产各回答什么问题。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。橡胶树需要温暖、有效供水与排水；原生区域与后来扩展的主要栽培区可以明显不同。与棉花跨类比较：一种收种子表面的纤维，一种取乳胶，它们怎样变成材料？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kew：橡胶树形态与栽培",
+        "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information",
+        "supports": "三小叶、乳胶来源、温暖湿润与排水、马来西亚及斯里兰卡栽培、南美叶疫病。",
+        "cropId": "rubber"
+      },
+      {
+        "title": "斯里兰卡橡胶研究所：橡胶栽培手册",
+        "url": "https://www.rrisl.gov.lk/content/files/downDoc/Handbook_Volume_1.pdf",
+        "supports": "本地橡胶栽培环境、建园与多年生管理；不外推为全球适生地图。",
+        "cropId": "rubber"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "e6822020c10881667c7caacd042afd303c213ea035eea157cf7892fda4f76a7b"
+  },
+  {
+    "id": "class-intro-forage-v1",
+    "classId": "forage",
+    "title": "饲草：为牲畜收获植株",
+    "text": "现在认识饲草。饲草按饲喂牲畜的用途组织，常利用茎叶；本目录先用紫花苜蓿一例认识反复刈割与再生。能与根瘤菌共生固氮，不等于自动耐贫瘠或无需肥水；反复刈割还会消耗植株储备。再看利用的器官。紫花苜蓿主要利用地上茎叶，根冠、再生芽与储藏物质支持刈割后的重新生长。与大豆比较：都是豆科，取成熟种子与取茎叶对应不同采收目标，也有不同管理节律。最后比较环境与代表。成株深根有助获取深层水，幼苗却较脆弱；耐旱生存与高产需水应分开，积水也会伤根。与大豆跨类比较：取种子和取茎叶，会怎样改变收获时机与水分管理？接着到地球观察本类代表，或先做一道判断。",
+    "beats": [
+      {
+        "lessonStep": 0,
+        "title": "认识用途",
+        "text": "现在认识饲草。饲草按饲喂牲畜的用途组织，常利用茎叶；本目录先用紫花苜蓿一例认识反复刈割与再生。能与根瘤菌共生固氮，不等于自动耐贫瘠或无需肥水；反复刈割还会消耗植株储备。"
+      },
+      {
+        "lessonStep": 1,
+        "title": "辨认器官",
+        "text": "再看利用的器官。紫花苜蓿主要利用地上茎叶，根冠、再生芽与储藏物质支持刈割后的重新生长。与大豆比较：都是豆科，取成熟种子与取茎叶对应不同采收目标，也有不同管理节律。"
+      },
+      {
+        "lessonStep": 2,
+        "title": "比较代表",
+        "text": "最后比较环境与代表。成株深根有助获取深层水，幼苗却较脆弱；耐旱生存与高产需水应分开，积水也会伤根。与大豆跨类比较：取种子和取茎叶，会怎样改变收获时机与水分管理？接着到地球观察本类代表，或先做一道判断。"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UMN Extension：苜蓿干旱反应",
+        "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+        "supports": "深根、幼苗脆弱性、旱期休眠与恢复、缺水减产和水分利用",
+        "cropId": "alfalfa"
+      },
+      {
+        "title": "UC Davis：苜蓿土壤与选址",
+        "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/117595.pdf",
+        "supports": "根系土层限制、活动生长期不耐湿土与高水位",
+        "cropId": "alfalfa"
+      }
+    ],
+    "sourceFields": [
+      "definition",
+      "misconception",
+      "organ",
+      "distinguish",
+      "environment",
+      "compareQuestion"
+    ],
+    "textHash": "f3fc11a32373cdbd80e395c0b717cb5b5c9195af58137ec028e289531a30b128"
+  }
+]

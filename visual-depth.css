@@ -1,0 +1,18 @@
+/* Visual hierarchy around the same geographic scene and original players. */
+body.is-immersive #globe{background:radial-gradient(ellipse at 53% 47%,#16495255 0%,#0e293546 38%,transparent 67%),linear-gradient(145deg,#07121e,#0a1d28 55%,#06131e)}
+body.is-immersive .global-header,body.is-immersive .learn-panel,body.is-immersive #globe-data-controls,body.is-immersive .class-globe-controls,body.is-immersive .environment-demonstration{border-color:#98c4c13b;box-shadow:0 12px 30px #000c1429,inset 0 1px #e7f4dc0a;background-color:#0d2631eb}
+body.is-immersive .global-header{background:linear-gradient(110deg,#102b36eb,#0a202ce8);border-radius:13px;border-color:#7aafaa36}
+body.is-immersive .global-header h1{font-weight:650;letter-spacing:.025em}
+body.is-immersive .guided-route-bar{background:#071721f2;border-color:#577f7438;box-shadow:0 5px 20px #020c1440}
+body.is-immersive .guided-route-stages button[aria-current=step]{box-shadow:0 3px 14px #b9d39221}
+body.is-immersive #imm-player,body.is-immersive .global-tour,body.is-immersive #global-catalog.globe-course-player,body.is-immersive #regional-classroom{box-shadow:0 13px 35px #020d1747;border-color:#7da6a044}
+body.is-immersive .class-globe-label[data-active=true],body.is-immersive .regional-map-label{box-shadow:0 5px 19px #020c165c;border-color:#d9d69f99}
+body.is-immersive button{transition:background-color .18s,border-color .18s,box-shadow .18s}
+body.is-immersive button:hover:not(:disabled){border-color:#cae1b88c}
+.globe-appearance-controls{position:absolute;right:20px;z-index:27;display:grid;grid-template-columns:1fr 1fr;gap:3px;max-width:158px;padding:5px;background:#091f2ce6;border:1px solid #7ba7af42;border-radius:9px;box-shadow:0 5px 18px #010b1238;pointer-events:auto}
+.globe-appearance-controls[hidden]{display:none!important}.globe-appearance-controls button{min-height:27px;padding:4px 7px;font-size:10px;border:0;border-radius:5px;color:#b2cfcd}
+.globe-appearance-controls button[aria-pressed=true]{background:#bed7b9;color:#163b34;box-shadow:0 2px 7px #01151533}
+.globe-appearance-controls a{grid-column:1/-1;text-align:center;padding:2px 0 0;font-size:8px;line-height:1.5;color:#a7c4c7;text-decoration:none}
+.globe-appearance-controls a:hover{text-decoration:underline;color:#e2edce}
+@media(max-width:760px){.globe-appearance-controls{right:10px;max-width:142px;padding:4px}.globe-appearance-controls button{font-size:9px;min-height:25px;padding:3px 6px}.globe-appearance-controls a{font-size:7px}body.is-immersive .global-header{border-radius:11px}}
+@media(prefers-reduced-motion:reduce){body.is-immersive button{transition:none!important}}

@@ -1,0 +1,612 @@
+{
+  "status": "ready",
+  "ids": [
+    "region-course-overview-v1",
+    "region-course-uk-lowland-v2",
+    "region-course-finland-forest-v1",
+    "region-course-quebec-forest-v1",
+    "region-course-limpopo-v1",
+    "region-course-tasmania-v1",
+    "region-course-florida-coast-v1",
+    "region-course-zhejiang-v1",
+    "region-course-sonoran-v1",
+    "region-course-mexico-plateau-v1",
+    "region-course-oman-v1",
+    "region-course-tomales-bay-v2",
+    "region-course-liguria-v1",
+    "region-course-netherlands-v1",
+    "region-course-java-v1",
+    "region-course-carolina-wetland-v1",
+    "region-course-scotland-wetland-v1",
+    "region-course-alps-v1",
+    "region-course-california-coast-v2",
+    "region-course-hubei-valley-v1",
+    "region-course-lebanon-mountains-v1",
+    "region-course-ryukyu-v1",
+    "region-course-namib-v1",
+    "region-course-borneo-v1",
+    "region-course-yunnan-v1",
+    "region-course-chihuahua-v1",
+    "region-course-punjab-india-v2",
+    "region-course-ganges-plain-v1",
+    "region-course-deccan-plateau-v1",
+    "region-course-kerala-wayanad-v1",
+    "region-course-assam-valley-v1",
+    "region-course-bangladesh-delta-v1",
+    "region-course-mekong-delta-v1",
+    "region-course-vietnam-highlands-v1",
+    "region-course-sumatra-riau-v1",
+    "region-course-sulawesi-highlands-v1",
+    "region-course-luzon-plain-v1",
+    "region-course-sri-lanka-kandy-v1",
+    "region-course-madagascar-sava-v1",
+    "region-course-north-china-plain-v1",
+    "region-course-northeast-china-v1",
+    "region-course-loess-plateau-v1",
+    "region-course-sichuan-basin-v1",
+    "region-course-turpan-oasis-v1",
+    "region-course-shandong-plain-v1",
+    "region-course-nagano-valley-v1",
+    "region-course-indus-sindh-v1",
+    "region-course-nile-minya-v1",
+    "region-course-morocco-souss-v1",
+    "region-course-ethiopia-highlands-v1",
+    "region-course-ghana-ashanti-v1",
+    "region-course-ivory-coast-daloa-v1",
+    "region-course-senegal-thies-v1",
+    "region-course-mali-sikasso-v1",
+    "region-course-nigeria-benue-v1",
+    "region-course-kenya-kericho-v1",
+    "region-course-tanzania-morogoro-v1",
+    "region-course-cape-winelands-v1",
+    "region-course-france-beauce-v1",
+    "region-course-spain-andalusia-v1",
+    "region-course-spain-valencia-v1",
+    "region-course-italy-po-v1",
+    "region-course-italy-piedmont-v1",
+    "region-course-turkey-blacksea-v1",
+    "region-course-ukraine-cherkasy-v1",
+    "region-course-poland-mazovia-v1",
+    "region-course-netherlands-flevo-v1",
+    "region-course-germany-saxony-v2",
+    "region-course-scotland-perth-v1",
+    "region-course-iowa-cornbelt-v2",
+    "region-course-california-central-v1",
+    "region-course-washington-wenatchee-v1",
+    "region-course-michigan-fruit-v1",
+    "region-course-canada-saskatchewan-v1",
+    "region-course-mexico-oaxaca-v1",
+    "region-course-mexico-veracruz-v1",
+    "region-course-brazil-cerrado-v1",
+    "region-course-brazil-minas-v1",
+    "region-course-ecuador-guayas-v1",
+    "region-course-peru-andes-v1",
+    "region-course-chile-maule-v1",
+    "region-course-argentina-pampas-v1",
+    "region-course-australia-wheatbelt-v1",
+    "region-course-australia-burdekin-v1",
+    "region-course-newzealand-canterbury-v1",
+    "region-course-fiji-viti-v1"
+  ],
+  "regionCount": 85,
+  "chapterCount": 86,
+  "chapters": [
+    {
+      "id": "region-course-overview-v1",
+      "textHash": "efebc253ad3de9c4a659dd8ab395bd5cac357454b3f45c7e0761d5afbdab4c07",
+      "regionId": "namib",
+      "evidenceFingerprint": null
+    },
+    {
+      "id": "region-course-uk-lowland-v2",
+      "textHash": "80365a794d9e6a7a0bdeb763b1281de566a099eb376c7a248797756a645e3f77",
+      "regionId": "uk-lowland",
+      "evidenceFingerprint": "70468e854aa7893d52e7c31518f2e44afa5f7dd84a184fbfb54671c7fade04db"
+    },
+    {
+      "id": "region-course-finland-forest-v1",
+      "textHash": "9c87691070ad6e88f634082f1fac0aa4b372093ec3e83d76ed580929639c630e",
+      "regionId": "finland-forest",
+      "evidenceFingerprint": "d3047ac17223e3285c3bb66b32a4b7d5e1107bc74e6bab5c507d9e419631439d"
+    },
+    {
+      "id": "region-course-quebec-forest-v1",
+      "textHash": "032e124b63a55c1dad1efd583266073bf80d9a9559d4bd98cfc61818e4c308c4",
+      "regionId": "quebec-forest",
+      "evidenceFingerprint": "d8b0a61e3612ffc65ff4748f740cd39e832a25bce66203d680e733f3371f0f2b"
+    },
+    {
+      "id": "region-course-limpopo-v1",
+      "textHash": "4b6013781af31a372fd7a471c0ac1bbf6fb009b95069345b08fc1ee06288f10c",
+      "regionId": "limpopo",
+      "evidenceFingerprint": "7bfad93324b34c532012e1afda16a79abad8dd7d391dd3f98ab8ffbbca0aaf44"
+    },
+    {
+      "id": "region-course-tasmania-v1",
+      "textHash": "5249fc53145d53e81d2ba6a1cce4c7778ca7f9cd27c6ca2ea3640b4afe5ccceb",
+      "regionId": "tasmania",
+      "evidenceFingerprint": "bbdc0b153a74194a72efa6edd09702c896347b9d6bc4e9693ffb578a16d90643"
+    },
+    {
+      "id": "region-course-florida-coast-v1",
+      "textHash": "3002fd5380fb150db65785aca88479d2b11dc709fe6ede92ea92cce66f330d4a",
+      "regionId": "florida-coast",
+      "evidenceFingerprint": "de8a539681e1f02935dfd22bf265dda3c5d7613e2b2811c1147386f3bc7ce159"
+    },
+    {
+      "id": "region-course-zhejiang-v1",
+      "textHash": "1e7970a346a9865cf0633700f76eaa6cb95ea7aec2ca9b1bc4284287472b602e",
+      "regionId": "zhejiang",
+      "evidenceFingerprint": "814823003356824cace255dbda8feb6b45d9d22a8ea25209580e441a50d2594e"
+    },
+    {
+      "id": "region-course-sonoran-v1",
+      "textHash": "7d2607d6c50282b38fb12959e3c60fb438f139566196ec6282637c861923fa6d",
+      "regionId": "sonoran",
+      "evidenceFingerprint": "a861c6709081318fc7d9d9965a5e732c9f1d2b90cb3c72c4ced23d638f99be03"
+    },
+    {
+      "id": "region-course-mexico-plateau-v1",
+      "textHash": "6dcbd98e49a7d7c058b0b40ae7867d61731950d9a983eaf8cb412fe3ec890081",
+      "regionId": "mexico-plateau",
+      "evidenceFingerprint": "812bc159cde37c60c08c46a33582e1643a3229e9baacdfd869872ef2e16a0f7d"
+    },
+    {
+      "id": "region-course-oman-v1",
+      "textHash": "d47ca993805536facd60d9a0cfa3909c042b2eae8f36bdd33d29665dfac3bba1",
+      "regionId": "oman",
+      "evidenceFingerprint": "870541caa17475bd637f8e7725e6fbe0f5a1bfb22fc2b955f7d559d5efc2380d"
+    },
+    {
+      "id": "region-course-tomales-bay-v2",
+      "textHash": "ca9e874f83ed24a050f2df90b993a12d7486b0ab00794f751cc79014ba106504",
+      "regionId": "tomales-bay",
+      "evidenceFingerprint": "1d47673f7dede55ba1adb5c89254fff7359d8e41780588215a1e9a34ba26ac0d"
+    },
+    {
+      "id": "region-course-liguria-v1",
+      "textHash": "26a5198789e7cfeddaad52e3616a6d2169eaa73e381624000993e016b4140b07",
+      "regionId": "liguria",
+      "evidenceFingerprint": "e680eb3d736eb5111accc347dc9c04f69445d5141ad5c76c1b0d53931a4225f0"
+    },
+    {
+      "id": "region-course-netherlands-v1",
+      "textHash": "701d8fa21e505f5daa938d83cd770e2b484e77dd4408a3d1c1845ec552a8d364",
+      "regionId": "netherlands",
+      "evidenceFingerprint": "5338e16db97a36a4208e0f9453bd729ae3a9dfa816f8830d0986f894294fbbed"
+    },
+    {
+      "id": "region-course-java-v1",
+      "textHash": "b6702ffe6151af4f04aa6f3baf7678cb9eb52a88276c7903b697da6662ef5f1d",
+      "regionId": "java",
+      "evidenceFingerprint": "082ee36f12aa45d359e20ca30fb3f632f1995594392a7a0677475b0aa46c512b"
+    },
+    {
+      "id": "region-course-carolina-wetland-v1",
+      "textHash": "caf3122073e845c6855cc61acf8b3e226b469f4fe82071ff6ae885b0c601bd13",
+      "regionId": "carolina-wetland",
+      "evidenceFingerprint": "1218841802e5dc933b9e3a457e489280b2b5e3d5dedfd073fac08404652ce155"
+    },
+    {
+      "id": "region-course-scotland-wetland-v1",
+      "textHash": "ba3232edbc87917b5caf144c0efc7485b2c6f31eda45d2ae94a8f793e6ea84dc",
+      "regionId": "scotland-wetland",
+      "evidenceFingerprint": "9c7c782072e05f77bd59e8d6a7ebd0558180cf08d76a3b18f747ab4434c6c977"
+    },
+    {
+      "id": "region-course-alps-v1",
+      "textHash": "655905d5fcc9d666da5970c4447abb96151b05b96f5afb609d0eb3d081a5268c",
+      "regionId": "alps",
+      "evidenceFingerprint": "1888cbe56c25f167b2be4ec6a3131467be671f219002e736cf2d85170f63c409"
+    },
+    {
+      "id": "region-course-california-coast-v2",
+      "textHash": "8be1a761c4c00389213567fb6ba32f9f968f44a5d03c317490d9e31f8469eeac",
+      "regionId": "california-coast",
+      "evidenceFingerprint": "f6da312bd326560b0f1b7a8133e5539b71dc61ac95df78da89d6d6876aec4d4c"
+    },
+    {
+      "id": "region-course-hubei-valley-v1",
+      "textHash": "539f4c2424c69c397a760daf5d4f82b637978897483402472fb36fe6fbbd1355",
+      "regionId": "hubei-valley",
+      "evidenceFingerprint": "e40a8edf1a3a67a772f956b568fdc1eea038e0253d3cdf41006117f73ebb9c89"
+    },
+    {
+      "id": "region-course-lebanon-mountains-v1",
+      "textHash": "21fd3f732b8f24b90862bdfe892aa45cdaa7db5058522e64b5f82fd612567094",
+      "regionId": "lebanon-mountains",
+      "evidenceFingerprint": "122fc7811f64c1e158394ebea62820497dd4eef563d2f82afd794fd8f4787d79"
+    },
+    {
+      "id": "region-course-ryukyu-v1",
+      "textHash": "519c8efc7de5a015238f9b6f92e01e623a01764fad38b56d6add12e45d95d1b4",
+      "regionId": "ryukyu",
+      "evidenceFingerprint": "419e51d8f4899295cd497a1323ea0e5144afe1b08864babcb08e9428290a58f6"
+    },
+    {
+      "id": "region-course-namib-v1",
+      "textHash": "e9c64127b466787776aad21b0fd1e92e5cd068482380256b768e2445f328c71f",
+      "regionId": "namib",
+      "evidenceFingerprint": "a7270edd977655c54201b57f3eb6a55b7d3e697f5bcfeac15983ff93f75477d5"
+    },
+    {
+      "id": "region-course-borneo-v1",
+      "textHash": "d8934fefc86b4533799def344813dd2207c0291d8c169e220341f5355df0baba",
+      "regionId": "borneo",
+      "evidenceFingerprint": "0a66b18a7966f0cb595f91f1e906266e7f6ae792fd70801e88ee3294386183b2"
+    },
+    {
+      "id": "region-course-yunnan-v1",
+      "textHash": "40f3ca299c3064215f9ffd54cf7d404582917e7257b0b3a81f7a8aedf266f565",
+      "regionId": "yunnan",
+      "evidenceFingerprint": "76fb86f265c65777c01bfea29831313eaf1f9ede8bc35f4b24f89a7ebd520df7"
+    },
+    {
+      "id": "region-course-chihuahua-v1",
+      "textHash": "83b236815d50fe73598f2c9155b20d01b3b82a094ac104a6d3a706e51325b93a",
+      "regionId": "chihuahua",
+      "evidenceFingerprint": "30b5df178695a3c5893cf8f3c4629206c141000746a1802781eb97a2a05b091d"
+    },
+    {
+      "id": "region-course-punjab-india-v2",
+      "textHash": "7e6335aa9e6af2c12962749e449a6af140d1a632d6dbcff7e462abcf50073a43",
+      "regionId": "punjab-india",
+      "evidenceFingerprint": "3a8b2b9c996e6f8955185f3a565cba48cd36a14f12852311a9955d1fad670e8c"
+    },
+    {
+      "id": "region-course-ganges-plain-v1",
+      "textHash": "ad8bdac1ba60287975aa93e605d714fd0db21efacdd406068039a07de1a87053",
+      "regionId": "ganges-plain",
+      "evidenceFingerprint": "aabbed853bf50cfc12d6102ef95794feceb9c9a1d3f51da0cac11a8c3a3278be"
+    },
+    {
+      "id": "region-course-deccan-plateau-v1",
+      "textHash": "2c583b9b5e889cce89f7a7436141c422b47be67a5fb49585f13aab69c6931899",
+      "regionId": "deccan-plateau",
+      "evidenceFingerprint": "2fb1da179d9443ecb666b18ccf803ad1af0c9ad622c3bc23e3199b630ad30830"
+    },
+    {
+      "id": "region-course-kerala-wayanad-v1",
+      "textHash": "41e443ddacc19e0cd69d24d90d61b5df8496d26e5a961aac5123dac869067df2",
+      "regionId": "kerala-wayanad",
+      "evidenceFingerprint": "cddbcb3fae0d5397d76e9c55b6cd5e5bf20c58afa75a435984cc15366c193029"
+    },
+    {
+      "id": "region-course-assam-valley-v1",
+      "textHash": "f132637f7b8b4f2d090df6ac7e144087edc20a50982450159d85928ff79b06fa",
+      "regionId": "assam-valley",
+      "evidenceFingerprint": "1bdae907e4d27877541d20ea7aefa70f7452d32815a252f2ac67d7996f5fcfae"
+    },
+    {
+      "id": "region-course-bangladesh-delta-v1",
+      "textHash": "a1b03999a36b1b7ba770e845767ec7bedefab5fc2a3fcb522455434a3636ce86",
+      "regionId": "bangladesh-delta",
+      "evidenceFingerprint": "b262a827dcf6ab660a0cfcc57ecbaf3cb1fda21ffc3d8e32fdc13d40f1c5db45"
+    },
+    {
+      "id": "region-course-mekong-delta-v1",
+      "textHash": "0c922713e773332628da3e2dc5edab274440fbfc2b0b42f91ffd4358a7d4ecbb",
+      "regionId": "mekong-delta",
+      "evidenceFingerprint": "f726003add83de7442abdaeaa59b911d11150c2cf42d5ccef8e4a5119b12bc79"
+    },
+    {
+      "id": "region-course-vietnam-highlands-v1",
+      "textHash": "97a858e1d8f2a5d11173801e5944808639096d79496ea8460400a65d45202ee2",
+      "regionId": "vietnam-highlands",
+      "evidenceFingerprint": "ba416bed1aa7869b28bc3013c5415c2cbeb9cc0af821a9d6c70e9ad3f6cdb35b"
+    },
+    {
+      "id": "region-course-sumatra-riau-v1",
+      "textHash": "e4dabde822d235d8b9f8c994a8e4ec7ce56977495570e808bc28efb08e5f279d",
+      "regionId": "sumatra-riau",
+      "evidenceFingerprint": "02b8251158c4b4be24bc7f4baea0faddb718a0ff855a66819da4a9af2d67fddc"
+    },
+    {
+      "id": "region-course-sulawesi-highlands-v1",
+      "textHash": "b868d8154d77a8d892014ac21bcf10b6947a895f0890b46c51a08a7016d4804f",
+      "regionId": "sulawesi-highlands",
+      "evidenceFingerprint": "f19db736748a5df816448016b704166612f900b72df8633bb5c6b126a0431188"
+    },
+    {
+      "id": "region-course-luzon-plain-v1",
+      "textHash": "9d9bec12cef338875291aea6c566bbe1026c2087cc44174adde64fdc37f16c16",
+      "regionId": "luzon-plain",
+      "evidenceFingerprint": "5f893e02f39243a7ac7ea51dae215acd40a89ca883df0cd1015aa80b712a8a92"
+    },
+    {
+      "id": "region-course-sri-lanka-kandy-v1",
+      "textHash": "000386409b3ecaadd88fc960bf2c6bbcd3dde1e991172e1d2a80cc54b6d53410",
+      "regionId": "sri-lanka-kandy",
+      "evidenceFingerprint": "7559b120fa1ad25ce7f9664d9ed5eebc5c75af1b9930f830b56251ec7aa8af4e"
+    },
+    {
+      "id": "region-course-madagascar-sava-v1",
+      "textHash": "396811ec622f8ace2a278d6f725408c86a711dae896f16f4edb18ef1d94df138",
+      "regionId": "madagascar-sava",
+      "evidenceFingerprint": "7b1fb63a44af726634ba4d82f7a00e44790607adec0c2a290d24de5dc9236c9b"
+    },
+    {
+      "id": "region-course-north-china-plain-v1",
+      "textHash": "19460262600ee289697c7de82a05c978ecbd0645746a95227319876547f3b302",
+      "regionId": "north-china-plain",
+      "evidenceFingerprint": "90bd2ee8c964d09d3963bc6e05687ac0694f13ae5eab2c070a7af1e1ea582557"
+    },
+    {
+      "id": "region-course-northeast-china-v1",
+      "textHash": "f43c052b17bb116f6324f411a965b8bc289aa27a88ed1f4ddb7f3cef7001df0e",
+      "regionId": "northeast-china",
+      "evidenceFingerprint": "fb08771efd782e40e4434e41c2195c6913d1dbfc611b3846cc5ed4e7cf231867"
+    },
+    {
+      "id": "region-course-loess-plateau-v1",
+      "textHash": "acd7ff60319f64462f34af6a450855eb2aeafdddbeddb1def53ab24ea0b4976d",
+      "regionId": "loess-plateau",
+      "evidenceFingerprint": "563edc32c9e2d2fb7a930b4c89a26e972208f6cf08ef66fc1003586582beec4f"
+    },
+    {
+      "id": "region-course-sichuan-basin-v1",
+      "textHash": "bf2b0f87a2b9d667adabaee7ec904943fe728d36b5cf174d9ad1dac0acdd7269",
+      "regionId": "sichuan-basin",
+      "evidenceFingerprint": "f7f0df7c67b5a7c3a5bc00b4890bb24d04a25175b5ca395b78ab1bef00996693"
+    },
+    {
+      "id": "region-course-turpan-oasis-v1",
+      "textHash": "a3d81da7745a420d49d441a4445229d89e8998b9cd5f28edba27489b05b986a5",
+      "regionId": "turpan-oasis",
+      "evidenceFingerprint": "46c213564ff92144cafb797e126ea6a8485f5c4d31241e86330e14c2a80c991c"
+    },
+    {
+      "id": "region-course-shandong-plain-v1",
+      "textHash": "194f59281632475631c9a15adba1b8652ac45334ab09ccb3c8c5b288109298c4",
+      "regionId": "shandong-plain",
+      "evidenceFingerprint": "2a6d6ab0efa57b84bc740dd7a68e89ae2984a19e015a3a0a5751b6f977139027"
+    },
+    {
+      "id": "region-course-nagano-valley-v1",
+      "textHash": "499542363a4cf0307a6388b7941ae918a71e1ffd50a4c8a10018996930deceb3",
+      "regionId": "nagano-valley",
+      "evidenceFingerprint": "13cbbe8ce9585dde429b9ae39fdc933806a9540d83b9daaeb20a644f37fc99f9"
+    },
+    {
+      "id": "region-course-indus-sindh-v1",
+      "textHash": "77860a530523bb2ba4c52a783466537806436fe8c63cdc0053e2480d71ee5093",
+      "regionId": "indus-sindh",
+      "evidenceFingerprint": "94a5fc1ca920ba72a0d1f43583fa925f9918fc8724c6efdac8f9906ac3686b45"
+    },
+    {
+      "id": "region-course-nile-minya-v1",
+      "textHash": "969ca2bbcc01cec7b61a9aabc333acf0e59bd53f4d7a7185ca69ca0e2b04f64b",
+      "regionId": "nile-minya",
+      "evidenceFingerprint": "7fed8fc0c9007a389dfd100d3dc40a3880f146bffd9a44e2c3f1b893ef14548d"
+    },
+    {
+      "id": "region-course-morocco-souss-v1",
+      "textHash": "d0d15e71375dd03566ce6288a23bf0005f68bf1fe6488e283850073064c0bf12",
+      "regionId": "morocco-souss",
+      "evidenceFingerprint": "a0fb92dff4cc9585e3a78af95febf05f193e3c08a47471b3daed1a232fd055b6"
+    },
+    {
+      "id": "region-course-ethiopia-highlands-v1",
+      "textHash": "839ccf6275ba7546e70d430ba62680baf3b5ce3be68f1471fa6bdddc9e10fd13",
+      "regionId": "ethiopia-highlands",
+      "evidenceFingerprint": "ffb009177b24482c69ab057ddce0bb062e767fa3ee3ddf02c37e5cca05cdcb2d"
+    },
+    {
+      "id": "region-course-ghana-ashanti-v1",
+      "textHash": "97415c82b74e4568cc1c8c5bc18b4cbd7c0501dc092a85c30e4c4afb1777ae06",
+      "regionId": "ghana-ashanti",
+      "evidenceFingerprint": "363f4e596a7f67bd96d0e2c248e9b03f5e51e76c26e808d74601de235e18456c"
+    },
+    {
+      "id": "region-course-ivory-coast-daloa-v1",
+      "textHash": "e36a11e49d75d22a3180920bab157704c66382e6d90efe5b8d361dbc76aba485",
+      "regionId": "ivory-coast-daloa",
+      "evidenceFingerprint": "a9e1c928c1a31d7e84b12d775d46f5236282254c6a60e4af2274be944a6f6a55"
+    },
+    {
+      "id": "region-course-senegal-thies-v1",
+      "textHash": "b5f3c2c93b92c4e2f1ddac3ae5d7cf8ae8055b269923b122194b2077e81cc94e",
+      "regionId": "senegal-thies",
+      "evidenceFingerprint": "2091e5d7149356d1d33ac1405ef3cda8fe6cd1e4c35022aec7162103d510bff4"
+    },
+    {
+      "id": "region-course-mali-sikasso-v1",
+      "textHash": "370fc325bb7e90aebc69ac23949a3e48854f1d688605549d190c536640ae458b",
+      "regionId": "mali-sikasso",
+      "evidenceFingerprint": "44f5aa7710329a3e011e4f9c70b1f9b1b2777b56d63979a0567a6c4c24bdccc7"
+    },
+    {
+      "id": "region-course-nigeria-benue-v1",
+      "textHash": "657861862d896791a351eef6a6e52b2143c994547d9aac038df8c473e4131575",
+      "regionId": "nigeria-benue",
+      "evidenceFingerprint": "e4f064bb5abf9b72f6e0ff6c8564a51178816b1e46c86e1228fe8324b41e7bc5"
+    },
+    {
+      "id": "region-course-kenya-kericho-v1",
+      "textHash": "7fea3ba807419c2188b0e276e97ecd050eb1b9c3fb59d22389526d30679006cc",
+      "regionId": "kenya-kericho",
+      "evidenceFingerprint": "f8a00737583136831a29e100bf2e3740f6fcca49853f3171d67c61ab686ef520"
+    },
+    {
+      "id": "region-course-tanzania-morogoro-v1",
+      "textHash": "518ce73889d0863ce1e85ddb68d72b2e1929145014a881794a02d6da9800caf1",
+      "regionId": "tanzania-morogoro",
+      "evidenceFingerprint": "c5daab7911000c20712ab6654a4bdea0a5c98c392b660146abdb2127a0096b49"
+    },
+    {
+      "id": "region-course-cape-winelands-v1",
+      "textHash": "16015af275a48a3a3e65f72e6a4ed2500275ee280e6c396b8c4cbc72f34438fb",
+      "regionId": "cape-winelands",
+      "evidenceFingerprint": "3f1be7c7a66cc7d043f52574920b020a57eefded9ba11f2561da8eb1f87fe596"
+    },
+    {
+      "id": "region-course-france-beauce-v1",
+      "textHash": "78903d98b4a2dbd0f46d6fb6fdf1bc39b0e8983f53fa8be75cc9a7ae5d77bfcf",
+      "regionId": "france-beauce",
+      "evidenceFingerprint": "fc5650292699d037802846528dda8bed90b28f139a66b20c7449621622f9a2c9"
+    },
+    {
+      "id": "region-course-spain-andalusia-v1",
+      "textHash": "ca87b0529dcae9e7ae891990ed581c87b80097cd10df74d29d07dbb67927b2d1",
+      "regionId": "spain-andalusia",
+      "evidenceFingerprint": "832091dda9abd89c2fe3cb7963664aef1cbdefd4869d3df7f437e8289387951c"
+    },
+    {
+      "id": "region-course-spain-valencia-v1",
+      "textHash": "bb8c27b36f47dd002420c19191068b04372bb69235b62c6c2bf4a35073c59924",
+      "regionId": "spain-valencia",
+      "evidenceFingerprint": "67680b779019be7b16e2e5da145a038c3d532cdf70a7c076762ca5af880f2c19"
+    },
+    {
+      "id": "region-course-italy-po-v1",
+      "textHash": "ffa25400ea5c18f730809963fe8bcd384b567a2a042c2a87e6b8c2b7453797e6",
+      "regionId": "italy-po",
+      "evidenceFingerprint": "147ef6a3e7b513945fe5cf15c105791fda97eee6a53f988e8ded6d18c5539ea6"
+    },
+    {
+      "id": "region-course-italy-piedmont-v1",
+      "textHash": "570f6502c5023aa0759ba932ad6d278f2ec151b77c6a1cc72e631ff34aefb82a",
+      "regionId": "italy-piedmont",
+      "evidenceFingerprint": "e991315c3dc226275fd2386e5bacd3b2eec58f44c95b032df194af72c4848ff6"
+    },
+    {
+      "id": "region-course-turkey-blacksea-v1",
+      "textHash": "45c63fc98669b9ff83eec2b418d174c1c36dcd3a80b67e0e97966f2e8f3bebf5",
+      "regionId": "turkey-blacksea",
+      "evidenceFingerprint": "9761376ad1cef84c9e39c0f42a5527a962ae5bc24bbff63d7a21b13f1494c586"
+    },
+    {
+      "id": "region-course-ukraine-cherkasy-v1",
+      "textHash": "cb3045cb3194f8dd3e1c0de614d663d74882cabfdcd9dbad120ea6390bcd80c6",
+      "regionId": "ukraine-cherkasy",
+      "evidenceFingerprint": "c559ed5fd9fbf54287816cb59673d31f6e11265ffa4e68147479f157d5c1d8cc"
+    },
+    {
+      "id": "region-course-poland-mazovia-v1",
+      "textHash": "ad8894b8b9d6af870b6f72f60856a9de7b09d07163972afe0308b5120accb6fd",
+      "regionId": "poland-mazovia",
+      "evidenceFingerprint": "4057a79f2cffa3bbfb86f808adac7d8642d755c850971574afc19fb3feb1c5fe"
+    },
+    {
+      "id": "region-course-netherlands-flevo-v1",
+      "textHash": "2cb709e87875fa7169fc4642c50277a4328a4d11dce8392b092c2272d33ea70a",
+      "regionId": "netherlands-flevo",
+      "evidenceFingerprint": "81b997ba9feb44577c426fff6c40cf4ea7500385aa5f12e8f7a2f070b52fb358"
+    },
+    {
+      "id": "region-course-germany-saxony-v2",
+      "textHash": "5b01dbf9286cb53ce0eb1d6861cf41f46edb4d150a2da72331f56ed02913ef60",
+      "regionId": "germany-saxony",
+      "evidenceFingerprint": "8a8e275103d5387a8a5430110fcf8c9d73f0cfefb3a2116af5d00b51d8601ceb"
+    },
+    {
+      "id": "region-course-scotland-perth-v1",
+      "textHash": "50166ab3847c62eec42d0ce5ad2dc4bcc26937b40242267ea7bbee86963b18c8",
+      "regionId": "scotland-perth",
+      "evidenceFingerprint": "3062c44e5bc75ce3b7f96893d38ee0096730ac4c698f862df4dd3042ea7b0ddf"
+    },
+    {
+      "id": "region-course-iowa-cornbelt-v2",
+      "textHash": "8083c2599ba707ef42513dec7f9e062e583406ced3689d0a370d7c9cc2722491",
+      "regionId": "iowa-cornbelt",
+      "evidenceFingerprint": "e76a7282a82bf375e87cfb945877750bbaaba061779c99233e7af4e9e5f147ff"
+    },
+    {
+      "id": "region-course-california-central-v1",
+      "textHash": "e8de9ae5d9d0d4471073a26b7fd94b2d89cb0fdbe88b2a194fa4f55f37eda24d",
+      "regionId": "california-central",
+      "evidenceFingerprint": "aa4aa9e14139cd1f786f9499bb5676f82e680a5158575747b9835c825e134cc3"
+    },
+    {
+      "id": "region-course-washington-wenatchee-v1",
+      "textHash": "45f42724049a2861c44f28dcdb124aa75d2ef37a7573e2ef104909540d190c74",
+      "regionId": "washington-wenatchee",
+      "evidenceFingerprint": "db5bdaccf67fe5d7f9717bd1e190a72f3a7eb20eea76954ee5f6ea9c494f2bc5"
+    },
+    {
+      "id": "region-course-michigan-fruit-v1",
+      "textHash": "d4677c37bad1fbe22747f375c82262ccccd0009c9884339c882a6705c38bcdbb",
+      "regionId": "michigan-fruit",
+      "evidenceFingerprint": "45c66d0dc7f8f3de66e133954a1a99377bb42923dde02095f002f4c68da25b39"
+    },
+    {
+      "id": "region-course-canada-saskatchewan-v1",
+      "textHash": "e58918a92c31a4a7d5200d9c841b4f8e8e5085e972d5751905a2b056c097b697",
+      "regionId": "canada-saskatchewan",
+      "evidenceFingerprint": "c2e71fe011b616921be17f5929d079bcd94ce56c6298af5df2c354ecdf67ef77"
+    },
+    {
+      "id": "region-course-mexico-oaxaca-v1",
+      "textHash": "4fc8608678c0d28b31f8f4bf44a0958778999a1230b9ec57bd67c6c360c1176b",
+      "regionId": "mexico-oaxaca",
+      "evidenceFingerprint": "abd2fd09951dc91fec254e2affd996cfabf30d23058d9b83ef38531759ab6960"
+    },
+    {
+      "id": "region-course-mexico-veracruz-v1",
+      "textHash": "814c6f4ef41d5cbc58c80ec4e5ca385e50c49bc8f93a3b5f44b895bd1515e421",
+      "regionId": "mexico-veracruz",
+      "evidenceFingerprint": "77c00345fbe771d2fec12832d5ec2c5dd99df626168b1f5115874794f7d9badd"
+    },
+    {
+      "id": "region-course-brazil-cerrado-v1",
+      "textHash": "7c96e7f8bc5c360d263829b063203550be22b312fd7114aad6e3aba2a1854dc8",
+      "regionId": "brazil-cerrado",
+      "evidenceFingerprint": "aebf3f95202f5080cfd401b5204238921cbc181d708282646f64d32d1f0f09a0"
+    },
+    {
+      "id": "region-course-brazil-minas-v1",
+      "textHash": "eb32aa292ab7fe1aadcc1a29b6d91e7eefccf3021cfa1497a88fb1ce9f414820",
+      "regionId": "brazil-minas",
+      "evidenceFingerprint": "ca2b3e03519ed223374c4c11df95a5c0da4a5850b61dcd43140ed70d060f491c"
+    },
+    {
+      "id": "region-course-ecuador-guayas-v1",
+      "textHash": "21b5b2de55b9629b7278c5972e480498b56032e6b8e848830331d48134fce80c",
+      "regionId": "ecuador-guayas",
+      "evidenceFingerprint": "9f36085f8b8941c842a8f97918ab7ea181d9b2a3e5a41c1a5c009347bbd4324c"
+    },
+    {
+      "id": "region-course-peru-andes-v1",
+      "textHash": "50254556519bddfa8b76f9bbdf8d7d80f9c18db1b10cd469186281c7f60e55d0",
+      "regionId": "peru-andes",
+      "evidenceFingerprint": "77fc998c63368bcbdb186107c84b9431f982c815d3eb35cd3f61af05c3379aeb"
+    },
+    {
+      "id": "region-course-chile-maule-v1",
+      "textHash": "56a6dcfafb2d301c8de0c862da1572664884c90ad4d3e2e0af8670d06550037d",
+      "regionId": "chile-maule",
+      "evidenceFingerprint": "9184932c69e3f5830d9f6fd6299393d8f44210c012cd4c8913f3df29440597ec"
+    },
+    {
+      "id": "region-course-argentina-pampas-v1",
+      "textHash": "a1fd71cd88a8fb585218359a442389fe4ca2fed1784c58c05bcc997d479084ac",
+      "regionId": "argentina-pampas",
+      "evidenceFingerprint": "1e012691b26e2bbe2ee5e48a915ce0f50a0176fa937d604baaa7475474dc24e7"
+    },
+    {
+      "id": "region-course-australia-wheatbelt-v1",
+      "textHash": "49e897c70ce762dc076d6ce6293b6a2874653fd9765fccb43638c0577d68777e",
+      "regionId": "australia-wheatbelt",
+      "evidenceFingerprint": "96690bf53cfbfb288338a5c0c2e7554df4dfae2ef8db31435ed0961e33877822"
+    },
+    {
+      "id": "region-course-australia-burdekin-v1",
+      "textHash": "b9196ca4574ab44f65580abc9d06b1215ae224f91f8fc146410945b855d51626",
+      "regionId": "australia-burdekin",
+      "evidenceFingerprint": "65f4c2f5b12793fb2e0bdca582100819b72a1daeb119b11ca406cca1cf9fa327"
+    },
+    {
+      "id": "region-course-newzealand-canterbury-v1",
+      "textHash": "a30453dc3460fccdbce21db801684df83624b0fab9898c679417aea08277b167",
+      "regionId": "newzealand-canterbury",
+      "evidenceFingerprint": "6819912a109bbf0ea51eb6e3ec266c8de46f63452e074a6b485051699d3aa992"
+    },
+    {
+      "id": "region-course-fiji-viti-v1",
+      "textHash": "d3ec313ea2bfe593bbd292f043b7c8a9a8ca7f2a4c087260ee989e06c46c4635",
+      "regionId": "fiji-viti",
+      "evidenceFingerprint": "40e4708aa527fd633fa4b681b8772ff90e32f0a5a84bda392f6618e9abdb769c"
+    }
+  ],
+  "policy": "Incrementally frozen scripts. A recorded region is never silently rewritten. Each scalar fact and raw regional source remain auditable."
+}

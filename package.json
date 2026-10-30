@@ -1,0 +1,20 @@
+{
+  "name": "plant-earth",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "python scripts/site.py --check"
+  },
+  "dependencies": {
+    "d3": "7.9.0",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

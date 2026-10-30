@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "partial": false,
+  "complete": true,
+  "chapters": 40,
+  "beatAnchors": 120,
+  "endpoints": 40,
+  "timing": "Provider sentence cues with proportional estimates inside each sentence; not forced word alignment."
+}

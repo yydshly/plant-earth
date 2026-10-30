@@ -1,0 +1,84 @@
+{
+  "id": "nasa-bmng-2004-04-topo-bathy",
+  "title": "Blue Marble: Next Generation with Topography and Bathymetry, April 2004",
+  "purpose": "Historical natural-surface colour basemap for geographic orientation; not current land cover, crop distribution, suitability, observed weather, or a height map.",
+  "publisher": "NASA Earth Observatory",
+  "credits": "NASA Earth Observatory; Blue Marble: Next Generation produced by Reto Stoeckli, NASA Goddard Space Flight Center. Dataset paper: R. Stoeckli, E. Vermote, N. Saleous, R. Simmon and D. Herring (2005).",
+  "observationMonth": "2004-04",
+  "isLive": false,
+  "sourcePage": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+  "projectPage": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/",
+  "downloadUrl": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/april/world.topo.bathy.200404.3x5400x2700.jpg",
+  "technicalDocumentation": "https://assets.science.nasa.gov/content/dam/science/esd/eo/content-feature/bluemarble/bmng.pdf",
+  "retrievedAt": "2026-10-29T08:39:24+00:00",
+  "source": {
+    "file": "images/earth/blue-marble-2004-04-topo-bathy-source-5400.jpg",
+    "mimeType": "image/jpeg",
+    "width": 5400,
+    "height": 2700,
+    "bytes": 2467601,
+    "sha256": "859a6aa3055f97bd28b4190a0cf3f0e9377111cc971985fb087d6a4211d94ce3"
+  },
+  "runtime": {
+    "file": "images/earth/blue-marble-2004-04-4096.jpg",
+    "mimeType": "image/jpeg",
+    "width": 4096,
+    "height": 2048,
+    "bytes": 1522505,
+    "sha256": "f26c4778e97e5141887a6d7b2cfede4473b1cc10057e488286c5f25114b5f6c4"
+  },
+  "processing": {
+    "operation": "Uniform image resize and JPEG recompression only",
+    "from": [
+      5400,
+      2700
+    ],
+    "to": [
+      4096,
+      2048
+    ],
+    "resizeFilter": "Pillow LANCZOS",
+    "jpegQuality": 91,
+    "jpegProgressive": true,
+    "colourEdits": false,
+    "generatedPixelsOrFeatures": false,
+    "crop": false,
+    "rotationOrLongitudeShift": false
+  },
+  "georeferencing": {
+    "projection": "Geographic / Plate Carree",
+    "datum": "WGS84",
+    "extent": {
+      "west": -180,
+      "east": 180,
+      "north": 90,
+      "south": -90
+    },
+    "orientation": "North-up; left edge 180W, right edge 180E",
+    "pixelToCoordinate": "lon = -180 + 360*x/width; lat = 90 - 180*y/height",
+    "verifiedBy": "BMNG dataset user manual sections 5.1 and 5.2, global 8km extent; downloaded image visually checked"
+  },
+  "license": {
+    "policyUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "earthScienceFAQ": "https://science.nasa.gov/earth/faq/",
+    "basis": "NASA-produced educational/informational imagery, used with source acknowledgement under NASA Images and Media Usage Guidelines. The project requests credit NASA Earth Observatory. Do not imply NASA endorsement; this asset contains no NASA logo or identifiable person.",
+    "creditRequired": "NASA Earth Observatory",
+    "thirdPartyCopyrightNoticeFound": false
+  },
+  "limits": [
+    "Historical monthly composite from 2004, not real-time satellite imagery or present vegetation.",
+    "Relief and bathymetry are precomputed image shading, not a displacement/elevation texture.",
+    "Approximate 8km source sampling at equator; displayed 4096px derivative does not increase geographic resolution.",
+    "Cloud/snow compositing and reprojection artifacts remain possible; coarse vector coastlines will not match every coastal pixel.",
+    "Use a separate data-colour view or legible data overlays; image colours are not a statistical legend."
+  ],
+  "integration": {
+    "canvasDraw": "ctx.drawImage(image,0,0,2880,1440) before vector borders and teaching overlays",
+    "horizontalFlip": false,
+    "verticalFlip": false,
+    "longitudeOffsetDegrees": 0,
+    "sphereAlignment": "Keep the same existing CanvasTexture/SphereGeometry UV convention already used by the d3 equirectangular texture. Do not separately rotate the raster.",
+    "fallback": "Keep the original flat basemap if decode or 2:1 validation fails.",
+    "offline": "Embed only the runtime JPEG at its literal path; original source is retained for provenance and is not required at runtime."
+  }
+}

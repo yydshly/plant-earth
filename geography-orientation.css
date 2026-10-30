@@ -1,0 +1,21 @@
+#geo-orientation-labels{position:absolute;inset:0;z-index:10;pointer-events:none}
+#geo-orientation-labels[hidden],#geo-orientation-note[hidden]{display:none!important}
+.geo-orientation-label{position:absolute;transform:translate(-50%,-50%);border:1px solid #8ea99c;border-radius:5px;padding:5px 9px;background:#1b3934ed;color:#edf2e1;font-family:inherit;font-size:14px;font-weight:500;line-height:1.5;white-space:nowrap;pointer-events:auto;box-shadow:0 3px 10px #07181945;max-width:230px}
+button.geo-orientation-label{cursor:pointer;min-height:31px}
+button.geo-orientation-label:hover{background:#3a6050;border-color:#d8e6c7}
+.geo-orientation-label.ocean{color:#cfebf4;border-color:#6b9aaa;background:#163743dc;font-weight:400}
+.geo-orientation-label.familiar,.geo-orientation-label.focus{color:#203729;background:#e1e9c9;border-color:#f3ebbf}
+.geo-orientation-label.latitude{color:#fff0bb;background:#463f24e6;border-color:#e5c470;font-size:13px}
+.geo-orientation-label.tropic{color:#d7e4c1;background:#243d35df;border-color:#7e9d70;font-size:11px;font-weight:400}
+.geo-orientation-label.sunlight{color:#fff0bb;background:#403921e8;border-color:#ddc47e;font-size:11px;font-weight:400;pointer-events:none}
+.geo-orientation-label.hemisphere,.geo-orientation-label.pole{background:#1c343cdd;border-color:#6a8887;font-size:12px}
+.geo-orientation-label:focus-visible{outline:3px solid #f1d58d;outline-offset:3px}
+.geo-direction{position:absolute;transform:translateX(-50%);color:#cddcc9;font-size:11px;line-height:1.5;padding:2px 6px;background:#152d33c9;white-space:nowrap}
+.geo-direction.north{border-top:2px solid #a6c7a0}.geo-direction.south{border-bottom:2px solid #a6c7a0}
+#geo-orientation-note{position:absolute;z-index:10;left:25px;max-width:min(440px,calc(100% - 410px));padding:8px 11px;background:#162e36e8;border-left:2px solid #d8c27e;pointer-events:none}
+#geo-orientation-note strong{display:block;font-size:12px;font-weight:500;line-height:1.7;color:#ecedce}
+#geo-orientation-note p{font-size:11px;line-height:1.8;color:#d2e0cd;margin:4px 0 0}
+#geo-orientation-note small{display:block;font-size:10px;line-height:1.8;color:#b6ccbf;margin-top:3px}
+.geo-landsea-key{display:flex;gap:15px;margin-top:7px}.geo-landsea-key span{display:flex;align-items:center;gap:6px;font-size:12px;color:#e2e9d8}.geo-landsea-key i{display:inline-block;width:14px;height:11px;border:1px solid #9aada7;border-radius:2px}
+@media(max-width:760px){#geo-orientation-note{left:13px;right:13px;max-width:none;padding:6px 9px}#geo-orientation-note strong{font-size:11px}#geo-orientation-note p{font-size:10px;line-height:1.7}#geo-orientation-note small{font-size:9px;line-height:1.7}.geo-landsea-key{margin-top:4px;gap:13px}.geo-landsea-key span{font-size:11px}.geo-orientation-label{font-size:12px;padding:4px 7px;max-width:190px}.geo-orientation-label.latitude{font-size:12px}.geo-orientation-label.hemisphere,.geo-orientation-label.pole{font-size:11px}.geo-orientation-label.tropic{font-size:10px}.geo-direction{font-size:10px}}
+@media(prefers-reduced-motion:reduce){#geo-orientation-labels *{transition:none!important;animation:none!important}}

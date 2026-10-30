@@ -1,0 +1,379 @@
+{
+  "date": "2026-10-30",
+  "revisions": {
+    "ginkgo": {
+      "previousId": "bio-course-ginkgo-v1",
+      "previousTextHash": "65d495ff226834a1b7e26c8becf635e27106b20f6653bfa8e13d81a1e3d9345d",
+      "previousAdaptations": "扇形叶着生于长短枝，雌株种子外有肉质种皮；它没有真正果实。",
+      "chapter": {
+        "id": "bio-course-ginkgo-v2",
+        "cropId": "ginkgo",
+        "title": "银杏 · 形态、机制与地区证据",
+        "text": "这次用银杏回答两个问题：怎样认出它，为什么有些地方能看到古树，却不能直接称为野生分布？先看扇形叶和长短枝。雌株种子的外层是肉质种皮；银杏是裸子植物，没有真正的果实。接下来换一个角度，看它怎样应对季节。银杏是落叶乔木：暖季展叶生长，冷季落叶休眠，不能把冬季月均温直接当成全年生长温度。根既要有水，也要有空气；排水不良造成的缺氧，与短期干旱是不同限制。耐旱并不等于新栽幼树不需要供水。因此，看到银杏不能只问温度够不够，还要问生长季、根区排水和人为管理是否合适。把地球转到中国浙江。NASA二〇〇一年至二〇二五年气候格点中，最冷月约五摄氏度，最暖月约二十九摄氏度。先看冷热季节的差别，而不是把一个平均数当成全部条件。这个区域背景解释不了一棵古树的来源；寺庙和村落中的银杏还可能来自长期种植。最后记住：扇形叶帮助辨认，季节和根区帮助解释生长，栽培历史帮助解释我们在哪里见到它。",
+        "textHash": "ac80859d97aa4aaa26a6cdaea840785fadc303df5fab07c20a8acc2b58b01c25",
+        "beats": [
+          {
+            "title": "认识形态",
+            "lessonStep": 0,
+            "text": "这次用银杏回答两个问题：怎样认出它，为什么有些地方能看到古树，却不能直接称为野生分布？先看扇形叶和长短枝。雌株种子的外层是肉质种皮；银杏是裸子植物，没有真正的果实。",
+            "action": {
+              "kind": "morphology",
+              "regionId": "zhejiang"
+            }
+          },
+          {
+            "title": "环境机制",
+            "lessonStep": 1,
+            "text": "接下来换一个角度，看它怎样应对季节。银杏是落叶乔木：暖季展叶生长，冷季落叶休眠，不能把冬季月均温直接当成全年生长温度。根既要有水，也要有空气；排水不良造成的缺氧，与短期干旱是不同限制。耐旱并不等于新栽幼树不需要供水。因此，看到银杏不能只问温度够不够，还要问生长季、根区排水和人为管理是否合适。",
+            "action": {
+              "kind": "environment",
+              "regionId": "zhejiang"
+            }
+          },
+          {
+            "title": "地区证据",
+            "lessonStep": 2,
+            "text": "把地球转到中国浙江。NASA二〇〇一年至二〇二五年气候格点中，最冷月约五摄氏度，最暖月约二十九摄氏度。先看冷热季节的差别，而不是把一个平均数当成全部条件。这个区域背景解释不了一棵古树的来源；寺庙和村落中的银杏还可能来自长期种植。最后记住：扇形叶帮助辨认，季节和根区帮助解释生长，栽培历史帮助解释我们在哪里见到它。",
+            "action": {
+              "kind": "region",
+              "regionId": "zhejiang"
+            }
+          }
+        ],
+        "previousEdition": {
+          "id": "bio-course-ginkgo-v1",
+          "textHash": "65d495ff226834a1b7e26c8becf635e27106b20f6653bfa8e13d81a1e3d9345d"
+        },
+        "sources": [
+          {
+            "title": "NC State Extension：银杏",
+            "url": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/",
+            "supports": "落叶习性、阳光、排水与耐旱性；耐受不能等同任意条件都适宜。"
+          }
+        ]
+      },
+      "course": {
+        "id": "ginkgo",
+        "cropId": "ginkgo",
+        "name": "银杏",
+        "latin": "Ginkgo biloba",
+        "pathId": "seed-lineages",
+        "group": "裸子植物",
+        "definition": "银杏是落叶裸子乔木，扇形叶与肉质种皮便于辨认。长期栽培使一些古老群体的野生身份难以判定；应分开查看邱园的原生与引入资料，以及人工栽培的地区依据。",
+        "organs": "扇形叶着生于长短枝，雌株的种子外有肉质种皮；银杏是裸子植物，没有真正果实。",
+        "adaptations": "银杏是落叶乔木：暖季展叶生长，冷季落叶休眠，不能把冬季月均温直接当成全年生长温度。根既要有水，也要有空气；排水不良造成的缺氧，与短期干旱是不同限制。耐旱并不等于新栽幼树不需要供水。",
+        "environment": "银杏是落叶乔木：暖季展叶生长，冷季落叶休眠，不能把冬季月均温直接当成全年生长温度。根既要有水，也要有空气；排水不良造成的缺氧，与短期干旱是不同限制。耐旱并不等于新栽幼树不需要供水。",
+        "misconception": "白果是种子而非果实；古树或寺庙旁的树也不能仅凭树龄认定为野生。",
+        "regionId": "zhejiang",
+        "region": {
+          "id": "zhejiang",
+          "name": "中国浙江东部丘陵与湿地",
+          "lon": 119.9,
+          "lat": 30.2,
+          "pointMeaning": "地区教学采样点，不是物种观测点、植物精确位置或全地区平均。"
+        },
+        "rootzone": "soil",
+        "evidenceChecks": {
+          "climate": "比较暖季展叶与冷季休眠；月均温不等于极端温度或耐寒阈值。",
+          "soil": "可适应沙土、壤土和黏土，深厚土便于根系展开。 需要良好排水，低洼积水地不理想。 土壤栅格是区域背景，不是根旁取样；酸碱度不能单独证明排水或养分足够。",
+          "water": "建株时保持有效供水，成熟树有一定耐旱能力。 耐城市环境不等于能在长期饱和土中正常生长。 降雨与可用水不同，需结合供水位置、季节和排水。"
+        },
+        "caseText": "浙江案例先比较季节：NASA POWER 2001–2025格点最冷月约5°C、最暖月约29°C，说明全年温度有明显变化，不能据此判断极端低温或单株存活。再区分自然环境与人类栽培：寺庙、村落和街道古树的出现还受种植历史影响，树龄不能证明野生身份。",
+        "question": {
+          "id": "bio-check-ginkgo",
+          "title": "银杏 · 想一想",
+          "prompt": "在浙江古村看到银杏，哪种记录最稳妥？",
+          "options": [
+            "树龄越大就越能确定它从未被人栽过。",
+            "白果有肉质外层，因此一定是真正果实。",
+            "先标明栽培或身份未定的语境，不把树龄当野生证明。"
+          ],
+          "correctIndex": 2,
+          "feedback": [
+            "这个判断忽略了器官、出现方式或水热条件中的关键差别。古树可以有栽培历史；肉质种皮不等于果皮，物种身份与出现方式要分开。",
+            "不能从名称、外观或一次记录跳到这个结论。古树可以有栽培历史；肉质种皮不等于果皮，物种身份与出现方式要分开。",
+            "古树可以有栽培历史；肉质种皮不等于果皮，物种身份与出现方式要分开。"
+          ],
+          "explanation": "古树可以有栽培历史；肉质种皮不等于果皮，物种身份与出现方式要分开。",
+          "nextHint": "回到器官图和地区证据，分别说出一条已知事实与一条还需要当地核对的信息。",
+          "sources": [
+            {
+              "title": "Kew POWO：银杏分类与历史分布",
+              "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A262125-1/general-information",
+              "supports": "接受学名、银杏科、落叶扇形叶、长期中国栽培与野生身份不确定性。"
+            },
+            {
+              "title": "Kew：邱园银杏",
+              "url": "https://www.kew.org/read-and-watch/ginkgo-biloba-maidenhair-tree-kew-gardens",
+              "supports": "园内栽培树的历史、扇形叶与秋色。"
+            },
+            {
+              "title": "北卡罗来纳州立大学推广：银杏",
+              "url": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/",
+              "supports": "光照、土质、排水、成熟耐旱性、雌株种子和城市园林适应。"
+            },
+            {
+              "title": "NASA POWER：中国浙江东部丘陵与湿地气候格点，2001–2025",
+              "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=119.9&latitude=30.2&format=JSON",
+              "supports": "该采样格点十二个月的气温与平均日降水率；不是树旁、林内、水下或整地区实测。"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "title": "Kew POWO：银杏分类与历史分布",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A262125-1/general-information",
+            "supports": "接受学名、银杏科、落叶扇形叶、长期中国栽培与野生身份不确定性。"
+          },
+          {
+            "title": "Kew：邱园银杏",
+            "url": "https://www.kew.org/read-and-watch/ginkgo-biloba-maidenhair-tree-kew-gardens",
+            "supports": "园内栽培树的历史、扇形叶与秋色。"
+          },
+          {
+            "title": "北卡罗来纳州立大学推广：银杏",
+            "url": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/",
+            "supports": "光照、土质、排水、成熟耐旱性、雌株种子和城市园林适应。"
+          },
+          {
+            "title": "NASA POWER：中国浙江东部丘陵与湿地气候格点，2001–2025",
+            "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=119.9&latitude=30.2&format=JSON",
+            "supports": "该采样格点十二个月的气温与平均日降水率；不是树旁、林内、水下或整地区实测。"
+          },
+          {
+            "title": "NC State Extension：银杏",
+            "url": "https://plants.ces.ncsu.edu/plants/ginkgo-biloba/",
+            "supports": "落叶习性、阳光、排水与耐旱性；耐受不能等同任意条件都适宜。"
+          }
+        ],
+        "steps": [
+          {
+            "title": "认识形态",
+            "text": "银杏是落叶裸子乔木，扇形叶与肉质种皮便于辨认。长期栽培使一些古老群体的野生身份难以判定；应分开查看邱园的原生与引入资料，以及人工栽培的地区依据。 扇形叶着生于长短枝，雌株的种子外有肉质种皮；银杏是裸子植物，没有真正果实。",
+            "action": {
+              "kind": "morphology",
+              "regionId": "zhejiang"
+            }
+          },
+          {
+            "title": "环境机制",
+            "text": "银杏是落叶乔木：暖季展叶生长，冷季落叶休眠，不能把冬季月均温直接当成全年生长温度。根既要有水，也要有空气；排水不良造成的缺氧，与短期干旱是不同限制。耐旱并不等于新栽幼树不需要供水。 白果是种子而非果实；古树或寺庙旁的树也不能仅凭树龄认定为野生。",
+            "action": {
+              "kind": "environment",
+              "regionId": "zhejiang"
+            }
+          },
+          {
+            "title": "地区证据",
+            "text": "浙江案例先比较季节：NASA POWER 2001–2025格点最冷月约5°C、最暖月约29°C，说明全年温度有明显变化，不能据此判断极端低温或单株存活。再区分自然环境与人类栽培：寺庙、村落和街道古树的出现还受种植历史影响，树龄不能证明野生身份。",
+            "action": {
+              "kind": "region",
+              "regionId": "zhejiang"
+            }
+          }
+        ],
+        "regionRole": "cultivation-context",
+        "substrateKind": "terrestrial",
+        "substrateNote": "可适应沙土、壤土和黏土，深厚土便于根系展开。 需要良好排水，低洼积水地不理想。 土壤栅格是区域背景，不是根旁取样；酸碱度不能单独证明排水或养分足够。",
+        "soilCaution": "可适应沙土、壤土和黏土，深厚土便于根系展开。 需要良好排水，低洼积水地不理想。 土壤栅格是区域背景，不是根旁取样；酸碱度不能单独证明排水或养分足够。"
+      }
+    },
+    "eelgrass": {
+      "previousId": "bio-course-eelgrass-v1",
+      "previousTextHash": "2cc6525447547a21e41b5f031a3181f98934f2dbde21a5a33a92e501df12ef44",
+      "previousAdaptations": "根茎固定海床，叶丛提供鱼虾栖息空间。",
+      "chapter": {
+        "id": "bio-course-eelgrass-v2",
+        "cropId": "eelgrass",
+        "title": "大叶藻 · 形态、机制与地区证据",
+        "text": "先在地球上找到美国加州的托马莱斯湾。这里有海草床。大叶藻有带状叶、根和根茎，也会开花并形成种子；它是生活在海水中的开花植物，与海藻不同。接下来要解释的，不是海里有没有水，而是哪一片海床能让它获得光并扎稳。大叶藻的叶片在水下进行光合作用。水越深，或泥沙、藻类使水越浑，传到叶面的光通常越少；有水不等于有足够的光。根和根茎固定在海床，海床扰动会破坏扎根环境；盐度和水温也要另查当地监测。所以，海湾的深浅、清浊和海床条件，能把相邻的有水区域分成不同生境。回到托马莱斯湾的地区证据。NOAA记录了当地海草床，并提醒锚泊等活动可能扰动海床。本项目有周边空气气候和卫星水面记录，却没有这个教学点的水温、盐度、透明度或海床实测，不能把空气温度读成海水温度，也不能把有水的像元当作海草分布。你现在应能解释：同一个海湾都有水，大叶藻仍可能因为水下光不足或海床受扰动而无法生长。",
+        "textHash": "cf112ba68b0673e55db7bf8f3861e1c94d568b120170dfc446218f6d84c0d7d7",
+        "beats": [
+          {
+            "title": "认识形态",
+            "lessonStep": 0,
+            "text": "先在地球上找到美国加州的托马莱斯湾。这里有海草床。大叶藻有带状叶、根和根茎，也会开花并形成种子；它是生活在海水中的开花植物，与海藻不同。接下来要解释的，不是海里有没有水，而是哪一片海床能让它获得光并扎稳。",
+            "action": {
+              "kind": "morphology",
+              "regionId": "tomales-bay"
+            }
+          },
+          {
+            "title": "环境机制",
+            "lessonStep": 1,
+            "text": "大叶藻的叶片在水下进行光合作用。水越深，或泥沙、藻类使水越浑，传到叶面的光通常越少；有水不等于有足够的光。根和根茎固定在海床，海床扰动会破坏扎根环境；盐度和水温也要另查当地监测。所以，海湾的深浅、清浊和海床条件，能把相邻的有水区域分成不同生境。",
+            "action": {
+              "kind": "environment",
+              "regionId": "tomales-bay"
+            }
+          },
+          {
+            "title": "地区证据",
+            "lessonStep": 2,
+            "text": "回到托马莱斯湾的地区证据。NOAA记录了当地海草床，并提醒锚泊等活动可能扰动海床。本项目有周边空气气候和卫星水面记录，却没有这个教学点的水温、盐度、透明度或海床实测，不能把空气温度读成海水温度，也不能把有水的像元当作海草分布。你现在应能解释：同一个海湾都有水，大叶藻仍可能因为水下光不足或海床受扰动而无法生长。",
+            "action": {
+              "kind": "region",
+              "regionId": "tomales-bay"
+            }
+          }
+        ],
+        "previousEdition": {
+          "id": "bio-course-eelgrass-v1",
+          "textHash": "2cc6525447547a21e41b5f031a3181f98934f2dbde21a5a33a92e501df12ef44"
+        },
+        "sources": [
+          {
+            "title": "NOAA Fisheries：美国西岸海草",
+            "url": "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast",
+            "supports": "大叶藻常受水下光限制；减少光照可损害生境。"
+          },
+          {
+            "title": "NOAA：托马莱斯湾海草保护",
+            "url": "https://farallones.noaa.gov/eco/tomales/seagrass.html",
+            "supports": "当地海草床与锚泊对海床的扰动。"
+          }
+        ]
+      },
+      "course": {
+        "id": "eelgrass",
+        "cropId": "eelgrass",
+        "name": "大叶藻",
+        "latin": "Zostera marina",
+        "pathId": "water-habitats",
+        "group": "海岸与湿地",
+        "definition": "大叶藻是海洋开花植物，带状叶接受水下光，根茎固定并储藏于海床。",
+        "organs": "大叶藻有带状叶、根和根茎，也会开花并形成种子；它是海草，不是海藻。",
+        "adaptations": "大叶藻的叶片在水下进行光合作用。水越深，或泥沙、藻类使水越浑，传到叶面的光通常越少；有水不等于有足够的光。根和根茎固定在海床，海床扰动会破坏扎根环境；盐度和水温也要另查当地监测。",
+        "environment": "大叶藻的叶片在水下进行光合作用。水越深，或泥沙、藻类使水越浑，传到叶面的光通常越少；有水不等于有足够的光。根和根茎固定在海床，海床扰动会破坏扎根环境；盐度和水温也要另查当地监测。",
+        "misconception": "海草是有花、有种子和根茎的植物，海藻并不是同一类；展示不是产量或适生栅格。",
+        "regionId": "tomales-bay",
+        "region": {
+          "id": "tomales-bay",
+          "name": "美国加州托马莱斯湾",
+          "lon": -122.9,
+          "lat": 38.15,
+          "pointMeaning": "地区教学采样点，不是物种观测点、植物精确位置或全地区平均。"
+        },
+        "rootzone": "water",
+        "evidenceChecks": {
+          "climate": "主线先看水下光与水温；空气气象网格只作周边背景，本点缺少水温实测。",
+          "soil": "大叶藻根和根茎固定于海床；陆地0–5 cm表土不能代表海床，缺少本点底质实测。",
+          "water": "潮汐、水深、透明度与盐度共同影响生境；卫星开阔水面记录不能代替这些条件。"
+        },
+        "caseText": "托马莱斯湾有NOAA记录的海草床。先观察浅海湾，再问水下光、水深、海床稳定性与潮汐；NASA陆地空气温度和降雨仅作周边背景，不能代替水温、盐度或透明度。教学坐标是区域定位，并非一株大叶藻的观测点。",
+        "question": {
+          "id": "bio-check-eelgrass",
+          "title": "大叶藻 · 想一想",
+          "prompt": "托马莱斯湾有水，解释大叶藻时还必须特别看什么？",
+          "options": [
+            "把海草当作海藻，只需要看天空降雨。",
+            "水下光、盐度、水温和底质；它是海洋开花植物。",
+            "把附近陆地的土壤酸碱度当作海床测量。"
+          ],
+          "correctIndex": 1,
+          "feedback": [
+            "不能从名称、外观或一次记录跳到这个结论。海草生活在海床与水体之间；陆地格点只能提供背景，不能替代海水与沉积物资料。",
+            "海草生活在海床与水体之间；陆地格点只能提供背景，不能替代海水与沉积物资料。",
+            "这个判断忽略了器官、出现方式或水热条件中的关键差别。海草生活在海床与水体之间；陆地格点只能提供背景，不能替代海水与沉积物资料。"
+          ],
+          "explanation": "海草生活在海床与水体之间；陆地格点只能提供背景，不能替代海水与沉积物资料。",
+          "nextHint": "回到器官图和地区证据，分别说出一条已知事实与一条还需要当地核对的信息。",
+          "sources": [
+            {
+              "title": "Kew POWO · Zostera marina",
+              "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:603618-1",
+              "supports": "接受名、大叶藻科、北半球温带至亚热带原生范围，包括加州和弗吉尼亚。"
+            },
+            {
+              "title": "USDA · Eelgrass factsheet",
+              "url": "https://plants.usda.gov/DocumentLibrary/factsheet/pdf/fs_zoma.pdf",
+              "supports": "北美两岸原生分布、形态、根茎生长和水质限制。"
+            },
+            {
+              "title": "NOAA · Tomales Bay seagrass",
+              "url": "https://farallones.noaa.gov/eco/tomales/seagrass.html",
+              "supports": "托马莱斯湾大叶藻草床与海岸环境。"
+            },
+            {
+              "title": "VIMS · Eelgrass",
+              "url": "https://www.vims.edu/research/units/programs/sav/species/eelgrass.php",
+              "supports": "切萨皮克湾南部、形态繁殖、遮光及夏季热胁迫。"
+            },
+            {
+              "title": "NASA POWER：美国加州托马莱斯湾气候格点，2001–2025",
+              "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=-122.9&latitude=38.15&format=JSON",
+              "supports": "该采样格点十二个月的气温与平均日降水率；不是树旁、林内、水下或整地区实测。"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "title": "Kew POWO · Zostera marina",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:603618-1",
+            "supports": "接受名、大叶藻科、北半球温带至亚热带原生范围，包括加州和弗吉尼亚。"
+          },
+          {
+            "title": "USDA · Eelgrass factsheet",
+            "url": "https://plants.usda.gov/DocumentLibrary/factsheet/pdf/fs_zoma.pdf",
+            "supports": "北美两岸原生分布、形态、根茎生长和水质限制。"
+          },
+          {
+            "title": "NOAA · Tomales Bay seagrass",
+            "url": "https://farallones.noaa.gov/eco/tomales/seagrass.html",
+            "supports": "托马莱斯湾大叶藻草床与海岸环境。"
+          },
+          {
+            "title": "VIMS · Eelgrass",
+            "url": "https://www.vims.edu/research/units/programs/sav/species/eelgrass.php",
+            "supports": "切萨皮克湾南部、形态繁殖、遮光及夏季热胁迫。"
+          },
+          {
+            "title": "NASA POWER：美国加州托马莱斯湾气候格点，2001–2025",
+            "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CPRECTOTCORR&community=AG&longitude=-122.9&latitude=38.15&format=JSON",
+            "supports": "该采样格点十二个月的气温与平均日降水率；不是树旁、林内、水下或整地区实测。"
+          },
+          {
+            "title": "NOAA Fisheries：美国西岸海草",
+            "url": "https://www.fisheries.noaa.gov/west-coast/habitat-conservation/seagrass-west-coast",
+            "supports": "大叶藻常受水下光限制；减少光照可损害生境。"
+          },
+          {
+            "title": "NOAA：托马莱斯湾海草保护",
+            "url": "https://farallones.noaa.gov/eco/tomales/seagrass.html",
+            "supports": "当地海草床与锚泊对海床的扰动。"
+          }
+        ],
+        "steps": [
+          {
+            "title": "认识形态",
+            "text": "大叶藻是海洋开花植物，带状叶接受水下光，根茎固定并储藏于海床。 大叶藻有带状叶、根和根茎，也会开花并形成种子；它是海草，不是海藻。",
+            "action": {
+              "kind": "morphology",
+              "regionId": "tomales-bay"
+            }
+          },
+          {
+            "title": "环境机制",
+            "text": "大叶藻的叶片在水下进行光合作用。水越深，或泥沙、藻类使水越浑，传到叶面的光通常越少；有水不等于有足够的光。根和根茎固定在海床，海床扰动会破坏扎根环境；盐度和水温也要另查当地监测。 海草是有花、有种子和根茎的植物，海藻并不是同一类；展示不是产量或适生栅格。",
+            "action": {
+              "kind": "environment",
+              "regionId": "tomales-bay"
+            }
+          },
+          {
+            "title": "地区证据",
+            "text": "托马莱斯湾有NOAA记录的海草床。先观察浅海湾，再问水下光、水深、海床稳定性与潮汐；NASA陆地空气温度和降雨仅作周边背景，不能代替水温、盐度或透明度。教学坐标是区域定位，并非一株大叶藻的观测点。",
+            "action": {
+              "kind": "region",
+              "regionId": "tomales-bay"
+            }
+          }
+        ],
+        "regionRole": "regional-context",
+        "substrateKind": "marine",
+        "substrateNote": "水生案例要查看水体或底质；附近陆地表层土壤值不能当作海床、湖泥或水体实测。",
+        "soilCaution": "水生案例要查看水体或底质；附近陆地表层土壤值不能当作海床、湖泥或水体实测。"
+      }
+    }
+  }
+}

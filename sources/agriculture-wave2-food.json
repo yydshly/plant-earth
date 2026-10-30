@@ -1,0 +1,3833 @@
+{
+  "metadata": {
+    "version": 1,
+    "checkedAt": "2026-10-29",
+    "entryCount": 20,
+    "scope": "20个农业条目，包含物种和明确标注的栽培群，不宣称为20独立物种。",
+    "environmentMeaning": "来自Kew、FAO、CGIAR、政府与大学推广资料的定性解释；不提供新全球适宜性推算。",
+    "anchorsMeaning": "40个WCVP三级报告区域内地图定位点，原生/引入状态精确保留；不是观测、农业生产或栽培群分布。",
+    "wcvpVersion": "16",
+    "wcvpSourceExtractedAt": "2026-06-04"
+  },
+  "entries": [
+    {
+      "plant": {
+        "id": "waterchestnut",
+        "name": "荸荠",
+        "latin": "Eleocharis dulcis",
+        "synonyms": [],
+        "group": "薯根与水生作物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Cyperaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:306797-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Eleocharis dulcis"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带",
+          "亚热带",
+          "淡水湿地"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖长生长季与可调节的浅水",
+        "limits": "霜冻、缺水与无法管理的水位",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:306797-1",
+          "https://www.nparks.gov.sg/florafaunaweb/flora/5/4/5462",
+          "https://doi.org/10.32473/edis-MV150-1994"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "rice",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "waterchestnut",
+        "summary": "荸荠是莎草科水生草本，食用部分是地下膨大的球茎。地上看见的是细长圆筒状秆；它不是菱角，也不是长在树上的栗子。",
+        "temperatureNote": "生长需要温暖的无霜季；热带与亚热带湿地记录并不表示所有湿地都适合建田。",
+        "water": {
+          "summary": "浅水与泥土共同构成生长环境。",
+          "timing": "栽培需要随建植、长秆和收获调节水位。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "地下球茎在泥土中形成；底土与灌排条件一起决定管理难度。",
+          "drainage": "与旱地根菜不同，重点是控制水深与排灌，不能把“有沼泽”直接视为可生产。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "常用球茎繁殖，利用足够长的暖季。",
+          "timing": "栽培需要随建植、长秆和收获调节水位。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "生长需要温暖的无霜季；热带与亚热带湿地记录并不表示所有湿地都适合建田。",
+          "heat": "霜冻、缺水与无法管理的水位",
+          "drought": "浅水与泥土共同构成生长环境。",
+          "waterlogging": "与旱地根菜不同，重点是控制水深与排灌，不能把“有沼泽”直接视为可生产。"
+        },
+        "regions": [
+          {
+            "name": "中国东南部｜原生记录",
+            "why": "Kew WCVP v16把中国东南部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "泰国｜原生记录",
+            "why": "Kew WCVP v16把泰国列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "湿地生活型与地下储藏器官，把地上光合与地下球茎形成连接起来。",
+          "practice": "先确认水源、可控水位和可收获的田块条件。",
+          "tradeoff": "长期供水与收获管理的劳动投入不能从自然分布图读出。"
+        },
+        "misconception": "名字里的“栗”不代表树生果实，地图上的原生区域也不等于水田分布。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Eleocharis dulcis",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:306797-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "新加坡国家公园局：荸荠",
+            "url": "https://www.nparks.gov.sg/florafaunaweb/flora/5/4/5462",
+            "supports": "莎草科、圆筒秆、地下储藏器官、淡水生境与热带亚热带环境"
+          },
+          {
+            "title": "UF/IFAS HS683：Waterchestnut（已归档历史推广文献）",
+            "url": "https://doi.org/10.32473/edis-MV150-1994",
+            "supports": "荸荠球茎、暖季、可控制灌排水位和收获管理；原站已归档，不承担全球适宜性判断。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "waterchestnut",
+        "crop": "waterchestnut",
+        "group": "薯根与水生作物",
+        "title": "荸荠｜温暖长生长季与可调节的浅水",
+        "lon": 115.231,
+        "lat": 28.304,
+        "subtitle": "荸荠是莎草科水生草本，食用部分是地下膨大的球茎。地上看见的是细长圆筒状秆；它不是菱角，也不是长在树上的栗子。",
+        "shape": "waterchestnut",
+        "text": "认识荸荠。荸荠是莎草科水生草本，食用部分是地下膨大的球茎。地上看见的是细长圆筒状秆；它不是菱角，也不是长在树上的栗子。观察圆筒状秆、地下匍匐茎、球茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位中国东南部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。生长需要温暖的无霜季；热带与亚热带湿地记录并不表示所有湿地都适合建田。再看泰国的原生记录。浅水与泥土共同构成生长环境。与旱地根菜不同，重点是控制水深与排灌，不能把“有沼泽”直接视为可生产。名字里的“栗”不代表树生果实，地图上的原生区域也不等于水田分布。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:306797-1",
+          "https://www.nparks.gov.sg/florafaunaweb/flora/5/4/5462",
+          "https://doi.org/10.32473/edis-MV150-1994"
+        ],
+        "labels": [
+          {
+            "text": "中国东南部｜原生记录",
+            "lon": 115.231,
+            "lat": 28.304,
+            "kind": "region"
+          },
+          {
+            "text": "泰国｜原生记录",
+            "lon": 101.682,
+            "lat": 13.049,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "waterchestnut",
+          "label": "荸荠",
+          "parts": [
+            "圆筒状秆",
+            "地下匍匐茎",
+            "球茎"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识荸荠。荸荠是莎草科水生草本，食用部分是地下膨大的球茎。地上看见的是细长圆筒状秆；它不是菱角，也不是长在树上的栗子。观察圆筒状秆、地下匍匐茎、球茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位中国东南部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。生长需要温暖的无霜季；热带与亚热带湿地记录并不表示所有湿地都适合建田。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看泰国的原生记录。浅水与泥土共同构成生长环境。与旱地根菜不同，重点是控制水深与排灌，不能把“有沼泽”直接视为可生产。名字里的“栗”不代表树生果实，地图上的原生区域也不等于水田分布。",
+            "lon": 101.682,
+            "lat": 13.049,
+            "label": "泰国｜原生记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "waterchestnut-region1",
+          "cropId": "waterchestnut",
+          "region": "中国东南部｜原生记录",
+          "lon": 115.231,
+          "lat": 28.304,
+          "chapterId": "waterchestnut",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:306797-1",
+          "sourceScope": "Kew WCVP v16把中国东南部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "CHS"
+        },
+        {
+          "id": "waterchestnut-region2",
+          "cropId": "waterchestnut",
+          "region": "泰国｜原生记录",
+          "lon": 101.682,
+          "lat": 13.049,
+          "chapterId": "waterchestnut",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:306797-1",
+          "sourceScope": "Kew WCVP v16把泰国列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "THA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "teff",
+        "name": "苔麸（埃塞俄比亚画眉草）",
+        "latin": "Eragrostis tef",
+        "synonyms": [],
+        "group": "谷物与杂粮",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Poaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1105499-2",
+          "nameStatus": "accepted",
+          "acceptedName": "Eragrostis tef"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带季节性干旱区",
+          "高地农业"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "暖季生长、细整地与适时供水",
+        "limits": "幼苗竞争弱、板结与强风倒伏",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1105499-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=5746"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "oats",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "teff",
+        "summary": "苔麸是种子很小的禾本科谷物，粮食和秸秆有不同用途。埃塞俄比亚高地是重要的栽培背景，但不能把高地作物理解成耐严寒作物。",
+        "temperatureNote": "在热带高地有栽培；海拔通过温度与季节影响生长，而不是一条独立的适种开关。",
+        "water": {
+          "summary": "生长季供水与土壤通气都需要关注。",
+          "timing": "细小种子建植阶段尤其依赖合适的苗床与水分。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "苗床需要较细、平整且便于幼苗出土。",
+          "drainage": "不透水或严重压实的土壤不利生长。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生暖季作物，粮用与刈草用的收获目标不同。",
+          "timing": "细小种子建植阶段尤其依赖合适的苗床与水分。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "在热带高地有栽培；海拔通过温度与季节影响生长，而不是一条独立的适种开关。",
+          "heat": "幼苗竞争弱、板结与强风倒伏",
+          "drought": "生长季供水与土壤通气都需要关注。",
+          "waterlogging": "不透水或严重压实的土壤不利生长。"
+        },
+        "regions": [
+          {
+            "name": "埃塞俄比亚｜原生记录",
+            "why": "Kew WCVP v16把埃塞俄比亚列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "肯尼亚｜原生记录",
+            "why": "Kew WCVP v16把肯尼亚列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "C4光合途径与暖季生长相联系；籽粒很小也使建植和收获更精细。",
+          "practice": "结合品种熟期管理杂草、整地与倒伏风险。",
+          "tradeoff": "为了小种子而过度粉碎和裸露土壤，会增加侵蚀风险。"
+        },
+        "misconception": "耐一部分干旱不表示幼苗不需要水；埃塞俄比亚也不只有一种气候。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Eragrostis tef",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1105499-2",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "FAO EcoCrop：Eragrostis tef",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=5746",
+            "supports": "一年生、C4、细小种子苗床、埃塞俄比亚高地背景、压实与强风限制"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "teff",
+        "crop": "teff",
+        "group": "谷物与杂粮",
+        "title": "苔麸（埃塞俄比亚画眉草）｜暖季生长、细整地与适时供水",
+        "lon": 38.909,
+        "lat": 9.217,
+        "subtitle": "苔麸是种子很小的禾本科谷物，粮食和秸秆有不同用途。埃塞俄比亚高地是重要的栽培背景，但不能把高地作物理解成耐严寒作物。",
+        "shape": "teff",
+        "text": "认识苔麸（埃塞俄比亚画眉草）。苔麸是种子很小的禾本科谷物，粮食和秸秆有不同用途。埃塞俄比亚高地是重要的栽培背景，但不能把高地作物理解成耐严寒作物。观察细长秆、疏松圆锥花序、细小籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位埃塞俄比亚。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。在热带高地有栽培；海拔通过温度与季节影响生长，而不是一条独立的适种开关。再看肯尼亚的原生记录。生长季供水与土壤通气都需要关注。不透水或严重压实的土壤不利生长。耐一部分干旱不表示幼苗不需要水；埃塞俄比亚也不只有一种气候。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1105499-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=5746"
+        ],
+        "labels": [
+          {
+            "text": "埃塞俄比亚｜原生记录",
+            "lon": 38.909,
+            "lat": 9.217,
+            "kind": "region"
+          },
+          {
+            "text": "肯尼亚｜原生记录",
+            "lon": 37.455,
+            "lat": -0.382,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "teff",
+          "label": "苔麸（埃塞俄比亚画眉草）",
+          "parts": [
+            "细长秆",
+            "疏松圆锥花序",
+            "细小籽粒"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识苔麸（埃塞俄比亚画眉草）。苔麸是种子很小的禾本科谷物，粮食和秸秆有不同用途。埃塞俄比亚高地是重要的栽培背景，但不能把高地作物理解成耐严寒作物。观察细长秆、疏松圆锥花序、细小籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 38.909,
+            "lat": 9.217,
+            "label": "埃塞俄比亚｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位埃塞俄比亚。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。在热带高地有栽培；海拔通过温度与季节影响生长，而不是一条独立的适种开关。",
+            "lon": 38.909,
+            "lat": 9.217,
+            "label": "埃塞俄比亚｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看肯尼亚的原生记录。生长季供水与土壤通气都需要关注。不透水或严重压实的土壤不利生长。耐一部分干旱不表示幼苗不需要水；埃塞俄比亚也不只有一种气候。",
+            "lon": 37.455,
+            "lat": -0.382,
+            "label": "肯尼亚｜原生记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "teff-region1",
+          "cropId": "teff",
+          "region": "埃塞俄比亚｜原生记录",
+          "lon": 38.909,
+          "lat": 9.217,
+          "chapterId": "teff",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1105499-2",
+          "sourceScope": "Kew WCVP v16把埃塞俄比亚列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "ETH"
+        },
+        {
+          "id": "teff-region2",
+          "cropId": "teff",
+          "region": "肯尼亚｜原生记录",
+          "lon": 37.455,
+          "lat": -0.382,
+          "chapterId": "teff",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1105499-2",
+          "sourceScope": "Kew WCVP v16把肯尼亚列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "KEN"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "fonio",
+        "name": "白福尼奥米",
+        "latin": "Digitaria exilis",
+        "synonyms": [],
+        "group": "谷物与杂粮",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Poaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:398802-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Digitaria exilis"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "西非稀树草原",
+          "季节性干旱热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "与雨季衔接的熟期和可排水土壤",
+        "limits": "建植失败、收获脱粒困难与倒伏",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:398802-1",
+          "https://www.kew.org/read-and-watch/fonio-journey-in-guinea",
+          "https://www.fao.org/newsroom/story/cultivating-fonio-cultivating-traditions/"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "foxtail",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "fonio",
+        "summary": "白福尼奥米是西非的细粒谷物，与黑福尼奥米是不同物种。早熟地方类型可填补粮食空档，晚熟类型则利用更长的雨季。",
+        "temperatureNote": "与西非季节性热带环境联系紧密；不同地方类型的表现不可互相替代。",
+        "water": {
+          "summary": "可以适应贫瘠和相对干燥的环境，但仍依赖有效降雨。",
+          "timing": "播种与雨季开始相配合；早熟帮助避开后期干旱。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "可在贫瘠地生长，收成仍受土壤与管理影响。",
+          "drainage": "不少类型在较轻土壤上栽培；低肥力耐受不等于长期淹水耐受。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生粮食作物，地方类型的成熟季差别明显。",
+          "timing": "播种与雨季开始相配合；早熟帮助避开后期干旱。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "与西非季节性热带环境联系紧密；不同地方类型的表现不可互相替代。",
+          "heat": "建植失败、收获脱粒困难与倒伏",
+          "drought": "可以适应贫瘠和相对干燥的环境，但仍依赖有效降雨。",
+          "waterlogging": "不少类型在较轻土壤上栽培；低肥力耐受不等于长期淹水耐受。"
+        },
+        "regions": [
+          {
+            "name": "几内亚｜原生记录",
+            "why": "Kew WCVP v16把几内亚列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "加纳｜原生记录",
+            "why": "Kew WCVP v16把加纳列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "快速完成生育期提供避旱的一种路径，而不是没有水也能结籽。",
+          "practice": "保留适合当地雨季的地方类型，并配合脱粒脱壳条件。",
+          "tradeoff": "微小籽粒有利多用途食品加工，也使传统脱壳耗工。"
+        },
+        "misconception": "白福尼奥米不等于所有“非洲小米”；“耐旱”必须结合熟期和雨季看。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Digitaria exilis",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:398802-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "Kew：几内亚福尼奥米田野研究",
+            "url": "https://www.kew.org/read-and-watch/fonio-journey-in-guinea",
+            "supports": "几内亚地方类型、快生长、贫瘠土壤与干旱耐受的田野背景"
+          },
+          {
+            "title": "FAO：Cultivating fonio, cultivating traditions",
+            "url": "https://www.fao.org/newsroom/story/cultivating-fonio-cultivating-traditions/",
+            "supports": "加纳北部栽培、食物用途与脱粒脱壳劳动"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "fonio",
+        "crop": "fonio",
+        "group": "谷物与杂粮",
+        "title": "白福尼奥米｜与雨季衔接的熟期和可排水土壤",
+        "lon": -9.654,
+        "lat": 9.916,
+        "subtitle": "白福尼奥米是西非的细粒谷物，与黑福尼奥米是不同物种。早熟地方类型可填补粮食空档，晚熟类型则利用更长的雨季。",
+        "shape": "fonio",
+        "text": "认识白福尼奥米。白福尼奥米是西非的细粒谷物，与黑福尼奥米是不同物种。早熟地方类型可填补粮食空档，晚熟类型则利用更长的雨季。观察细长叶、指状分枝花序、微小籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位几内亚。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。与西非季节性热带环境联系紧密；不同地方类型的表现不可互相替代。再看加纳的原生记录。可以适应贫瘠和相对干燥的环境，但仍依赖有效降雨。不少类型在较轻土壤上栽培；低肥力耐受不等于长期淹水耐受。白福尼奥米不等于所有“非洲小米”；“耐旱”必须结合熟期和雨季看。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:398802-1",
+          "https://www.kew.org/read-and-watch/fonio-journey-in-guinea",
+          "https://www.fao.org/newsroom/story/cultivating-fonio-cultivating-traditions/"
+        ],
+        "labels": [
+          {
+            "text": "几内亚｜原生记录",
+            "lon": -9.654,
+            "lat": 9.916,
+            "kind": "region"
+          },
+          {
+            "text": "加纳｜原生记录",
+            "lon": -0.97,
+            "lat": 8.072,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "fonio",
+          "label": "白福尼奥米",
+          "parts": [
+            "细长叶",
+            "指状分枝花序",
+            "微小籽粒"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识白福尼奥米。白福尼奥米是西非的细粒谷物，与黑福尼奥米是不同物种。早熟地方类型可填补粮食空档，晚熟类型则利用更长的雨季。观察细长叶、指状分枝花序、微小籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -9.654,
+            "lat": 9.916,
+            "label": "几内亚｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位几内亚。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。与西非季节性热带环境联系紧密；不同地方类型的表现不可互相替代。",
+            "lon": -9.654,
+            "lat": 9.916,
+            "label": "几内亚｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看加纳的原生记录。可以适应贫瘠和相对干燥的环境，但仍依赖有效降雨。不少类型在较轻土壤上栽培；低肥力耐受不等于长期淹水耐受。白福尼奥米不等于所有“非洲小米”；“耐旱”必须结合熟期和雨季看。",
+            "lon": -0.97,
+            "lat": 8.072,
+            "label": "加纳｜原生记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "fonio-region1",
+          "cropId": "fonio",
+          "region": "几内亚｜原生记录",
+          "lon": -9.654,
+          "lat": 9.916,
+          "chapterId": "fonio",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:398802-1",
+          "sourceScope": "Kew WCVP v16把几内亚列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "GUI"
+        },
+        {
+          "id": "fonio-region2",
+          "cropId": "fonio",
+          "region": "加纳｜原生记录",
+          "lon": -0.97,
+          "lat": 8.072,
+          "chapterId": "fonio",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:398802-1",
+          "sourceScope": "Kew WCVP v16把加纳列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "GHA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "proso",
+        "name": "糜子（黍）",
+        "latin": "Panicum miliaceum",
+        "synonyms": [],
+        "group": "谷物与杂粮",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Poaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:412217-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Panicum miliaceum"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带暖季",
+          "半干旱农区"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "短而温暖的无霜季、出苗水分与排水",
+        "limits": "霜冻、极端干旱和积水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:412217-1",
+          "https://corn.agronomy.wisc.edu/Crops/Millets.aspx",
+          "https://csucrops.org/proso-millet/"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "oats",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "proso",
+        "summary": "糜子与谷子同被称作小米类作物，却不是同一物种。它形成较疏松的圆锥花序，短生育期是利用有限水分的重要原因。",
+        "temperatureNote": "萌发和发育需要暖温；霜冻会限制可利用的生长季。",
+        "water": {
+          "summary": "用水较有效率，但建植与结籽仍受缺水影响。",
+          "timing": "适合熟期应与当地降雨窗口和终霜、初霜相配合。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "壤土较便于保水和排水；极粗砂土的水分管理更难。",
+          "drainage": "需要良好排水，不耐长期积水；极端干旱也会受损。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生短季谷物，部分地方作补种或接茬作物。",
+          "timing": "适合熟期应与当地降雨窗口和终霜、初霜相配合。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "萌发和发育需要暖温；霜冻会限制可利用的生长季。",
+          "heat": "霜冻、极端干旱和积水",
+          "drought": "用水较有效率，但建植与结籽仍受缺水影响。",
+          "waterlogging": "需要良好排水，不耐长期积水；极端干旱也会受损。"
+        },
+        "regions": [
+          {
+            "name": "印度｜原生记录",
+            "why": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "科罗拉多｜引入记录",
+            "why": "Kew WCVP v16把科罗拉多列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "短生育期可以避开季末干旱，区别于单纯忍受长时间缺水。",
+          "practice": "先比较品种熟期，再安排播种与收获。",
+          "tradeoff": "播得过迟可能遭遇初霜；“短季”不能抵消所有时令限制。"
+        },
+        "misconception": "糜子、谷子和珍珠粟是不同作物，不能把一项“小米”统计全给糜子。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Panicum miliaceum",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:412217-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "威斯康星/明尼苏达大学：Millets（历史推广手册）",
+            "url": "https://corn.agronomy.wisc.edu/Crops/Millets.aspx",
+            "supports": "糜子花序、短季、暖温、霜冻、旱涝与土壤限制"
+          },
+          {
+            "title": "科罗拉多州立大学：糜子品种试验",
+            "url": "https://csucrops.org/proso-millet/",
+            "supports": "科罗拉多与内布拉斯加旱地试验背景，不能作为全球适种验证"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "proso",
+        "crop": "proso",
+        "group": "谷物与杂粮",
+        "title": "糜子（黍）｜短而温暖的无霜季、出苗水分与排水",
+        "lon": 79.789,
+        "lat": 20.375,
+        "subtitle": "糜子与谷子同被称作小米类作物，却不是同一物种。它形成较疏松的圆锥花序，短生育期是利用有限水分的重要原因。",
+        "shape": "proso",
+        "text": "认识糜子（黍）。糜子与谷子同被称作小米类作物，却不是同一物种。它形成较疏松的圆锥花序，短生育期是利用有限水分的重要原因。观察细长叶、圆锥花序、带壳籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。萌发和发育需要暖温；霜冻会限制可利用的生长季。再看科罗拉多的引入记录。用水较有效率，但建植与结籽仍受缺水影响。需要良好排水，不耐长期积水；极端干旱也会受损。糜子、谷子和珍珠粟是不同作物，不能把一项“小米”统计全给糜子。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:412217-1",
+          "https://corn.agronomy.wisc.edu/Crops/Millets.aspx",
+          "https://csucrops.org/proso-millet/"
+        ],
+        "labels": [
+          {
+            "text": "印度｜原生记录",
+            "lon": 79.789,
+            "lat": 20.375,
+            "kind": "region"
+          },
+          {
+            "text": "科罗拉多｜引入记录",
+            "lon": -105.533,
+            "lat": 38.999,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "proso",
+          "label": "糜子（黍）",
+          "parts": [
+            "细长叶",
+            "圆锥花序",
+            "带壳籽粒"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识糜子（黍）。糜子与谷子同被称作小米类作物，却不是同一物种。它形成较疏松的圆锥花序，短生育期是利用有限水分的重要原因。观察细长叶、圆锥花序、带壳籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。萌发和发育需要暖温；霜冻会限制可利用的生长季。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看科罗拉多的引入记录。用水较有效率，但建植与结籽仍受缺水影响。需要良好排水，不耐长期积水；极端干旱也会受损。糜子、谷子和珍珠粟是不同作物，不能把一项“小米”统计全给糜子。",
+            "lon": -105.533,
+            "lat": 38.999,
+            "label": "科罗拉多｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "proso-region1",
+          "cropId": "proso",
+          "region": "印度｜原生记录",
+          "lon": 79.789,
+          "lat": 20.375,
+          "chapterId": "proso",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:412217-1",
+          "sourceScope": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "IND"
+        },
+        {
+          "id": "proso-region2",
+          "cropId": "proso",
+          "region": "科罗拉多｜引入记录",
+          "lon": -105.533,
+          "lat": 38.999,
+          "chapterId": "proso",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:412217-1",
+          "sourceScope": "Kew WCVP v16把科罗拉多列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "COL"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "amaranth",
+        "name": "籽粒苋（红穗苋）",
+        "latin": "Amaranthus cruentus",
+        "synonyms": [],
+        "group": "谷物与杂粮",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Amaranthaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:10631-2",
+          "nameStatus": "accepted",
+          "acceptedName": "Amaranthus cruentus"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "暖季农区",
+          "季节性干旱热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "暖季强光、细小种子的出苗水分",
+        "limits": "霜冻、苗床结皮与幼苗竞争",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:10631-2",
+          "https://corn.agronomy.wisc.edu/Crops/Amaranth.aspx"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "quinoa",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "amaranth",
+        "summary": "籽粒苋是阔叶植物，食用籽粒的方式类似谷物，所以常称为伪谷物。本条选择红穗苋这一物种，不能涵盖所有叶用苋菜和其他籽粒苋。",
+        "temperatureNote": "强光和温暖有利生长；收获与霜期的关系因地方管理不同。",
+        "water": {
+          "summary": "成株可以耐一定干旱，建植时却需要足够水分。",
+          "timing": "籽粒充实和收获时的干燥条件也需考虑。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "种子小，需细而稳固的苗床，播种过深不利出苗。",
+          "drainage": "重黏、结皮的苗床会增加出苗困难。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生暖季作物；籽粒、叶片和饲草用途的收获期不同。",
+          "timing": "籽粒充实和收获时的干燥条件也需考虑。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "强光和温暖有利生长；收获与霜期的关系因地方管理不同。",
+          "heat": "霜冻、苗床结皮与幼苗竞争",
+          "drought": "成株可以耐一定干旱，建植时却需要足够水分。",
+          "waterlogging": "重黏、结皮的苗床会增加出苗困难。"
+        },
+        "regions": [
+          {
+            "name": "墨西哥中部｜原生记录",
+            "why": "Kew WCVP v16把墨西哥中部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "肯尼亚｜引入记录",
+            "why": "Kew WCVP v16把肯尼亚列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "宽叶植株与密集花序形成明显识别特征，不属于禾本科谷物。",
+          "practice": "先确定食用籽粒类型与销用目标，再安排建植和收获。",
+          "tradeoff": "微小种子使播种、清选和机械收获都需要适配。"
+        },
+        "misconception": "“伪谷物”描述食用方式，不是说它不是真实作物，也不等于全部苋属植物。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Amaranthus cruentus",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:10631-2",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "威斯康星/明尼苏达大学：Amaranth（历史推广手册）",
+            "url": "https://corn.agronomy.wisc.edu/Crops/Amaranth.aspx",
+            "supports": "籽粒苋物种、暖温强光、建植水分、小粒苗床和收获限制"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "amaranth",
+        "crop": "amaranth",
+        "group": "谷物与杂粮",
+        "title": "籽粒苋（红穗苋）｜暖季强光、细小种子的出苗水分",
+        "lon": -98.67,
+        "lat": 19.339,
+        "subtitle": "籽粒苋是阔叶植物，食用籽粒的方式类似谷物，所以常称为伪谷物。本条选择红穗苋这一物种，不能涵盖所有叶用苋菜和其他籽粒苋。",
+        "shape": "amaranth",
+        "text": "认识籽粒苋（红穗苋）。籽粒苋是阔叶植物，食用籽粒的方式类似谷物，所以常称为伪谷物。本条选择红穗苋这一物种，不能涵盖所有叶用苋菜和其他籽粒苋。观察宽叶、密集穗状花序、细小籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位墨西哥中部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。强光和温暖有利生长；收获与霜期的关系因地方管理不同。再看肯尼亚的引入记录。成株可以耐一定干旱，建植时却需要足够水分。重黏、结皮的苗床会增加出苗困难。“伪谷物”描述食用方式，不是说它不是真实作物，也不等于全部苋属植物。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:10631-2",
+          "https://corn.agronomy.wisc.edu/Crops/Amaranth.aspx"
+        ],
+        "labels": [
+          {
+            "text": "墨西哥中部｜原生记录",
+            "lon": -98.67,
+            "lat": 19.339,
+            "kind": "region"
+          },
+          {
+            "text": "肯尼亚｜引入记录",
+            "lon": 37.455,
+            "lat": -0.382,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "amaranth",
+          "label": "籽粒苋（红穗苋）",
+          "parts": [
+            "宽叶",
+            "密集穗状花序",
+            "细小籽粒"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识籽粒苋（红穗苋）。籽粒苋是阔叶植物，食用籽粒的方式类似谷物，所以常称为伪谷物。本条选择红穗苋这一物种，不能涵盖所有叶用苋菜和其他籽粒苋。观察宽叶、密集穗状花序、细小籽粒。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -98.67,
+            "lat": 19.339,
+            "label": "墨西哥中部｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位墨西哥中部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。强光和温暖有利生长；收获与霜期的关系因地方管理不同。",
+            "lon": -98.67,
+            "lat": 19.339,
+            "label": "墨西哥中部｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看肯尼亚的引入记录。成株可以耐一定干旱，建植时却需要足够水分。重黏、结皮的苗床会增加出苗困难。“伪谷物”描述食用方式，不是说它不是真实作物，也不等于全部苋属植物。",
+            "lon": 37.455,
+            "lat": -0.382,
+            "label": "肯尼亚｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "amaranth-region1",
+          "cropId": "amaranth",
+          "region": "墨西哥中部｜原生记录",
+          "lon": -98.67,
+          "lat": 19.339,
+          "chapterId": "amaranth",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:10631-2",
+          "sourceScope": "Kew WCVP v16把墨西哥中部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "MXC"
+        },
+        {
+          "id": "amaranth-region2",
+          "cropId": "amaranth",
+          "region": "肯尼亚｜引入记录",
+          "lon": 37.455,
+          "lat": -0.382,
+          "chapterId": "amaranth",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:10631-2",
+          "sourceScope": "Kew WCVP v16把肯尼亚列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "KEN"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "mungbean",
+        "name": "绿豆",
+        "latin": "Vigna radiata",
+        "synonyms": [],
+        "group": "豆类",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525492-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Vigna radiata"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "暖季农区",
+          "季节性热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "无霜暖季、花荚期水分和通气根区",
+        "limits": "积水、花荚期热旱和成熟期连雨",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525492-1",
+          "https://corn.agronomy.wisc.edu/Crops/Mungbean.aspx"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "cowpea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "mungbean",
+        "summary": "绿豆的绿色干种子很常见，植株具有三出复叶和细长荚果。它与赤小豆、豇豆同属豇豆属，但不等于同一种豆。",
+        "temperatureNote": "作为作物常在暖季种植；合适熟期需要在当地无霜季内完成。",
+        "water": {
+          "summary": "花期到鼓粒阶段缺水会影响收成。",
+          "timing": "成熟期高湿和连雨会延迟干燥并增加病害与损失。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "较肥沃且能兼顾保水与通气的壤土较便于生产。",
+          "drainage": "根区需良好排水，排水差的重黏土不利。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "常作一年生暖季豆类，品种对日长的响应不同。",
+          "timing": "成熟期高湿和连雨会延迟干燥并增加病害与损失。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "作为作物常在暖季种植；合适熟期需要在当地无霜季内完成。",
+          "heat": "积水、花荚期热旱和成熟期连雨",
+          "drought": "花期到鼓粒阶段缺水会影响收成。",
+          "waterlogging": "根区需良好排水，排水差的重黏土不利。"
+        },
+        "regions": [
+          {
+            "name": "印度｜原生记录",
+            "why": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "泰国｜原生记录",
+            "why": "Kew WCVP v16把泰国列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "豆科根瘤共生为氮素来源提供途径，前提是合适的根瘤菌与根区条件。",
+          "practice": "依熟期和日长响应选择品种，避免把花荚期安排在严重热旱窗口。",
+          "tradeoff": "耐部分干旱与稳定生产是两件事；绿豆芽用途还特别要求种子质量。"
+        },
+        "misconception": "食用的“豆芽”可能来自绿豆，不能仅凭商品名称判断为大豆。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Vigna radiata",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525492-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "威斯康星/明尼苏达大学：Mungbean（历史推广手册）",
+            "url": "https://corn.agronomy.wisc.edu/Crops/Mungbean.aspx",
+            "supports": "叶花荚形态、无霜暖季、日长、花荚水分、成熟连雨与排水限制"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "mungbean",
+        "crop": "mungbean",
+        "group": "豆类",
+        "title": "绿豆｜无霜暖季、花荚期水分和通气根区",
+        "lon": 79.789,
+        "lat": 20.375,
+        "subtitle": "绿豆的绿色干种子很常见，植株具有三出复叶和细长荚果。它与赤小豆、豇豆同属豇豆属，但不等于同一种豆。",
+        "shape": "mungbean",
+        "text": "认识绿豆。绿豆的绿色干种子很常见，植株具有三出复叶和细长荚果。它与赤小豆、豇豆同属豇豆属，但不等于同一种豆。观察三出复叶、淡黄色花、细长荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。作为作物常在暖季种植；合适熟期需要在当地无霜季内完成。再看泰国的原生记录。花期到鼓粒阶段缺水会影响收成。根区需良好排水，排水差的重黏土不利。食用的“豆芽”可能来自绿豆，不能仅凭商品名称判断为大豆。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525492-1",
+          "https://corn.agronomy.wisc.edu/Crops/Mungbean.aspx"
+        ],
+        "labels": [
+          {
+            "text": "印度｜原生记录",
+            "lon": 79.789,
+            "lat": 20.375,
+            "kind": "region"
+          },
+          {
+            "text": "泰国｜原生记录",
+            "lon": 101.682,
+            "lat": 13.049,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "mungbean",
+          "label": "绿豆",
+          "parts": [
+            "三出复叶",
+            "淡黄色花",
+            "细长荚果"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识绿豆。绿豆的绿色干种子很常见，植株具有三出复叶和细长荚果。它与赤小豆、豇豆同属豇豆属，但不等于同一种豆。观察三出复叶、淡黄色花、细长荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。作为作物常在暖季种植；合适熟期需要在当地无霜季内完成。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看泰国的原生记录。花期到鼓粒阶段缺水会影响收成。根区需良好排水，排水差的重黏土不利。食用的“豆芽”可能来自绿豆，不能仅凭商品名称判断为大豆。",
+            "lon": 101.682,
+            "lat": 13.049,
+            "label": "泰国｜原生记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "mungbean-region1",
+          "cropId": "mungbean",
+          "region": "印度｜原生记录",
+          "lon": 79.789,
+          "lat": 20.375,
+          "chapterId": "mungbean",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525492-1",
+          "sourceScope": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "IND"
+        },
+        {
+          "id": "mungbean-region2",
+          "cropId": "mungbean",
+          "region": "泰国｜原生记录",
+          "lon": 101.682,
+          "lat": 13.049,
+          "chapterId": "mungbean",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525492-1",
+          "sourceScope": "Kew WCVP v16把泰国列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "THA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "adzuki",
+        "name": "赤小豆",
+        "latin": "Vigna angularis",
+        "synonyms": [],
+        "group": "豆类",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525291-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Vigna angularis"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "东亚温带暖季",
+          "亚热带农区"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "足够暖季、均匀出苗与适合的熟期",
+        "limits": "冷土出苗慢、幼苗杂草竞争和裂荚",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525291-1",
+          "https://corn.agronomy.wisc.edu/Crops/AdzukiBean.aspx"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "cowpea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "adzuki",
+        "summary": "赤小豆常用于豆沙和干豆食品，种子颜色并不只限于红色。直立与蔓生类型具有不同株形，不能只从一颗红豆推断植株结构。",
+        "temperatureNote": "冷土会明显拖慢出苗，应把播种期与地温一起考虑。",
+        "water": {
+          "summary": "幼苗建立和结荚需要可利用的土壤水分。",
+          "timing": "不同荚的成熟进度可能不同，收获太迟增加裂荚损失。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "种子和苗床充分接触有利整齐出苗。",
+          "drainage": "栽培土壤要求与其他食用干豆相近，要避免根区通气差。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "常作暖季一年生豆类，品种熟期应适合当地季长。",
+          "timing": "不同荚的成熟进度可能不同，收获太迟增加裂荚损失。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "冷土会明显拖慢出苗，应把播种期与地温一起考虑。",
+          "heat": "冷土出苗慢、幼苗杂草竞争和裂荚",
+          "drought": "幼苗建立和结荚需要可利用的土壤水分。",
+          "waterlogging": "栽培土壤要求与其他食用干豆相近，要避免根区通气差。"
+        },
+        "regions": [
+          {
+            "name": "日本｜原生记录",
+            "why": "Kew WCVP v16把日本列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "中国南中部｜原生记录",
+            "why": "Kew WCVP v16把中国南中部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "三出复叶与荚果能帮助识别；它和绿豆近缘但种子、用途与株形选择不同。",
+          "practice": "注意早期杂草竞争，并按品种的成熟一致性决定收获。",
+          "tradeoff": "豆沙看重籽粒品质；适合食品加工不代表对冷土和病害没有限制。"
+        },
+        "misconception": "“红豆”是商品俗称，赤小豆不等于所有红色豆，也不是相思子。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Vigna angularis",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525291-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "威斯康星/明尼苏达大学：Adzuki Bean（1989推广手册）",
+            "url": "https://corn.agronomy.wisc.edu/Crops/AdzukiBean.aspx",
+            "supports": "冷土出苗慢、株形、食用途、早期竞争与裂荚；历史栽培叙述不替代最新WCVP分类"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "adzuki",
+        "crop": "adzuki",
+        "group": "豆类",
+        "title": "赤小豆｜足够暖季、均匀出苗与适合的熟期",
+        "lon": 143.265,
+        "lat": 43.541,
+        "subtitle": "赤小豆常用于豆沙和干豆食品，种子颜色并不只限于红色。直立与蔓生类型具有不同株形，不能只从一颗红豆推断植株结构。",
+        "shape": "adzuki",
+        "text": "认识赤小豆。赤小豆常用于豆沙和干豆食品，种子颜色并不只限于红色。直立与蔓生类型具有不同株形，不能只从一颗红豆推断植株结构。观察三出复叶、细长荚果、红色种子示意。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位日本。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。冷土会明显拖慢出苗，应把播种期与地温一起考虑。再看中国南中部的原生记录。幼苗建立和结荚需要可利用的土壤水分。栽培土壤要求与其他食用干豆相近，要避免根区通气差。“红豆”是商品俗称，赤小豆不等于所有红色豆，也不是相思子。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525291-1",
+          "https://corn.agronomy.wisc.edu/Crops/AdzukiBean.aspx"
+        ],
+        "labels": [
+          {
+            "text": "日本｜原生记录",
+            "lon": 143.265,
+            "lat": 43.541,
+            "kind": "region"
+          },
+          {
+            "text": "中国南中部｜原生记录",
+            "lon": 103.801,
+            "lat": 27.914,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "adzuki",
+          "label": "赤小豆",
+          "parts": [
+            "三出复叶",
+            "细长荚果",
+            "红色种子示意"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识赤小豆。赤小豆常用于豆沙和干豆食品，种子颜色并不只限于红色。直立与蔓生类型具有不同株形，不能只从一颗红豆推断植株结构。观察三出复叶、细长荚果、红色种子示意。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 143.265,
+            "lat": 43.541,
+            "label": "日本｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位日本。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。冷土会明显拖慢出苗，应把播种期与地温一起考虑。",
+            "lon": 143.265,
+            "lat": 43.541,
+            "label": "日本｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看中国南中部的原生记录。幼苗建立和结荚需要可利用的土壤水分。栽培土壤要求与其他食用干豆相近，要避免根区通气差。“红豆”是商品俗称，赤小豆不等于所有红色豆，也不是相思子。",
+            "lon": 103.801,
+            "lat": 27.914,
+            "label": "中国南中部｜原生记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "adzuki-region1",
+          "cropId": "adzuki",
+          "region": "日本｜原生记录",
+          "lon": 143.265,
+          "lat": 43.541,
+          "chapterId": "adzuki",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525291-1",
+          "sourceScope": "Kew WCVP v16把日本列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "JAP"
+        },
+        {
+          "id": "adzuki-region2",
+          "cropId": "adzuki",
+          "region": "中国南中部｜原生记录",
+          "lon": 103.801,
+          "lat": 27.914,
+          "chapterId": "adzuki",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:525291-1",
+          "sourceScope": "Kew WCVP v16把中国南中部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "CHC"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "pigeonpea",
+        "name": "木豆",
+        "latin": "Cajanus cajan",
+        "synonyms": [],
+        "group": "豆类",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1152177-2",
+          "nameStatus": "accepted",
+          "acceptedName": "Cajanus cajan"
+        },
+        "lifeForm": "草本或亚灌木",
+        "habitats": [
+          "半干旱热带",
+          "雨养农区"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖季节、有效建植与花荚期可用水",
+        "limits": "早季干旱、积水和不适合的熟期",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1152177-2",
+          "https://genebanks.cgiar.org/resources/crops/pigeon-pea/",
+          "https://pressroom.icrisat.org/a-simple-shift-in-pigeonpea-planting-could-boost-yield-by-20-percent"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "cowpea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "pigeonpea",
+        "summary": "木豆是可呈灌木状的豆科作物，常提供干豆、鲜豆或饲用材料。根系与耐热耐旱特性使它在半干旱热带有意义，但建植成功仍是前提。",
+        "temperatureNote": "适合温暖环境；不同熟期类型不能用一条温度描述代替。",
+        "water": {
+          "summary": "常见于雨养系统，播期需要与雨季的有效降水衔接。",
+          "timing": "早季降水不稳定会影响建植，后续水分决定开花结荚表现。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "深根有助利用土层水分，但根层条件仍限制表现。",
+          "drainage": "田块地形与排水管理影响根区水分，不能只看年雨量。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生栽培与多年生形态均有，成熟时长因类型而异。",
+          "timing": "早季降水不稳定会影响建植，后续水分决定开花结荚表现。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "适合温暖环境；不同熟期类型不能用一条温度描述代替。",
+          "heat": "早季干旱、积水和不适合的熟期",
+          "drought": "常见于雨养系统，播期需要与雨季的有效降水衔接。",
+          "waterlogging": "田块地形与排水管理影响根区水分，不能只看年雨量。"
+        },
+        "regions": [
+          {
+            "name": "印度｜原生记录",
+            "why": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "肯尼亚｜引入记录",
+            "why": "Kew WCVP v16把肯尼亚列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "深根与耐热耐旱能力适应部分半干旱条件；豆科共生也与轮作价值相关。",
+          "practice": "按本地雨季与品种熟期安排建植，管理田块地形和株行布局。",
+          "tradeoff": "延长生长期有时利用更多资源，也可能暴露于季末缺水。"
+        },
+        "misconception": "“耐旱作物”仍会受早季缺水影响，不能承诺靠耐旱性获得稳定产量。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Cajanus cajan",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1152177-2",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "CGIAR基因库：Pigeonpea",
+            "url": "https://genebanks.cgiar.org/resources/crops/pigeon-pea/",
+            "supports": "深根、半干旱适应、耐热耐旱、株形与叶花结构"
+          },
+          {
+            "title": "ICRISAT：木豆建植与气候风险",
+            "url": "https://pressroom.icrisat.org/a-simple-shift-in-pigeonpea-planting-could-boost-yield-by-20-percent",
+            "supports": "雨养、早季干旱、建植与土壤水分管理；不照搬试验增产幅度"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "pigeonpea",
+        "crop": "pigeonpea",
+        "group": "豆类",
+        "title": "木豆｜温暖季节、有效建植与花荚期可用水",
+        "lon": 79.789,
+        "lat": 20.375,
+        "subtitle": "木豆是可呈灌木状的豆科作物，常提供干豆、鲜豆或饲用材料。根系与耐热耐旱特性使它在半干旱热带有意义，但建植成功仍是前提。",
+        "shape": "pigeonpea",
+        "text": "认识木豆。木豆是可呈灌木状的豆科作物，常提供干豆、鲜豆或饲用材料。根系与耐热耐旱特性使它在半干旱热带有意义，但建植成功仍是前提。观察三出复叶、黄色蝶形花、荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。适合温暖环境；不同熟期类型不能用一条温度描述代替。再看肯尼亚的引入记录。常见于雨养系统，播期需要与雨季的有效降水衔接。田块地形与排水管理影响根区水分，不能只看年雨量。“耐旱作物”仍会受早季缺水影响，不能承诺靠耐旱性获得稳定产量。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1152177-2",
+          "https://genebanks.cgiar.org/resources/crops/pigeon-pea/",
+          "https://pressroom.icrisat.org/a-simple-shift-in-pigeonpea-planting-could-boost-yield-by-20-percent"
+        ],
+        "labels": [
+          {
+            "text": "印度｜原生记录",
+            "lon": 79.789,
+            "lat": 20.375,
+            "kind": "region"
+          },
+          {
+            "text": "肯尼亚｜引入记录",
+            "lon": 37.455,
+            "lat": -0.382,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "pigeonpea",
+          "label": "木豆",
+          "parts": [
+            "三出复叶",
+            "黄色蝶形花",
+            "荚果"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识木豆。木豆是可呈灌木状的豆科作物，常提供干豆、鲜豆或饲用材料。根系与耐热耐旱特性使它在半干旱热带有意义，但建植成功仍是前提。观察三出复叶、黄色蝶形花、荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。适合温暖环境；不同熟期类型不能用一条温度描述代替。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看肯尼亚的引入记录。常见于雨养系统，播期需要与雨季的有效降水衔接。田块地形与排水管理影响根区水分，不能只看年雨量。“耐旱作物”仍会受早季缺水影响，不能承诺靠耐旱性获得稳定产量。",
+            "lon": 37.455,
+            "lat": -0.382,
+            "label": "肯尼亚｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "pigeonpea-region1",
+          "cropId": "pigeonpea",
+          "region": "印度｜原生记录",
+          "lon": 79.789,
+          "lat": 20.375,
+          "chapterId": "pigeonpea",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1152177-2",
+          "sourceScope": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "IND"
+        },
+        {
+          "id": "pigeonpea-region2",
+          "cropId": "pigeonpea",
+          "region": "肯尼亚｜引入记录",
+          "lon": 37.455,
+          "lat": -0.382,
+          "chapterId": "pigeonpea",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1152177-2",
+          "sourceScope": "Kew WCVP v16把肯尼亚列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "KEN"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "faba",
+        "name": "蚕豆",
+        "latin": "Vicia faba",
+        "synonyms": [],
+        "group": "豆类",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:524737-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Vicia faba"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带凉季",
+          "地中海型农区"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "较凉季节、花荚期水分和合适土层",
+        "limits": "干旱、高温与花期霜害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:524737-1",
+          "https://www.dpird.wa.gov.au/businesses/plant-and-crop-farming/grains/pulses/",
+          "https://www.dpird.nsw.gov.au/agriculture/broadacre-crops/winter-crops/faba-beans/faba-bean"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "pea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "faba",
+        "summary": "蚕豆属于野豌豆属，是凉季豆类的重要代表。它与绿豆的季节选择不同，在部分地中海型农区利用冬季降水生长。",
+        "temperatureNote": "常按凉季豆类安排播种；生殖阶段仍需避免不适合的霜冻和热旱窗口。",
+        "water": {
+          "summary": "对干旱较敏感，花荚形成需关注土壤可用水。",
+          "timing": "雨季结束后的土壤存水会影响结荚与鼓粒。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "中到重质土壤可用于生产，仍需考虑通气与有效根层。",
+          "drainage": "相较许多豆类可耐短暂湿涝，但不能推断长期淹水有利。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生凉季豆类；北半球和南半球的种植月份相反。",
+          "timing": "雨季结束后的土壤存水会影响结荚与鼓粒。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "常按凉季豆类安排播种；生殖阶段仍需避免不适合的霜冻和热旱窗口。",
+          "heat": "干旱、高温与花期霜害",
+          "drought": "对干旱较敏感，花荚形成需关注土壤可用水。",
+          "waterlogging": "相较许多豆类可耐短暂湿涝，但不能推断长期淹水有利。"
+        },
+        "regions": [
+          {
+            "name": "巴勒斯坦地区｜原生记录",
+            "why": "Kew WCVP v16把巴勒斯坦地区列为本分类单元的原生地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "新南威尔士｜引入记录",
+            "why": "Kew WCVP v16把新南威尔士列为本分类单元的引入地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "选择凉季可利用冬季水分；这是农业时令与环境共同形成的分布。",
+          "practice": "匹配雨季与熟期，并监测花期天气和病害。",
+          "tradeoff": "较湿凉条件提供水分，也可能增加病害管理压力。"
+        },
+        "misconception": "WCVP称其来自东地中海的栽培起源背景；地图原生码不等于确定找到了野生祖先。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Vicia faba",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:524737-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "西澳DPIRD：Pulses",
+            "url": "https://www.dpird.wa.gov.au/businesses/plant-and-crop-farming/grains/pulses/",
+            "supports": "蚕豆对中重质土、有效降水、短暂湿涝及干旱的响应"
+          },
+          {
+            "title": "新南威尔士DPIRD：Faba bean",
+            "url": "https://www.dpird.nsw.gov.au/agriculture/broadacre-crops/winter-crops/faba-beans/faba-bean",
+            "supports": "凉季豆类与澳大利亚南部栽培背景"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "faba",
+        "crop": "faba",
+        "group": "豆类",
+        "title": "蚕豆｜较凉季节、花荚期水分和合适土层",
+        "lon": 35.981,
+        "lat": 30.914,
+        "subtitle": "蚕豆属于野豌豆属，是凉季豆类的重要代表。它与绿豆的季节选择不同，在部分地中海型农区利用冬季降水生长。",
+        "shape": "faba",
+        "text": "认识蚕豆。蚕豆属于野豌豆属，是凉季豆类的重要代表。它与绿豆的季节选择不同，在部分地中海型农区利用冬季降水生长。观察羽状复叶、蝶形花、粗大荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位巴勒斯坦地区。这里的标记依据Kew的原生区域记录，包含栽培起源背景。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。常按凉季豆类安排播种；生殖阶段仍需避免不适合的霜冻和热旱窗口。再看新南威尔士的引入记录。对干旱较敏感，花荚形成需关注土壤可用水。相较许多豆类可耐短暂湿涝，但不能推断长期淹水有利。WCVP称其来自东地中海的栽培起源背景；地图原生码不等于确定找到了野生祖先。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:524737-1",
+          "https://www.dpird.wa.gov.au/businesses/plant-and-crop-farming/grains/pulses/",
+          "https://www.dpird.nsw.gov.au/agriculture/broadacre-crops/winter-crops/faba-beans/faba-bean"
+        ],
+        "labels": [
+          {
+            "text": "巴勒斯坦地区｜原生记录",
+            "lon": 35.981,
+            "lat": 30.914,
+            "kind": "region"
+          },
+          {
+            "text": "新南威尔士｜引入记录",
+            "lon": 146.496,
+            "lat": -32.859,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "faba",
+          "label": "蚕豆",
+          "parts": [
+            "羽状复叶",
+            "蝶形花",
+            "粗大荚果"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识蚕豆。蚕豆属于野豌豆属，是凉季豆类的重要代表。它与绿豆的季节选择不同，在部分地中海型农区利用冬季降水生长。观察羽状复叶、蝶形花、粗大荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 35.981,
+            "lat": 30.914,
+            "label": "巴勒斯坦地区｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位巴勒斯坦地区。这里的标记依据Kew的原生区域记录，包含栽培起源背景。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。常按凉季豆类安排播种；生殖阶段仍需避免不适合的霜冻和热旱窗口。",
+            "lon": 35.981,
+            "lat": 30.914,
+            "label": "巴勒斯坦地区｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看新南威尔士的引入记录。对干旱较敏感，花荚形成需关注土壤可用水。相较许多豆类可耐短暂湿涝，但不能推断长期淹水有利。WCVP称其来自东地中海的栽培起源背景；地图原生码不等于确定找到了野生祖先。",
+            "lon": 146.496,
+            "lat": -32.859,
+            "label": "新南威尔士｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "faba-region1",
+          "cropId": "faba",
+          "region": "巴勒斯坦地区｜原生记录",
+          "lon": 35.981,
+          "lat": 30.914,
+          "chapterId": "faba",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:524737-1",
+          "sourceScope": "Kew WCVP v16把巴勒斯坦地区列为本分类单元的原生地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "PAL"
+        },
+        {
+          "id": "faba-region2",
+          "cropId": "faba",
+          "region": "新南威尔士｜引入记录",
+          "lon": 146.496,
+          "lat": -32.859,
+          "chapterId": "faba",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:524737-1",
+          "sourceScope": "Kew WCVP v16把新南威尔士列为本分类单元的引入地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "NSW"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "commonbean",
+        "name": "菜豆",
+        "latin": "Phaseolus vulgaris",
+        "synonyms": [],
+        "group": "豆类",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:514191-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Phaseolus vulgaris"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带暖季",
+          "热带与亚热带农区"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "暖土出苗、适度暖季和排水",
+        "limits": "冷湿土壤、霜冻与花期酷热",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:514191-1",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "cowpea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "commonbean",
+        "summary": "菜豆可收鲜嫩豆荚，也可收鲜豆或干豆，矮生和攀援品种同属一个物种。不同食用阶段改变了我们认识它的样子。",
+        "temperatureNote": "冷土中种子容易腐烂，极热天气又可能影响开花坐荚。",
+        "water": {
+          "summary": "根区应有持续可利用的水分，同时保持通气。",
+          "timing": "鲜荚需连续适期采收，干豆则要考虑成熟干燥窗口。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "依据土测补充养分；豆科共生并不能替代全部养分管理。",
+          "drainage": "排水良好的壤土便于生产，持续湿涝不是暖季优势。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "常作一年生暖季菜；矮生和架豆的采收持续性不同。",
+          "timing": "鲜荚需连续适期采收，干豆则要考虑成熟干燥窗口。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "冷土中种子容易腐烂，极热天气又可能影响开花坐荚。",
+          "heat": "冷湿土壤、霜冻与花期酷热",
+          "drought": "根区应有持续可利用的水分，同时保持通气。",
+          "waterlogging": "排水良好的壤土便于生产，持续湿涝不是暖季优势。"
+        },
+        "regions": [
+          {
+            "name": "墨西哥中部｜原生记录",
+            "why": "Kew WCVP v16把墨西哥中部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "秘鲁｜原生记录",
+            "why": "Kew WCVP v16把秘鲁列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "攀援和矮生株形改变空间利用与管理方式，不代表不同物种。",
+          "practice": "待土壤转暖再播，攀援类型早设支架，按用途采收。",
+          "tradeoff": "长采收季增加连续供应，也需要持续水分和采收劳动。"
+        },
+        "misconception": "四季豆、架豆和部分干豆可能同属菜豆；名字多不表示物种数也同样多。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Phaseolus vulgaris",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:514191-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "明尼苏达大学：Growing beans in home gardens",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans",
+            "supports": "菜豆物种、矮生/攀援类型、鲜荚/干豆用途、冷土与花期酷热限制"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "commonbean",
+        "crop": "commonbean",
+        "group": "豆类",
+        "title": "菜豆｜暖土出苗、适度暖季和排水",
+        "lon": -98.67,
+        "lat": 19.339,
+        "subtitle": "菜豆可收鲜嫩豆荚，也可收鲜豆或干豆，矮生和攀援品种同属一个物种。不同食用阶段改变了我们认识它的样子。",
+        "shape": "commonbean",
+        "text": "认识菜豆。菜豆可收鲜嫩豆荚，也可收鲜豆或干豆，矮生和攀援品种同属一个物种。不同食用阶段改变了我们认识它的样子。观察三出复叶、蝶形花、荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位墨西哥中部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。冷土中种子容易腐烂，极热天气又可能影响开花坐荚。再看秘鲁的原生记录。根区应有持续可利用的水分，同时保持通气。排水良好的壤土便于生产，持续湿涝不是暖季优势。四季豆、架豆和部分干豆可能同属菜豆；名字多不表示物种数也同样多。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:514191-1",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-beans"
+        ],
+        "labels": [
+          {
+            "text": "墨西哥中部｜原生记录",
+            "lon": -98.67,
+            "lat": 19.339,
+            "kind": "region"
+          },
+          {
+            "text": "秘鲁｜原生记录",
+            "lon": -75.803,
+            "lat": -9.195,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "commonbean",
+          "label": "菜豆",
+          "parts": [
+            "三出复叶",
+            "蝶形花",
+            "荚果"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识菜豆。菜豆可收鲜嫩豆荚，也可收鲜豆或干豆，矮生和攀援品种同属一个物种。不同食用阶段改变了我们认识它的样子。观察三出复叶、蝶形花、荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -98.67,
+            "lat": 19.339,
+            "label": "墨西哥中部｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位墨西哥中部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。冷土中种子容易腐烂，极热天气又可能影响开花坐荚。",
+            "lon": -98.67,
+            "lat": 19.339,
+            "label": "墨西哥中部｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看秘鲁的原生记录。根区应有持续可利用的水分，同时保持通气。排水良好的壤土便于生产，持续湿涝不是暖季优势。四季豆、架豆和部分干豆可能同属菜豆；名字多不表示物种数也同样多。",
+            "lon": -75.803,
+            "lat": -9.195,
+            "label": "秘鲁｜原生记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "commonbean-region1",
+          "cropId": "commonbean",
+          "region": "墨西哥中部｜原生记录",
+          "lon": -98.67,
+          "lat": 19.339,
+          "chapterId": "commonbean",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:514191-1",
+          "sourceScope": "Kew WCVP v16把墨西哥中部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "MXC"
+        },
+        {
+          "id": "commonbean-region2",
+          "cropId": "commonbean",
+          "region": "秘鲁｜原生记录",
+          "lon": -75.803,
+          "lat": -9.195,
+          "chapterId": "commonbean",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:514191-1",
+          "sourceScope": "Kew WCVP v16把秘鲁列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "PER"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "lupin",
+        "name": "白羽扇豆",
+        "latin": "Lupinus albus",
+        "synonyms": [],
+        "group": "豆类",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:504069-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Lupinus albus"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "地中海型环境",
+          "温带凉季农区"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "适度凉温、较肥沃的通气土壤",
+        "limits": "根区积水、开花热害与品种病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:504069-1",
+          "https://grdc.com.au/__data/assets/pdf_file/0033/366099/GrowNote-Lupin-West-1-Planning.pdf",
+          "https://agriculture.vic.gov.au/crops-and-horticulture/grains-pulses-and-cereals/growing-grains-pulses-and-cereals/growing-lupin-in-victoria"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "pea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "lupin",
+        "summary": "白羽扇豆是农业羽扇豆的一种，与窄叶羽扇豆不同。叶片呈掌状展开，籽粒用途与品种的低苦味选择有关，不能将观赏羽扇豆直接当作食用豆。",
+        "temperatureNote": "较温和的温度有利；花期霜害和过热都可能降低结荚。",
+        "water": {
+          "summary": "适度水分支持生长，白羽扇豆尤其需要防止根区积水。",
+          "timing": "冬季雨水与春季转干的地中海型季节，需要匹配熟期。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "白羽扇豆与窄叶羽扇豆对土壤的适应不同，应按物种核查。",
+          "drainage": "较肥沃的壤土或黏壤土需保持排水；不宜把其他羽扇豆的耐贫瘠性照搬过来。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生豆类，可作为谷物轮作中的一环。",
+          "timing": "冬季雨水与春季转干的地中海型季节，需要匹配熟期。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "较温和的温度有利；花期霜害和过热都可能降低结荚。",
+          "heat": "根区积水、开花热害与品种病害",
+          "drought": "适度水分支持生长，白羽扇豆尤其需要防止根区积水。",
+          "waterlogging": "较肥沃的壤土或黏壤土需保持排水；不宜把其他羽扇豆的耐贫瘠性照搬过来。"
+        },
+        "regions": [
+          {
+            "name": "希腊｜原生记录",
+            "why": "Kew WCVP v16把希腊列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "法国｜引入记录",
+            "why": "Kew WCVP v16把法国列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "掌状复叶与荚果提供识别线索；根瘤共生和轮作价值需要适当管理。",
+          "practice": "确认农业品种、种子质量和根区排水，避免使用不明食用品种。",
+          "tradeoff": "土壤肥力并不能抵消积水和病害风险。"
+        },
+        "misconception": "羽扇豆属有很多种；白羽扇豆、窄叶羽扇豆和花坛里的观赏品种不能混用。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Lupinus albus",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:504069-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "澳大利亚GRDC：Lupin GrowNotes 西部土壤选择",
+            "url": "https://grdc.com.au/__data/assets/pdf_file/0033/366099/GrowNote-Lupin-West-1-Planning.pdf",
+            "supports": "白羽扇豆与窄叶羽扇豆的土壤差异、白羽扇豆怕积水"
+          },
+          {
+            "title": "维多利亚农业局：Growing lupin in Victoria",
+            "url": "https://agriculture.vic.gov.au/crops-and-horticulture/grains-pulses-and-cereals/growing-grains-pulses-and-cereals/growing-lupin-in-victoria",
+            "supports": "物种区别、温和温度、花期寒热与种子病害管理"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "lupin",
+        "crop": "lupin",
+        "group": "豆类",
+        "title": "白羽扇豆｜适度凉温、较肥沃的通气土壤",
+        "lon": 22.005,
+        "lat": 39.065,
+        "subtitle": "白羽扇豆是农业羽扇豆的一种，与窄叶羽扇豆不同。叶片呈掌状展开，籽粒用途与品种的低苦味选择有关，不能将观赏羽扇豆直接当作食用豆。",
+        "shape": "lupin",
+        "text": "认识白羽扇豆。白羽扇豆是农业羽扇豆的一种，与窄叶羽扇豆不同。叶片呈掌状展开，籽粒用途与品种的低苦味选择有关，不能将观赏羽扇豆直接当作食用豆。观察掌状复叶、花序、较宽荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位希腊。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。较温和的温度有利；花期霜害和过热都可能降低结荚。再看法国的引入记录。适度水分支持生长，白羽扇豆尤其需要防止根区积水。较肥沃的壤土或黏壤土需保持排水；不宜把其他羽扇豆的耐贫瘠性照搬过来。羽扇豆属有很多种；白羽扇豆、窄叶羽扇豆和花坛里的观赏品种不能混用。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:504069-1",
+          "https://grdc.com.au/__data/assets/pdf_file/0033/366099/GrowNote-Lupin-West-1-Planning.pdf",
+          "https://agriculture.vic.gov.au/crops-and-horticulture/grains-pulses-and-cereals/growing-grains-pulses-and-cereals/growing-lupin-in-victoria"
+        ],
+        "labels": [
+          {
+            "text": "希腊｜原生记录",
+            "lon": 22.005,
+            "lat": 39.065,
+            "kind": "region"
+          },
+          {
+            "text": "法国｜引入记录",
+            "lon": 2.134,
+            "lat": 46.716,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "lupin",
+          "label": "白羽扇豆",
+          "parts": [
+            "掌状复叶",
+            "花序",
+            "较宽荚果"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识白羽扇豆。白羽扇豆是农业羽扇豆的一种，与窄叶羽扇豆不同。叶片呈掌状展开，籽粒用途与品种的低苦味选择有关，不能将观赏羽扇豆直接当作食用豆。观察掌状复叶、花序、较宽荚果。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 22.005,
+            "lat": 39.065,
+            "label": "希腊｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位希腊。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。较温和的温度有利；花期霜害和过热都可能降低结荚。",
+            "lon": 22.005,
+            "lat": 39.065,
+            "label": "希腊｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看法国的引入记录。适度水分支持生长，白羽扇豆尤其需要防止根区积水。较肥沃的壤土或黏壤土需保持排水；不宜把其他羽扇豆的耐贫瘠性照搬过来。羽扇豆属有很多种；白羽扇豆、窄叶羽扇豆和花坛里的观赏品种不能混用。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "lupin-region1",
+          "cropId": "lupin",
+          "region": "希腊｜原生记录",
+          "lon": 22.005,
+          "lat": 39.065,
+          "chapterId": "lupin",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:504069-1",
+          "sourceScope": "Kew WCVP v16把希腊列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "GRC"
+        },
+        {
+          "id": "lupin-region2",
+          "cropId": "lupin",
+          "region": "法国｜引入记录",
+          "lon": 2.134,
+          "lat": 46.716,
+          "chapterId": "lupin",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:504069-1",
+          "sourceScope": "Kew WCVP v16把法国列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "FRA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "taro",
+        "name": "芋",
+        "latin": "Colocasia esculenta",
+        "synonyms": [],
+        "group": "薯根与水生作物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Araceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1170772-2",
+          "nameStatus": "accepted",
+          "acceptedName": "Colocasia esculenta"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "湿润热带",
+          "亚热带湿润环境"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖、稳定水分与合适种植类型",
+        "limits": "霜冻、干旱与不合类型的水田条件",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1170772-2",
+          "https://www3.ctahr.hawaii.edu/hawaii/Vegetable.aspx",
+          "https://www3.ctahr.hawaii.edu/site/Taro.aspx",
+          "https://openknowledge.fao.org/3/cc5044en/cc5044en.pdf"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "lotus",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "taro",
+        "summary": "芋有长叶柄和大叶，主要食用地下球茎。水田芋与旱地芋都存在，因此把它简单理解成“必须泡水的植物”会忽略栽培类型的差异。",
+        "temperatureNote": "与温暖湿润的热带背景联系密切，寒冷季节限制地上生长。",
+        "water": {
+          "summary": "供水形式因旱地或湿地栽培而不同。",
+          "timing": "暖季内持续长叶与球茎膨大需要稳定资源。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "田间排灌与土层性质应和栽培类型一起核实。",
+          "drainage": "湿地生产需水流、水位与品种配套；旱地生产也不能忽略根区通气。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "多年生储藏器官植物，在农业中按球茎收获周期管理。",
+          "timing": "暖季内持续长叶与球茎膨大需要稳定资源。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "与温暖湿润的热带背景联系密切，寒冷季节限制地上生长。",
+          "heat": "霜冻、干旱与不合类型的水田条件",
+          "drought": "供水形式因旱地或湿地栽培而不同。",
+          "waterlogging": "湿地生产需水流、水位与品种配套；旱地生产也不能忽略根区通气。"
+        },
+        "regions": [
+          {
+            "name": "中国东南部｜原生记录",
+            "why": "Kew WCVP v16把中国东南部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "夏威夷｜引入记录",
+            "why": "Kew WCVP v16把夏威夷列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "大叶和地下球茎使地上同化与地下储藏相连接。",
+          "practice": "先分清湿地芋与旱地芋的管理条件，使用健康繁殖材料。",
+          "tradeoff": "水分充足不表示种源健康、水质与田间病害自动解决。"
+        },
+        "misconception": "像荷叶的形状不表示它是莲；芋的球茎也不同于莲的根茎。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Colocasia esculenta",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1170772-2",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "夏威夷大学CTAHR：Taro",
+            "url": "https://www3.ctahr.hawaii.edu/hawaii/Vegetable.aspx",
+            "supports": "夏威夷湿地与旱地芋、球茎繁殖和健康种源"
+          },
+          {
+            "title": "夏威夷大学CTAHR：Taro Varieties",
+            "url": "https://www3.ctahr.hawaii.edu/site/Taro.aspx",
+            "supports": "芋的栽培类型与形态识别资料"
+          },
+          {
+            "title": "FAO：Compendium of Forgotten Foods — Taro",
+            "url": "https://openknowledge.fao.org/3/cc5044en/cc5044en.pdf",
+            "supports": "温暖湿润、水田与旱地类型、球茎繁殖；未采用其中数值作为本项目全球阈值。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "taro",
+        "crop": "taro",
+        "group": "薯根与水生作物",
+        "title": "芋｜温暖、稳定水分与合适种植类型",
+        "lon": 115.231,
+        "lat": 28.304,
+        "subtitle": "芋有长叶柄和大叶，主要食用地下球茎。水田芋与旱地芋都存在，因此把它简单理解成“必须泡水的植物”会忽略栽培类型的差异。",
+        "shape": "taro",
+        "text": "认识芋。芋有长叶柄和大叶，主要食用地下球茎。水田芋与旱地芋都存在，因此把它简单理解成“必须泡水的植物”会忽略栽培类型的差异。观察盾状大叶、长叶柄、球茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位中国东南部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。与温暖湿润的热带背景联系密切，寒冷季节限制地上生长。再看夏威夷的引入记录。供水形式因旱地或湿地栽培而不同。湿地生产需水流、水位与品种配套；旱地生产也不能忽略根区通气。像荷叶的形状不表示它是莲；芋的球茎也不同于莲的根茎。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1170772-2",
+          "https://www3.ctahr.hawaii.edu/hawaii/Vegetable.aspx",
+          "https://www3.ctahr.hawaii.edu/site/Taro.aspx",
+          "https://openknowledge.fao.org/3/cc5044en/cc5044en.pdf"
+        ],
+        "labels": [
+          {
+            "text": "中国东南部｜原生记录",
+            "lon": 115.231,
+            "lat": 28.304,
+            "kind": "region"
+          },
+          {
+            "text": "夏威夷｜引入记录",
+            "lon": -155.451,
+            "lat": 19.637,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "taro",
+          "label": "芋",
+          "parts": [
+            "盾状大叶",
+            "长叶柄",
+            "球茎"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识芋。芋有长叶柄和大叶，主要食用地下球茎。水田芋与旱地芋都存在，因此把它简单理解成“必须泡水的植物”会忽略栽培类型的差异。观察盾状大叶、长叶柄、球茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位中国东南部。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。与温暖湿润的热带背景联系密切，寒冷季节限制地上生长。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看夏威夷的引入记录。供水形式因旱地或湿地栽培而不同。湿地生产需水流、水位与品种配套；旱地生产也不能忽略根区通气。像荷叶的形状不表示它是莲；芋的球茎也不同于莲的根茎。",
+            "lon": -155.451,
+            "lat": 19.637,
+            "label": "夏威夷｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "taro-region1",
+          "cropId": "taro",
+          "region": "中国东南部｜原生记录",
+          "lon": 115.231,
+          "lat": 28.304,
+          "chapterId": "taro",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1170772-2",
+          "sourceScope": "Kew WCVP v16把中国东南部列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "CHS"
+        },
+        {
+          "id": "taro-region2",
+          "cropId": "taro",
+          "region": "夏威夷｜引入记录",
+          "lon": -155.451,
+          "lat": 19.637,
+          "chapterId": "taro",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1170772-2",
+          "sourceScope": "Kew WCVP v16把夏威夷列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "HAW"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "yam",
+        "name": "大薯（参薯）",
+        "latin": "Dioscorea alata",
+        "synonyms": [],
+        "group": "薯根与水生作物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Dioscoreaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:317625-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Dioscorea alata"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "湿润热带",
+          "季节性热带农区"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖长季、长蔓支撑与膨大期水分",
+        "limits": "积水、根层浅与不适合的光周期",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:317625-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=936",
+          "https://piras.lrd.spc.int/sites/default/files/2021-07/growing%20root%20crops%20on%20atolls_suia.pdf"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "sweetpotato",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "yam",
+        "summary": "大薯是薯蓣属的缠绕藤本，带翅的茎和地下块茎是识别线索。它不等于所有山药，紫肉品种也不是另一个独立物种。",
+        "temperatureNote": "主要在热带生长，足够长的暖季支持长蔓与块茎形成。",
+        "water": {
+          "summary": "能在不同干湿环境栽培，生长期间仍需有效水分。",
+          "timing": "长蔓与块茎形成对季节和日长的响应不同。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "较疏松的有效土层与排水条件应共同考虑。",
+          "drainage": "膨大的块茎需要土层空间；良好排水有助避免根区长期积水。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "多年生块茎藤本，栽培通常按一个生长周期收获。",
+          "timing": "长蔓与块茎形成对季节和日长的响应不同。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "主要在热带生长，足够长的暖季支持长蔓与块茎形成。",
+          "heat": "积水、根层浅与不适合的光周期",
+          "drought": "能在不同干湿环境栽培，生长期间仍需有效水分。",
+          "waterlogging": "膨大的块茎需要土层空间；良好排水有助避免根区长期积水。"
+        },
+        "regions": [
+          {
+            "name": "菲律宾｜原生记录",
+            "why": "Kew WCVP v16把菲律宾列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "几内亚｜引入记录",
+            "why": "Kew WCVP v16把几内亚列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "地上藤蔓扩展叶面积，地下块茎储存生长成果。",
+          "practice": "配合当地日长与熟期安排种植，提供适当攀援支撑。",
+          "tradeoff": "能结大块茎并不表示任何土层都能顺利膨大或采收。"
+        },
+        "misconception": "大薯、普通山药、甘薯和马铃薯是不同植物，食用部位相似不能当作同一作物。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Dioscorea alata",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:317625-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "FAO EcoCrop：Dioscorea alata",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=936",
+            "supports": "带翅缠绕茎、块茎、长季生长和日长响应"
+          },
+          {
+            "title": "太平洋共同体：Growing Root Crops on Atolls",
+            "url": "https://piras.lrd.spc.int/sites/default/files/2021-07/growing%20root%20crops%20on%20atolls_suia.pdf",
+            "supports": "薯蓣类排水、土层、支撑与供水；类群参考，不推导本物种的定量阈值"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "yam",
+        "crop": "yam",
+        "group": "薯根与水生作物",
+        "title": "大薯（参薯）｜温暖长季、长蔓支撑与膨大期水分",
+        "lon": 125.244,
+        "lat": 7.625,
+        "subtitle": "大薯是薯蓣属的缠绕藤本，带翅的茎和地下块茎是识别线索。它不等于所有山药，紫肉品种也不是另一个独立物种。",
+        "shape": "yam",
+        "text": "认识大薯（参薯）。大薯是薯蓣属的缠绕藤本，带翅的茎和地下块茎是识别线索。它不等于所有山药，紫肉品种也不是另一个独立物种。观察缠绕带翅茎、宽叶、地下块茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位菲律宾。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。主要在热带生长，足够长的暖季支持长蔓与块茎形成。再看几内亚的引入记录。能在不同干湿环境栽培，生长期间仍需有效水分。膨大的块茎需要土层空间；良好排水有助避免根区长期积水。大薯、普通山药、甘薯和马铃薯是不同植物，食用部位相似不能当作同一作物。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:317625-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=936",
+          "https://piras.lrd.spc.int/sites/default/files/2021-07/growing%20root%20crops%20on%20atolls_suia.pdf"
+        ],
+        "labels": [
+          {
+            "text": "菲律宾｜原生记录",
+            "lon": 125.244,
+            "lat": 7.625,
+            "kind": "region"
+          },
+          {
+            "text": "几内亚｜引入记录",
+            "lon": -9.654,
+            "lat": 9.916,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "yam",
+          "label": "大薯（参薯）",
+          "parts": [
+            "缠绕带翅茎",
+            "宽叶",
+            "地下块茎"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识大薯（参薯）。大薯是薯蓣属的缠绕藤本，带翅的茎和地下块茎是识别线索。它不等于所有山药，紫肉品种也不是另一个独立物种。观察缠绕带翅茎、宽叶、地下块茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 125.244,
+            "lat": 7.625,
+            "label": "菲律宾｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位菲律宾。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。主要在热带生长，足够长的暖季支持长蔓与块茎形成。",
+            "lon": 125.244,
+            "lat": 7.625,
+            "label": "菲律宾｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看几内亚的引入记录。能在不同干湿环境栽培，生长期间仍需有效水分。膨大的块茎需要土层空间；良好排水有助避免根区长期积水。大薯、普通山药、甘薯和马铃薯是不同植物，食用部位相似不能当作同一作物。",
+            "lon": -9.654,
+            "lat": 9.916,
+            "label": "几内亚｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "yam-region1",
+          "cropId": "yam",
+          "region": "菲律宾｜原生记录",
+          "lon": 125.244,
+          "lat": 7.625,
+          "chapterId": "yam",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:317625-1",
+          "sourceScope": "Kew WCVP v16把菲律宾列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "PHI"
+        },
+        {
+          "id": "yam-region2",
+          "cropId": "yam",
+          "region": "几内亚｜引入记录",
+          "lon": -9.654,
+          "lat": 9.916,
+          "chapterId": "yam",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:317625-1",
+          "sourceScope": "Kew WCVP v16把几内亚列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "GUI"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "yacon",
+        "name": "雪莲果",
+        "latin": "Smallanthus sonchifolius",
+        "synonyms": [],
+        "group": "薯根与水生作物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Asteraceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:237510-2",
+          "nameStatus": "accepted",
+          "acceptedName": "Smallanthus sonchifolius"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "安第斯农业背景",
+          "季节性热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "足够生长季、健康繁殖材料与供水",
+        "limits": "短季、土层限制与资源不足",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:237510-2",
+          "https://cipotato.org/roots-and-tubers/yacon/",
+          "https://www.cipotato.org/artc/cip_crops/1919-Yacon_Syrup.pdf"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "sunflower",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "yacon",
+        "summary": "雪莲果是菊科植物，与向日葵有亲缘关系，食用部分为多汁的储藏根。它不是高山雪莲，中文商品名称容易造成误解。",
+        "temperatureNote": "生长季长短会随地点和海拔改变；不能仅凭“高山来源”认定耐严寒。",
+        "water": {
+          "summary": "产量与灌溉及管理有关，储藏根含水多不代表植株能在旱地无需供水。",
+          "timing": "收获周期受地点、海拔和品种影响。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "土壤肥力与根部生长空间影响生产，地图未提供土测结论。",
+          "drainage": "根部储藏器官需要合适土层，具体地块的排水条件应另行核实。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "具地下储藏器官的多年生植物，农业按储藏根收获。",
+          "timing": "收获周期受地点、海拔和品种影响。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "生长季长短会随地点和海拔改变；不能仅凭“高山来源”认定耐严寒。",
+          "heat": "短季、土层限制与资源不足",
+          "drought": "产量与灌溉及管理有关，储藏根含水多不代表植株能在旱地无需供水。",
+          "waterlogging": "根部储藏器官需要合适土层，具体地块的排水条件应另行核实。"
+        },
+        "regions": [
+          {
+            "name": "秘鲁｜原生记录",
+            "why": "Kew WCVP v16把秘鲁列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "中国南中部｜引入记录",
+            "why": "Kew WCVP v16把中国南中部列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "宽叶制造同化物，膨大的根形成储藏与食用部分。",
+          "practice": "按当地季长与繁殖材料安排种植，结合水肥与健康种源管理。",
+          "tradeoff": "商品宣传中的营养价值不能推导为适合所有地区种植或医疗用途。"
+        },
+        "misconception": "雪莲果不属于雪莲属，也不是靠“雪”形成的果实。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Smallanthus sonchifolius",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:237510-2",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "国际马铃薯中心：Yacon",
+            "url": "https://cipotato.org/roots-and-tubers/yacon/",
+            "supports": "菊科亲缘、储藏根、多汁食用途与安第斯农业背景"
+          },
+          {
+            "title": "国际马铃薯中心：Yacon syrup: Principles and processing",
+            "url": "https://www.cipotato.org/artc/cip_crops/1919-Yacon_Syrup.pdf",
+            "supports": "地点、海拔与生长季差异，灌溉和管理对生产的影响；不采用营养或医疗宣传作适生证据"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "yacon",
+        "crop": "yacon",
+        "group": "薯根与水生作物",
+        "title": "雪莲果｜足够生长季、健康繁殖材料与供水",
+        "lon": -75.803,
+        "lat": -9.195,
+        "subtitle": "雪莲果是菊科植物，与向日葵有亲缘关系，食用部分为多汁的储藏根。它不是高山雪莲，中文商品名称容易造成误解。",
+        "shape": "yacon",
+        "text": "认识雪莲果。雪莲果是菊科植物，与向日葵有亲缘关系，食用部分为多汁的储藏根。它不是高山雪莲，中文商品名称容易造成误解。观察宽叶、小型黄色头状花序、块根。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位秘鲁。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。生长季长短会随地点和海拔改变；不能仅凭“高山来源”认定耐严寒。再看中国南中部的引入记录。产量与灌溉及管理有关，储藏根含水多不代表植株能在旱地无需供水。根部储藏器官需要合适土层，具体地块的排水条件应另行核实。雪莲果不属于雪莲属，也不是靠“雪”形成的果实。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:237510-2",
+          "https://cipotato.org/roots-and-tubers/yacon/",
+          "https://www.cipotato.org/artc/cip_crops/1919-Yacon_Syrup.pdf"
+        ],
+        "labels": [
+          {
+            "text": "秘鲁｜原生记录",
+            "lon": -75.803,
+            "lat": -9.195,
+            "kind": "region"
+          },
+          {
+            "text": "中国南中部｜引入记录",
+            "lon": 103.801,
+            "lat": 27.914,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "yacon",
+          "label": "雪莲果",
+          "parts": [
+            "宽叶",
+            "小型黄色头状花序",
+            "块根"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识雪莲果。雪莲果是菊科植物，与向日葵有亲缘关系，食用部分为多汁的储藏根。它不是高山雪莲，中文商品名称容易造成误解。观察宽叶、小型黄色头状花序、块根。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -75.803,
+            "lat": -9.195,
+            "label": "秘鲁｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位秘鲁。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。生长季长短会随地点和海拔改变；不能仅凭“高山来源”认定耐严寒。",
+            "lon": -75.803,
+            "lat": -9.195,
+            "label": "秘鲁｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看中国南中部的引入记录。产量与灌溉及管理有关，储藏根含水多不代表植株能在旱地无需供水。根部储藏器官需要合适土层，具体地块的排水条件应另行核实。雪莲果不属于雪莲属，也不是靠“雪”形成的果实。",
+            "lon": 103.801,
+            "lat": 27.914,
+            "label": "中国南中部｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "yacon-region1",
+          "cropId": "yacon",
+          "region": "秘鲁｜原生记录",
+          "lon": -75.803,
+          "lat": -9.195,
+          "chapterId": "yacon",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:237510-2",
+          "sourceScope": "Kew WCVP v16把秘鲁列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "PER"
+        },
+        {
+          "id": "yacon-region2",
+          "cropId": "yacon",
+          "region": "中国南中部｜引入记录",
+          "lon": 103.801,
+          "lat": 27.914,
+          "chapterId": "yacon",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:237510-2",
+          "sourceScope": "Kew WCVP v16把中国南中部列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "CHC"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "jerusalemartichoke",
+        "name": "菊芋（洋姜）",
+        "latin": "Helianthus tuberosus",
+        "synonyms": [],
+        "group": "薯根与水生作物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Asteraceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:329252-2",
+          "nameStatus": "accepted",
+          "acceptedName": "Helianthus tuberosus"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "多种土壤环境"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "足够无霜生长季和块茎形成期水分",
+        "limits": "重黏积水、后期缺水与扩散管理",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:329252-2",
+          "https://corn.agronomy.wisc.edu/Crops/JerusalemArtichoke.aspx"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "sunflower",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "jerusalemartichoke",
+        "summary": "菊芋与向日葵同属，地上开黄色头状花序，地下形成多节块茎。它能作为食用作物，也可能因残留块茎而反复萌发。",
+        "temperatureNote": "温带背景下需利用足够的生长季，块茎形成和地上衰老不在同一时间。",
+        "water": {
+          "summary": "适应范围较广，但块茎形成时缺水仍会限产。",
+          "timing": "过早大量收割地上部分会影响地下块茎收成。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "能适应多种土壤，便于块茎膨大和挖掘的土层更易管理。",
+          "drainage": "重黏和积水条件不利生产。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "多年生具块茎植物，残留块茎可在翌年萌发。",
+          "timing": "过早大量收割地上部分会影响地下块茎收成。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "温带背景下需利用足够的生长季，块茎形成和地上衰老不在同一时间。",
+          "heat": "重黏积水、后期缺水与扩散管理",
+          "drought": "适应范围较广，但块茎形成时缺水仍会限产。",
+          "waterlogging": "重黏和积水条件不利生产。"
+        },
+        "regions": [
+          {
+            "name": "安大略｜原生记录",
+            "why": "Kew WCVP v16把安大略列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "法国｜引入记录",
+            "why": "Kew WCVP v16把法国列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "地下块茎既储藏养分，也使植株能营养繁殖与持续存在。",
+          "practice": "选择可控制扩展的地块，并按块茎而非仅地上长势安排收获。",
+          "tradeoff": "持久再生便于多年存在，也可能成为后茬作物的管理难题。"
+        },
+        "misconception": "“洋姜”不是姜科生姜；黄色花像向日葵，但主要收获的是地下块茎。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Helianthus tuberosus",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:329252-2",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "威斯康星/明尼苏达大学：Jerusalem Artichoke（历史推广手册）",
+            "url": "https://corn.agronomy.wisc.edu/Crops/JerusalemArtichoke.aspx",
+            "supports": "形态、块茎繁殖、土壤积水、块茎形成期缺水与早割地上部的权衡"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "jerusalemartichoke",
+        "crop": "jerusalemartichoke",
+        "group": "薯根与水生作物",
+        "title": "菊芋（洋姜）｜足够无霜生长季和块茎形成期水分",
+        "lon": -87.159,
+        "lat": 49.046,
+        "subtitle": "菊芋与向日葵同属，地上开黄色头状花序，地下形成多节块茎。它能作为食用作物，也可能因残留块茎而反复萌发。",
+        "shape": "jerusalemartichoke",
+        "text": "认识菊芋（洋姜）。菊芋与向日葵同属，地上开黄色头状花序，地下形成多节块茎。它能作为食用作物，也可能因残留块茎而反复萌发。观察高大茎、黄色头状花序、地下块茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位安大略。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。温带背景下需利用足够的生长季，块茎形成和地上衰老不在同一时间。再看法国的引入记录。适应范围较广，但块茎形成时缺水仍会限产。重黏和积水条件不利生产。“洋姜”不是姜科生姜；黄色花像向日葵，但主要收获的是地下块茎。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:329252-2",
+          "https://corn.agronomy.wisc.edu/Crops/JerusalemArtichoke.aspx"
+        ],
+        "labels": [
+          {
+            "text": "安大略｜原生记录",
+            "lon": -87.159,
+            "lat": 49.046,
+            "kind": "region"
+          },
+          {
+            "text": "法国｜引入记录",
+            "lon": 2.134,
+            "lat": 46.716,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "jerusalemartichoke",
+          "label": "菊芋（洋姜）",
+          "parts": [
+            "高大茎",
+            "黄色头状花序",
+            "地下块茎"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识菊芋（洋姜）。菊芋与向日葵同属，地上开黄色头状花序，地下形成多节块茎。它能作为食用作物，也可能因残留块茎而反复萌发。观察高大茎、黄色头状花序、地下块茎。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -87.159,
+            "lat": 49.046,
+            "label": "安大略｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位安大略。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。温带背景下需利用足够的生长季，块茎形成和地上衰老不在同一时间。",
+            "lon": -87.159,
+            "lat": 49.046,
+            "label": "安大略｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看法国的引入记录。适应范围较广，但块茎形成时缺水仍会限产。重黏和积水条件不利生产。“洋姜”不是姜科生姜；黄色花像向日葵，但主要收获的是地下块茎。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "jerusalemartichoke-region1",
+          "cropId": "jerusalemartichoke",
+          "region": "安大略｜原生记录",
+          "lon": -87.159,
+          "lat": 49.046,
+          "chapterId": "jerusalemartichoke",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:329252-2",
+          "sourceScope": "Kew WCVP v16把安大略列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "ONT"
+        },
+        {
+          "id": "jerusalemartichoke-region2",
+          "cropId": "jerusalemartichoke",
+          "region": "法国｜引入记录",
+          "lon": 2.134,
+          "lat": 46.716,
+          "chapterId": "jerusalemartichoke",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:329252-2",
+          "sourceScope": "Kew WCVP v16把法国列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "FRA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "okra",
+        "name": "秋葵",
+        "latin": "Abelmoschus esculentus",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Malvaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:558006-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Abelmoschus esculentus"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "暖季农区",
+          "热带与亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖强光、持续供水和及时采收",
+        "limits": "低温、根区积水与果实过熟",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:558006-1",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/okra/"
+        ],
+        "nameNote": "条目以所列物种或接受分类单元为资料范围，不涵盖所有同名商品和品种。",
+        "genericShape": "pepper",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "okra",
+        "summary": "秋葵是锦葵科暖季蔬菜，黄花与棉、木槿的亲缘关系提供形态线索。食用的嫩荚在植物学上是果实，长得太老会变硬。",
+        "temperatureNote": "耐热使它适合炎热季节，生长速度仍受土温限制。",
+        "water": {
+          "summary": "可耐一定干旱，但供水充分时通常更利于连续生产。",
+          "timing": "开花后果实生长快，需要频繁适期采收。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "阳光充足且排水良好的土壤便于管理。",
+          "drainage": "根区应能排水，不以长期积水换取供水。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "一年生暖季菜，在长暖季地区可有较长采收期。",
+          "timing": "开花后果实生长快，需要频繁适期采收。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "耐热使它适合炎热季节，生长速度仍受土温限制。",
+          "heat": "低温、根区积水与果实过熟",
+          "drought": "可耐一定干旱，但供水充分时通常更利于连续生产。",
+          "waterlogging": "根区应能排水，不以长期积水换取供水。"
+        },
+        "regions": [
+          {
+            "name": "印度｜原生记录",
+            "why": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "佛罗里达｜引入记录",
+            "why": "Kew WCVP v16把佛罗里达列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "宽叶与高大株形形成冠层，嫩果的食用阶段要求持续观察。",
+          "practice": "温暖后建植，配合灌水并及时采收嫩果。",
+          "tradeoff": "长采收季带来连续收获，也增加日常巡田和采摘需求。"
+        },
+        "misconception": "秋葵耐热不代表耐寒，耐旱也不意味着不用水就能持续结出嫩果。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Abelmoschus esculentus",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:558006-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "佛罗里达大学UF/IFAS：Okra",
+            "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/okra/",
+            "supports": "锦葵科、形态、暖季耐热、排水、供水与嫩果采收"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "okra",
+        "crop": "okra",
+        "group": "蔬菜",
+        "title": "秋葵｜温暖强光、持续供水和及时采收",
+        "lon": 79.789,
+        "lat": 20.375,
+        "subtitle": "秋葵是锦葵科暖季蔬菜，黄花与棉、木槿的亲缘关系提供形态线索。食用的嫩荚在植物学上是果实，长得太老会变硬。",
+        "shape": "okra",
+        "text": "认识秋葵。秋葵是锦葵科暖季蔬菜，黄花与棉、木槿的亲缘关系提供形态线索。食用的嫩荚在植物学上是果实，长得太老会变硬。观察宽叶、黄色大花、细长有棱果实。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。耐热使它适合炎热季节，生长速度仍受土温限制。再看佛罗里达的引入记录。可耐一定干旱，但供水充分时通常更利于连续生产。根区应能排水，不以长期积水换取供水。秋葵耐热不代表耐寒，耐旱也不意味着不用水就能持续结出嫩果。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:558006-1",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/vegetables/okra/"
+        ],
+        "labels": [
+          {
+            "text": "印度｜原生记录",
+            "lon": 79.789,
+            "lat": 20.375,
+            "kind": "region"
+          },
+          {
+            "text": "佛罗里达｜引入记录",
+            "lon": -81.723,
+            "lat": 28.224,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "okra",
+          "label": "秋葵",
+          "parts": [
+            "宽叶",
+            "黄色大花",
+            "细长有棱果实"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识秋葵。秋葵是锦葵科暖季蔬菜，黄花与棉、木槿的亲缘关系提供形态线索。食用的嫩荚在植物学上是果实，长得太老会变硬。观察宽叶、黄色大花、细长有棱果实。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位印度。这里的标记依据Kew的原生区域记录。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。耐热使它适合炎热季节，生长速度仍受土温限制。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看佛罗里达的引入记录。可耐一定干旱，但供水充分时通常更利于连续生产。根区应能排水，不以长期积水换取供水。秋葵耐热不代表耐寒，耐旱也不意味着不用水就能持续结出嫩果。",
+            "lon": -81.723,
+            "lat": 28.224,
+            "label": "佛罗里达｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "okra-region1",
+          "cropId": "okra",
+          "region": "印度｜原生记录",
+          "lon": 79.789,
+          "lat": 20.375,
+          "chapterId": "okra",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:558006-1",
+          "sourceScope": "Kew WCVP v16把印度列为本分类单元的原生地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "IND"
+        },
+        {
+          "id": "okra-region2",
+          "cropId": "okra",
+          "region": "佛罗里达｜引入记录",
+          "lon": -81.723,
+          "lat": 28.224,
+          "chapterId": "okra",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:558006-1",
+          "sourceScope": "Kew WCVP v16把佛罗里达列为本分类单元的引入地区。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "FLA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "broccoli",
+        "name": "西兰花",
+        "latin": "Brassica oleracea",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Brassicaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Brassica oleracea"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带凉季",
+          "亚热带冷凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "冷凉生长季、连续水分与良好排水",
+        "limits": "热害、干旱和花球过熟",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-broccoli-home-garden"
+        ],
+        "nameNote": "本条为Italica Group栽培群；WCVP范围属于整个Brassica oleracea物种，不能据此分辨这个栽培群。",
+        "genericShape": "cabbage",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "cultivarGroup": "Italica Group",
+        "rangeScopeNote": "植物分布图采用甘蓝物种资料，不能当作西兰花栽培群的种植范围。"
+      },
+      "profile": {
+        "id": "broccoli",
+        "summary": "西兰花是甘蓝物种的栽培群，主要食用尚未开放的花蕾与花梗。它与卷心菜同种，但人类选择了不同的可食器官。",
+        "temperatureNote": "在冷凉季节表现较好，可利用春秋季避开盛夏高温。",
+        "water": {
+          "summary": "花球发育需要较稳定的水分。",
+          "timing": "在花蕾开放前收获；不同品种的主花球和侧芽表现不同。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "适合可保水、通气且养分供应充足的土层。",
+          "drainage": "湿润不等于根区泡水，应保持肥沃且排水良好的土壤。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "通常按一年生菜收花球，植物生活史与采收阶段不同。",
+          "timing": "在花蕾开放前收获；不同品种的主花球和侧芽表现不同。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "在冷凉季节表现较好，可利用春秋季避开盛夏高温。",
+          "heat": "热害、干旱和花球过熟",
+          "drought": "花球发育需要较稳定的水分。",
+          "waterlogging": "湿润不等于根区泡水，应保持肥沃且排水良好的土壤。"
+        },
+        "regions": [
+          {
+            "name": "大不列颠｜原生记录",
+            "why": "Kew WCVP v16把大不列颠列为本分类单元的原生地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "中国东南部｜引入记录",
+            "why": "Kew WCVP v16把中国东南部列为本分类单元的引入地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "人工选择使分枝花蕾群成为收获器官，栽培群并非独立自然物种。",
+          "practice": "按当地凉季和品种熟期安排育苗与采收，轮作降低病害压力。",
+          "tradeoff": "暖季延长未必提高花球质量，合适采收窗口更重要。"
+        },
+        "misconception": "地图中的WCVP范围属于整个甘蓝物种，不能当作西兰花栽培群的自然分布。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Brassica oleracea",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "爱荷华州立大学：Growing Broccoli in the Home Garden",
+            "url": "https://yardandgarden.extension.iastate.edu/how-to/growing-broccoli-home-garden",
+            "supports": "甘蓝同种栽培群、冷凉季、湿润排水土壤、春秋安排与花蕾采收"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "broccoli",
+        "crop": "broccoli",
+        "group": "蔬菜",
+        "title": "西兰花｜冷凉生长季、连续水分与良好排水",
+        "lon": -2.023,
+        "lat": 54.367,
+        "subtitle": "西兰花是甘蓝物种的栽培群，主要食用尚未开放的花蕾与花梗。它与卷心菜同种，但人类选择了不同的可食器官。",
+        "shape": "broccoli",
+        "text": "认识西兰花。西兰花是甘蓝物种的栽培群，主要食用尚未开放的花蕾与花梗。它与卷心菜同种，但人类选择了不同的可食器官。观察宽大叶、分枝花梗、绿色花蕾群。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位大不列颠。这里的标记依据Kew的原生区域记录。这个范围属于整个甘蓝物种，不是这一栽培群的单独分布。在冷凉季节表现较好，可利用春秋季避开盛夏高温。再看中国东南部的引入记录。花球发育需要较稳定的水分。湿润不等于根区泡水，应保持肥沃且排水良好的土壤。地图中的WCVP范围属于整个甘蓝物种，不能当作西兰花栽培群的自然分布。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "https://yardandgarden.extension.iastate.edu/how-to/growing-broccoli-home-garden"
+        ],
+        "labels": [
+          {
+            "text": "大不列颠｜原生记录",
+            "lon": -2.023,
+            "lat": 54.367,
+            "kind": "region"
+          },
+          {
+            "text": "中国东南部｜引入记录",
+            "lon": 115.231,
+            "lat": 28.304,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "broccoli",
+          "label": "西兰花",
+          "parts": [
+            "宽大叶",
+            "分枝花梗",
+            "绿色花蕾群"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。 本条为Italica Group栽培群；WCVP范围属于整个Brassica oleracea物种，不能据此分辨这个栽培群。"
+        },
+        "beats": [
+          {
+            "text": "认识西兰花。西兰花是甘蓝物种的栽培群，主要食用尚未开放的花蕾与花梗。它与卷心菜同种，但人类选择了不同的可食器官。观察宽大叶、分枝花梗、绿色花蕾群。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -2.023,
+            "lat": 54.367,
+            "label": "大不列颠｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位大不列颠。这里的标记依据Kew的原生区域记录。这个范围属于整个甘蓝物种，不是这一栽培群的单独分布。在冷凉季节表现较好，可利用春秋季避开盛夏高温。",
+            "lon": -2.023,
+            "lat": 54.367,
+            "label": "大不列颠｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看中国东南部的引入记录。花球发育需要较稳定的水分。湿润不等于根区泡水，应保持肥沃且排水良好的土壤。地图中的WCVP范围属于整个甘蓝物种，不能当作西兰花栽培群的自然分布。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "broccoli-region1",
+          "cropId": "broccoli",
+          "region": "大不列颠｜原生记录",
+          "lon": -2.023,
+          "lat": 54.367,
+          "chapterId": "broccoli",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "sourceScope": "Kew WCVP v16把大不列颠列为本分类单元的原生地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "GRB"
+        },
+        {
+          "id": "broccoli-region2",
+          "cropId": "broccoli",
+          "region": "中国东南部｜引入记录",
+          "lon": 115.231,
+          "lat": 28.304,
+          "chapterId": "broccoli",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "sourceScope": "Kew WCVP v16把中国东南部列为本分类单元的引入地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "CHS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "cauliflower",
+        "name": "花椰菜",
+        "latin": "Brassica oleracea",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Brassicaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Brassica oleracea"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带凉季",
+          "亚热带冷凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温和凉季、连续水肥与适合的品种",
+        "limits": "热旱、突然停长与花球品质下降",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-cauliflower"
+        ],
+        "nameNote": "本条为Botrytis Group栽培群；WCVP范围属于整个Brassica oleracea物种，不能据此分辨这个栽培群。",
+        "genericShape": "cabbage",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "cultivarGroup": "Botrytis Group",
+        "rangeScopeNote": "植物分布图采用甘蓝物种资料，不能当作花椰菜栽培群的种植范围。"
+      },
+      "profile": {
+        "id": "cauliflower",
+        "summary": "花椰菜和西兰花、卷心菜同属甘蓝物种的不同栽培群。食用的紧密花球来自高度发育的花序组织，不是白色的大果实。",
+        "temperatureNote": "选择合适的凉季和品种很重要，不能给所有花椰菜一个统一播期。",
+        "water": {
+          "summary": "整个生长期间应维持较稳定水分，干旱胁迫影响品质。",
+          "timing": "花球形成期的连续生长关系到商品质量。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "较肥沃、能稳定保水的土层便于生长。",
+          "drainage": "土壤需保持湿润与肥力，同时避免根区长期积水。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "通常作一年生蔬菜收花球，春作与秋作的安排不同。",
+          "timing": "花球形成期的连续生长关系到商品质量。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "选择合适的凉季和品种很重要，不能给所有花椰菜一个统一播期。",
+          "heat": "热旱、突然停长与花球品质下降",
+          "drought": "整个生长期间应维持较稳定水分，干旱胁迫影响品质。",
+          "waterlogging": "土壤需保持湿润与肥力，同时避免根区长期积水。"
+        },
+        "regions": [
+          {
+            "name": "西班牙｜原生记录",
+            "why": "Kew WCVP v16把西班牙列为本分类单元的原生地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "安大略｜引入记录",
+            "why": "Kew WCVP v16把安大略列为本分类单元的引入地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "人工选择使花序组织聚集成紧密花球；颜色和形状随品种改变。",
+          "practice": "依据当地气候选择育苗和移栽时间，保持水肥供应的连续性。",
+          "tradeoff": "某些白色品种需要遮光护球，其他颜色品种对光照的管理不同。"
+        },
+        "misconception": "花椰菜不是西兰花变白了；两者是同种下不同栽培群，物种范围不能当作栽培群分布。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Brassica oleracea",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "明尼苏达大学：Growing cauliflower in home gardens",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-cauliflower",
+            "supports": "与甘蓝近缘栽培群、春秋生产、持续水肥、干旱与护球的品种差异"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "cauliflower",
+        "crop": "cauliflower",
+        "group": "蔬菜",
+        "title": "花椰菜｜温和凉季、连续水肥与适合的品种",
+        "lon": -3.494,
+        "lat": 39.848,
+        "subtitle": "花椰菜和西兰花、卷心菜同属甘蓝物种的不同栽培群。食用的紧密花球来自高度发育的花序组织，不是白色的大果实。",
+        "shape": "cauliflower",
+        "text": "认识花椰菜。花椰菜和西兰花、卷心菜同属甘蓝物种的不同栽培群。食用的紧密花球来自高度发育的花序组织，不是白色的大果实。观察包围花球的叶、紧密花球、短缩花梗。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位西班牙。这里的标记依据Kew的原生区域记录。这个范围属于整个甘蓝物种，不是这一栽培群的单独分布。选择合适的凉季和品种很重要，不能给所有花椰菜一个统一播期。再看安大略的引入记录。整个生长期间应维持较稳定水分，干旱胁迫影响品质。土壤需保持湿润与肥力，同时避免根区长期积水。花椰菜不是西兰花变白了；两者是同种下不同栽培群，物种范围不能当作栽培群分布。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-cauliflower"
+        ],
+        "labels": [
+          {
+            "text": "西班牙｜原生记录",
+            "lon": -3.494,
+            "lat": 39.848,
+            "kind": "region"
+          },
+          {
+            "text": "安大略｜引入记录",
+            "lon": -87.159,
+            "lat": 49.046,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "cauliflower",
+          "label": "花椰菜",
+          "parts": [
+            "包围花球的叶",
+            "紧密花球",
+            "短缩花梗"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。 本条为Botrytis Group栽培群；WCVP范围属于整个Brassica oleracea物种，不能据此分辨这个栽培群。"
+        },
+        "beats": [
+          {
+            "text": "认识花椰菜。花椰菜和西兰花、卷心菜同属甘蓝物种的不同栽培群。食用的紧密花球来自高度发育的花序组织，不是白色的大果实。观察包围花球的叶、紧密花球、短缩花梗。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -3.494,
+            "lat": 39.848,
+            "label": "西班牙｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位西班牙。这里的标记依据Kew的原生区域记录。这个范围属于整个甘蓝物种，不是这一栽培群的单独分布。选择合适的凉季和品种很重要，不能给所有花椰菜一个统一播期。",
+            "lon": -3.494,
+            "lat": 39.848,
+            "label": "西班牙｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看安大略的引入记录。整个生长期间应维持较稳定水分，干旱胁迫影响品质。土壤需保持湿润与肥力，同时避免根区长期积水。花椰菜不是西兰花变白了；两者是同种下不同栽培群，物种范围不能当作栽培群分布。",
+            "lon": -87.159,
+            "lat": 49.046,
+            "label": "安大略｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "cauliflower-region1",
+          "cropId": "cauliflower",
+          "region": "西班牙｜原生记录",
+          "lon": -3.494,
+          "lat": 39.848,
+          "chapterId": "cauliflower",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "sourceScope": "Kew WCVP v16把西班牙列为本分类单元的原生地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "SPA"
+        },
+        {
+          "id": "cauliflower-region2",
+          "cropId": "cauliflower",
+          "region": "安大略｜引入记录",
+          "lon": -87.159,
+          "lat": 49.046,
+          "chapterId": "cauliflower",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:279435-1",
+          "sourceScope": "Kew WCVP v16把安大略列为本分类单元的引入地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "ONT"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "beetroot",
+        "name": "甜菜根（食用甜菜）",
+        "latin": "Beta vulgaris",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Amaranthaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:164505-1",
+          "nameStatus": "accepted",
+          "acceptedName": "Beta vulgaris"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "凉季菜园"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温和季节、疏松土层和均匀水分",
+        "limits": "根区拥挤、干旱和土层限制",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:164505-1",
+          "https://extension.umd.edu/resource/growing-beets-home-garden"
+        ],
+        "nameNote": "本条为Conditiva Group（根用食用类型）栽培群；WCVP范围属于整个Beta vulgaris物种，不能据此分辨这个栽培群。",
+        "genericShape": "sugarbeet",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "cultivarGroup": "Conditiva Group（根用食用类型）",
+        "rangeScopeNote": "植物分布图采用甜菜物种资料，不能当作食用根类型的种植范围。"
+      },
+      "profile": {
+        "id": "beetroot",
+        "summary": "甜菜根是甜菜物种的食用根类栽培群，与糖用甜菜、叶用莙荙菜存在同种不同用途的关系。红色常见，但金黄和条纹品种也存在。",
+        "temperatureNote": "可利用春季和晚夏到秋季生产，轻霜耐受与严寒存活不能混为一谈。",
+        "water": {
+          "summary": "均匀供水帮助保持根部生长和品质。",
+          "timing": "按食用根大小采收，不必等到开花结籽。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "根部膨大需要足够空间，间苗能减少植株间竞争。",
+          "drainage": "松散且通气的土层便于根部发育，积水风险应另外管理。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "生物学上常有二年生生活史，农业多在第一生长季收根。",
+          "timing": "按食用根大小采收，不必等到开花结籽。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "可利用春季和晚夏到秋季生产，轻霜耐受与严寒存活不能混为一谈。",
+          "heat": "根区拥挤、干旱和土层限制",
+          "drought": "均匀供水帮助保持根部生长和品质。",
+          "waterlogging": "松散且通气的土层便于根部发育，积水风险应另外管理。"
+        },
+        "regions": [
+          {
+            "name": "大不列颠｜原生记录",
+            "why": "Kew WCVP v16把大不列颠列为本分类单元的原生地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "新南威尔士｜引入记录",
+            "why": "Kew WCVP v16把新南威尔士列为本分类单元的引入地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "人类选择膨大的储藏根，而糖用甜菜更看重制糖性状。",
+          "practice": "明确根用类型，留足株间空间，并保持水分均匀。",
+          "tradeoff": "同种关系有助理解作物多样性，却不能把糖用甜菜的产量统计给食用甜菜根。"
+        },
+        "misconception": "甜菜根不等于糖用甜菜；相同学名的地图范围也不能拆成不同栽培群的实测范围。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Beta vulgaris",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:164505-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "马里兰大学：Growing Beets in a Home Garden",
+            "url": "https://extension.umd.edu/resource/growing-beets-home-garden",
+            "supports": "二年生按一年生收获、春秋时令、根形颜色、间苗和均匀水分"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "beetroot",
+        "crop": "beetroot",
+        "group": "蔬菜",
+        "title": "甜菜根（食用甜菜）｜温和季节、疏松土层和均匀水分",
+        "lon": -2.023,
+        "lat": 54.367,
+        "subtitle": "甜菜根是甜菜物种的食用根类栽培群，与糖用甜菜、叶用莙荙菜存在同种不同用途的关系。红色常见，但金黄和条纹品种也存在。",
+        "shape": "beetroot",
+        "text": "认识甜菜根（食用甜菜）。甜菜根是甜菜物种的食用根类栽培群，与糖用甜菜、叶用莙荙菜存在同种不同用途的关系。红色常见，但金黄和条纹品种也存在。观察叶丛、叶柄、膨大贮藏根。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位大不列颠。这里的标记依据Kew的原生区域记录。这个范围属于甜菜整个物种，不是根用食用类型的单独分布。可利用春季和晚夏到秋季生产，轻霜耐受与严寒存活不能混为一谈。再看新南威尔士的引入记录。均匀供水帮助保持根部生长和品质。松散且通气的土层便于根部发育，积水风险应另外管理。甜菜根不等于糖用甜菜；相同学名的地图范围也不能拆成不同栽培群的实测范围。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:164505-1",
+          "https://extension.umd.edu/resource/growing-beets-home-garden"
+        ],
+        "labels": [
+          {
+            "text": "大不列颠｜原生记录",
+            "lon": -2.023,
+            "lat": 54.367,
+            "kind": "region"
+          },
+          {
+            "text": "新南威尔士｜引入记录",
+            "lon": 146.496,
+            "lat": -32.859,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "beetroot",
+          "label": "甜菜根（食用甜菜）",
+          "parts": [
+            "叶丛",
+            "叶柄",
+            "膨大贮藏根"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。 本条为Conditiva Group（根用食用类型）栽培群；WCVP范围属于整个Beta vulgaris物种，不能据此分辨这个栽培群。"
+        },
+        "beats": [
+          {
+            "text": "认识甜菜根（食用甜菜）。甜菜根是甜菜物种的食用根类栽培群，与糖用甜菜、叶用莙荙菜存在同种不同用途的关系。红色常见，但金黄和条纹品种也存在。观察叶丛、叶柄、膨大贮藏根。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": -2.023,
+            "lat": 54.367,
+            "label": "大不列颠｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位大不列颠。这里的标记依据Kew的原生区域记录。这个范围属于甜菜整个物种，不是根用食用类型的单独分布。可利用春季和晚夏到秋季生产，轻霜耐受与严寒存活不能混为一谈。",
+            "lon": -2.023,
+            "lat": 54.367,
+            "label": "大不列颠｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看新南威尔士的引入记录。均匀供水帮助保持根部生长和品质。松散且通气的土层便于根部发育，积水风险应另外管理。甜菜根不等于糖用甜菜；相同学名的地图范围也不能拆成不同栽培群的实测范围。",
+            "lon": 146.496,
+            "lat": -32.859,
+            "label": "新南威尔士｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "beetroot-region1",
+          "cropId": "beetroot",
+          "region": "大不列颠｜原生记录",
+          "lon": -2.023,
+          "lat": 54.367,
+          "chapterId": "beetroot",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:164505-1",
+          "sourceScope": "Kew WCVP v16把大不列颠列为本分类单元的原生地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "GRB"
+        },
+        {
+          "id": "beetroot-region2",
+          "cropId": "beetroot",
+          "region": "新南威尔士｜引入记录",
+          "lon": 146.496,
+          "lat": -32.859,
+          "chapterId": "beetroot",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:164505-1",
+          "sourceScope": "Kew WCVP v16把新南威尔士列为本分类单元的引入地区。本条是栽培群，共享物种级范围，不能指认本栽培群出现在整个区域。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "NSW"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "radish",
+        "name": "萝卜",
+        "latin": "Raphanus sativus",
+        "synonyms": [
+          "Raphanus raphanistrum subsp. sativus"
+        ],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Brassicaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77159305-1",
+          "nameStatus": "synonym-to-accepted",
+          "acceptedName": "Raphanus raphanistrum subsp. sativus"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带凉季",
+          "亚热带冷凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "冷凉季、疏松土层与均匀水分",
+        "limits": "酷热、缺水、板结和过迟采收",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77159305-1",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-radishes"
+        ],
+        "nameNote": "农业沿用名Raphanus sativus；WCVP v16接受名为Raphanus raphanistrum subsp. sativus，按确切异名关系解析，保留栽培起源说明。",
+        "genericShape": "carrot",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。"
+      },
+      "profile": {
+        "id": "radish",
+        "summary": "萝卜有小圆根和长白根等多种类型，食用部分来自膨大的根部及相连的下胚轴。短季小萝卜与长季大型萝卜的播收安排并不相同。",
+        "temperatureNote": "冷凉环境更有利于脆嫩品质，炎热可加快抽薹或降低根部品质。",
+        "water": {
+          "summary": "缺水使质地和风味变差，忽干忽湿还可能增加裂根。",
+          "timing": "按类型及时采收，长白萝卜常利用夏末至秋季窗口。",
+          "caution": "年降水量、原生记录和农业灌溉不是同一件事。"
+        },
+        "soil": {
+          "texture": "石块、板结或重黏可妨碍根部形状与采收。",
+          "drainage": "排水和土壤疏松要兼顾，长根类型对有效土层要求更突出。",
+          "phNote": "本条未给出已校验的数值酸碱范围，具体地块按当地土测和农业资料核实。"
+        },
+        "season": {
+          "type": "根菜多按一年生收获；品种的抽薹和成熟习性需要单独选择。",
+          "timing": "按类型及时采收，长白萝卜常利用夏末至秋季窗口。",
+          "explanation": "地点、品种和管理会改变播收季；资料中某地月份不能直接照搬到全球。"
+        },
+        "stress": {
+          "cold": "冷凉环境更有利于脆嫩品质，炎热可加快抽薹或降低根部品质。",
+          "heat": "酷热、缺水、板结和过迟采收",
+          "drought": "缺水使质地和风味变差，忽干忽湿还可能增加裂根。",
+          "waterlogging": "排水和土壤疏松要兼顾，长根类型对有效土层要求更突出。"
+        },
+        "regions": [
+          {
+            "name": "希腊｜原生记录",
+            "why": "Kew WCVP v16把希腊列为本分类单元的原生地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          },
+          {
+            "name": "日本｜引入记录",
+            "why": "Kew WCVP v16把日本列为本分类单元的引入地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。",
+            "caution": "坐标为植物区系报告区的地图定位示意，不能推出该点有植株；区域内环境差异仍需细查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "储藏根快速膨大，使短季类型能利用凉季空档。",
+          "practice": "选择适合季节的类型，间苗留空间，并保持根层供水。",
+          "tradeoff": "生长快不表示可以一直留地里，过熟会影响口感和品质。"
+        },
+        "misconception": "本条沿用农业名称Raphanus sativus；WCVP接受为R. raphanistrum subsp. sativus，栽培起源背景不能视为野生祖先定位。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Raphanus raphanistrum subsp. sativus",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77159305-1",
+            "supports": "精确学名解析、分类、生活型、概括生境与WGSRPD三级原生/引入区域；不是全部栽培或适宜性数据。"
+          },
+          {
+            "title": "明尼苏达大学：Growing radishes in home gardens",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-radishes",
+            "supports": "凉季、大小萝卜类型、土层、干旱品质、裂根和采收"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "radish",
+        "crop": "radish",
+        "group": "蔬菜",
+        "title": "萝卜｜冷凉季、疏松土层与均匀水分",
+        "lon": 22.005,
+        "lat": 39.065,
+        "subtitle": "萝卜有小圆根和长白根等多种类型，食用部分来自膨大的根部及相连的下胚轴。短季小萝卜与长季大型萝卜的播收安排并不相同。",
+        "shape": "radish",
+        "text": "认识萝卜。萝卜有小圆根和长白根等多种类型，食用部分来自膨大的根部及相连的下胚轴。短季小萝卜与长季大型萝卜的播收安排并不相同。观察基生叶丛、膨大根部、白色或彩色根皮。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。先定位希腊。这里的标记依据Kew的原生区域记录，包含栽培起源背景。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。冷凉环境更有利于脆嫩品质，炎热可加快抽薹或降低根部品质。再看日本的引入记录。缺水使质地和风味变差，忽干忽湿还可能增加裂根。排水和土壤疏松要兼顾，长根类型对有效土层要求更突出。本条沿用农业名称Raphanus sativus；WCVP接受为R. raphanistrum subsp. sativus，栽培起源背景不能视为野生祖先定位。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77159305-1",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-radishes"
+        ],
+        "labels": [
+          {
+            "text": "希腊｜原生记录",
+            "lon": 22.005,
+            "lat": 39.065,
+            "kind": "region"
+          },
+          {
+            "text": "日本｜引入记录",
+            "lon": 143.265,
+            "lat": 43.541,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "radish",
+          "label": "萝卜",
+          "parts": [
+            "基生叶丛",
+            "膨大根部",
+            "白色或彩色根皮"
+          ],
+          "note": "按相近器官类型制作的教学示意，关键部位被放大；不表示真实尺寸、所有品种或物种鉴定。"
+        },
+        "beats": [
+          {
+            "text": "认识萝卜。萝卜有小圆根和长白根等多种类型，食用部分来自膨大的根部及相连的下胚轴。短季小萝卜与长季大型萝卜的播收安排并不相同。观察基生叶丛、膨大根部、白色或彩色根皮。这里的小模型只帮助辨认器官类型，不表示所有品种的真实形态。",
+            "lon": 22.005,
+            "lat": 39.065,
+            "label": "希腊｜原生记录",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先定位希腊。这里的标记依据Kew的原生区域记录，包含栽培起源背景。它不能告诉我们当地种了多少，也不能证明整个区域都适合种植。冷凉环境更有利于脆嫩品质，炎热可加快抽薹或降低根部品质。",
+            "lon": 22.005,
+            "lat": 39.065,
+            "label": "希腊｜原生记录",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看日本的引入记录。缺水使质地和风味变差，忽干忽湿还可能增加裂根。排水和土壤疏松要兼顾，长根类型对有效土层要求更突出。本条沿用农业名称Raphanus sativus；WCVP接受为R. raphanistrum subsp. sativus，栽培起源背景不能视为野生祖先定位。",
+            "lon": 143.265,
+            "lat": 43.541,
+            "label": "日本｜引入记录",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "radish-region1",
+          "cropId": "radish",
+          "region": "希腊｜原生记录",
+          "lon": 22.005,
+          "lat": 39.065,
+          "chapterId": "radish",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77159305-1",
+          "sourceScope": "Kew WCVP v16把希腊列为本分类单元的原生地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "GRC"
+        },
+        {
+          "id": "radish-region2",
+          "cropId": "radish",
+          "region": "日本｜引入记录",
+          "lon": 143.265,
+          "lat": 43.541,
+          "chapterId": "radish",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:77159305-1",
+          "sourceScope": "Kew WCVP v16把日本列为本分类单元的引入地区（含栽培起源背景）。这是植物区系记录，不是本作物当前农田、产量或连续生长范围。坐标是区域内部的地图标注位置，不是农田、标本或观测坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "sourceRegionCode": "JAP"
+        }
+      ]
+    }
+  ]
+}

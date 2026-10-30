@@ -1,0 +1,420 @@
+[
+  {
+    "id": "learn-global",
+    "crop": "climate",
+    "group": "植物地球入门导览",
+    "title": "从整体认识植物地球",
+    "lon": 35,
+    "lat": 12,
+    "subtitle": "先看环境，再认植物，最后试着解释",
+    "shape": "overview",
+    "text": "欢迎来到植物地球。先别急着记住所有名字。我们先看六种典型景观，再从植物的叶、茎和根寻找线索。这里的水和热怎样？雨水集中在哪个季节？这些问题能帮助我们理解分布。还要分清三件事：植物原来在哪里自然生长，人类现在把它种在哪里，以及什么环境可能适合它。原生地区、栽培地区和潜在适生环境，不能互相替代。接下来每一站都先看环境，再认识植物，最后做一个小判断。地球上的标记是代表地区，不是完整分布或植物数量。这六站也不是全部生物群系。",
+    "sources": [
+      "https://science.nasa.gov/kids/earth/mission-biomes/biorainforest/",
+      "https://biodiversitysg.nparks.gov.sg/our-biodiversity/ferns/bird-s-nest-fern/",
+      "https://powo.science.kew.org/taxon/17048040-1",
+      "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information",
+      "https://pza.sanbi.org/adansonia-digitata",
+      "https://www.gov.za/about-sa/forestry-fisheries-and-environment",
+      "https://www.sanbi.org/wp-content/uploads/2024/06/2021_Ecosystem-Guidelines-for-the-Savanna-Biome.pdf",
+      "https://www.nps.gov/sagu/learn/nature/cacti-and-desert-succulents.htm",
+      "https://www.nps.gov/tont/learn/nature/saguaro.htm",
+      "https://www.fao.org/4/y4360e/y4360e0b.htm",
+      "https://science.nasa.gov/kids/earth/mission-biomes/biotemperate/",
+      "https://pza.sanbi.org/quercus-robur",
+      "https://research.fs.usda.gov/feis/species-reviews/acesac",
+      "https://science.nasa.gov/kids/earth/mission-biomes/bioconiferous/",
+      "https://www.forestresearch.gov.uk/tools-and-resources/tree-species-database/131589-scots-pine-sp-2/",
+      "https://plants.ces.ncsu.edu/plants/picea-abies/",
+      "https://plants.ces.ncsu.edu/plants/betula-pendula/",
+      "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A605422-1/general-information",
+      "https://repository.library.noaa.gov/view/noaa/41974/noaa_41974_DS1.pdf",
+      "https://www.britishbryologicalsociety.org.uk/wp-content/uploads/2020/12/Atlas-of-British-and-Irish-Bryophytes-V1-364.pdf"
+    ],
+    "labels": [
+      {
+        "text": "全球入门",
+        "lon": 35,
+        "lat": 12,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "环境与植物的关系",
+      "parts": [
+        "环境",
+        "形态",
+        "分布含义"
+      ],
+      "note": "入门对照与代表地区，不是完整范围或植被现状"
+    },
+    "beats": [
+      {
+        "text": "欢迎来到植物地球。先别急着记住所有名字。我们先看六种典型景观，再从植物的叶、茎和根寻找线索。这里的水和热怎样？雨水集中在哪个季节？这些问题能帮助我们理解分布。",
+        "lon": 35,
+        "lat": 12,
+        "label": "全球入门",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "还要分清三件事：植物原来在哪里自然生长，人类现在把它种在哪里，以及什么环境可能适合它。原生地区、栽培地区和潜在适生环境，不能互相替代。",
+        "lon": 35,
+        "lat": 12,
+        "label": "全球入门",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "接下来每一站都先看环境，再认识植物，最后做一个小判断。地球上的标记是代表地区，不是完整分布或植物数量。这六站也不是全部生物群系。",
+        "lon": 35,
+        "lat": 12,
+        "label": "全球入门",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "learn-rainforest",
+    "crop": "climate",
+    "group": "植物地球入门导览",
+    "title": "热带雨林：环境怎样影响植物",
+    "lon": 114,
+    "lat": 2,
+    "subtitle": "先看环境，再认植物，最后试着解释",
+    "shape": "overview",
+    "text": "第一站，热带雨林。现在来到婆罗洲。这里许多森林常年暖湿，但雨水充足不等于每株植物获得同样的光。树冠、林下和树枝上，是不同的小生境。看巢蕨围成巢状的叶丛，它能承接落叶与水分，附生根把植株固定在支撑物上。长在树上并不等于寄生。白花蝴蝶兰的附生根，同样需要水分，也需要空气。再想想橡胶树。它原生于南美，今天在亚洲多地栽培，胶园不等于天然雨林。地图定位的是巢蕨原生地区的一个例子，不表示这几种植物在同一点共同出现。",
+    "sources": [
+      "https://science.nasa.gov/kids/earth/mission-biomes/biorainforest/",
+      "https://biodiversitysg.nparks.gov.sg/our-biodiversity/ferns/bird-s-nest-fern/",
+      "https://powo.science.kew.org/taxon/17048040-1",
+      "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information"
+    ],
+    "labels": [
+      {
+        "text": "婆罗洲湿热森林",
+        "lon": 114,
+        "lat": 2,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "环境与植物的关系",
+      "parts": [
+        "环境",
+        "形态",
+        "分布含义"
+      ],
+      "note": "入门对照与代表地区，不是完整范围或植被现状"
+    },
+    "beats": [
+      {
+        "text": "第一站，热带雨林。现在来到婆罗洲。这里许多森林常年暖湿，但雨水充足不等于每株植物获得同样的光。树冠、林下和树枝上，是不同的小生境。",
+        "lon": 114,
+        "lat": 2,
+        "label": "婆罗洲湿热森林",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "看巢蕨围成巢状的叶丛，它能承接落叶与水分，附生根把植株固定在支撑物上。长在树上并不等于寄生。白花蝴蝶兰的附生根，同样需要水分，也需要空气。",
+        "lon": 114,
+        "lat": 2,
+        "label": "婆罗洲湿热森林",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "再想想橡胶树。它原生于南美，今天在亚洲多地栽培，胶园不等于天然雨林。地图定位的是巢蕨原生地区的一个例子，不表示这几种植物在同一点共同出现。",
+        "lon": 114,
+        "lat": 2,
+        "label": "婆罗洲湿热森林",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "learn-savanna",
+    "crop": "climate",
+    "group": "植物地球入门导览",
+    "title": "热带草原与疏林：环境怎样影响植物",
+    "lon": 30,
+    "lat": -22.5,
+    "subtitle": "先看环境，再认植物，最后试着解释",
+    "shape": "overview",
+    "text": "第二站，热带草原与疏林。现在看南非林波波的例子。暖热地区如果雨水集中在雨季，植物还要渡过明显的干季。草和树的比例，也会受到火、取食、土壤与土地利用影响。非洲猴面包树有粗大的储水组织，干季落叶能减少水分消耗。但耐旱不等于不需要水，幼苗仍要抓住雨季，霜冻和长期湿涝也会限制它。高粱和珍珠粟帮助我们比较旱地农业，播种时机与有效供水都重要。它们不是天然草原的完整组成。地图只是猴面包树原生地区的代表位置，不能推出草原或农田的边界。",
+    "sources": [
+      "https://pza.sanbi.org/adansonia-digitata",
+      "https://www.gov.za/about-sa/forestry-fisheries-and-environment",
+      "https://www.sanbi.org/wp-content/uploads/2024/06/2021_Ecosystem-Guidelines-for-the-Savanna-Biome.pdf"
+    ],
+    "labels": [
+      {
+        "text": "南非林波波的干燥疏林",
+        "lon": 30,
+        "lat": -22.5,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "环境与植物的关系",
+      "parts": [
+        "环境",
+        "形态",
+        "分布含义"
+      ],
+      "note": "入门对照与代表地区，不是完整范围或植被现状"
+    },
+    "beats": [
+      {
+        "text": "第二站，热带草原与疏林。现在看南非林波波的例子。暖热地区如果雨水集中在雨季，植物还要渡过明显的干季。草和树的比例，也会受到火、取食、土壤与土地利用影响。",
+        "lon": 30,
+        "lat": -22.5,
+        "label": "南非林波波的干燥疏林",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "非洲猴面包树有粗大的储水组织，干季落叶能减少水分消耗。但耐旱不等于不需要水，幼苗仍要抓住雨季，霜冻和长期湿涝也会限制它。",
+        "lon": 30,
+        "lat": -22.5,
+        "label": "南非林波波的干燥疏林",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "高粱和珍珠粟帮助我们比较旱地农业，播种时机与有效供水都重要。它们不是天然草原的完整组成。地图只是猴面包树原生地区的代表位置，不能推出草原或农田的边界。",
+        "lon": 30,
+        "lat": -22.5,
+        "label": "南非林波波的干燥疏林",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "learn-desert",
+    "crop": "climate",
+    "group": "植物地球入门导览",
+    "title": "荒漠：环境怎样影响植物",
+    "lon": -111,
+    "lat": 32.4,
+    "subtitle": "先看环境，再认植物，最后试着解释",
+    "shape": "overview",
+    "text": "第三站，荒漠。荒漠首先意味着长期水分紧缺，并不都炎热。来到北美索诺兰沙漠，看看巨人柱怎样应对两次降雨之间的干燥。巨人柱的绿色茎能储水和光合，纵肋随着水量变化伸缩，浅而广的根系接收降雨。幼苗常借助灌木或岩石遮护。美洲龙舌兰则用肉质叶储水，形态不同，也在应对缺水。沙漠里的椰枣果园，常要依赖地下水或灌溉。看见植物出现，还得问水从哪里来。地图定位的是巨人柱的一个原生地区，不能把所有荒漠都当成它的家。",
+    "sources": [
+      "https://www.nps.gov/sagu/learn/nature/cacti-and-desert-succulents.htm",
+      "https://www.nps.gov/tont/learn/nature/saguaro.htm",
+      "https://www.fao.org/4/y4360e/y4360e0b.htm"
+    ],
+    "labels": [
+      {
+        "text": "北美索诺兰沙漠",
+        "lon": -111,
+        "lat": 32.4,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "环境与植物的关系",
+      "parts": [
+        "环境",
+        "形态",
+        "分布含义"
+      ],
+      "note": "入门对照与代表地区，不是完整范围或植被现状"
+    },
+    "beats": [
+      {
+        "text": "第三站，荒漠。荒漠首先意味着长期水分紧缺，并不都炎热。来到北美索诺兰沙漠，看看巨人柱怎样应对两次降雨之间的干燥。",
+        "lon": -111,
+        "lat": 32.4,
+        "label": "北美索诺兰沙漠",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "巨人柱的绿色茎能储水和光合，纵肋随着水量变化伸缩，浅而广的根系接收降雨。幼苗常借助灌木或岩石遮护。美洲龙舌兰则用肉质叶储水，形态不同，也在应对缺水。",
+        "lon": -111,
+        "lat": 32.4,
+        "label": "北美索诺兰沙漠",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "沙漠里的椰枣果园，常要依赖地下水或灌溉。看见植物出现，还得问水从哪里来。地图定位的是巨人柱的一个原生地区，不能把所有荒漠都当成它的家。",
+        "lon": -111,
+        "lat": 32.4,
+        "label": "北美索诺兰沙漠",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "learn-temperate",
+    "crop": "climate",
+    "group": "植物地球入门导览",
+    "title": "温带季节性森林：环境怎样影响植物",
+    "lon": -1.5,
+    "lat": 52,
+    "subtitle": "先看环境，再认植物，最后试着解释",
+    "shape": "overview",
+    "text": "第四站，温带季节性森林。现在来到英国低地林地。许多中纬度地区冷暖季节明显，植物要把生长安排在较有利的时段，而不是只适应一个年平均温度。夏栎有圆裂叶与长柄橡实，落叶休眠是它的季节节律，不等于树已经死亡。暖季展叶仍要根区供水。北美的糖枫可以让幼树在林下等待光隙，更新也需要条件。苹果果园还要看品种需冷、晚霜和成熟热量。树能存活，不等于稳定结果。地图举例定位英国夏栎的原生地区；糖枫与苹果各有自己的案例，不表示三者在此组成天然群落。",
+    "sources": [
+      "https://science.nasa.gov/kids/earth/mission-biomes/biotemperate/",
+      "https://pza.sanbi.org/quercus-robur",
+      "https://research.fs.usda.gov/feis/species-reviews/acesac"
+    ],
+    "labels": [
+      {
+        "text": "英国低地林地",
+        "lon": -1.5,
+        "lat": 52,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "环境与植物的关系",
+      "parts": [
+        "环境",
+        "形态",
+        "分布含义"
+      ],
+      "note": "入门对照与代表地区，不是完整范围或植被现状"
+    },
+    "beats": [
+      {
+        "text": "第四站，温带季节性森林。现在来到英国低地林地。许多中纬度地区冷暖季节明显，植物要把生长安排在较有利的时段，而不是只适应一个年平均温度。",
+        "lon": -1.5,
+        "lat": 52,
+        "label": "英国低地林地",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "夏栎有圆裂叶与长柄橡实，落叶休眠是它的季节节律，不等于树已经死亡。暖季展叶仍要根区供水。北美的糖枫可以让幼树在林下等待光隙，更新也需要条件。",
+        "lon": -1.5,
+        "lat": 52,
+        "label": "英国低地林地",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "苹果果园还要看品种需冷、晚霜和成熟热量。树能存活，不等于稳定结果。地图举例定位英国夏栎的原生地区；糖枫与苹果各有自己的案例，不表示三者在此组成天然群落。",
+        "lon": -1.5,
+        "lat": 52,
+        "label": "英国低地林地",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "learn-boreal",
+    "crop": "climate",
+    "group": "植物地球入门导览",
+    "title": "北方针叶林：环境怎样影响植物",
+    "lon": 26,
+    "lat": 63,
+    "subtitle": "先看环境，再认植物，最后试着解释",
+    "shape": "overview",
+    "text": "第五站，北方针叶林。现在看芬兰的森林例子。这里许多植物面对漫长寒冬和较短生长季。森林里有松和云杉，也有落叶的桦树，并不只有针叶树。欧洲赤松通常两针一束，上部树皮橙红。欧洲云杉针叶单生，成熟球果下垂。保留针叶不代表冬天仍旺盛生长，温度、光照和可用水都在限制它。赤松喜光，云杉还要留意浅层根区失水，不能统一按针叶树判断。针叶树也生长在北方以外。地图定位的是芬兰赤松原生地区的一个例子，不是林分调查，也不代表纯赤松林。",
+    "sources": [
+      "https://science.nasa.gov/kids/earth/mission-biomes/bioconiferous/",
+      "https://www.forestresearch.gov.uk/tools-and-resources/tree-species-database/131589-scots-pine-sp-2/",
+      "https://plants.ces.ncsu.edu/plants/picea-abies/",
+      "https://plants.ces.ncsu.edu/plants/betula-pendula/"
+    ],
+    "labels": [
+      {
+        "text": "芬兰森林",
+        "lon": 26,
+        "lat": 63,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "环境与植物的关系",
+      "parts": [
+        "环境",
+        "形态",
+        "分布含义"
+      ],
+      "note": "入门对照与代表地区，不是完整范围或植被现状"
+    },
+    "beats": [
+      {
+        "text": "第五站，北方针叶林。现在看芬兰的森林例子。这里许多植物面对漫长寒冬和较短生长季。森林里有松和云杉，也有落叶的桦树，并不只有针叶树。",
+        "lon": 26,
+        "lat": 63,
+        "label": "芬兰森林",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "欧洲赤松通常两针一束，上部树皮橙红。欧洲云杉针叶单生，成熟球果下垂。保留针叶不代表冬天仍旺盛生长，温度、光照和可用水都在限制它。",
+        "lon": 26,
+        "lat": 63,
+        "label": "芬兰森林",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "赤松喜光，云杉还要留意浅层根区失水，不能统一按针叶树判断。针叶树也生长在北方以外。地图定位的是芬兰赤松原生地区的一个例子，不是林分调查，也不代表纯赤松林。",
+        "lon": 26,
+        "lat": 63,
+        "label": "芬兰森林",
+        "shapeMode": "geography"
+      }
+    ]
+  },
+  {
+    "id": "learn-wetland",
+    "crop": "climate",
+    "group": "植物地球入门导览",
+    "title": "湿地与水域：环境怎样影响植物",
+    "lon": 117,
+    "lat": 30.5,
+    "subtitle": "先看环境，再认植物，最后试着解释",
+    "shape": "overview",
+    "text": "第六站，湿地与水域。它们横跨多个气候区，并不是一条纬度带。现在看中国东部的莲：浅淡水、泥质根区与充足光照，为它提供生长空间。莲的根茎生长在泥中，叶柄把盾状叶托向水面上。我们吃的藕是根茎，不是根。大叶藻则生活在有光的近岸海水，泥炭藓依赖稳定湿润的小生境，三者不能互换。所以，有水还不够，盐度、水深、水流、底质和光照都要问。地图只是莲的一个原生地区示例，当地也有长期栽培，不能把每片水都当成野生莲生境，更不能用气候网格代替湿地调查。",
+    "sources": [
+      "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A605422-1/general-information",
+      "https://repository.library.noaa.gov/view/noaa/41974/noaa_41974_DS1.pdf",
+      "https://www.britishbryologicalsociety.org.uk/wp-content/uploads/2020/12/Atlas-of-British-and-Irish-Bryophytes-V1-364.pdf"
+    ],
+    "labels": [
+      {
+        "text": "中国东部浅水湿地",
+        "lon": 117,
+        "lat": 30.5,
+        "kind": "region"
+      }
+    ],
+    "morphology": {
+      "type": "overview",
+      "label": "环境与植物的关系",
+      "parts": [
+        "环境",
+        "形态",
+        "分布含义"
+      ],
+      "note": "入门对照与代表地区，不是完整范围或植被现状"
+    },
+    "beats": [
+      {
+        "text": "第六站，湿地与水域。它们横跨多个气候区，并不是一条纬度带。现在看中国东部的莲：浅淡水、泥质根区与充足光照，为它提供生长空间。",
+        "lon": 117,
+        "lat": 30.5,
+        "label": "中国东部浅水湿地",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "莲的根茎生长在泥中，叶柄把盾状叶托向水面上。我们吃的藕是根茎，不是根。大叶藻则生活在有光的近岸海水，泥炭藓依赖稳定湿润的小生境，三者不能互换。",
+        "lon": 117,
+        "lat": 30.5,
+        "label": "中国东部浅水湿地",
+        "shapeMode": "geography"
+      },
+      {
+        "text": "所以，有水还不够，盐度、水深、水流、底质和光照都要问。地图只是莲的一个原生地区示例，当地也有长期栽培，不能把每片水都当成野生莲生境，更不能用气候网格代替湿地调查。",
+        "lon": 117,
+        "lat": 30.5,
+        "label": "中国东部浅水湿地",
+        "shapeMode": "geography"
+      }
+    ]
+  }
+]

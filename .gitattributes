@@ -1,0 +1,6 @@
+* text=auto eol=lf
+data.js -text
+sources/** -text
+*.mp3 binary -delta
+*.jpg binary -delta
+*.png binary -delta

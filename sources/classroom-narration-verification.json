@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "complete": true,
+  "chapterCount": 13,
+  "expectedChapterCount": 13,
+  "missingIds": [],
+  "needsReviewIds": [],
+  "characters": 3442,
+  "totalDuration": 800.64,
+  "cues": 77,
+  "sentenceCueTextExact": true,
+  "audioFormat": "MP3 / 32000 Hz / mono / nominal 128 kbps",
+  "alignment": "Provider sentence cues; proportional estimates inside a sentence, not word forced alignment",
+  "chapters": [
+    {
+      "id": "class-intro-grains-v1",
+      "characters": 252,
+      "duration": 61.524,
+      "ffprobeDuration": 61.524,
+      "audioBytes": 986100,
+      "audioSha256": "81c471308865669424ecbbb10b4236b30f45d9ecfbf74ad28534e395eeb5efb0",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        78,
+        154
+      ],
+      "textHash": "f7a4b6ec1d97f473c87fe79abe764b1532e6cbc305a4c808dedfc4880dd0a9c7"
+    },
+    {
+      "id": "class-intro-pulses-v1",
+      "characters": 246,
+      "duration": 55.764,
+      "ffprobeDuration": 55.764,
+      "audioBytes": 893940,
+      "audioSha256": "669d737f959b1178d8e0bb07493b53129c40d3aac6bd685d3f779c4e51137bbb",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        79,
+        156
+      ],
+      "textHash": "989baa58338ad35238064e50e746d7bb00939a43632d7aed701bdfe5f93e4201"
+    },
+    {
+      "id": "class-intro-roots-v1",
+      "characters": 261,
+      "duration": 60.48,
+      "ffprobeDuration": 60.48,
+      "audioBytes": 969396,
+      "audioSha256": "1159a7f1cabdc60b02c28c9731178b56b67aec5ef3f432296720dfaeeb96be33",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        83,
+        163
+      ],
+      "textHash": "3e4b29af3524076fe2cac3da2431d9db92e8959cae0b6b91381d6515179ad71f"
+    },
+    {
+      "id": "class-intro-vegetables-v1",
+      "characters": 260,
+      "duration": 60.876,
+      "ffprobeDuration": 60.876,
+      "audioBytes": 975732,
+      "audioSha256": "ff8e30952d8a70f8342ba34094b25609d032f65de3bebcbf10e77cf6b39a55d5",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        83,
+        164
+      ],
+      "textHash": "f26c1a94b167ed48b9cb11d6e0a1cda6ba3e1173d7a2c412e84dca36cf9e1ba1"
+    },
+    {
+      "id": "class-intro-fruits-v1",
+      "characters": 273,
+      "duration": 61.92,
+      "ffprobeDuration": 61.92,
+      "audioBytes": 992436,
+      "audioSha256": "027e13c944283e8da8010c2241e004bc2de4bcb380c0b676f69985c49a6ac4de",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        87,
+        170
+      ],
+      "textHash": "20c351c1f2ffc0bdfbb8445618cba21de99cf99a2fb81d192822d43ad387dc3d"
+    },
+    {
+      "id": "class-intro-nuts-v1",
+      "characters": 262,
+      "duration": 63.468,
+      "ffprobeDuration": 63.468,
+      "audioBytes": 1017204,
+      "audioSha256": "d03cd8784b8aa2cdbf0371afc162ed303cfc02347c97023aae433359adcf31ee",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        81,
+        158
+      ],
+      "textHash": "2ba9e8eb2aa348ca8f5b18fe5517e8f9b1f095b75e7f76d0272a8da20ba016e7"
+    },
+    {
+      "id": "class-intro-oils-v1",
+      "characters": 263,
+      "duration": 58.968,
+      "ffprobeDuration": 58.968,
+      "audioBytes": 945204,
+      "audioSha256": "8e18d1031197742e9cb1b832b2850d72cee39c96b4c7e334658d08bd034a63d0",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        80,
+        160
+      ],
+      "textHash": "cae33a9fe979b6460f42903d480baea0dd4e306676d0e500937bdb50869deb5b"
+    },
+    {
+      "id": "class-intro-sugars-v1",
+      "characters": 268,
+      "duration": 61.416,
+      "ffprobeDuration": 61.416,
+      "audioBytes": 984372,
+      "audioSha256": "09f9b04c287971a7f5f8f178ad06a5d9a8651020eabfc7eab13b8c3345f491a3",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        85,
+        168
+      ],
+      "textHash": "84c96c25be521d5f419a0a6201da8e16eb4fffda5214d071994ee69f17a79717"
+    },
+    {
+      "id": "class-intro-beverages-v1",
+      "characters": 277,
+      "duration": 66.348,
+      "ffprobeDuration": 66.348,
+      "audioBytes": 1063284,
+      "audioSha256": "6b165776be130a10ec00e43fbe1742838ddaeffddc2052a73e3fa6089aa0ac70",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        89,
+        171
+      ],
+      "textHash": "918ca72382eb90a2ce432d1dce57410669e59476efcf2d4bc3f148cd9f99eeb6"
+    },
+    {
+      "id": "class-intro-spices-v1",
+      "characters": 271,
+      "duration": 63.972,
+      "ffprobeDuration": 63.972,
+      "audioBytes": 1025268,
+      "audioSha256": "479ff256a8402806f6b17494697d9e400e58d50088ec1bc5f81d7283215118a1",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        88,
+        169
+      ],
+      "textHash": "ab34bdaeb1fbda4cb3b3e4d6e0eea4d798d7160e2eb214d99e76e058e77fbee2"
+    },
+    {
+      "id": "class-intro-fibres-v1",
+      "characters": 270,
+      "duration": 62.964,
+      "ffprobeDuration": 62.964,
+      "audioBytes": 1009140,
+      "audioSha256": "6a41adacc429040f482a13b340e17a642a3d9b97f5494ee4ad5a528fec1217c3",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        85,
+        165
+      ],
+      "textHash": "96e83515d7c62d359f5fd134941d5f0debe8888e4d385ddbbe515ab933cfdbbb"
+    },
+    {
+      "id": "class-intro-industrial-v1",
+      "characters": 274,
+      "duration": 59.4,
+      "ffprobeDuration": 59.4,
+      "audioBytes": 952116,
+      "audioSha256": "8897e23f671d5cb844d99c5aa8da7b7efdc7c1e0ee74f018ca64e67446107ef2",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        87,
+        172
+      ],
+      "textHash": "e6822020c10881667c7caacd042afd303c213ea035eea157cf7892fda4f76a7b"
+    },
+    {
+      "id": "class-intro-forage-v1",
+      "characters": 265,
+      "duration": 63.54,
+      "ffprobeDuration": 63.54,
+      "audioBytes": 1018356,
+      "audioSha256": "91e58ff166e446491a67e7bafd032ff16a651007697fd3c05db95a5b59ae8588",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        84,
+        165
+      ],
+      "textHash": "f3fc11a32373cdbd80e395c0b717cb5b5c9195af58137ec028e289531a30b128"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+/* View choice is a learning control, independent from playback and course position. */
+.global-view-switch{display:flex;gap:4px;align-items:center;padding:3px;border:1px solid #718c82;border-radius:7px;background:#102a32}
+.global-head-actions .global-view-switch button{display:inline-flex!important;align-items:center;justify-content:center;flex:1;white-space:nowrap;width:auto!important;min-height:30px;font-size:11px;padding:5px 8px}
+#global-evidence .global-view-switch button[aria-pressed=true],.learning-view-switch button[aria-pressed=true]{background:#dbe8be;color:#173a31;border-color:#e6efd6}
+#global-evidence[data-course-focus=true] .global-view-switch,#global-evidence[data-guided-stage=classes] .global-view-switch{display:flex!important}
+#global-evidence[data-course-focus=true] #global-map-toggle,#global-evidence[data-guided-stage=classes] #global-map-toggle{display:inline-flex!important}
+.global-map-heading{margin-bottom:3px}.world-projection-note{font-size:10px;line-height:1.6;margin:0 4px 5px;color:#c1d4d0;flex:none}
+body.global-show-world #globe>canvas,body.is-learning-flat-map #globe>canvas{opacity:0;pointer-events:none}
+body.global-show-world #global-evidence[data-course-focus=true] #global-map{display:flex!important;left:620px;right:20px;top:calc(var(--global-header-bottom,100px) + 7px);bottom:calc(44vh + 35px);height:auto;min-height:165px;padding:8px;z-index:4}
+body.global-show-world #global-evidence[data-course-focus=true] #global-map svg{flex:1;min-height:0!important;max-height:100%}
+body.global-show-world #global-evidence[data-course-focus=true] .global-map-heading strong{font-size:12px}
+body.global-show-world #global-evidence[data-course-focus=true] .global-map-heading span{font-size:10px}
+.learning-view-switch{position:fixed;z-index:39;display:flex;gap:4px;padding:3px;border:1px solid #7b9788;border-radius:7px;background:#18353df7;pointer-events:auto;box-shadow:0 4px 12px #0a1b2244}
+.learning-view-switch[hidden],.learning-flat-map[hidden]{display:none!important}
+.learning-view-switch button{font:inherit;min-height:32px;padding:6px 12px;font-size:12px;color:#e9eee2;border:1px solid #53716a;border-radius:4px;background:#25434a;cursor:pointer}
+.learning-view-switch button:focus-visible{outline:3px solid #f5d989;outline-offset:3px}
+.learning-flat-map{position:fixed;z-index:12;display:flex;flex-direction:column;box-sizing:border-box;padding:12px;border:1px solid #6c8a7e;border-radius:10px;background:#17343beF;color:#edf1e8;pointer-events:auto;overflow:hidden;box-shadow:0 10px 25px #06191f44}
+.learning-flat-map-heading{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap;flex:none;font-size:12px}.learning-flat-map-heading>span{font-size:11px;color:#dfdfb4}
+.learning-flat-map-note,.learning-flat-map-boundary{font-size:10px;line-height:1.6;margin:6px 0;color:#c2d7cc;flex:none}
+.learning-flat-map svg{display:block;width:100%;flex:1;min-height:0;height:100%;max-height:100%;background:#203b4b;border-radius:5px}
+body.is-learning-flat-map #map-labels,body.is-learning-flat-map #learning-map-labels,body.is-learning-flat-map #learning-map-key,body.is-learning-flat-map #geo-orientation-labels,body.is-learning-flat-map #geo-orientation-note,body.is-learning-flat-map #globe-guide-labels,body.is-learning-flat-map #globe-guide-controls,body.is-learning-flat-map #narration-scene-card{visibility:hidden!important}
+@media(max-width:1100px) and (min-width:761px){body.global-show-world #global-evidence[data-course-focus=true] #global-map{left:60%;right:16px;min-height:145px}.global-head-actions .global-view-switch button{font-size:10px;padding:5px 6px}}
+@media(max-width:760px){
+ .global-head-actions .global-view-switch button{font-size:10px;min-height:28px;padding:4px 6px}.global-view-switch{gap:2px;padding:2px}
+ body.global-show-world #global-evidence[data-course-focus=true] #global-map{left:8px;right:8px;top:calc(var(--global-header-bottom,90px) + 6px);height:215px;bottom:auto;min-height:0;z-index:6}
+ body.global-show-world #global-evidence[data-course-focus=true] #global-catalog:not([hidden]){top:calc(var(--global-header-bottom,90px) + 230px);max-height:calc(100dvh - var(--journey-top-offset,0px) - var(--global-header-bottom,90px) - 248px)}
+ .world-projection-note{font-size:9px;line-height:1.5}.global-map-heading{font-size:10px;margin-top:0}.global-map-heading>span{font-size:9px}
+ .learning-view-switch{z-index:39}.learning-view-switch button{font-size:11px;min-height:30px;padding:5px 11px}
+ .learning-flat-map{padding:7px;border-radius:7px}.learning-flat-map-heading{font-size:10px;gap:4px}.learning-flat-map-heading>span{font-size:9px}.learning-flat-map-note,.learning-flat-map-boundary{font-size:9px;line-height:1.5;margin:4px 0}
+}
+
+/* Keep both view choices visible even under the older guided-course :has rule. */
+body #global-evidence[data-guided-stage=classes]:has(#global-catalog:not([hidden])) .global-view-switch #global-map-toggle,
+body #global-evidence[data-course-focus=true]:has(#global-catalog:not([hidden])) .global-view-switch #global-map-toggle{display:inline-flex!important}
+
+/* While watching the full map, collapse the explanation to a compact title row.
+   The map can then use both columns instead of leaving an empty reading pane. */
+body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel{
+ position:fixed!important;left:205px!important;right:26px!important;top:var(--learning-map-controls-top,176px)!important;bottom:auto!important;
+ width:auto!important;height:auto!important;min-height:0!important;max-height:none!important;box-sizing:border-box;padding:7px 11px!important;z-index:29;overflow:visible;
+}
+body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel-heading{display:flex!important;align-items:center!important;gap:10px}
+body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel-heading>div{display:flex;flex:1;align-items:center;gap:12px;min-width:0}
+body.is-learning-flat-map .learning-journey.learn-collapsed #learn-position{flex:0 1 auto;max-width:42%;padding:0!important;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:9px;line-height:1.5}
+body.is-learning-flat-map .learning-journey.learn-collapsed #learn-title{flex:1;min-width:0;margin:0!important;font-size:16px!important;line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+body.is-learning-flat-map .learning-journey.learn-collapsed #learn-collapse{position:static!important;flex:none;min-height:30px;padding:4px 8px;font-size:10px;white-space:nowrap}
+.learning-flat-map[data-wide=true] .learning-flat-map-note,.learning-flat-map[data-wide=true] .learning-flat-map-boundary{margin:4px 0}
+@media(max-width:760px){
+ body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel{left:10px!important;right:10px!important;top:calc(var(--learning-map-controls-top,130px) + 43px)!important;padding:6px 9px!important}
+ body.is-learning-flat-map .learning-journey.learn-collapsed #learn-position{display:none}
+ body.is-learning-flat-map .learning-journey.learn-collapsed #learn-title{font-size:14px!important}
+}
+
+/* Medium windows need the whole world above the lesson, not a 300px side map.
+   The lesson keeps its own live caption/controls; do not repeat a third pane. */
+@media(max-width:1100px){
+ body.global-show-world #global-evidence[data-course-focus=true]{--course-world-map-height:clamp(235px,calc((100vw - 80px)/2 + 75px),43dvh);--course-world-map-edge:20px}
+ body.global-show-world #global-evidence[data-course-focus=true] #global-map{
+  left:var(--course-world-map-edge);right:var(--course-world-map-edge);top:calc(var(--global-header-bottom,100px) + 6px);
+  bottom:auto;height:var(--course-world-map-height);min-height:0;z-index:6;box-sizing:border-box;justify-content:flex-start;
+ }
+ body.global-show-world #global-evidence[data-course-focus=true] #global-map svg{flex:1;min-height:0!important;height:100%;max-height:100%}
+ body.global-show-world #global-evidence[data-course-focus=true] #global-catalog:not([hidden]){
+  left:var(--course-world-map-edge);width:calc(100vw - var(--course-world-map-edge) * 2);
+  top:calc(var(--global-header-bottom,100px) + var(--course-world-map-height) + 22px);
+  max-height:calc(100dvh - var(--journey-top-offset,0px) - var(--global-header-bottom,100px) - var(--course-world-map-height) - 40px);
+ }
+ body.global-show-world #global-evidence[data-course-focus=true] .class-globe-companion{display:none!important}
+ body.global-show-world #global-evidence[data-course-focus=true] .course-map-meaning{max-height:45px;overflow:auto;line-height:1.6}
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#biodiversity-classroom[data-view=lesson]) .plant-course-scopes,
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#agriculture-classroom[data-view=lesson]) .plant-course-scopes{display:none}
+ body.global-show-world #global-evidence[data-course-focus=true] .classroom-audio-host,
+ body.global-show-world #global-evidence[data-course-focus=true] .bio-audio-host{position:sticky;top:87px;z-index:3}
+ body.global-show-world #global-evidence[data-course-focus=true] .class-intro-player{padding:7px 9px;margin-top:7px;background:#122e36f7}
+ body.global-show-world #global-evidence[data-course-focus=true] .class-intro-caption{max-height:3.4em;overflow:auto;margin:5px 0;font-size:11px;line-height:1.6}
+ body.global-show-world #global-evidence[data-course-focus=true] .class-intro-note{display:none}
+}
+@media(max-width:760px){
+ body.global-show-world #global-evidence[data-course-focus=true]{--course-world-map-height:245px;--course-world-map-edge:8px}
+ body.global-show-world #global-evidence[data-course-focus=true] .course-map-meaning{max-height:45px}
+}
+
+@media(max-width:1100px){
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#biodiversity-classroom[data-view=lesson]) .global-catalog-heading,
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#biodiversity-classroom[data-view=lesson]) .global-catalog-tabs,
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#agriculture-classroom[data-view=lesson]) .global-catalog-heading,
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#agriculture-classroom[data-view=lesson]) .global-catalog-tabs{display:none}
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#biodiversity-classroom[data-view=lesson]) .bio-audio-host,
+ body.global-show-world #global-evidence[data-course-focus=true]:has(#agriculture-classroom[data-view=lesson]) .classroom-audio-host{top:0}
+}

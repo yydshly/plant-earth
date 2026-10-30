@@ -1,0 +1,657 @@
+{
+  "passed": true,
+  "complete": true,
+  "chapterCount": 40,
+  "expectedChapterCount": 40,
+  "missingIds": [],
+  "needsReviewIds": [],
+  "characters": 12787,
+  "totalDuration": 2884.788,
+  "cues": 244,
+  "sentenceCueTextExact": true,
+  "segmentsSha256": "4183b577547cd5e87911deda2aa01b0712e585f49680dc9f2c7ab0b72293b9c4",
+  "audioFormat": "MP3 / 32000 Hz / mono / nominal 128 kbps",
+  "alignment": "Provider sentence cues; proportional estimates inside each sentence, not forced word alignment",
+  "chapters": [
+    {
+      "id": "bio-course-englishoak-v1",
+      "cropId": "englishoak",
+      "characters": 311,
+      "duration": 66.996,
+      "ffprobeDuration": 66.996,
+      "audioBytes": 1073652,
+      "audioSha256": "ddb04d20f8f146f25083fd169b5717f916b524f951213e07453c6be19225e4de",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        67,
+        166
+      ],
+      "textHash": "746823ac00214592096dbaad4ee01712dcc95081d404db5660247402e136fec8"
+    },
+    {
+      "id": "bio-course-silverbirch-v1",
+      "cropId": "silverbirch",
+      "characters": 302,
+      "duration": 67.032,
+      "ffprobeDuration": 67.032,
+      "audioBytes": 1074228,
+      "audioSha256": "425d34b167c525fded3cc88c6b9030cae75ecdf0edaf18885f2788af7befe029",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        64,
+        160
+      ],
+      "textHash": "9e2409ded4f4f9c901381137ae000e874e90e3bfa6c7d5945f29c58edef5d33c"
+    },
+    {
+      "id": "bio-course-sugarmaple-v1",
+      "cropId": "sugarmaple",
+      "characters": 307,
+      "duration": 70.992,
+      "ffprobeDuration": 70.992,
+      "audioBytes": 1137588,
+      "audioSha256": "d534f47647614a5f861d5bfb627e831bb86ee0fad79c8428100a49eeaa1a142b",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        62,
+        159
+      ],
+      "textHash": "d4b5b5bb3717b8519b344bb5dd5ad6264ecbb8f737fb1091158a7a3b8a0aca34"
+    },
+    {
+      "id": "bio-course-baobab-v1",
+      "cropId": "baobab",
+      "characters": 322,
+      "duration": 72.0,
+      "ffprobeDuration": 72.0,
+      "audioBytes": 1153716,
+      "audioSha256": "84197a7ded0144ccfb83ebfa73dffda85093266891ef1b28941623d9fa864767",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        64,
+        176
+      ],
+      "textHash": "5b96b2f4f6e60f9c39630f8130831ffeebcb0290b39981e9df84457b21d638ac"
+    },
+    {
+      "id": "bio-course-eucalyptus-v1",
+      "cropId": "eucalyptus",
+      "characters": 302,
+      "duration": 65.376,
+      "ffprobeDuration": 65.376,
+      "audioBytes": 1047732,
+      "audioSha256": "7c517d03ae09d678f87a3dd1943659c2cdef02d2bda124522dbb74d281dd7f91",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        66,
+        157
+      ],
+      "textHash": "1dcc4810b56b4cdce18258b1453f7037f376b0ed60c1a044e0cdee580061e5bb"
+    },
+    {
+      "id": "bio-course-redmangrove-v1",
+      "cropId": "redmangrove",
+      "characters": 320,
+      "duration": 70.848,
+      "ffprobeDuration": 70.848,
+      "audioBytes": 1135284,
+      "audioSha256": "91691e95aa468565c6a402742fd1f60c4be3c26c411bdcf65dd838e38f86ffe4",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        67,
+        174
+      ],
+      "textHash": "9e7922a899bcddde9075d7a8ab6fda578d455d4c4c911c72b5327abe625d2feb"
+    },
+    {
+      "id": "bio-course-bamboo-v1",
+      "cropId": "bamboo",
+      "characters": 303,
+      "duration": 69.012,
+      "ffprobeDuration": 69.012,
+      "audioBytes": 1105908,
+      "audioSha256": "460dbc5ac4ff87a98d09375fe15f57103db76e9cf2850d0d67874541b2706101",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        68,
+        157
+      ],
+      "textHash": "7828fc7aadb0ee78770b365937629b055b1ce4d5386eefd203e7b7fe62f4d590"
+    },
+    {
+      "id": "bio-course-saguaro-v1",
+      "cropId": "saguaro",
+      "characters": 322,
+      "duration": 70.416,
+      "ffprobeDuration": 70.416,
+      "audioBytes": 1128372,
+      "audioSha256": "e6de9d7091c67e6d1cb50a1c2d7da07053c1c68d57b1e073084b67f0eb816503",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        73,
+        175
+      ],
+      "textHash": "15474e4e1080f22c8acc7f5136fb567b561707d3fb2d5ad2511cedd6c9ccaa2c"
+    },
+    {
+      "id": "bio-course-pricklypear-v1",
+      "cropId": "pricklypear",
+      "characters": 304,
+      "duration": 69.696,
+      "ffprobeDuration": 69.696,
+      "audioBytes": 1116852,
+      "audioSha256": "0379e3841e1c69dad1a464c7c10a228d30aa68a1fd158fa6e6d71e01224d99ca",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        66,
+        161
+      ],
+      "textHash": "0d7eba53a8796794b445323c84ff6dfce2b464faaeb3efc596a759251820bfa6"
+    },
+    {
+      "id": "bio-course-agave-v1",
+      "cropId": "agave",
+      "characters": 299,
+      "duration": 71.676,
+      "ffprobeDuration": 71.676,
+      "audioBytes": 1148532,
+      "audioSha256": "4f307272149ac0f43da8d1f2030483dde49c41697d13b5da1acc7f64aec085a3",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        71,
+        156
+      ],
+      "textHash": "781142329092a21285d1c4a062a2ff88ac14a0581353ad4cc7962b89be3ebcd9"
+    },
+    {
+      "id": "bio-course-aloe-v1",
+      "cropId": "aloe",
+      "characters": 306,
+      "duration": 69.372,
+      "ffprobeDuration": 69.372,
+      "audioBytes": 1111668,
+      "audioSha256": "1718b95305fda436273b27ce891883efe3a530054c6ffc35d8b1a071c016645f",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        69,
+        164
+      ],
+      "textHash": "82c47bb1fb2d8ae0f64811391100940f36344a03c189c9e0498e78686bc205f0"
+    },
+    {
+      "id": "bio-course-lotus-v1",
+      "cropId": "lotus",
+      "characters": 314,
+      "duration": 72.36,
+      "ffprobeDuration": 72.36,
+      "audioBytes": 1159476,
+      "audioSha256": "889ca002af3f86b069b92034ed5f9348c8dea77e3d98c474f782013a7dd5f96b",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        68,
+        165
+      ],
+      "textHash": "2f83add703425fd7d808660264451f2fa4214b6a1e73c715eefe2f056f5670a5"
+    },
+    {
+      "id": "bio-course-waterlily-v1",
+      "cropId": "waterlily",
+      "characters": 320,
+      "duration": 70.488,
+      "ffprobeDuration": 70.488,
+      "audioBytes": 1129524,
+      "audioSha256": "b3682c8a59fe1a2a76ceb895b2a061153d53e1aa627bf066eaa9617edf0aebcd",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        73,
+        172
+      ],
+      "textHash": "1bb015338b5cf215af72e9f7da62bf0d42ac73e802d036d767347fdb6fc99462"
+    },
+    {
+      "id": "bio-course-eelgrass-v2",
+      "cropId": "eelgrass",
+      "characters": 379,
+      "duration": 86.724,
+      "ffprobeDuration": 86.724,
+      "audioBytes": 1389300,
+      "audioSha256": "e587e04e20ab98dac88c4cae64fc79c335dbc47b3128f1d3287be717d2577caa",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        102,
+        224
+      ],
+      "textHash": "cf112ba68b0673e55db7bf8f3861e1c94d568b120170dfc446218f6d84c0d7d7"
+    },
+    {
+      "id": "bio-course-duckweed-v1",
+      "cropId": "duckweed",
+      "characters": 318,
+      "duration": 70.74,
+      "ffprobeDuration": 70.74,
+      "audioBytes": 1133556,
+      "audioSha256": "0445a4541ca64078c2747871b5fcbfc40c219cac6c82d57c1285b6dc67e24d77",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        65,
+        170
+      ],
+      "textHash": "e8d2d0a7fb176793a9f1161026a0cd7f929077d2b72c6b522a272b187e865179"
+    },
+    {
+      "id": "bio-course-lavender-v1",
+      "cropId": "lavender",
+      "characters": 306,
+      "duration": 68.904,
+      "ffprobeDuration": 68.904,
+      "audioBytes": 1104180,
+      "audioSha256": "9094ac3fdc07a074bd1c37ab8c70925ab8a458e1919469351529efea442ac8c9",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        75,
+        159
+      ],
+      "textHash": "a244a497868ebe12c4e62b77419401c9528d76b5db817aad0496522fb44bd250"
+    },
+    {
+      "id": "bio-course-rosemary-v1",
+      "cropId": "rosemary",
+      "characters": 349,
+      "duration": 73.584,
+      "ffprobeDuration": 73.584,
+      "audioBytes": 1179060,
+      "audioSha256": "693b813015c5c3f996c48326cc32e9a99753f80bd8c1df99de7d897a283d5878",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        69,
+        202
+      ],
+      "textHash": "ed5d0d92cc98225fb3efcede75aa04e55fe3edfdf2f59196a0b8ac302b4498ac"
+    },
+    {
+      "id": "bio-course-dogrose-v1",
+      "cropId": "dogrose",
+      "characters": 313,
+      "duration": 72.576,
+      "ffprobeDuration": 72.576,
+      "audioBytes": 1162932,
+      "audioSha256": "f21603ee522d75c4997d9b947bdbecb9550bc559078ea3244c0d5ee503e85a5d",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        67,
+        168
+      ],
+      "textHash": "15a310759becb69fa0e721cac8a1d60a7c298dbe79cbae195b40aef7ac854b8c"
+    },
+    {
+      "id": "bio-course-tulip-v1",
+      "cropId": "tulip",
+      "characters": 324,
+      "duration": 73.62,
+      "ffprobeDuration": 73.62,
+      "audioBytes": 1179636,
+      "audioSha256": "ec777e15db6d5ee96f0f985e0a8a0ce9d171d91704c5fd10b4bf9d48cbb8a738",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        78,
+        181
+      ],
+      "textHash": "f7fdc8d01750e9dc19df9ec2b978e9ea1896136162092ad3480aa2ed8b42be33"
+    },
+    {
+      "id": "bio-course-orchid-v1",
+      "cropId": "orchid",
+      "characters": 337,
+      "duration": 74.556,
+      "ffprobeDuration": 74.556,
+      "audioBytes": 1194612,
+      "audioSha256": "cf0eeb7b67274499ba326fa04ac26ffa014eacdbeee7b7f276570204f00228fd",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        72,
+        177
+      ],
+      "textHash": "1682eed5af2224cf80659010fec1ac6be2e2903f2f8189d041afd4d6c8d9de35"
+    },
+    {
+      "id": "bio-course-venusflytrap-v1",
+      "cropId": "venusflytrap",
+      "characters": 311,
+      "duration": 69.336,
+      "ffprobeDuration": 69.336,
+      "audioBytes": 1111092,
+      "audioSha256": "a5c5c7660746661ee573ea502d9739d9bad4b388828591bc70f7905d33d30710",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        66,
+        165
+      ],
+      "textHash": "09c7559ccca2750034b68e0f4d5282624a4892ffd5dfd00fba9757cbee9d6406"
+    },
+    {
+      "id": "bio-course-sundew-v1",
+      "cropId": "sundew",
+      "characters": 316,
+      "duration": 71.568,
+      "ffprobeDuration": 71.568,
+      "audioBytes": 1146804,
+      "audioSha256": "1e2819f18fdfcc67c36ec4735e31167ba4c26c709126207a0a1d6b2ea93b1650",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        70,
+        175
+      ],
+      "textHash": "0fcb6157904172bc8b6e94e827c2635ac59bffaf9aa6b8bc8f2271663cee44b0"
+    },
+    {
+      "id": "bio-course-edelweiss-v1",
+      "cropId": "edelweiss",
+      "characters": 316,
+      "duration": 72.72,
+      "ffprobeDuration": 72.72,
+      "audioBytes": 1165236,
+      "audioSha256": "516e69006d16a9e515208045165fd444d0656251fac4d1f50cf1eaee7d4c483a",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        74,
+        173
+      ],
+      "textHash": "dbd64652e6e39fa07c9f4f7d2e30ca3b7b7348ab4e6e03f932d70e1a198c9002"
+    },
+    {
+      "id": "bio-course-ginkgo-v2",
+      "cropId": "ginkgo",
+      "characters": 384,
+      "duration": 84.096,
+      "ffprobeDuration": 84.096,
+      "audioBytes": 1347252,
+      "audioSha256": "7b2a377531c827e42ce963c707a3df6feed952e6ee672e878ca92560e33cea45",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        82,
+        228
+      ],
+      "textHash": "ac80859d97aa4aaa26a6cdaea840785fadc303df5fab07c20a8acc2b58b01c25"
+    },
+    {
+      "id": "bio-course-scotspine-v1",
+      "cropId": "scotspine",
+      "characters": 333,
+      "duration": 76.068,
+      "ffprobeDuration": 76.068,
+      "audioBytes": 1218804,
+      "audioSha256": "2c8ab3aad77ff41697481a945aa4914b1ba3ee657df555e7d7c6a0331e181c64",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        64,
+        191
+      ],
+      "textHash": "aa148490f3d0eeb4eb6a3af49eb35532b9a44c5a567c23ad894e43d3d88f7c34"
+    },
+    {
+      "id": "bio-course-norwayspruce-v1",
+      "cropId": "norwayspruce",
+      "characters": 328,
+      "duration": 74.628,
+      "ffprobeDuration": 74.628,
+      "audioBytes": 1195764,
+      "audioSha256": "168009ff332c31d11735e80eba7e4baa59a4d13c3a8fc4c4d64fea84f2aa6a2f",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        66,
+        186
+      ],
+      "textHash": "30a92a57f2d4f606d93ad49bffa7d4b8c5f0895409224ff76b3de8452aa582b3"
+    },
+    {
+      "id": "bio-course-coastredwood-v1",
+      "cropId": "coastredwood",
+      "characters": 333,
+      "duration": 76.104,
+      "ffprobeDuration": 76.104,
+      "audioBytes": 1219380,
+      "audioSha256": "eb7872c29d4467d5ec4a3bb9f04d39421e835e126775bc6c717012fa5b316d7f",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        69,
+        190
+      ],
+      "textHash": "659dabf8f33da40081aea11fd895bd6b464ab910bfbb4acee6fff97042fae51b"
+    },
+    {
+      "id": "bio-course-dawnredwood-v1",
+      "cropId": "dawnredwood",
+      "characters": 329,
+      "duration": 73.188,
+      "ffprobeDuration": 73.188,
+      "audioBytes": 1172724,
+      "audioSha256": "b3949914164958e472ed39f8daefabc813cf2d81baa07e3231ddb8a255c10137",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        65,
+        186
+      ],
+      "textHash": "416d5a5ecc9b8d73d594674d001f9714db147679efb23c6266475697a7d556c6"
+    },
+    {
+      "id": "bio-course-cedar-v1",
+      "cropId": "cedar",
+      "characters": 320,
+      "duration": 72.288,
+      "ffprobeDuration": 72.288,
+      "audioBytes": 1158324,
+      "audioSha256": "7bcb2cd60c5e19e26a457f662cccc611174c427e9db6c4efb2b1bd30470cee6f",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        68,
+        180
+      ],
+      "textHash": "43ad130118a29e64a631b13c2fb29baa1df9409ba724064cc342fa4a1ef20569"
+    },
+    {
+      "id": "bio-course-cycad-v1",
+      "cropId": "cycad",
+      "characters": 315,
+      "duration": 72.54,
+      "ffprobeDuration": 72.54,
+      "audioBytes": 1162356,
+      "audioSha256": "f6221a7ccd47a0697719d38a23851906f8c8a2df74ad9b7a6f7c6b49e0eb064a",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        64,
+        173
+      ],
+      "textHash": "e719376bd8019b6c9aeb2403b26bfe77b7ce1a5267f63487a4fed6125407bead"
+    },
+    {
+      "id": "bio-course-welwitschia-v1",
+      "cropId": "welwitschia",
+      "characters": 349,
+      "duration": 79.848,
+      "ffprobeDuration": 79.848,
+      "audioBytes": 1279284,
+      "audioSha256": "d7684bf31d5412276fe46f8a76803ded61a0de9222227043ba7bb8fb780bc18f",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        67,
+        192
+      ],
+      "textHash": "d2acb3689cfd821ac41abdea5a76592eceb9f9364a6fb1ea340effa741b5c2ac"
+    },
+    {
+      "id": "bio-course-treefern-v1",
+      "cropId": "treefern",
+      "characters": 302,
+      "duration": 68.976,
+      "ffprobeDuration": 68.976,
+      "audioBytes": 1105332,
+      "audioSha256": "db0d5ac17bc951da2a779c8ec04ce0b45746d3fe8e25c316466355078571e45c",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        65,
+        157
+      ],
+      "textHash": "1a53964861a12b0e9659178fcf748e42dbc77ba5e6e2d562e33f877440d0c306"
+    },
+    {
+      "id": "bio-course-birdsnestfern-v1",
+      "cropId": "birdsnestfern",
+      "characters": 322,
+      "duration": 72.936,
+      "ffprobeDuration": 72.936,
+      "audioBytes": 1168692,
+      "audioSha256": "7ebe8227e58018227eed9354a27f47ea05ecac59fd0b0cd9f155ebd39c2c4d72",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        69,
+        165
+      ],
+      "textHash": "9692db304d6c09b3b87c06781b25d95c4d9fbcc9ca7ca431ccb759be5d63e973"
+    },
+    {
+      "id": "bio-course-maidenhair-v1",
+      "cropId": "maidenhair",
+      "characters": 309,
+      "duration": 69.804,
+      "ffprobeDuration": 69.804,
+      "audioBytes": 1118580,
+      "audioSha256": "f7799131cbb5f42576412a640e346c96b05c2a853808d2318aec6fa7aad30ac6",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        64,
+        162
+      ],
+      "textHash": "2ca6c620ee4e857234604d853d57dfc6d9156fde13b97e6f1fb1c326a007b819"
+    },
+    {
+      "id": "bio-course-horsetail-v1",
+      "cropId": "horsetail",
+      "characters": 307,
+      "duration": 73.044,
+      "ffprobeDuration": 73.044,
+      "audioBytes": 1170420,
+      "audioSha256": "89f44fe918f94d7027aeb8ef61ad9011af08573db37ff75669a71aa300f3e50f",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        66,
+        162
+      ],
+      "textHash": "bec0e98c5f9d8a4f084a23b1770317067c073f3b52e4941dfc0216decf6774fb"
+    },
+    {
+      "id": "bio-course-clubmoss-v1",
+      "cropId": "clubmoss",
+      "characters": 306,
+      "duration": 68.364,
+      "ffprobeDuration": 68.364,
+      "audioBytes": 1095540,
+      "audioSha256": "874596662d7d27e94dd8f81a35c4239a227c6798864c240c470f451b1a403637",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        68,
+        166
+      ],
+      "textHash": "50a588e7c2741cccaa559ecb2c8cb5130d605410346d293e7a851b2d1344b44e"
+    },
+    {
+      "id": "bio-course-resurrection-v1",
+      "cropId": "resurrection",
+      "characters": 313,
+      "duration": 71.532,
+      "ffprobeDuration": 71.532,
+      "audioBytes": 1146228,
+      "audioSha256": "3a686e80167f48e8871c20e72ff37c897491993157fa577feee09776041a15a4",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        73,
+        170
+      ],
+      "textHash": "c978c22dd1af6806bceb97e5b536ca572bb60e77ad03a8006e8da4cc41725968"
+    },
+    {
+      "id": "bio-course-sphagnum-v1",
+      "cropId": "sphagnum",
+      "characters": 314,
+      "duration": 68.688,
+      "ffprobeDuration": 68.688,
+      "audioBytes": 1100724,
+      "audioSha256": "7966b29ead193355566bd5c79dd8cf0e06b0c353cbe307516ebd60fa1295cd4f",
+      "cues": 4,
+      "beatOffsets": [
+        0,
+        72,
+        173
+      ],
+      "textHash": "fa968e8ea75176c4763bcec1c15f1e2f30d5201d696150bcefdcf6051d2bec2e"
+    },
+    {
+      "id": "bio-course-liverwort-v1",
+      "cropId": "liverwort",
+      "characters": 311,
+      "duration": 68.328,
+      "ffprobeDuration": 68.328,
+      "audioBytes": 1094964,
+      "audioSha256": "a4c33cfef9bd472457bd6c778d4b1f86935d8dcd31ad4776230adca534e5706c",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        70,
+        166
+      ],
+      "textHash": "00df6fa02fd27f67dae68d1f72d2fe9d5826bc8df22d6af560460497e311dead"
+    },
+    {
+      "id": "bio-course-hornwort-v1",
+      "cropId": "hornwort",
+      "characters": 311,
+      "duration": 73.764,
+      "ffprobeDuration": 73.764,
+      "audioBytes": 1181940,
+      "audioSha256": "8a7667d04ff95a201cb41837ff95f9d59af3b9dbb1815af1bddc5c7539b443b6",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        73,
+        166
+      ],
+      "textHash": "60303c58366292295f9ef7fe14a18cd80505d42979b376c31a69cf5b94937ae9"
+    }
+  ]
+}

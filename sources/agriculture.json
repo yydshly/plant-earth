@@ -1,0 +1,5289 @@
+{
+  "metadata": {
+    "checkedAt": "2026-10-28",
+    "scope": "26种新增农业代表植物，含蔬菜、伪谷物、油料、纤维、热带果树和香辛料。",
+    "sourcePolicy": "Kew核对当前接受名；FAO EcoCrop与大学、政府、农业研究机构核对环境和形态。所有新增地图点只表示来源支持的栽培地区示例，非实测点或完整种植范围；不生成全球适宜性着色。",
+    "taxonomyNote": "豌豆稳定ID仍为pea；按Kew接受名使用Lathyrus oleraceus，并保留常用Pisum sativum为异名。同物种不同栽培型不重复计数。",
+    "narrationPolicy": "每种3段，依次为形态、地区一、地区二与环境限制；chapter.text完全等于beats拼接。"
+  },
+  "entries": [
+    {
+      "plant": {
+        "id": "tomato",
+        "name": "番茄",
+        "latin": "Solanum lycopersicum",
+        "synonyms": [
+          "Lycopersicon esculentum"
+        ],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Solanaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316947-2",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带暖季",
+          "亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "暖季日照与均匀供水",
+        "limits": "霜冻、花期酷热与根区积水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316947-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1379",
+          "https://anrcatalog.ucanr.edu/pdf/7228.pdf",
+          "https://edis.ifas.ufl.edu/hs1392",
+          "https://edis.ifas.ufl.edu/publication/TR014/pdf"
+        ]
+      },
+      "profile": {
+        "id": "tomato",
+        "summary": "番茄以成熟浆果供食，适合光照足、无霜且根层通气的生长季。长叶所需热量与成功坐果的温度窗口并不完全相同。",
+        "temperatureNote": "冷夜使发育变慢，过热也会妨碍花粉活动与坐果。",
+        "water": {
+          "summary": "持续膨果需要较均匀的根区水分。",
+          "timing": "开花、坐果和膨大阶段应避免骤旱骤湿。",
+          "caution": "年雨量不能替代灌溉可用水判断。"
+        },
+        "soil": {
+          "texture": "多种土壤均可，壤土便于保水与通气。",
+          "drainage": "重土可栽培，但积水会增加根腐风险。",
+          "phNote": "酸碱与盐分应按当地土测核实。"
+        },
+        "season": {
+          "type": "常作一年生暖季菜。",
+          "timing": "温带用春夏，暖亚热带可利用冬春。",
+          "explanation": "加工型与鲜食型的熟期、整枝和收获方式不同。"
+        },
+        "stress": {
+          "cold": "植株不耐霜冻。",
+          "heat": "酷热可能落花。",
+          "drought": "缺水抑制膨果。",
+          "waterlogging": "久湿伤根并加重病害。"
+        },
+        "regions": [
+          {
+            "name": "美国圣华金谷",
+            "why": "晴暖季节与灌溉共同支持加工番茄生产。",
+            "caution": "热浪仍可能影响坐果，地图不代表水源有保证。"
+          },
+          {
+            "name": "美国迈阿密戴德",
+            "why": "利用相对温和的冬春生产鲜食番茄。",
+            "caution": "需适应当地病害、浅土与水肥条件。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "有限与无限生长型改变株形及连续结果方式。",
+          "practice": "依熟期选种，支架、覆盖和滴灌协助管理。",
+          "tradeoff": "设施延长季节，同时增加通风与水肥管理要求。"
+        },
+        "misconception": "番茄爱温暖，不表示气温越高越容易坐果。",
+        "sources": [
+          {
+            "title": "Kew POWO：Solanum lycopersicum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316947-2",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：番茄（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1379",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UC ANR：加工番茄生产",
+            "url": "https://anrcatalog.ucanr.edu/pdf/7228.pdf",
+            "supports": "暖季生长、霜冻和坐果温度限制、加州产区"
+          },
+          {
+            "title": "UF/IFAS：佛州番茄",
+            "url": "https://edis.ifas.ufl.edu/hs1392",
+            "supports": "生长型、设施与露地、冬季坐果和播期"
+          },
+          {
+            "title": "美国迈阿密戴德：栽培地区依据",
+            "url": "https://edis.ifas.ufl.edu/publication/TR014/pdf",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "tomato",
+        "crop": "tomato",
+        "group": "蔬菜",
+        "title": "番茄｜暖季日照与均匀供水",
+        "lon": -120,
+        "lat": 36.8,
+        "subtitle": "番茄以成熟浆果供食，适合光照足、无霜且根层通气的生长季。长叶所需热量与成功坐果的温度窗口并不完全相同。",
+        "shape": "tomato",
+        "text": "先看番茄的黄色花簇和饱满浆果，旁边是分裂的叶片。它常被当作一年生蔬菜栽培，果实大小、颜色与植株长势都因品种而改变。地球转到美国圣华金谷，这里有加工番茄栽培。晴暖的生长季有利发育，但田间供水来自灌溉管理，不能把干燥天气理解为不需要水。再看佛罗里达的迈阿密戴德，番茄利用冬春上市。两个地区选择不同季节避开限制：霜冻会伤苗，花期过热同样会使坐果变差。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316947-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1379",
+          "https://anrcatalog.ucanr.edu/pdf/7228.pdf",
+          "https://edis.ifas.ufl.edu/hs1392",
+          "https://edis.ifas.ufl.edu/publication/TR014/pdf"
+        ],
+        "labels": [
+          {
+            "text": "美国圣华金谷",
+            "lon": -120,
+            "lat": 36.8,
+            "kind": "region"
+          },
+          {
+            "text": "美国迈阿密戴德",
+            "lon": -80.5,
+            "lat": 25.5,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "tomato",
+          "label": "番茄",
+          "parts": [
+            "羽状分裂叶",
+            "黄色花簇",
+            "浆果"
+          ],
+          "note": "果实是浆果；模型并置花与成熟果，颜色和大小不代表全部品种。"
+        },
+        "beats": [
+          {
+            "text": "先看番茄的黄色花簇和饱满浆果，旁边是分裂的叶片。它常被当作一年生蔬菜栽培，果实大小、颜色与植株长势都因品种而改变。",
+            "lon": -120,
+            "lat": 36.8,
+            "label": "美国圣华金谷",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "地球转到美国圣华金谷，这里有加工番茄栽培。晴暖的生长季有利发育，但田间供水来自灌溉管理，不能把干燥天气理解为不需要水。",
+            "lon": -120,
+            "lat": 36.8,
+            "label": "美国圣华金谷",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看佛罗里达的迈阿密戴德，番茄利用冬春上市。两个地区选择不同季节避开限制：霜冻会伤苗，花期过热同样会使坐果变差。",
+            "lon": -80.5,
+            "lat": 25.5,
+            "label": "美国迈阿密戴德",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "tomato-region1",
+          "cropId": "tomato",
+          "region": "美国圣华金谷",
+          "lon": -120,
+          "lat": 36.8,
+          "chapterId": "tomato",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://anrcatalog.ucanr.edu/pdf/7228.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "tomato-region2",
+          "cropId": "tomato",
+          "region": "美国迈阿密戴德",
+          "lon": -80.5,
+          "lat": 25.5,
+          "chapterId": "tomato",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://edis.ifas.ufl.edu/publication/TR014/pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "pepper",
+        "name": "辣椒",
+        "latin": "Capsicum annuum",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Solanaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带暖季",
+          "热带季节性湿润"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖明亮且排水良好",
+        "limits": "霜冻、花期热旱与成熟期久雨",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=618",
+          "https://agritech.tnau.ac.in/banking/pdf/Chilli.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2/general-information",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_chilli_variety_CO.html",
+          "https://edis.ifas.ufl.edu/publication/HS1156/pdf"
+        ]
+      },
+      "profile": {
+        "id": "pepper",
+        "summary": "辣椒这一物种包括甜椒与许多辣味类型，属于暖季果菜。适温生长、花期水分和成熟期天气共同决定产量与果实质量。",
+        "temperatureNote": "需要温暖但并非无限耐热；热与干空气叠加会落花。",
+        "water": {
+          "summary": "雨养栽培依赖降雨分配，也可灌溉。",
+          "timing": "花芽、开花和幼果期需保持供水连续。",
+          "caution": "成熟期久雨高湿容易加重果实腐烂。"
+        },
+        "soil": {
+          "texture": "有机质较多的壤土通常便于根系生长。",
+          "drainage": "黏重地必须避免根区长时间滞水。",
+          "phNote": "宜检测酸碱及灌溉水盐分。"
+        },
+        "season": {
+          "type": "暖季草本，常按一年生栽培。",
+          "timing": "温带霜后定植，热带结合雨季与灌溉。",
+          "explanation": "鲜椒、甜椒与干椒的采收阶段不同。"
+        },
+        "stress": {
+          "cold": "易受霜冻损伤。",
+          "heat": "高温干风妨碍坐果。",
+          "drought": "花果期缺水损失明显。",
+          "waterlogging": "湿热积水增加根病风险。"
+        },
+        "regions": [
+          {
+            "name": "印度哥印拜陀",
+            "why": "TNAU列有适应此区域的辣椒品种。",
+            "caution": "品种适应说明不等于当地所有土壤都适宜。"
+          },
+          {
+            "name": "美国迈阿密戴德",
+            "why": "冬季温暖与灌溉支持甜椒种植。",
+            "caution": "当地生产制度需要避开低温并控制根区水分。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "果形、辣度和生长节律具有丰富品种差异。",
+          "practice": "用当地适宜品种并安排灌排与成熟期。",
+          "tradeoff": "大果甜椒与制干辣椒不能套用相同采收目标。"
+        },
+        "misconception": "胡椒和辣椒不是同一种植物，黑胡椒来自胡椒属藤本。",
+        "sources": [
+          {
+            "title": "Kew POWO：Capsicum annuum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：辣椒（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=618",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "TNAU：辣椒气候与土壤",
+            "url": "https://agritech.tnau.ac.in/banking/pdf/Chilli.pdf",
+            "supports": "气候、落花、成熟期降雨与土壤"
+          },
+          {
+            "title": "Kew：辣椒形态与栽培型",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2/general-information",
+            "supports": "甜椒与辣椒同物种、白花和浆果"
+          },
+          {
+            "title": "印度哥印拜陀：栽培地区依据",
+            "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_chilli_variety_CO.html",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          },
+          {
+            "title": "美国迈阿密戴德：栽培地区依据",
+            "url": "https://edis.ifas.ufl.edu/publication/HS1156/pdf",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "pepper",
+        "crop": "pepper",
+        "group": "蔬菜",
+        "title": "辣椒｜温暖明亮且排水良好",
+        "lon": 77,
+        "lat": 11,
+        "subtitle": "辣椒这一物种包括甜椒与许多辣味类型，属于暖季果菜。适温生长、花期水分和成熟期天气共同决定产量与果实质量。",
+        "shape": "pepper",
+        "text": "看这株分枝的辣椒，白色花后结出各种颜色的浆果。甜椒和许多辣椒都属于这一个物种，辣度与果形的变化不能用来直接数物种。现在看印度哥印拜陀，农业大学有适合当地的辣椒品种。温暖、日照和持续供水支持花果发育，成熟期过多降雨却可能增加烂果。再来到迈阿密戴德，当地有冬季甜椒栽培。它依靠季节与灌溉配合，而非全年都适合；霜冻会伤株，酷热干风也容易造成落花。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=618",
+          "https://agritech.tnau.ac.in/banking/pdf/Chilli.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A316944-2/general-information",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_chilli_variety_CO.html",
+          "https://edis.ifas.ufl.edu/publication/HS1156/pdf"
+        ],
+        "labels": [
+          {
+            "text": "印度哥印拜陀",
+            "lon": 77,
+            "lat": 11,
+            "kind": "region"
+          },
+          {
+            "text": "美国迈阿密戴德",
+            "lon": -80.6,
+            "lat": 25.4,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "pepper",
+          "label": "辣椒",
+          "parts": [
+            "分枝茎",
+            "白色花",
+            "彩色浆果"
+          ],
+          "note": "本条为Capsicum annuum，包含甜椒和多种辣椒，不包含所有辣椒属物种。"
+        },
+        "beats": [
+          {
+            "text": "看这株分枝的辣椒，白色花后结出各种颜色的浆果。甜椒和许多辣椒都属于这一个物种，辣度与果形的变化不能用来直接数物种。",
+            "lon": 77,
+            "lat": 11,
+            "label": "印度哥印拜陀",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "现在看印度哥印拜陀，农业大学有适合当地的辣椒品种。温暖、日照和持续供水支持花果发育，成熟期过多降雨却可能增加烂果。",
+            "lon": 77,
+            "lat": 11,
+            "label": "印度哥印拜陀",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再来到迈阿密戴德，当地有冬季甜椒栽培。它依靠季节与灌溉配合，而非全年都适合；霜冻会伤株，酷热干风也容易造成落花。",
+            "lon": -80.6,
+            "lat": 25.4,
+            "label": "美国迈阿密戴德",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "pepper-region1",
+          "cropId": "pepper",
+          "region": "印度哥印拜陀",
+          "lon": 77,
+          "lat": 11,
+          "chapterId": "pepper",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_chilli_variety_CO.html",
+          "sourceScope": "资料描述在哥印拜陀育成的CO.4，并明确将该地区肥沃壤土列为适应范围；坐标为区域示意，非实测种植地点或当前面积统计。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "pepper-region2",
+          "cropId": "pepper",
+          "region": "美国迈阿密戴德",
+          "lon": -80.6,
+          "lat": 25.4,
+          "chapterId": "pepper",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://edis.ifas.ufl.edu/publication/HS1156/pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "eggplant",
+        "name": "茄子",
+        "latin": "Solanum melongena",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Solanaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带",
+          "亚热带",
+          "温带暖季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "较长暖季与稳定根区水分",
+        "limits": "霜冻、积水与连作病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1965",
+          "https://agritech.tnau.ac.in/ta/horticulture/horti_vegetables_brinjal_ta.html",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1/general-information",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_brinjal_yield.html"
+        ]
+      },
+      "profile": {
+        "id": "eggplant",
+        "summary": "茄子是喜温果菜，通常在果实尚嫩时收获。热带可形成较长生产季，温带则需要霜后充分温暖的窗口与合适熟期。",
+        "temperatureNote": "冷凉会拖慢建株和结果；极端高温也不能保证坐果。",
+        "water": {
+          "summary": "根层应湿润但保持空气交换。",
+          "timing": "移栽成活与连续采果期尤其需要供水。",
+          "caution": "高湿环境仍须避免叶面和根区持续积水。"
+        },
+        "soil": {
+          "texture": "肥沃、含有机质的壤土便于持续生长。",
+          "drainage": "雨季要有排水通道和健康根区。",
+          "phNote": "土壤酸碱宜依据区域试验与土测。"
+        },
+        "season": {
+          "type": "多年生习性，农业上常按一年生管理。",
+          "timing": "暖季移栽后连续采收嫩果。",
+          "explanation": "留种成熟与蔬菜采收是不同阶段。"
+        },
+        "stress": {
+          "cold": "低温和霜冻限制生产。",
+          "heat": "酷热干旱使生长受阻。",
+          "drought": "缺水会限制果实膨大。",
+          "waterlogging": "涝害与根病可相互加重。"
+        },
+        "regions": [
+          {
+            "name": "印度丁迪古尔",
+            "why": "农业大学明确列为茄子种植地区。",
+            "caution": "当地品种与采收制度不能直接移到寒冷地区。"
+          },
+          {
+            "name": "哥伦比亚安蒂奥基亚",
+            "why": "Kew收录的哥伦比亚资料记录当地栽培。",
+            "caution": "这是地区存在记录，并未验证每个海拔地块。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "直立分枝与持续开花支持分批采收。",
+          "practice": "选抗病种苗，轮作并维持均匀水分。",
+          "tradeoff": "长采收季增加营养、水分和病虫管理需求。"
+        },
+        "misconception": "紫色长茄不是唯一形态，颜色与外形不能代表独立物种。",
+        "sources": [
+          {
+            "title": "Kew POWO：Solanum melongena",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：茄子（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1965",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "TNAU：茄子栽培",
+            "url": "https://agritech.tnau.ac.in/ta/horticulture/horti_vegetables_brinjal_ta.html",
+            "supports": "有机质、排水、采嫩果及地方品种"
+          },
+          {
+            "title": "Kew：茄子描述",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1/general-information",
+            "supports": "形态与安蒂奥基亚栽培资料"
+          },
+          {
+            "title": "印度丁迪古尔：栽培地区依据",
+            "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_brinjal_yield.html",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "eggplant",
+        "crop": "eggplant",
+        "group": "蔬菜",
+        "title": "茄子｜较长暖季与稳定根区水分",
+        "lon": 78,
+        "lat": 10.5,
+        "subtitle": "茄子是喜温果菜，通常在果实尚嫩时收获。热带可形成较长生产季，温带则需要霜后充分温暖的窗口与合适熟期。",
+        "shape": "eggplant",
+        "text": "先看茄子宽大的叶片、紫色花和下垂果实，常见长茄只是许多栽培形态之一。我们吃的通常是嫩果，留种时才让果实进一步成熟。地球来到印度丁迪古尔，农业大学明确列出当地茄子栽培。较长暖季能支持连续结果，但每一批果实的形成都需要稳定水分和健康根系。再看哥伦比亚安蒂奥基亚，这里也有栽培记录。地区点只说明一种实例，不表示整片山区都适宜；海拔带来的冷凉和积水仍是限制。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1965",
+          "https://agritech.tnau.ac.in/ta/horticulture/horti_vegetables_brinjal_ta.html",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1/general-information",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_brinjal_yield.html"
+        ],
+        "labels": [
+          {
+            "text": "印度丁迪古尔",
+            "lon": 78,
+            "lat": 10.5,
+            "kind": "region"
+          },
+          {
+            "text": "哥伦比亚安蒂奥基亚",
+            "lon": -75.5,
+            "lat": 6.5,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "eggplant",
+          "label": "茄子",
+          "parts": [
+            "宽叶",
+            "紫色花",
+            "悬垂浆果"
+          ],
+          "note": "展示常见紫色长果；圆果、白果、绿果同样可能属于本物种。"
+        },
+        "beats": [
+          {
+            "text": "先看茄子宽大的叶片、紫色花和下垂果实，常见长茄只是许多栽培形态之一。我们吃的通常是嫩果，留种时才让果实进一步成熟。",
+            "lon": 78,
+            "lat": 10.5,
+            "label": "印度丁迪古尔",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "地球来到印度丁迪古尔，农业大学明确列出当地茄子栽培。较长暖季能支持连续结果，但每一批果实的形成都需要稳定水分和健康根系。",
+            "lon": 78,
+            "lat": 10.5,
+            "label": "印度丁迪古尔",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看哥伦比亚安蒂奥基亚，这里也有栽培记录。地区点只说明一种实例，不表示整片山区都适宜；海拔带来的冷凉和积水仍是限制。",
+            "lon": -75.5,
+            "lat": 6.5,
+            "label": "哥伦比亚安蒂奥基亚",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "eggplant-region1",
+          "cropId": "eggplant",
+          "region": "印度丁迪古尔",
+          "lon": 78,
+          "lat": 10.5,
+          "chapterId": "eggplant",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_brinjal_yield.html",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "eggplant-region2",
+          "cropId": "eggplant",
+          "region": "哥伦比亚安蒂奥基亚",
+          "lon": -75.5,
+          "lat": 6.5,
+          "chapterId": "eggplant",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A820053-1/general-information",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "cucumber",
+        "name": "黄瓜",
+        "latin": "Cucumis sativus",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Cucurbitaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "温带暖季",
+          "亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "暖季充足水分与通气根层",
+        "limits": "霜冻、结果期缺水与湿叶病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=817",
+          "https://extension.uga.edu/publications/detail.html?number=C1034",
+          "https://edis.ifas.ufl.edu/pdffiles/CV/CV27200.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1/general-information"
+        ]
+      },
+      "profile": {
+        "id": "cucumber",
+        "summary": "黄瓜是快速生长的暖季藤本，可地面蔓生也可搭架。丰产需要充足光照、持续水分和疏松根层，不能只凭气温选地点。",
+        "temperatureNote": "不耐霜冻，温暖条件促进生长，冷土建苗慢。",
+        "water": {
+          "summary": "果实含水多，根区供水不能频繁中断。",
+          "timing": "结果期水分不足特别容易影响收获。",
+          "caution": "多雨不等于根系供水良好，积水会缺氧。"
+        },
+        "soil": {
+          "texture": "疏松、富有机质的土壤较有利。",
+          "drainage": "根层需要良好排水，避免低洼积水。",
+          "phNote": "土壤与水的盐分均应现场核实。"
+        },
+        "season": {
+          "type": "一年生暖季藤本。",
+          "timing": "温带用无霜季，保护地可调节季节。",
+          "explanation": "采收青嫩果，与种子成熟不是同一终点。"
+        },
+        "stress": {
+          "cold": "霜冻会严重伤株。",
+          "heat": "热旱叠加增大水分压力。",
+          "drought": "结果期缺水抑制膨果。",
+          "waterlogging": "积水损害根系功能。"
+        },
+        "regions": [
+          {
+            "name": "美国佐治亚州",
+            "why": "UGA列出当地夏季黄瓜栽培及暖湿要求。",
+            "caution": "同州不同地点仍需关注霜期和病害。"
+          },
+          {
+            "name": "哥伦比亚昆迪纳马卡",
+            "why": "Kew整合资料明确记录此省栽培黄瓜。",
+            "caution": "省级示例不代表各海拔都能同季收获。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "卷须使藤蔓可借支架展开叶片。",
+          "practice": "搭架改善空间利用，依品种安排授粉。",
+          "tradeoff": "密植与湿叶环境需兼顾通风和病害。"
+        },
+        "misconception": "并非所有黄瓜都必须由昆虫授粉，部分设施品种可单性结实。",
+        "sources": [
+          {
+            "title": "Kew POWO：Cucumis sativus",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：黄瓜（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=817",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UGA：家庭黄瓜栽培",
+            "url": "https://extension.uga.edu/publications/detail.html?number=C1034",
+            "supports": "暖季、霜冻、结果期需水、土壤及攀援形态"
+          },
+          {
+            "title": "UF/IFAS：设施蔬菜",
+            "url": "https://edis.ifas.ufl.edu/pdffiles/CV/CV27200.pdf",
+            "supports": "欧洲无籽黄瓜等设施类型"
+          },
+          {
+            "title": "哥伦比亚昆迪纳马卡：栽培地区依据",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1/general-information",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "cucumber",
+        "crop": "cucumber",
+        "group": "蔬菜",
+        "title": "黄瓜｜暖季充足水分与通气根层",
+        "lon": -83.5,
+        "lat": 32.5,
+        "subtitle": "黄瓜是快速生长的暖季藤本，可地面蔓生也可搭架。丰产需要充足光照、持续水分和疏松根层，不能只凭气温选地点。",
+        "shape": "cucumber",
+        "text": "观察黄瓜的卷须，它帮助柔软藤蔓抓住支撑物，掌状叶片下结出长圆果实。蔓生与搭架只是栽培方式差别，并不是两种不同植物。转到美国佐治亚州，当地推广资料介绍夏季黄瓜。温暖与日照配合充足水分支持快速生长，尤其结果时，短暂断水也会影响果实膨大。再看哥伦比亚昆迪纳马卡的栽培示例。这里仍要按海拔和品种选季节；黄瓜不耐霜冻，而持续湿润的根层也必须同时保持排水通气。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=817",
+          "https://extension.uga.edu/publications/detail.html?number=C1034",
+          "https://edis.ifas.ufl.edu/pdffiles/CV/CV27200.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1/general-information"
+        ],
+        "labels": [
+          {
+            "text": "美国佐治亚州",
+            "lon": -83.5,
+            "lat": 32.5,
+            "kind": "region"
+          },
+          {
+            "text": "哥伦比亚昆迪纳马卡",
+            "lon": -74.2,
+            "lat": 4.8,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "cucumber",
+          "label": "黄瓜",
+          "parts": [
+            "卷须",
+            "掌状叶",
+            "长圆瓜果"
+          ],
+          "note": "卷须用于攀援；普通需授粉型与单性结实设施品种的结实机制不同。"
+        },
+        "beats": [
+          {
+            "text": "观察黄瓜的卷须，它帮助柔软藤蔓抓住支撑物，掌状叶片下结出长圆果实。蔓生与搭架只是栽培方式差别，并不是两种不同植物。",
+            "lon": -83.5,
+            "lat": 32.5,
+            "label": "美国佐治亚州",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "转到美国佐治亚州，当地推广资料介绍夏季黄瓜。温暖与日照配合充足水分支持快速生长，尤其结果时，短暂断水也会影响果实膨大。",
+            "lon": -83.5,
+            "lat": 32.5,
+            "label": "美国佐治亚州",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看哥伦比亚昆迪纳马卡的栽培示例。这里仍要按海拔和品种选季节；黄瓜不耐霜冻，而持续湿润的根层也必须同时保持排水通气。",
+            "lon": -74.2,
+            "lat": 4.8,
+            "label": "哥伦比亚昆迪纳马卡",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "cucumber-region1",
+          "cropId": "cucumber",
+          "region": "美国佐治亚州",
+          "lon": -83.5,
+          "lat": 32.5,
+          "chapterId": "cucumber",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://extension.uga.edu/publications/detail.html?number=C1034",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "cucumber-region2",
+          "cropId": "cucumber",
+          "region": "哥伦比亚昆迪纳马卡",
+          "lon": -74.2,
+          "lat": 4.8,
+          "chapterId": "cucumber",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292296-1/general-information",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "pumpkin",
+        "name": "美洲南瓜",
+        "latin": "Cucurbita pepo",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Cucurbitaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292416-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "温带暖季",
+          "亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "无霜暖季与开花期供水",
+        "limits": "霜冻、缺水及授粉不足",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292416-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=821",
+          "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-pumpkins/",
+          "https://extension.psu.edu/irrigation-and-cultivar-selection-for-cucurbit-pollination-and-ipm",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292416-1/general-information",
+          "https://extension.psu.edu/the-business-of-pumpkins-in-pennsylvania",
+          "https://ucanr.edu/program/uc-small-farms-network/summer-squash-0"
+        ]
+      },
+      "profile": {
+        "id": "pumpkin",
+        "summary": "美洲南瓜包含部分万圣节南瓜和西葫芦，属于同种内不同栽培型。果实形态与采收年龄差异很大，不能把所有南瓜名称合并。",
+        "temperatureNote": "暖季生长较快，但必须避开霜冻。",
+        "water": {
+          "summary": "长蔓与大叶需要可靠根区供水。",
+          "timing": "开花、授粉和膨果阶段应避免干旱。",
+          "caution": "短期正午萎蔫需结合土壤判断，不能盲目灌水。"
+        },
+        "soil": {
+          "texture": "疏松肥沃、含有机质的土壤有利。",
+          "drainage": "排水不良地易发生根部问题。",
+          "phNote": "按土测处理酸碱与盐分条件。"
+        },
+        "season": {
+          "type": "一年生暖季藤本或紧凑株型。",
+          "timing": "在无霜窗口完成所选类型的采收。",
+          "explanation": "西葫芦采嫩果，硬皮观赏果需更长成熟期。"
+        },
+        "stress": {
+          "cold": "霜冻会终止生长。",
+          "heat": "热旱可能影响花果。",
+          "drought": "花期缺水削弱结实。",
+          "waterlogging": "久涝不适合根系。"
+        },
+        "regions": [
+          {
+            "name": "美国宾夕法尼亚州",
+            "why": "PSU明确指出当地装饰南瓜多数为Cucurbita pepo。",
+            "caution": "不是把当地所有南瓜都认定为本种。"
+          },
+          {
+            "name": "美国加州中央谷地",
+            "why": "UC明确记载中央谷地Cucurbita pepo夏南瓜生产。",
+            "caution": "此处示例为采嫩果的西葫芦等类型。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "大花分雄雌，普通类型依赖昆虫传粉。",
+          "practice": "维护授粉条件并合理安排水分和采收。",
+          "tradeoff": "同一物种的果用、观赏用目标不同。"
+        },
+        "misconception": "西葫芦与部分南瓜可属同一种，而所有叫南瓜的植物并非同种。",
+        "sources": [
+          {
+            "title": "Kew POWO：Cucurbita pepo",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292416-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：美洲南瓜（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=821",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UC IPM：南瓜环境",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-pumpkins/",
+            "supports": "暖季、无霜窗口和排水"
+          },
+          {
+            "title": "PSU：葫芦科灌溉授粉",
+            "url": "https://extension.psu.edu/irrigation-and-cultivar-selection-for-cucurbit-pollination-and-ipm",
+            "supports": "干旱与传粉关系"
+          },
+          {
+            "title": "Kew：美洲南瓜栽培型",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292416-1/general-information",
+            "supports": "不同南瓜物种及本种栽培形态"
+          },
+          {
+            "title": "美国宾夕法尼亚州：栽培地区依据",
+            "url": "https://extension.psu.edu/the-business-of-pumpkins-in-pennsylvania",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          },
+          {
+            "title": "美国加州中央谷地：栽培地区依据",
+            "url": "https://ucanr.edu/program/uc-small-farms-network/summer-squash-0",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "pumpkin",
+        "crop": "pumpkin",
+        "group": "蔬菜",
+        "title": "美洲南瓜｜无霜暖季与开花期供水",
+        "lon": -77.7,
+        "lat": 40.9,
+        "subtitle": "美洲南瓜包含部分万圣节南瓜和西葫芦，属于同种内不同栽培型。果实形态与采收年龄差异很大，不能把所有南瓜名称合并。",
+        "shape": "pumpkin",
+        "text": "看美洲南瓜的粗蔓、卷须和黄色大花，它也能形成紧凑株型。西葫芦与部分万圣节南瓜属于同一物种，但并非所有叫南瓜的都是它。先看宾夕法尼亚，当地观赏南瓜多数属于美洲南瓜。植株需要无霜暖季，花期水分与昆虫传粉都影响结实，成熟硬皮果还需要时间。再到加州中央谷地，这个物种常以西葫芦等夏南瓜形态栽培。嫩果会较早采收，因此地图同一种植物，可能对应完全不同的采收阶段。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292416-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=821",
+          "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-pumpkins/",
+          "https://extension.psu.edu/irrigation-and-cultivar-selection-for-cucurbit-pollination-and-ipm",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292416-1/general-information",
+          "https://extension.psu.edu/the-business-of-pumpkins-in-pennsylvania",
+          "https://ucanr.edu/program/uc-small-farms-network/summer-squash-0"
+        ],
+        "labels": [
+          {
+            "text": "美国宾夕法尼亚州",
+            "lon": -77.7,
+            "lat": 40.9,
+            "kind": "region"
+          },
+          {
+            "text": "美国加州中央谷地",
+            "lon": -120,
+            "lat": 36.7,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "pumpkin",
+          "label": "美洲南瓜",
+          "parts": [
+            "粗蔓与卷须",
+            "黄色大花",
+            "硬皮瓜果"
+          ],
+          "note": "仅代表美洲南瓜Cucurbita pepo；西葫芦与部分观赏南瓜属此种。大南瓜和中国南瓜可能属于其它物种。"
+        },
+        "beats": [
+          {
+            "text": "看美洲南瓜的粗蔓、卷须和黄色大花，它也能形成紧凑株型。西葫芦与部分万圣节南瓜属于同一物种，但并非所有叫南瓜的都是它。",
+            "lon": -77.7,
+            "lat": 40.9,
+            "label": "美国宾夕法尼亚州",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看宾夕法尼亚，当地观赏南瓜多数属于美洲南瓜。植株需要无霜暖季，花期水分与昆虫传粉都影响结实，成熟硬皮果还需要时间。",
+            "lon": -77.7,
+            "lat": 40.9,
+            "label": "美国宾夕法尼亚州",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再到加州中央谷地，这个物种常以西葫芦等夏南瓜形态栽培。嫩果会较早采收，因此地图同一种植物，可能对应完全不同的采收阶段。",
+            "lon": -120,
+            "lat": 36.7,
+            "label": "美国加州中央谷地",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "pumpkin-region1",
+          "cropId": "pumpkin",
+          "region": "美国宾夕法尼亚州",
+          "lon": -77.7,
+          "lat": 40.9,
+          "chapterId": "pumpkin",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://extension.psu.edu/the-business-of-pumpkins-in-pennsylvania",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "pumpkin-region2",
+          "cropId": "pumpkin",
+          "region": "美国加州中央谷地",
+          "lon": -120,
+          "lat": 36.7,
+          "chapterId": "pumpkin",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ucanr.edu/program/uc-small-farms-network/summer-squash-0",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "watermelon",
+        "name": "西瓜",
+        "latin": "Citrullus lanatus",
+        "synonyms": [],
+        "group": "瓜果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Cucurbitaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A291938-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "温带暖季",
+          "亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "暖长季、日照与膨果供水",
+        "limits": "低温、积水及严重缺水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A291938-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=708",
+          "https://ucanr.edu/sites/colusa/files/277969.pdf",
+          "https://ipm.ucanr.edu/agriculture/cucurbits/vine-decline-crown-blight/",
+          "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops",
+          "https://www.agritech.tnau.ac.in/pdf/agri_e_pn_2023_24_230406_092519.pdf"
+        ]
+      },
+      "profile": {
+        "id": "watermelon",
+        "summary": "西瓜是喜温的蔓生瓜类，叶片深裂，果实为瓠果。暖季光照、根层水分与成熟期安排共同决定能否获得商品瓜。",
+        "temperatureNote": "土温低时建苗慢，霜冻会伤害植株。",
+        "water": {
+          "summary": "可在少雨地区种植，但通常依赖灌溉。",
+          "timing": "坐果与果实迅速膨大阶段需避免缺水。",
+          "caution": "甜度不是简单由少浇水或少下雨决定。"
+        },
+        "soil": {
+          "texture": "较深、通气好的沙壤或壤土有利。",
+          "drainage": "根区应排水良好，避免长期饱和。",
+          "phNote": "过强盐分和不适酸碱需要当地评估。"
+        },
+        "season": {
+          "type": "一年生暖季蔓生作物。",
+          "timing": "寒冷地区用夏季，热区利用适宜暖季。",
+          "explanation": "成熟采收需要合适品种与足够生长时间。"
+        },
+        "stress": {
+          "cold": "不耐霜及持续冷凉。",
+          "heat": "热与水分胁迫可加重藤蔓衰退。",
+          "drought": "膨果期缺水限制大小。",
+          "waterlogging": "积水妨碍根系吸收。"
+        },
+        "regions": [
+          {
+            "name": "美国帝王谷",
+            "why": "UC列明当地种植西瓜，生产利用灌溉体系。",
+            "caution": "区域为栽培实例，不是沙漠自然适生证明。"
+          },
+          {
+            "name": "印度琴格阿尔帕图",
+            "why": "泰米尔纳德邦农业资料列为西瓜种植区。",
+            "caution": "雨季、病害和排水决定具体播种窗口。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "蔓叶覆盖地面，根系利用较大的土壤体积。",
+          "practice": "按生育期安排灌溉，并保持授粉条件。",
+          "tradeoff": "强光少雨有利部分生产环节，但仍要稳定水源。"
+        },
+        "misconception": "干旱地区产西瓜，不说明西瓜可以不依赖有效水分。",
+        "sources": [
+          {
+            "title": "Kew POWO：Citrullus lanatus",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A291938-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：西瓜（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=708",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UC：加州瓜类生产季节",
+            "url": "https://ucanr.edu/sites/colusa/files/277969.pdf",
+            "supports": "西瓜区域生产与灌溉"
+          },
+          {
+            "title": "UC IPM：瓜蔓衰退",
+            "url": "https://ipm.ucanr.edu/agriculture/cucurbits/vine-decline-crown-blight/",
+            "supports": "高温、水分胁迫与根病共同影响"
+          },
+          {
+            "title": "美国帝王谷：栽培地区依据",
+            "url": "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          },
+          {
+            "title": "印度琴格阿尔帕图：栽培地区依据",
+            "url": "https://www.agritech.tnau.ac.in/pdf/agri_e_pn_2023_24_230406_092519.pdf",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "watermelon",
+        "crop": "watermelon",
+        "group": "瓜果",
+        "title": "西瓜｜暖长季、日照与膨果供水",
+        "lon": -115.5,
+        "lat": 33,
+        "subtitle": "西瓜是喜温的蔓生瓜类，叶片深裂，果实为瓠果。暖季光照、根层水分与成熟期安排共同决定能否获得商品瓜。",
+        "shape": "watermelon",
+        "text": "先看西瓜深裂的叶片和伏地伸展的瓜蔓，果实外面的条纹并不是物种边界。它要完成开花、授粉与膨果，才能形成成熟可食的瓜。地球来到加州帝王谷，干燥地区也有西瓜生产。这里的示例提醒我们，暖季光照与灌溉体系共同起作用，不能只看年降雨就判断供水。再看印度琴格阿尔帕图，官方资料记录了西瓜栽培。当地仍须选择合适季节，避开冷凉与积水，膨果期缺水也不能靠晴天来补偿。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A291938-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=708",
+          "https://ucanr.edu/sites/colusa/files/277969.pdf",
+          "https://ipm.ucanr.edu/agriculture/cucurbits/vine-decline-crown-blight/",
+          "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops",
+          "https://www.agritech.tnau.ac.in/pdf/agri_e_pn_2023_24_230406_092519.pdf"
+        ],
+        "labels": [
+          {
+            "text": "美国帝王谷",
+            "lon": -115.5,
+            "lat": 33,
+            "kind": "region"
+          },
+          {
+            "text": "印度琴格阿尔帕图",
+            "lon": 80,
+            "lat": 12.5,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "watermelon",
+          "label": "西瓜",
+          "parts": [
+            "匍匐瓜蔓",
+            "深裂叶",
+            "圆或长圆瓠果"
+          ],
+          "note": "果皮条纹与果肉颜色为品种差异；地图不是西瓜田覆盖率。"
+        },
+        "beats": [
+          {
+            "text": "先看西瓜深裂的叶片和伏地伸展的瓜蔓，果实外面的条纹并不是物种边界。它要完成开花、授粉与膨果，才能形成成熟可食的瓜。",
+            "lon": -115.5,
+            "lat": 33,
+            "label": "美国帝王谷",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "地球来到加州帝王谷，干燥地区也有西瓜生产。这里的示例提醒我们，暖季光照与灌溉体系共同起作用，不能只看年降雨就判断供水。",
+            "lon": -115.5,
+            "lat": 33,
+            "label": "美国帝王谷",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看印度琴格阿尔帕图，官方资料记录了西瓜栽培。当地仍须选择合适季节，避开冷凉与积水，膨果期缺水也不能靠晴天来补偿。",
+            "lon": 80,
+            "lat": 12.5,
+            "label": "印度琴格阿尔帕图",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "watermelon-region1",
+          "cropId": "watermelon",
+          "region": "美国帝王谷",
+          "lon": -115.5,
+          "lat": 33,
+          "chapterId": "watermelon",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "watermelon-region2",
+          "cropId": "watermelon",
+          "region": "印度琴格阿尔帕图",
+          "lon": 80,
+          "lat": 12.5,
+          "chapterId": "watermelon",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.agritech.tnau.ac.in/pdf/agri_e_pn_2023_24_230406_092519.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "melon",
+        "name": "甜瓜",
+        "latin": "Cucumis melo",
+        "synonyms": [],
+        "group": "瓜果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Cucurbitaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292238-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "温带暖季",
+          "亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖日照与排水良好根层",
+        "limits": "霜冻、热旱与根病",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292238-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=815",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_muskmelon.html",
+          "https://ipm.ucanr.edu/agriculture/cucurbits/vine-decline-crown-blight/",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292238-1/general-information",
+          "https://ucanr.edu/sites/colusa/files/277969.pdf",
+          "https://ucanr.edu/sites/default/files/2025-01/Ag_Briefs104121.pdf"
+        ]
+      },
+      "profile": {
+        "id": "melon",
+        "summary": "甜瓜有网纹、光皮等许多栽培类型，所需熟期与采收判据不同。它属于暖季藤本，生产地点还需把光照、水分及病害结合看。",
+        "temperatureNote": "温暖促进发育，低温延长生育期，极热并非总有利。",
+        "water": {
+          "summary": "需要均匀供水，同时保持根区通气。",
+          "timing": "开花、坐果及膨果阶段均要避免严重缺水。",
+          "caution": "年降雨量不能说明滴灌或土壤储水状况。"
+        },
+        "soil": {
+          "texture": "有机质较足的沙壤或壤土通常便于管理。",
+          "drainage": "不适合长期积水的田块。",
+          "phNote": "应检查盐分与酸碱，不能只认土壤颜色。"
+        },
+        "season": {
+          "type": "一年生暖季作物。",
+          "timing": "沙漠产区与内陆谷地采用不同上市窗口。",
+          "explanation": "品种熟期与当地无霜期必须匹配。"
+        },
+        "stress": {
+          "cold": "霜冻会损害植株。",
+          "heat": "热与缺水可加重藤蔓衰退。",
+          "drought": "缺水限制果实生长。",
+          "waterlogging": "积水可损根并增加病害。"
+        },
+        "regions": [
+          {
+            "name": "美国弗雷斯诺地区",
+            "why": "UC资料列出圣华金谷南部甜瓜生产。",
+            "caution": "夏季热旱要与灌溉和根病管理一起考虑。"
+          },
+          {
+            "name": "美国帝王谷",
+            "why": "县级推广资料记录帝王谷网纹甜瓜生产。",
+            "caution": "同物种在不同产区的播收窗口不同。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "蔓叶利用光能，果实积累物质需健康叶与根。",
+          "practice": "选当地适宜品种，轮作并结合蒸散调整供水。",
+          "tradeoff": "偏重果实大小可能与品质、上市时间目标不同。"
+        },
+        "misconception": "甜瓜不等于哈密瓜一个品种，网纹也不是判断成熟的唯一标准。",
+        "sources": [
+          {
+            "title": "Kew POWO：Cucumis melo",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292238-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：甜瓜（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=815",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "TNAU：甜瓜土壤与栽培",
+            "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_muskmelon.html",
+            "supports": "排水、土壤、灌溉与地区性播期"
+          },
+          {
+            "title": "UC IPM：瓜类根病",
+            "url": "https://ipm.ucanr.edu/agriculture/cucurbits/vine-decline-crown-blight/",
+            "supports": "甜瓜热旱与根病限制"
+          },
+          {
+            "title": "Kew：甜瓜形态",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292238-1/general-information",
+            "supports": "果实形态差异"
+          },
+          {
+            "title": "美国弗雷斯诺地区：栽培地区依据",
+            "url": "https://ucanr.edu/sites/colusa/files/277969.pdf",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          },
+          {
+            "title": "美国帝王谷：栽培地区依据",
+            "url": "https://ucanr.edu/sites/default/files/2025-01/Ag_Briefs104121.pdf",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "melon",
+        "crop": "melon",
+        "group": "瓜果",
+        "title": "甜瓜｜温暖日照与排水良好根层",
+        "lon": -119.8,
+        "lat": 36.7,
+        "subtitle": "甜瓜有网纹、光皮等许多栽培类型，所需熟期与采收判据不同。它属于暖季藤本，生产地点还需把光照、水分及病害结合看。",
+        "shape": "melon",
+        "text": "看甜瓜的卷须与圆心形叶片，果实可以有网纹，也可以光滑。网纹甜瓜和蜜露瓜都是这个物种的栽培类型，成熟判据也会随类型改变。先到加州弗雷斯诺一带，暖季谷地是甜瓜生产实例。充分日照配合健康叶片支持果实发育，但膨果仍需供水，根区也要保持通气。再看帝王谷，同一种甜瓜可利用另一套生产季节。两地差异说明，地图上能种不等于全年能种，霜冻、热旱和根病都会改变结果。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292238-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=815",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_muskmelon.html",
+          "https://ipm.ucanr.edu/agriculture/cucurbits/vine-decline-crown-blight/",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A292238-1/general-information",
+          "https://ucanr.edu/sites/colusa/files/277969.pdf",
+          "https://ucanr.edu/sites/default/files/2025-01/Ag_Briefs104121.pdf"
+        ],
+        "labels": [
+          {
+            "text": "美国弗雷斯诺地区",
+            "lon": -119.8,
+            "lat": 36.7,
+            "kind": "region"
+          },
+          {
+            "text": "美国帝王谷",
+            "lon": -115.6,
+            "lat": 33.1,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "melon",
+          "label": "甜瓜",
+          "parts": [
+            "卷须",
+            "圆心形叶",
+            "网纹或光皮瓜果"
+          ],
+          "note": "网纹甜瓜、蜜露瓜等为本物种内栽培类型；外皮网纹不是所有甜瓜的共有特征。"
+        },
+        "beats": [
+          {
+            "text": "看甜瓜的卷须与圆心形叶片，果实可以有网纹，也可以光滑。网纹甜瓜和蜜露瓜都是这个物种的栽培类型，成熟判据也会随类型改变。",
+            "lon": -119.8,
+            "lat": 36.7,
+            "label": "美国弗雷斯诺地区",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先到加州弗雷斯诺一带，暖季谷地是甜瓜生产实例。充分日照配合健康叶片支持果实发育，但膨果仍需供水，根区也要保持通气。",
+            "lon": -119.8,
+            "lat": 36.7,
+            "label": "美国弗雷斯诺地区",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看帝王谷，同一种甜瓜可利用另一套生产季节。两地差异说明，地图上能种不等于全年能种，霜冻、热旱和根病都会改变结果。",
+            "lon": -115.6,
+            "lat": 33.1,
+            "label": "美国帝王谷",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "melon-region1",
+          "cropId": "melon",
+          "region": "美国弗雷斯诺地区",
+          "lon": -119.8,
+          "lat": 36.7,
+          "chapterId": "melon",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ucanr.edu/sites/colusa/files/277969.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "melon-region2",
+          "cropId": "melon",
+          "region": "美国帝王谷",
+          "lon": -115.6,
+          "lat": 33.1,
+          "chapterId": "melon",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ucanr.edu/sites/default/files/2025-01/Ag_Briefs104121.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "cabbage",
+        "name": "结球甘蓝",
+        "latin": "Brassica oleracea",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Brassicaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A279435-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "亚热带凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "凉爽结球季与均匀供水",
+        "limits": "炎热、缺水与积水病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A279435-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=554",
+          "https://anrcatalog.ucanr.edu/pdf/3307.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A279435-1/general-information"
+        ]
+      },
+      "profile": {
+        "id": "cabbage",
+        "summary": "结球甘蓝靠重叠叶片形成紧实叶球，适合较凉爽的结球季。它与西兰花、花椰菜等同属甘蓝这一物种，但收获器官不同。",
+        "temperatureNote": "凉爽通常有利结球；不同品种耐热耐寒程度不同。",
+        "water": {
+          "summary": "叶面积大，形成叶球需要持续供水。",
+          "timing": "定植成活与结球期应防止明显干旱。",
+          "caution": "供水不均可能影响叶球质量。"
+        },
+        "soil": {
+          "texture": "肥沃且保水的壤土较易支持叶片生长。",
+          "drainage": "土壤仍需良好排水，不能长期涝湿。",
+          "phNote": "土测及病害背景共同决定酸碱管理。"
+        },
+        "season": {
+          "type": "二年生习性，通常首季收获叶球。",
+          "timing": "温带春秋及温和海岸，热区可利用凉季。",
+          "explanation": "留种抽薹与蔬菜收获目标不同。"
+        },
+        "stress": {
+          "cold": "部分成熟植株耐轻霜，非无限耐冻。",
+          "heat": "持续炎热不利品质。",
+          "drought": "结球缺水降低产量。",
+          "waterlogging": "涝湿使根区缺氧。"
+        },
+        "regions": [
+          {
+            "name": "美国萨利纳斯谷",
+            "why": "凉爽海岸谷地可安排较长时间的甘蓝生产。",
+            "caution": "并不表示每个品种都能全年保持同样质量。"
+          },
+          {
+            "name": "美国帝王谷",
+            "why": "同一UC资料记录帝王谷秋冬甘蓝生产。",
+            "caution": "这里利用凉季，并非最炎热的夏季。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "缩短的茎与紧密叶序形成食用叶球。",
+          "practice": "按当地季节选耐热或耐寒品种并轮作。",
+          "tradeoff": "过密和高湿环境需兼顾通风与病害。"
+        },
+        "misconception": "甘蓝叶球不是一个巨大果实，结球甘蓝与西兰花也不是两个物种。",
+        "sources": [
+          {
+            "title": "Kew POWO：Brassica oleracea",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A279435-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：结球甘蓝（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=554",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UC ANR：甘蓝类与莴苣生产",
+            "url": "https://anrcatalog.ucanr.edu/pdf/3307.pdf",
+            "supports": "同物种栽培型、凉季与两地季节差异"
+          },
+          {
+            "title": "Kew：甘蓝栽培形态",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A279435-1/general-information",
+            "supports": "甘蓝、花椰菜、西兰花等同物种"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "cabbage",
+        "crop": "cabbage",
+        "group": "蔬菜",
+        "title": "结球甘蓝｜凉爽结球季与均匀供水",
+        "lon": -121.5,
+        "lat": 36.4,
+        "subtitle": "结球甘蓝靠重叠叶片形成紧实叶球，适合较凉爽的结球季。它与西兰花、花椰菜等同属甘蓝这一物种，但收获器官不同。",
+        "shape": "cabbage",
+        "text": "观察结球甘蓝，紧实的圆球其实是层层叶片，不是果实。西兰花、花椰菜与它属于同一物种，我们只把结球栽培型作为这次代表。先看萨利纳斯谷，海岸地区的凉爽环境支持较长的甘蓝生产季。结球过程中既需要持续供水，也需要排水良好的土壤维持根系活动。再看帝王谷，同样的甘蓝主要利用秋冬凉季。纬度相近并不意味着播期一样，过热会影响品质；同一地区也不能全年套用一个结论。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A279435-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=554",
+          "https://anrcatalog.ucanr.edu/pdf/3307.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A279435-1/general-information"
+        ],
+        "labels": [
+          {
+            "text": "美国萨利纳斯谷",
+            "lon": -121.5,
+            "lat": 36.4,
+            "kind": "region"
+          },
+          {
+            "text": "美国帝王谷",
+            "lon": -115.6,
+            "lat": 32.9,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "cabbage",
+          "label": "结球甘蓝",
+          "parts": [
+            "重叠叶球",
+            "外层蜡质叶",
+            "抽薹花序"
+          ],
+          "note": "以Brassica oleracea的结球甘蓝栽培型为例；花椰菜、西兰花和羽衣甘蓝不重复计为新物种。叶球与花序并置是阶段示意。"
+        },
+        "beats": [
+          {
+            "text": "观察结球甘蓝，紧实的圆球其实是层层叶片，不是果实。西兰花、花椰菜与它属于同一物种，我们只把结球栽培型作为这次代表。",
+            "lon": -121.5,
+            "lat": 36.4,
+            "label": "美国萨利纳斯谷",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看萨利纳斯谷，海岸地区的凉爽环境支持较长的甘蓝生产季。结球过程中既需要持续供水，也需要排水良好的土壤维持根系活动。",
+            "lon": -121.5,
+            "lat": 36.4,
+            "label": "美国萨利纳斯谷",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看帝王谷，同样的甘蓝主要利用秋冬凉季。纬度相近并不意味着播期一样，过热会影响品质；同一地区也不能全年套用一个结论。",
+            "lon": -115.6,
+            "lat": 32.9,
+            "label": "美国帝王谷",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "cabbage-region1",
+          "cropId": "cabbage",
+          "region": "美国萨利纳斯谷",
+          "lon": -121.5,
+          "lat": 36.4,
+          "chapterId": "cabbage",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://anrcatalog.ucanr.edu/pdf/3307.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "cabbage-region2",
+          "cropId": "cabbage",
+          "region": "美国帝王谷",
+          "lon": -115.6,
+          "lat": 32.9,
+          "chapterId": "cabbage",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://anrcatalog.ucanr.edu/pdf/3307.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "carrot",
+        "name": "胡萝卜",
+        "latin": "Daucus carota",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Apiaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A841063-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "热带高地",
+          "亚热带凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "凉爽生长季与疏松根层",
+        "limits": "板结、过热与不均匀供水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A841063-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=871",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_carrot.html",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A841063-1/general-information",
+          "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops"
+        ]
+      },
+      "profile": {
+        "id": "carrot",
+        "summary": "胡萝卜收获的是膨大直根，叶片细裂，留种时会抽薹开伞形花序。凉爽生长季和足够疏松的土层影响根形、颜色与品质。",
+        "temperatureNote": "较凉温度利于形成优质肉质根，炎热会改变品质。",
+        "water": {
+          "summary": "细小种子出苗时需要表层持续湿润。",
+          "timing": "根部膨大期保持较均匀供水。",
+          "caution": "忽干忽湿可能损害根部品质。"
+        },
+        "soil": {
+          "texture": "深松、少石块的沙壤土便于直根伸长。",
+          "drainage": "排水要好，紧实土层会妨碍根形。",
+          "phNote": "酸碱及盐分按当地土测判断。"
+        },
+        "season": {
+          "type": "二年生习性，多在首季采根。",
+          "timing": "温带凉季与热带较凉高地均可利用。",
+          "explanation": "采根与经历低温后开花留种是不同目标。"
+        },
+        "stress": {
+          "cold": "轻度冷凉可生长，强冻仍会损伤。",
+          "heat": "高温不利理想品质。",
+          "drought": "幼苗及膨根时均怕持续缺水。",
+          "waterlogging": "久涝损伤根部。"
+        },
+        "regions": [
+          {
+            "name": "印度尼尔吉里山地",
+            "why": "TNAU记录山地胡萝卜栽培，较凉环境利于根部品质。",
+            "caution": "并非山地每个坡面都具备可耕深土。"
+          },
+          {
+            "name": "美国帝王谷",
+            "why": "UC记载当地胡萝卜生产，栽培依赖季节和灌溉。",
+            "caution": "沙漠区域的生产记录不是自然水分充足的证据。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "直根贮藏物质形成食用部分。",
+          "practice": "整备根层，选符合季节的品种并管理表层湿度。",
+          "tradeoff": "松土与保水必须兼顾，沙土不能任其干燥。"
+        },
+        "misconception": "根长得直不只由品种决定，石块、板结及土层条件同样重要。",
+        "sources": [
+          {
+            "title": "Kew POWO：Daucus carota",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A841063-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：胡萝卜（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=871",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "TNAU：胡萝卜栽培",
+            "url": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_carrot.html",
+            "supports": "凉季、根部品质、土壤及尼尔吉里产区"
+          },
+          {
+            "title": "Kew：野生与栽培胡萝卜",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A841063-1/general-information",
+            "supports": "直根、细叶与二年生开花形态"
+          },
+          {
+            "title": "美国帝王谷：栽培地区依据",
+            "url": "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "carrot",
+        "crop": "carrot",
+        "group": "蔬菜",
+        "title": "胡萝卜｜凉爽生长季与疏松根层",
+        "lon": 76.7,
+        "lat": 11.4,
+        "subtitle": "胡萝卜收获的是膨大直根，叶片细裂，留种时会抽薹开伞形花序。凉爽生长季和足够疏松的土层影响根形、颜色与品质。",
+        "shape": "carrot",
+        "text": "看胡萝卜细裂的叶片，真正收获的部分藏在地下，是膨大的直根。旁边的伞形花序表示留种阶段，并不意味着采根时就必须开花。先到印度尼尔吉里山地，这里有胡萝卜栽培。热带纬度也能借高地的较凉环境生长，但根部要长得顺直，还需要疏松而少石块的土层。再看加州帝王谷，当地同样生产胡萝卜。它依赖合适季节与灌溉，不能把全年高温当成优势；出苗与膨根阶段都需要较均匀水分。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A841063-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=871",
+          "https://agritech.tnau.ac.in/horticulture/horti_vegetables_carrot.html",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A841063-1/general-information",
+          "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops"
+        ],
+        "labels": [
+          {
+            "text": "印度尼尔吉里山地",
+            "lon": 76.7,
+            "lat": 11.4,
+            "kind": "region"
+          },
+          {
+            "text": "美国帝王谷",
+            "lon": -115.5,
+            "lat": 32.9,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "carrot",
+          "label": "胡萝卜",
+          "parts": [
+            "细裂叶",
+            "膨大直根",
+            "复伞形花序"
+          ],
+          "note": "展示食用栽培胡萝卜；花序是留种阶段，和收获肉质根阶段并置说明。"
+        },
+        "beats": [
+          {
+            "text": "看胡萝卜细裂的叶片，真正收获的部分藏在地下，是膨大的直根。旁边的伞形花序表示留种阶段，并不意味着采根时就必须开花。",
+            "lon": 76.7,
+            "lat": 11.4,
+            "label": "印度尼尔吉里山地",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先到印度尼尔吉里山地，这里有胡萝卜栽培。热带纬度也能借高地的较凉环境生长，但根部要长得顺直，还需要疏松而少石块的土层。",
+            "lon": 76.7,
+            "lat": 11.4,
+            "label": "印度尼尔吉里山地",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看加州帝王谷，当地同样生产胡萝卜。它依赖合适季节与灌溉，不能把全年高温当成优势；出苗与膨根阶段都需要较均匀水分。",
+            "lon": -115.5,
+            "lat": 32.9,
+            "label": "美国帝王谷",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "carrot-region1",
+          "cropId": "carrot",
+          "region": "印度尼尔吉里山地",
+          "lon": 76.7,
+          "lat": 11.4,
+          "chapterId": "carrot",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://agritech.tnau.ac.in/horticulture/horti_vegetables_carrot.html",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "carrot-region2",
+          "cropId": "carrot",
+          "region": "美国帝王谷",
+          "lon": -115.5,
+          "lat": 32.9,
+          "chapterId": "carrot",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.ucanr.edu/county/cooperative-extension-imperial-county/vegetable-crops",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "onion",
+        "name": "洋葱",
+        "latin": "Allium cepa",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Amaryllidaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A527795-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "亚热带凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "适合日长的品种与凉季建株",
+        "limits": "日长不匹配、积水和盐分",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A527795-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=364",
+          "https://www.ucanr.edu/site/uc-master-gardeners-santa-clara-county/onion-handout",
+          "https://nhrdf.org/Onion.php",
+          "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic"
+        ]
+      },
+      "profile": {
+        "id": "onion",
+        "summary": "洋葱先长叶，再在合适日长与温度下膨大鳞茎。长日、短日及中间型品种让不同纬度可栽培，但彼此不能随意替换。",
+        "temperatureNote": "早期较凉利于建株，后期温度与日长共同参与鳞茎形成。",
+        "water": {
+          "summary": "浅根系统需要适时补水。",
+          "timing": "鳞茎膨大阶段不宜长时间缺水。",
+          "caution": "成熟期过量供水可能增加裂球与贮藏腐烂。"
+        },
+        "soil": {
+          "texture": "肥沃疏松、能保水的壤土较方便管理。",
+          "drainage": "保持排水，避免鳞茎长期浸湿。",
+          "phNote": "应检查盐分，酸碱管理须结合土测。"
+        },
+        "season": {
+          "type": "二年生习性，通常首季收鳞茎。",
+          "timing": "各纬度按品种光周期要求安排播期。",
+          "explanation": "日长触发膨大，植株大小并非唯一信号。"
+        },
+        "stress": {
+          "cold": "低温反应与生育阶段有关。",
+          "heat": "热旱会妨碍持续生长。",
+          "drought": "浅根使其易受短期缺水影响。",
+          "waterlogging": "久涝容易伤根烂球。"
+        },
+        "regions": [
+          {
+            "name": "印度纳西克",
+            "why": "NHRDF有当地洋葱栽培与灌溉研究。",
+            "caution": "季风前后不同季次不能共用同一供水日程。"
+          },
+          {
+            "name": "美国弗雷斯诺地区",
+            "why": "UC明确记载弗雷斯诺洋葱生产。",
+            "caution": "仍须选择符合纬度与上市目标的日长类型。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "肉质叶基储存养分形成层状鳞茎。",
+          "practice": "选匹配纬度的品种，成熟时配合收获和干燥。",
+          "tradeoff": "提早膨球可能牺牲植株叶量与最终球大小。"
+        },
+        "misconception": "洋葱只长叶不结大球，有时是品种日长不匹配，不能只怪施肥少。",
+        "sources": [
+          {
+            "title": "Kew POWO：Allium cepa",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A527795-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：洋葱（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=364",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UC：洋葱日长与水分",
+            "url": "https://www.ucanr.edu/site/uc-master-gardeners-santa-clara-county/onion-handout",
+            "supports": "短日长日品种、浅根、成熟期供水限制"
+          },
+          {
+            "title": "印度纳西克：栽培地区依据",
+            "url": "https://nhrdf.org/Onion.php",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          },
+          {
+            "title": "美国弗雷斯诺地区：栽培地区依据",
+            "url": "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "onion",
+        "crop": "onion",
+        "group": "蔬菜",
+        "title": "洋葱｜适合日长的品种与凉季建株",
+        "lon": 74,
+        "lat": 20,
+        "subtitle": "洋葱先长叶，再在合适日长与温度下膨大鳞茎。长日、短日及中间型品种让不同纬度可栽培，但彼此不能随意替换。",
+        "shape": "onion",
+        "text": "看洋葱的中空管状叶和层层包裹的鳞茎，食用球体主要由肉质叶基组成。它还有一个关键特性，是否膨球取决于品种对应的日长信号。先来到印度纳西克，研究机构为当地洋葱制定了分季栽培制度。凉季建株、灌溉与成熟期管理配合，才能形成质量较好的鳞茎。再看加州弗雷斯诺，这里也有洋葱生产，但不能直接照搬印度品种。短日与长日类型需要匹配纬度，供水过多也可能增加成熟球腐烂。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A527795-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=364",
+          "https://www.ucanr.edu/site/uc-master-gardeners-santa-clara-county/onion-handout",
+          "https://nhrdf.org/Onion.php",
+          "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic"
+        ],
+        "labels": [
+          {
+            "text": "印度纳西克",
+            "lon": 74,
+            "lat": 20,
+            "kind": "region"
+          },
+          {
+            "text": "美国弗雷斯诺地区",
+            "lon": -119.7,
+            "lat": 36.7,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "onion",
+          "label": "洋葱",
+          "parts": [
+            "中空管状叶",
+            "层状鳞茎",
+            "伞状花序"
+          ],
+          "note": "鳞茎由肉质叶基构成；模型花序表示留种阶段。小葱等俗名可能指其它物种。"
+        },
+        "beats": [
+          {
+            "text": "看洋葱的中空管状叶和层层包裹的鳞茎，食用球体主要由肉质叶基组成。它还有一个关键特性，是否膨球取决于品种对应的日长信号。",
+            "lon": 74,
+            "lat": 20,
+            "label": "印度纳西克",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先来到印度纳西克，研究机构为当地洋葱制定了分季栽培制度。凉季建株、灌溉与成熟期管理配合，才能形成质量较好的鳞茎。",
+            "lon": 74,
+            "lat": 20,
+            "label": "印度纳西克",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看加州弗雷斯诺，这里也有洋葱生产，但不能直接照搬印度品种。短日与长日类型需要匹配纬度，供水过多也可能增加成熟球腐烂。",
+            "lon": -119.7,
+            "lat": 36.7,
+            "label": "美国弗雷斯诺地区",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "onion-region1",
+          "cropId": "onion",
+          "region": "印度纳西克",
+          "lon": 74,
+          "lat": 20,
+          "chapterId": "onion",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://nhrdf.org/Onion.php",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "onion-region2",
+          "cropId": "onion",
+          "region": "美国弗雷斯诺地区",
+          "lon": -119.7,
+          "lat": 36.7,
+          "chapterId": "onion",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "garlic",
+        "name": "大蒜",
+        "latin": "Allium sativum",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Amaryllidaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "亚热带凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "品种适配的冷凉期与排水",
+        "limits": "湿土腐烂、品种与季节不匹配",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=367",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-garlic",
+          "https://ucanr.edu/node/131010/printable/print",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1/general-information",
+          "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic"
+        ]
+      },
+      "profile": {
+        "id": "garlic",
+        "summary": "大蒜以蒜瓣组成的鳞茎供食，通常用蒜瓣繁殖。早期冷凉、生长后期日长与温度变化共同影响膨大，品种适应性十分重要。",
+        "temperatureNote": "不同类型的低温需求与耐寒性不同。",
+        "water": {
+          "summary": "根区要有水分，也要保持通气。",
+          "timing": "建根、展叶与鳞茎膨大期避免持续缺水。",
+          "caution": "临近成熟仍过湿会增加腐烂和干燥困难。"
+        },
+        "soil": {
+          "texture": "有机质较好的疏松壤土便于鳞茎发育。",
+          "drainage": "不宜把蒜种在反复积水的低洼地。",
+          "phNote": "按土测核实酸碱与盐分。"
+        },
+        "season": {
+          "type": "多年生鳞茎草本，常按一季收获。",
+          "timing": "温带常秋植越冬，也有适合春植的制度。",
+          "explanation": "硬颈与软颈等类型在抽薹和储藏上不同。"
+        },
+        "stress": {
+          "cold": "适宜类型可越冬，幼根仍需保护。",
+          "heat": "过早高温可影响生长过程。",
+          "drought": "缺水限制叶量和蒜头大小。",
+          "waterlogging": "长期湿土利于根球病害。"
+        },
+        "regions": [
+          {
+            "name": "美国弗雷斯诺地区",
+            "why": "UC推广计划明确包含当地商业大蒜生产。",
+            "caution": "加州类型不能自动适合更严寒或湿热地区。"
+          },
+          {
+            "name": "哥伦比亚博亚卡",
+            "why": "Kew整合资料记录博亚卡栽培大蒜。",
+            "caution": "高地省级记录并不意味着低地热区同样适合。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "蒜瓣既是贮藏器官也是无性繁殖材料。",
+          "practice": "选择健康种瓣与适地类型，轮作并适时收获。",
+          "tradeoff": "多年无性繁殖需要重视种源健康。"
+        },
+        "misconception": "超大的象蒜不能仅因蒜头外形就并入大蒜这个物种。",
+        "sources": [
+          {
+            "title": "Kew POWO：Allium sativum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：大蒜（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=367",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UMN：大蒜栽培",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-garlic",
+            "supports": "适地品种、种瓣、冷气候与季节"
+          },
+          {
+            "title": "UC：大蒜生产",
+            "url": "https://ucanr.edu/node/131010/printable/print",
+            "supports": "品种、气候与鳞茎生产"
+          },
+          {
+            "title": "Kew：大蒜结构",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1/general-information",
+            "supports": "蒜瓣、扁叶、花序及哥伦比亚栽培"
+          },
+          {
+            "title": "美国弗雷斯诺地区：栽培地区依据",
+            "url": "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "garlic",
+        "crop": "garlic",
+        "group": "蔬菜",
+        "title": "大蒜｜品种适配的冷凉期与排水",
+        "lon": -119.8,
+        "lat": 36.6,
+        "subtitle": "大蒜以蒜瓣组成的鳞茎供食，通常用蒜瓣繁殖。早期冷凉、生长后期日长与温度变化共同影响膨大，品种适应性十分重要。",
+        "shape": "garlic",
+        "text": "看大蒜扁长的叶片，地下鳞茎由多个蒜瓣组成，每个健康蒜瓣都能用来繁殖。图中的花葶只代表会抽薹的类型，并非所有大蒜都一样。先看加州弗雷斯诺，当地是有明确推广资料的大蒜产区。建根长叶与后期膨大需要合适季节，湿润土层也必须保留空气，不能长期积水。再到哥伦比亚博亚卡，当地高地有大蒜栽培记录。这说明纬度之外还要看海拔与品种；冷凉需求和耐寒性不同，种瓣不能随意互换。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=367",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-garlic",
+          "https://ucanr.edu/node/131010/printable/print",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1/general-information",
+          "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic"
+        ],
+        "labels": [
+          {
+            "text": "美国弗雷斯诺地区",
+            "lon": -119.8,
+            "lat": 36.6,
+            "kind": "region"
+          },
+          {
+            "text": "哥伦比亚博亚卡",
+            "lon": -73.1,
+            "lat": 5.5,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "garlic",
+          "label": "大蒜",
+          "parts": [
+            "扁长叶",
+            "蒜瓣组成的鳞茎",
+            "花葶"
+          ],
+          "note": "大蒜常用蒜瓣繁殖；抽薹性因类型不同，象蒜通常属于葱属另一物种。"
+        },
+        "beats": [
+          {
+            "text": "看大蒜扁长的叶片，地下鳞茎由多个蒜瓣组成，每个健康蒜瓣都能用来繁殖。图中的花葶只代表会抽薹的类型，并非所有大蒜都一样。",
+            "lon": -119.8,
+            "lat": 36.6,
+            "label": "美国弗雷斯诺地区",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看加州弗雷斯诺，当地是有明确推广资料的大蒜产区。建根长叶与后期膨大需要合适季节，湿润土层也必须保留空气，不能长期积水。",
+            "lon": -119.8,
+            "lat": 36.6,
+            "label": "美国弗雷斯诺地区",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再到哥伦比亚博亚卡，当地高地有大蒜栽培记录。这说明纬度之外还要看海拔与品种；冷凉需求和耐寒性不同，种瓣不能随意互换。",
+            "lon": -73.1,
+            "lat": 5.5,
+            "label": "哥伦比亚博亚卡",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "garlic-region1",
+          "cropId": "garlic",
+          "region": "美国弗雷斯诺地区",
+          "lon": -119.8,
+          "lat": 36.6,
+          "chapterId": "garlic",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ucanr.edu/site/fresno-county-vegetable-crops/onions-and-garlic",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "garlic-region2",
+          "cropId": "garlic",
+          "region": "哥伦比亚博亚卡",
+          "lon": -73.1,
+          "lat": 5.5,
+          "chapterId": "garlic",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A528796-1/general-information",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "lettuce",
+        "name": "莴苣（生菜）",
+        "latin": "Lactuca sativa",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Asteraceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "热带高地",
+          "亚热带凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "凉爽采叶季与浅根供水",
+        "limits": "高温抽薹、干旱与湿土",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1313",
+          "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-lettuce/",
+          "https://www.ucanr.edu/site/uc-master-gardeners-santa-clara-county/lettuce",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1/general-information",
+          "https://anrcatalog.ucanr.edu/pdf/3307.pdf"
+        ]
+      },
+      "profile": {
+        "id": "lettuce",
+        "summary": "生菜是莴苣的叶用栽培类型，有散叶、结球和直立叶等形态。凉爽条件利于嫩叶品质，炎热会加快抽薹并可能使叶片变苦。",
+        "temperatureNote": "高温可能抑制萌发并使结球松散；品种反应不同。",
+        "water": {
+          "summary": "浅根系统需要及时而均匀的水分。",
+          "timing": "出苗、扩叶及结球时应避免根层干透。",
+          "caution": "频繁补水也不能造成长期饱和。"
+        },
+        "soil": {
+          "texture": "有机质较好的疏松土便于浅根生长。",
+          "drainage": "高畦可帮助改善排水，需结合土质。",
+          "phNote": "按土测处理酸碱和盐分。"
+        },
+        "season": {
+          "type": "一年生或二年生习性，采叶在抽薹前。",
+          "timing": "温带春秋、温和海岸及热带高地可利用。",
+          "explanation": "采叶与开花结籽需要不同季节目标。"
+        },
+        "stress": {
+          "cold": "近冰点时仍可能生长缓慢。",
+          "heat": "炎热促抽薹并损害品质。",
+          "drought": "缺水使嫩叶产量受限。",
+          "waterlogging": "涝湿增加根部问题。"
+        },
+        "regions": [
+          {
+            "name": "美国萨利纳斯谷",
+            "why": "UC资料记录海岸凉爽季节的莴苣生产。",
+            "caution": "不同类型的采收窗口仍有差异。"
+          },
+          {
+            "name": "哥伦比亚安第斯高地",
+            "why": "Kew的哥伦比亚植物目录记录安第斯地区栽培。",
+            "caution": "点表示该高地地区示例，不能推到全国热低地。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "莲座叶型将光合叶集中于短茎周围。",
+          "practice": "选择慢抽薹类型，分批播种并适当降温。",
+          "tradeoff": "遮阴可缓解热害，但过度遮阴减少光照。"
+        },
+        "misconception": "生菜只是莴苣的一组食用形态，不应把每一种叶形都计为新物种。",
+        "sources": [
+          {
+            "title": "Kew POWO：Lactuca sativa",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：莴苣（生菜）（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1313",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UC IPM：莴苣环境",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-lettuce/",
+            "supports": "高温、抽薹、品质与季节"
+          },
+          {
+            "title": "UC：生菜浅根供水",
+            "url": "https://www.ucanr.edu/site/uc-master-gardeners-santa-clara-county/lettuce",
+            "supports": "浅根、供水、慢抽薹品种"
+          },
+          {
+            "title": "Kew：莴苣形态",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1/general-information",
+            "supports": "莲座叶与安第斯栽培"
+          },
+          {
+            "title": "美国萨利纳斯谷：栽培地区依据",
+            "url": "https://anrcatalog.ucanr.edu/pdf/3307.pdf",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "lettuce",
+        "crop": "lettuce",
+        "group": "蔬菜",
+        "title": "莴苣（生菜）｜凉爽采叶季与浅根供水",
+        "lon": -121.5,
+        "lat": 36.5,
+        "subtitle": "生菜是莴苣的叶用栽培类型，有散叶、结球和直立叶等形态。凉爽条件利于嫩叶品质，炎热会加快抽薹并可能使叶片变苦。",
+        "shape": "lettuce",
+        "text": "观察生菜展开的莲座叶，有的松散，有的抱成叶球，它们都是莴苣的叶用类型。茎用莴笋也属于同一物种，不能只凭外观拆开计数。先看美国萨利纳斯谷，凉爽海岸环境有利于嫩叶与叶球形成。生菜根系较浅，少雨时需要及时补水，但根层长期湿透也会造成问题。再到哥伦比亚安第斯高地，植物目录同样记录莴苣栽培。低纬不一定炎热，高地可以提供凉爽窗口；持续高温会让生菜抽薹并影响口感。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1313",
+          "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-lettuce/",
+          "https://www.ucanr.edu/site/uc-master-gardeners-santa-clara-county/lettuce",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1/general-information",
+          "https://anrcatalog.ucanr.edu/pdf/3307.pdf"
+        ],
+        "labels": [
+          {
+            "text": "美国萨利纳斯谷",
+            "lon": -121.5,
+            "lat": 36.5,
+            "kind": "region"
+          },
+          {
+            "text": "哥伦比亚安第斯高地",
+            "lon": -74.1,
+            "lat": 4.8,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "lettuce",
+          "label": "莴苣（生菜）",
+          "parts": [
+            "莲座叶",
+            "结球或散叶",
+            "抽薹花茎"
+          ],
+          "note": "主要展示叶用莴苣即生菜；同物种还有茎用莴笋等栽培类型，花茎示意后续阶段。"
+        },
+        "beats": [
+          {
+            "text": "观察生菜展开的莲座叶，有的松散，有的抱成叶球，它们都是莴苣的叶用类型。茎用莴笋也属于同一物种，不能只凭外观拆开计数。",
+            "lon": -121.5,
+            "lat": 36.5,
+            "label": "美国萨利纳斯谷",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看美国萨利纳斯谷，凉爽海岸环境有利于嫩叶与叶球形成。生菜根系较浅，少雨时需要及时补水，但根层长期湿透也会造成问题。",
+            "lon": -121.5,
+            "lat": 36.5,
+            "label": "美国萨利纳斯谷",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再到哥伦比亚安第斯高地，植物目录同样记录莴苣栽培。低纬不一定炎热，高地可以提供凉爽窗口；持续高温会让生菜抽薹并影响口感。",
+            "lon": -74.1,
+            "lat": 4.8,
+            "label": "哥伦比亚安第斯高地",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "lettuce-region1",
+          "cropId": "lettuce",
+          "region": "美国萨利纳斯谷",
+          "lon": -121.5,
+          "lat": 36.5,
+          "chapterId": "lettuce",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://anrcatalog.ucanr.edu/pdf/3307.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "lettuce-region2",
+          "cropId": "lettuce",
+          "region": "哥伦比亚安第斯高地",
+          "lon": -74.1,
+          "lat": 4.8,
+          "chapterId": "lettuce",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A228239-1/general-information",
+          "sourceScope": "Kew整合的哥伦比亚植物目录明确记载哥伦比亚安第斯地区栽培莴苣；点为该高地带内的编辑示意中心，非具体栽培地或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "spinach",
+        "name": "菠菜",
+        "latin": "Spinacia oleracea",
+        "synonyms": [],
+        "group": "蔬菜",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Amaranthaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A167384-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "亚热带凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "凉爽短日倾向的采叶窗口",
+        "limits": "长日高温促抽薹与缺水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A167384-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1997",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-spinach-and-swiss-chard",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A167384-1/general-information",
+          "https://ipm.ucanr.edu/agriculture/spinach/integrated-weed-management/"
+        ]
+      },
+      "profile": {
+        "id": "spinach",
+        "summary": "菠菜是较耐冷的凉季叶菜，采收目标是保持旺盛嫩叶。日长增加会促进抽薹，高温和干旱会加速这个过程，品种有差异。",
+        "temperatureNote": "凉爽利于叶片生产，耐寒不等于持续严冻仍丰产。",
+        "water": {
+          "summary": "需要稳定根层水分以支持新叶扩展。",
+          "timing": "春季叶片快速生长时应特别防止缺水。",
+          "caution": "抽薹也受日长控制，不是补水即可完全阻止。"
+        },
+        "soil": {
+          "texture": "肥沃、能保水的壤土适合细根利用。",
+          "drainage": "应避免低洼处长期积水。",
+          "phNote": "过强酸性或盐分需按土测评估。"
+        },
+        "season": {
+          "type": "一年生或二年生，采叶期较短。",
+          "timing": "温带春秋，较暖地区常利用秋冬。",
+          "explanation": "品种与日长决定采叶窗口长度。"
+        },
+        "stress": {
+          "cold": "可耐一定冷凉，强冻仍有风险。",
+          "heat": "高温加快抽薹。",
+          "drought": "干旱降低叶量并促抽薹。",
+          "waterlogging": "涝害损伤浅层根系。"
+        },
+        "regions": [
+          {
+            "name": "美国萨利纳斯谷",
+            "why": "UC记录海岸谷地可安排全年菠菜栽培。",
+            "caution": "全年制度不表示每个品种都能无差别使用。"
+          },
+          {
+            "name": "美国帝王谷",
+            "why": "同资料列出帝王谷秋冬菠菜生产。",
+            "caution": "凉季生产不能推为沙漠盛夏适宜。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "莲座叶在抽薹前集中形成食用叶片。",
+          "practice": "选耐抽薹类型，依季节分批播种。",
+          "tradeoff": "延长采收要兼顾品种、日长和水分。"
+        },
+        "misconception": "名字里含菠菜的其它蔬菜，不一定与真正菠菜是近亲。",
+        "sources": [
+          {
+            "title": "Kew POWO：Spinacia oleracea",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A167384-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：菠菜（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1997",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "UMN：菠菜日长与供水",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-spinach-and-swiss-chard",
+            "supports": "长日、高温、干旱与抽薹关系"
+          },
+          {
+            "title": "Kew：菠菜结构",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A167384-1/general-information",
+            "supports": "叶丛和花序形态"
+          },
+          {
+            "title": "美国萨利纳斯谷：栽培地区依据",
+            "url": "https://ipm.ucanr.edu/agriculture/spinach/integrated-weed-management/",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "spinach",
+        "crop": "spinach",
+        "group": "蔬菜",
+        "title": "菠菜｜凉爽短日倾向的采叶窗口",
+        "lon": -121.5,
+        "lat": 36.6,
+        "subtitle": "菠菜是较耐冷的凉季叶菜，采收目标是保持旺盛嫩叶。日长增加会促进抽薹，高温和干旱会加速这个过程，品种有差异。",
+        "shape": "spinach",
+        "text": "看菠菜贴近地面的叶丛和细长叶柄，我们收获的是抽薹前的叶片。它与木耳菜等带有菠菜俗名的植物不同，辨认物种要回到学名。转到萨利纳斯谷，海岸条件支持较长的菠菜生产安排。凉爽环境与均匀供水有助于叶片扩展，不过品种和季节仍会改变抽薹速度。再看帝王谷，菠菜主要利用秋冬窗口。它不是越暖越快长得好，长日照会发出开花信号，高温与干旱又会加速抽薹，缩短采叶期。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A167384-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1997",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-spinach-and-swiss-chard",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A167384-1/general-information",
+          "https://ipm.ucanr.edu/agriculture/spinach/integrated-weed-management/"
+        ],
+        "labels": [
+          {
+            "text": "美国萨利纳斯谷",
+            "lon": -121.5,
+            "lat": 36.6,
+            "kind": "region"
+          },
+          {
+            "text": "美国帝王谷",
+            "lon": -115.4,
+            "lat": 33,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "spinach",
+          "label": "菠菜",
+          "parts": [
+            "莲座叶",
+            "长叶柄",
+            "抽薹花序"
+          ],
+          "note": "真正菠菜为Spinacia oleracea；木耳菜、新西兰菠菜等俗称所指植物不在此物种内。"
+        },
+        "beats": [
+          {
+            "text": "看菠菜贴近地面的叶丛和细长叶柄，我们收获的是抽薹前的叶片。它与木耳菜等带有菠菜俗名的植物不同，辨认物种要回到学名。",
+            "lon": -121.5,
+            "lat": 36.6,
+            "label": "美国萨利纳斯谷",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "转到萨利纳斯谷，海岸条件支持较长的菠菜生产安排。凉爽环境与均匀供水有助于叶片扩展，不过品种和季节仍会改变抽薹速度。",
+            "lon": -121.5,
+            "lat": 36.6,
+            "label": "美国萨利纳斯谷",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看帝王谷，菠菜主要利用秋冬窗口。它不是越暖越快长得好，长日照会发出开花信号，高温与干旱又会加速抽薹，缩短采叶期。",
+            "lon": -115.4,
+            "lat": 33,
+            "label": "美国帝王谷",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "spinach-region1",
+          "cropId": "spinach",
+          "region": "美国萨利纳斯谷",
+          "lon": -121.5,
+          "lat": 36.6,
+          "chapterId": "spinach",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ipm.ucanr.edu/agriculture/spinach/integrated-weed-management/",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "spinach-region2",
+          "cropId": "spinach",
+          "region": "美国帝王谷",
+          "lon": -115.4,
+          "lat": 33,
+          "chapterId": "spinach",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ipm.ucanr.edu/agriculture/spinach/integrated-weed-management/",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "pea",
+        "name": "豌豆",
+        "latin": "Lathyrus oleraceus",
+        "synonyms": [
+          "Pisum sativum"
+        ],
+        "group": "豆类",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A501912-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "温带",
+          "亚热带凉季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "凉爽生殖期与通气土壤",
+        "limits": "花期热旱、积水与倒伏",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A501912-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1721",
+          "https://www.ndsu.edu/agriculture/sites/default/files/2021-12/a1166.pdf",
+          "https://powo.science.kew.org/taxon/60454055-2",
+          "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview"
+        ]
+      },
+      "profile": {
+        "id": "pea",
+        "summary": "豌豆属于凉季豆类，可采嫩荚、鲜籽或成熟干籽。卷须帮助攀附，不同株型适合支架园艺或大田生产，不能由一种用途概括全部。",
+        "temperatureNote": "凉爽花期有利结荚，晚播遇热会增加风险。",
+        "water": {
+          "summary": "发芽与结荚期需要有效土壤水。",
+          "timing": "开花和籽粒充实时避免严重缺水。",
+          "caution": "雨量多的地区仍需防止积水。"
+        },
+        "soil": {
+          "texture": "结构良好、通气的壤土便于根与根瘤活动。",
+          "drainage": "不宜长期滞水，低洼田应谨慎。",
+          "phNote": "根瘤活动和养分供应需要适宜酸碱条件。"
+        },
+        "season": {
+          "type": "栽培豌豆常为一年生凉季作物。",
+          "timing": "温带可春播，暖区常选凉季。",
+          "explanation": "采嫩荚与干籽成熟的生育终点不同。"
+        },
+        "stress": {
+          "cold": "幼苗较耐冷，生殖器官更需保护。",
+          "heat": "花期热害减少结荚。",
+          "drought": "缺水限制籽粒形成。",
+          "waterlogging": "涝湿伤根并抑制根瘤。"
+        },
+        "regions": [
+          {
+            "name": "加拿大萨斯喀彻温",
+            "why": "省政府资料明确记录当地干豌豆生产。",
+            "caution": "不能将干籽生产日程直接套用于采嫩荚。"
+          },
+          {
+            "name": "美国北达科他",
+            "why": "NDSU提供当地大田豌豆生产与热害规避说明。",
+            "caution": "晚播、短季和田间积水改变实际结果。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "与合适根瘤菌共生可参与固氮。",
+          "practice": "依株型与用途选种，轮作并避免过晚播种。",
+          "tradeoff": "固氮不等于完全无需养分与土壤管理。"
+        },
+        "misconception": "农业常用学名与分类骨架的新接受名可以指向同一种豌豆。",
+        "sources": [
+          {
+            "title": "Kew POWO：Lathyrus oleraceus",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A501912-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：豌豆（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1721",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "NDSU：大田豌豆生产",
+            "url": "https://www.ndsu.edu/agriculture/sites/default/files/2021-12/a1166.pdf",
+            "supports": "凉季、株型、播期、热害及根瘤固氮"
+          },
+          {
+            "title": "Kew：旧学名对应接受名",
+            "url": "https://powo.science.kew.org/taxon/60454055-2",
+            "supports": "Pisum sativum列为Lathyrus oleraceus异名"
+          },
+          {
+            "title": "加拿大萨斯喀彻温：栽培地区依据",
+            "url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "pea",
+        "crop": "pea",
+        "group": "豆类",
+        "title": "豌豆｜凉爽生殖期与通气土壤",
+        "lon": -106,
+        "lat": 51,
+        "subtitle": "豌豆属于凉季豆类，可采嫩荚、鲜籽或成熟干籽。卷须帮助攀附，不同株型适合支架园艺或大田生产，不能由一种用途概括全部。",
+        "shape": "pea",
+        "text": "看豌豆的复叶、卷须与荚果，它既能采嫩荚，也能收成熟干籽。常用的豌豆学名在最新分类中有所调整，但这里仍然只计同一个物种。先到加拿大萨斯喀彻温，这里有干豌豆生产。凉爽生长季与合适土壤有利于结荚，根瘤菌共生可以参与固氮，却不能替代全部养分管理。再看美国北达科他，当地推广资料提醒避免过晚播种。花期碰上暑热容易减产，积水也会伤根，因此凉爽、供水与通气要同时满足。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A501912-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1721",
+          "https://www.ndsu.edu/agriculture/sites/default/files/2021-12/a1166.pdf",
+          "https://powo.science.kew.org/taxon/60454055-2",
+          "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview"
+        ],
+        "labels": [
+          {
+            "text": "加拿大萨斯喀彻温",
+            "lon": -106,
+            "lat": 51,
+            "kind": "region"
+          },
+          {
+            "text": "美国北达科他",
+            "lon": -100,
+            "lat": 47.5,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "pea",
+          "label": "豌豆",
+          "parts": [
+            "复叶卷须",
+            "蝶形花",
+            "荚果"
+          ],
+          "note": "农业资料常用Pisum sativum；本档按Kew当前接受名Lathyrus oleraceus整理，仍只计一个物种。"
+        },
+        "beats": [
+          {
+            "text": "看豌豆的复叶、卷须与荚果，它既能采嫩荚，也能收成熟干籽。常用的豌豆学名在最新分类中有所调整，但这里仍然只计同一个物种。",
+            "lon": -106,
+            "lat": 51,
+            "label": "加拿大萨斯喀彻温",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先到加拿大萨斯喀彻温，这里有干豌豆生产。凉爽生长季与合适土壤有利于结荚，根瘤菌共生可以参与固氮，却不能替代全部养分管理。",
+            "lon": -106,
+            "lat": 51,
+            "label": "加拿大萨斯喀彻温",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看美国北达科他，当地推广资料提醒避免过晚播种。花期碰上暑热容易减产，积水也会伤根，因此凉爽、供水与通气要同时满足。",
+            "lon": -100,
+            "lat": 47.5,
+            "label": "美国北达科他",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "pea-region1",
+          "cropId": "pea",
+          "region": "加拿大萨斯喀彻温",
+          "lon": -106,
+          "lat": 51,
+          "chapterId": "pea",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "pea-region2",
+          "cropId": "pea",
+          "region": "美国北达科他",
+          "lon": -100,
+          "lat": 47.5,
+          "chapterId": "pea",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.ndsu.edu/agriculture/sites/default/files/2021-12/a1166.pdf",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "sesame",
+        "name": "芝麻",
+        "latin": "Sesamum indicum",
+        "synonyms": [],
+        "group": "油料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Pedaliaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A675971-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带",
+          "亚热带暖季"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖无霜与排水良好土壤",
+        "limits": "涝湿、建苗缺水和收获损失",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A675971-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1937",
+          "https://agrilife.org/texasrowcrops/2019/05/09/sesame-production-update-for-texas/",
+          "https://www.agritech.tnau.ac.in/agriculture/oilseeds_cropimprovement.html",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A675971-1/general-information",
+          "https://agritech.tnau.ac.in/agriculture/2/oilseeds_gingelly.html",
+          "https://agrilife.org/texasrowcrops/2018/02/14/sesame-for-texas-in-2018/"
+        ]
+      },
+      "profile": {
+        "id": "sesame",
+        "summary": "芝麻是暖季油料作物，直立茎上开筒状花，蒴果内形成许多细小含油种子。已有耐裂果类型，不能把所有品种的收获性状视为一致。",
+        "temperatureNote": "喜温且不耐霜，较凉地区须留足无霜生长季。",
+        "water": {
+          "summary": "建立良好根系后较耐旱，但建苗仍需湿润种床。",
+          "timing": "出苗与开花结实阶段应避免严重缺水。",
+          "caution": "耐旱意味着相对适应能力，不是完全不需水。"
+        },
+        "soil": {
+          "texture": "细小种子需要整细、平整而适度紧实的种床。",
+          "drainage": "积水与排水差是重要限制。",
+          "phNote": "酸碱和盐分按具体土测评估。"
+        },
+        "season": {
+          "type": "一年生暖季草本。",
+          "timing": "不同地区有雨养与灌溉季次。",
+          "explanation": "播期要匹配降雨、土温和成熟前的无霜窗口。"
+        },
+        "stress": {
+          "cold": "霜冻可终止生长。",
+          "heat": "耐热性较好仍需有效水分。",
+          "drought": "建苗或花期缺水会减产。",
+          "waterlogging": "涝湿可造成严重伤害。"
+        },
+        "regions": [
+          {
+            "name": "印度哥印拜陀",
+            "why": "TNAU列出当地雨养与灌溉芝麻季次。",
+            "caution": "具体播种窗口随品种、降雨和供水制度变化。"
+          },
+          {
+            "name": "美国得州滚动平原",
+            "why": "Texas A&M明确列为芝麻栽培区。",
+            "caution": "较耐热旱不代表幼苗可以忽略水分，寒冷也限制季节。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "细小油籽在蒴果中发育，较耐旱根系支持暖季生长。",
+          "practice": "优先保证均匀出苗，按品种开裂性安排采收。",
+          "tradeoff": "湿度高地区还须兼顾病害和成熟干燥条件。"
+        },
+        "misconception": "芝麻耐旱不等于可以把种子直接播进干土后不再管理。",
+        "sources": [
+          {
+            "title": "Kew POWO：Sesamum indicum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A675971-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：芝麻（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1937",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "Texas A&M：得州芝麻",
+            "url": "https://agrilife.org/texasrowcrops/2019/05/09/sesame-production-update-for-texas/",
+            "supports": "耐热耐旱、建苗限制与得州栽培"
+          },
+          {
+            "title": "TNAU：芝麻环境",
+            "url": "https://www.agritech.tnau.ac.in/agriculture/oilseeds_cropimprovement.html",
+            "supports": "暖季、季节与种植地区"
+          },
+          {
+            "title": "Kew：芝麻形态",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A675971-1/general-information",
+            "supports": "筒状花、蒴果与种子"
+          },
+          {
+            "title": "印度哥印拜陀：栽培地区依据",
+            "url": "https://agritech.tnau.ac.in/agriculture/2/oilseeds_gingelly.html",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          },
+          {
+            "title": "美国得州滚动平原：栽培地区依据",
+            "url": "https://agrilife.org/texasrowcrops/2018/02/14/sesame-for-texas-in-2018/",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "sesame",
+        "crop": "sesame",
+        "group": "油料",
+        "title": "芝麻｜温暖无霜与排水良好土壤",
+        "lon": 77,
+        "lat": 11,
+        "subtitle": "芝麻是暖季油料作物，直立茎上开筒状花，蒴果内形成许多细小含油种子。已有耐裂果类型，不能把所有品种的收获性状视为一致。",
+        "shape": "sesame",
+        "text": "观察芝麻直立的茎和筒状花，食用的小种子藏在一枚枚蒴果里。黑芝麻与白芝麻主要是种皮和品种差异，并不在这里拆成两个物种。先看印度哥印拜陀，当地既有灌溉也有雨养芝麻季次。温暖条件适合生长，但细小种子要均匀出苗，仍需要准备好湿润而细整的种床。再到得州滚动平原，芝麻较耐热旱的特性有利用价值。耐旱却不等于不需水，建苗和结实仍受缺水影响，长期积水也会伤害根系。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A675971-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1937",
+          "https://agrilife.org/texasrowcrops/2019/05/09/sesame-production-update-for-texas/",
+          "https://www.agritech.tnau.ac.in/agriculture/oilseeds_cropimprovement.html",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A675971-1/general-information",
+          "https://agritech.tnau.ac.in/agriculture/2/oilseeds_gingelly.html",
+          "https://agrilife.org/texasrowcrops/2018/02/14/sesame-for-texas-in-2018/"
+        ],
+        "labels": [
+          {
+            "text": "印度哥印拜陀",
+            "lon": 77,
+            "lat": 11,
+            "kind": "region"
+          },
+          {
+            "text": "美国得州滚动平原",
+            "lon": -100,
+            "lat": 33.5,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "sesame",
+          "label": "芝麻",
+          "parts": [
+            "直立茎",
+            "筒状花",
+            "含油种子的蒴果"
+          ],
+          "note": "芝麻的黑白种皮是品种差异；蒴果开裂程度随品种不同，模型为器官示意。"
+        },
+        "beats": [
+          {
+            "text": "观察芝麻直立的茎和筒状花，食用的小种子藏在一枚枚蒴果里。黑芝麻与白芝麻主要是种皮和品种差异，并不在这里拆成两个物种。",
+            "lon": 77,
+            "lat": 11,
+            "label": "印度哥印拜陀",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看印度哥印拜陀，当地既有灌溉也有雨养芝麻季次。温暖条件适合生长，但细小种子要均匀出苗，仍需要准备好湿润而细整的种床。",
+            "lon": 77,
+            "lat": 11,
+            "label": "印度哥印拜陀",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再到得州滚动平原，芝麻较耐热旱的特性有利用价值。耐旱却不等于不需水，建苗和结实仍受缺水影响，长期积水也会伤害根系。",
+            "lon": -100,
+            "lat": 33.5,
+            "label": "美国得州滚动平原",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "sesame-region1",
+          "cropId": "sesame",
+          "region": "印度哥印拜陀",
+          "lon": 77,
+          "lat": 11,
+          "chapterId": "sesame",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://agritech.tnau.ac.in/agriculture/2/oilseeds_gingelly.html",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "sesame-region2",
+          "cropId": "sesame",
+          "region": "美国得州滚动平原",
+          "lon": -100,
+          "lat": 33.5,
+          "chapterId": "sesame",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://agrilife.org/texasrowcrops/2018/02/14/sesame-for-texas-in-2018/",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "buckwheat",
+        "name": "荞麦",
+        "latin": "Fagopyrum esculentum",
+        "synonyms": [],
+        "group": "谷物与伪谷物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Polygonaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A694526-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带凉爽季",
+          "较凉高地"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "短而较凉湿润的生长季",
+        "limits": "霜冻、花期热旱与倒伏",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A694526-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2285",
+          "https://www.ndsu.edu/agriculture/sites/default/files/2022-08/a687.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A694526-1/general-information",
+          "https://blogs.cornell.edu/worldcrops/crops/crops-alphabetical/buckwheat/",
+          "https://www.ndsu.edu/agriculture/sites/default/files/2022-10/Buckwheat%20Production.pdf"
+        ]
+      },
+      "profile": {
+        "id": "buckwheat",
+        "summary": "荞麦是蓼科一年生植物，作为伪谷物利用。短生育期适合某些轮作空档，但开花与籽粒形成对热旱较敏感，不能只凭生长快就判定适合。",
+        "temperatureNote": "较凉而湿润的生长环境有利，炎热干风会损害结实。",
+        "water": {
+          "summary": "花期需要可靠水分。",
+          "timing": "连续开花期间缺水可能导致花与幼果脱落。",
+          "caution": "耐贫瘠的印象不代表对干旱和霜冻同样耐受。"
+        },
+        "soil": {
+          "texture": "排水良好的土壤较适宜。",
+          "drainage": "低洼积水与根层缺氧应避免。",
+          "phNote": "对部分酸性土较有适应性，仍应按土测管理。"
+        },
+        "season": {
+          "type": "短生育期一年生伪谷物。",
+          "timing": "温带可利用无霜季中的较凉窗口。",
+          "explanation": "过早遇春霜或过晚遇秋霜都可能失败。"
+        },
+        "stress": {
+          "cold": "对霜冻敏感。",
+          "heat": "高温干风影响花果。",
+          "drought": "花期缺水限制籽粒形成。",
+          "waterlogging": "长期涝湿不利根系。"
+        },
+        "regions": [
+          {
+            "name": "美国纽约州",
+            "why": "Cornell明确列出纽约州等美国北部地区种植荞麦。",
+            "caution": "需在无霜窗口内兼顾花期热旱风险。"
+          },
+          {
+            "name": "美国北达科他西南部",
+            "why": "NDSU历史试验展示了当地荞麦栽培及水分限制。",
+            "caution": "这是历史试验地区示例，不代表当前主要商业产区。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "花簇持续开花并吸引传粉昆虫。",
+          "practice": "协调播期、水分与传粉条件，控制过量氮肥。",
+          "tradeoff": "过旺或过密植株可能倒伏，成熟也并不完全整齐。"
+        },
+        "misconception": "荞麦名称虽有麦字，却不是禾本科谷物，更不能视为耐寒小麦。",
+        "sources": [
+          {
+            "title": "Kew POWO：Fagopyrum esculentum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A694526-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：荞麦（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2285",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "NDSU：荞麦生产",
+            "url": "https://www.ndsu.edu/agriculture/sites/default/files/2022-08/a687.pdf",
+            "supports": "凉湿环境、霜冻、花期热旱、授粉与倒伏"
+          },
+          {
+            "title": "Kew：荞麦形态",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A694526-1/general-information",
+            "supports": "蓼科、叶片、花序和三棱果实"
+          },
+          {
+            "title": "美国纽约州：栽培地区依据",
+            "url": "https://blogs.cornell.edu/worldcrops/crops/crops-alphabetical/buckwheat/",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          },
+          {
+            "title": "美国北达科他西南部：栽培地区依据",
+            "url": "https://www.ndsu.edu/agriculture/sites/default/files/2022-10/Buckwheat%20Production.pdf",
+            "supports": "NDSU的1986年迪金森地区栽培试验记录；点为北达科他西南部区域中心，非试验地实测坐标，也不声明当前生产规模。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "buckwheat",
+        "crop": "buckwheat",
+        "group": "谷物与伪谷物",
+        "title": "荞麦｜短而较凉湿润的生长季",
+        "lon": -75.5,
+        "lat": 43,
+        "subtitle": "荞麦是蓼科一年生植物，作为伪谷物利用。短生育期适合某些轮作空档，但开花与籽粒形成对热旱较敏感，不能只凭生长快就判定适合。",
+        "shape": "buckwheat",
+        "text": "看荞麦心状的叶片、成簇小花和三棱果实，它属于蓼科，名字有麦却不是小麦的近亲。我们把这种籽粒作粮食利用的植物称为伪谷物。先看纽约州，大学资料记录当地种植荞麦。较短生育期可以利用轮作空档，但要避开霜冻，开花时也需要较凉环境、可靠水分与传粉。再到北达科他西南部，这里展示的是历史栽培试验地区。能完成一个试验不等于处处高产，高温、干风和花期干旱都会限制结实。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A694526-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2285",
+          "https://www.ndsu.edu/agriculture/sites/default/files/2022-08/a687.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A694526-1/general-information",
+          "https://blogs.cornell.edu/worldcrops/crops/crops-alphabetical/buckwheat/",
+          "https://www.ndsu.edu/agriculture/sites/default/files/2022-10/Buckwheat%20Production.pdf"
+        ],
+        "labels": [
+          {
+            "text": "美国纽约州",
+            "lon": -75.5,
+            "lat": 43,
+            "kind": "region"
+          },
+          {
+            "text": "美国北达科他西南部",
+            "lon": -103,
+            "lat": 46.8,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "buckwheat",
+          "label": "荞麦",
+          "parts": [
+            "心状三角叶",
+            "小花簇",
+            "三棱瘦果"
+          ],
+          "note": "荞麦属于蓼科，不是小麦近亲；谷粒形态为三棱瘦果，模型花果并置表示不同阶段。"
+        },
+        "beats": [
+          {
+            "text": "看荞麦心状的叶片、成簇小花和三棱果实，它属于蓼科，名字有麦却不是小麦的近亲。我们把这种籽粒作粮食利用的植物称为伪谷物。",
+            "lon": -75.5,
+            "lat": 43,
+            "label": "美国纽约州",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看纽约州，大学资料记录当地种植荞麦。较短生育期可以利用轮作空档，但要避开霜冻，开花时也需要较凉环境、可靠水分与传粉。",
+            "lon": -75.5,
+            "lat": 43,
+            "label": "美国纽约州",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再到北达科他西南部，这里展示的是历史栽培试验地区。能完成一个试验不等于处处高产，高温、干风和花期干旱都会限制结实。",
+            "lon": -103,
+            "lat": 46.8,
+            "label": "美国北达科他西南部",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "buckwheat-region1",
+          "cropId": "buckwheat",
+          "region": "美国纽约州",
+          "lon": -75.5,
+          "lat": 43,
+          "chapterId": "buckwheat",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://blogs.cornell.edu/worldcrops/crops/crops-alphabetical/buckwheat/",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "buckwheat-region2",
+          "cropId": "buckwheat",
+          "region": "美国北达科他西南部",
+          "lon": -103,
+          "lat": 46.8,
+          "chapterId": "buckwheat",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.ndsu.edu/agriculture/sites/default/files/2022-10/Buckwheat%20Production.pdf",
+          "sourceScope": "NDSU的1986年迪金森地区栽培试验记录；点为北达科他西南部区域中心，非试验地实测坐标，也不声明当前生产规模。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "quinoa",
+        "name": "藜麦",
+        "latin": "Chenopodium quinoa",
+        "synonyms": [],
+        "group": "谷物与伪谷物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Amaranthaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A165175-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "安第斯高地",
+          "部分温带与海岸生态型"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "匹配当地条件的生态型",
+        "limits": "生态型不匹配、建苗缺水和湿土",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A165175-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2509",
+          "https://www.fao.org/in-action/quinoa-platform/quinua/biodiversidad-de-la-quinua/en/",
+          "https://www.fao.org/4/aq287e/aq287e.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A165175-1/general-information"
+        ]
+      },
+      "profile": {
+        "id": "quinoa",
+        "summary": "藜麦是苋科伪谷物，安第斯地区保存了适应高原、谷地、盐湖周边、海岸和湿热山地等环境的多样类型。广适应性来自种内差异，不能理解成每个品种都耐所有胁迫。",
+        "temperatureNote": "耐冷与耐热程度依生态型而变。",
+        "water": {
+          "summary": "一些高原类型能利用有限水分。",
+          "timing": "播种和早期建苗仍需要合适土壤湿度。",
+          "caution": "耐旱不能代替对季节降水和储水的评估。"
+        },
+        "soil": {
+          "texture": "须结合当地土层、肥力与耕作历史选择。",
+          "drainage": "不应因耐盐印象而忽略排水。",
+          "phNote": "部分类型适应盐土，不代表所有品种无盐害。"
+        },
+        "season": {
+          "type": "一年生伪谷物。",
+          "timing": "各地类型适应不同温度和雨季节律。",
+          "explanation": "从高原移到低海拔时，开花成熟反应可能改变。"
+        },
+        "stress": {
+          "cold": "部分高原类型耐冷，阶段与品种仍重要。",
+          "heat": "高原类型不一定适应湿热低地。",
+          "drought": "耐旱类型也需要建苗水分。",
+          "waterlogging": "久涝仍可限制根系。"
+        },
+        "regions": [
+          {
+            "name": "秘鲁的的喀喀湖周边",
+            "why": "FAO列出高原湖周藜麦类型及其地方环境。",
+            "caution": "湖周与更高、更冷地区也并非同一生态条件。"
+          },
+          {
+            "name": "玻利维亚南部高原",
+            "why": "FAO说明南部盐湖周边藜麦类型适应较干旱环境。",
+            "caution": "仍需建苗水分和土壤保护，不等于所有盐地都可扩种。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "生态型遗传差异支撑跨环境适应。",
+          "practice": "选择经过当地验证的种源，并保护土壤与轮作。",
+          "tradeoff": "扩大耕作若压缩休耕，可能增加侵蚀和肥力压力。"
+        },
+        "misconception": "藜麦不是一种在盐、旱、冷、热环境下都无限耐受的万能植物。",
+        "sources": [
+          {
+            "title": "Kew POWO：Chenopodium quinoa",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A165175-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：藜麦（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2509",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "FAO：藜麦生态型与多样性",
+            "url": "https://www.fao.org/in-action/quinoa-platform/quinua/biodiversidad-de-la-quinua/en/",
+            "supports": "高原、盐湖、谷地、海岸及湿热山地类型，播种水分与土壤保护"
+          },
+          {
+            "title": "FAO：藜麦与粮食安全",
+            "url": "https://www.fao.org/4/aq287e/aq287e.pdf",
+            "supports": "一年生习性、圆锥花序及其形态差异"
+          },
+          {
+            "title": "Kew：藜麦生活型",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A165175-1/general-information",
+            "supports": "接受名、苋科与一年生习性"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "quinoa",
+        "crop": "quinoa",
+        "group": "谷物与伪谷物",
+        "title": "藜麦｜匹配当地条件的生态型",
+        "lon": -69.5,
+        "lat": -15.5,
+        "subtitle": "藜麦是苋科伪谷物，安第斯地区保存了适应高原、谷地、盐湖周边、海岸和湿热山地等环境的多样类型。广适应性来自种内差异，不能理解成每个品种都耐所有胁迫。",
+        "shape": "quinoa",
+        "text": "观察藜麦的宽叶和密集花序，细小籽粒来自苋科植物，并非禾本科麦穗。花序颜色很多，更重要的是不同生态型具有不同的环境适应性。先到秘鲁的的喀喀湖周边，联合国粮农组织介绍了这里的高原藜麦类型。湖周与更冷高地条件仍有差别，选种需要对应当地季节。再看玻利维亚南部高原，部分类型适应干旱与盐湖周边环境。即使如此，建苗仍需水分；耐盐耐旱不是所有品种通用，更不代表土地可无限扩种。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A165175-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2509",
+          "https://www.fao.org/in-action/quinoa-platform/quinua/biodiversidad-de-la-quinua/en/",
+          "https://www.fao.org/4/aq287e/aq287e.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A165175-1/general-information"
+        ],
+        "labels": [
+          {
+            "text": "秘鲁的的喀喀湖周边",
+            "lon": -69.5,
+            "lat": -15.5,
+            "kind": "region"
+          },
+          {
+            "text": "玻利维亚南部高原",
+            "lon": -67,
+            "lat": -20,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "quinoa",
+          "label": "藜麦",
+          "parts": [
+            "宽阔叶片",
+            "密集圆锥花序",
+            "细小籽粒"
+          ],
+          "note": "藜麦为苋科伪谷物；花序颜色、形态及环境耐受性因生态型与品种变化。"
+        },
+        "beats": [
+          {
+            "text": "观察藜麦的宽叶和密集花序，细小籽粒来自苋科植物，并非禾本科麦穗。花序颜色很多，更重要的是不同生态型具有不同的环境适应性。",
+            "lon": -69.5,
+            "lat": -15.5,
+            "label": "秘鲁的的喀喀湖周边",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先到秘鲁的的喀喀湖周边，联合国粮农组织介绍了这里的高原藜麦类型。湖周与更冷高地条件仍有差别，选种需要对应当地季节。",
+            "lon": -69.5,
+            "lat": -15.5,
+            "label": "秘鲁的的喀喀湖周边",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看玻利维亚南部高原，部分类型适应干旱与盐湖周边环境。即使如此，建苗仍需水分；耐盐耐旱不是所有品种通用，更不代表土地可无限扩种。",
+            "lon": -67,
+            "lat": -20,
+            "label": "玻利维亚南部高原",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "quinoa-region1",
+          "cropId": "quinoa",
+          "region": "秘鲁的的喀喀湖周边",
+          "lon": -69.5,
+          "lat": -15.5,
+          "chapterId": "quinoa",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.fao.org/in-action/quinoa-platform/quinua/biodiversidad-de-la-quinua/en/",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "quinoa-region2",
+          "cropId": "quinoa",
+          "region": "玻利维亚南部高原",
+          "lon": -67,
+          "lat": -20,
+          "chapterId": "quinoa",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.fao.org/in-action/quinoa-platform/quinua/biodiversidad-de-la-quinua/en/",
+          "sourceScope": "FAO藜麦生物多样性资料明确记载玻利维亚南部盐湖周边栽培生态型；点为区域中心示意，不是某块盐滩或田块坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "flax",
+        "name": "亚麻",
+        "latin": "Linum usitatissimum",
+        "synonyms": [],
+        "group": "纤维与油料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Linaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A544772-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "凉爽生长季"
+        ],
+        "uses": [
+          "食用",
+          "纤维"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温和季节与湿润种床",
+        "limits": "幼苗强霜、热旱和杂草竞争",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A544772-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=7336",
+          "https://extension.oregonstate.edu/catalog/em-9877-spring-flax-columbia-basin",
+          "https://harvest.usask.ca/bitstreams/d942ca12-9e0f-4726-bc3d-dc64909fe2c2/download",
+          "https://saskoilseeds.com/resource/flax-seeding/",
+          "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview"
+        ]
+      },
+      "profile": {
+        "id": "flax",
+        "summary": "亚麻可收种子榨油，也可利用茎部纤维制亚麻布。纤维型常较高、分枝较少，油用型更重视结籽，不能把两种生产目标的环境要求完全混为一谈。",
+        "temperatureNote": "较温和生长季有利，籽粒形成时热旱会影响产量。",
+        "water": {
+          "summary": "均匀出苗需要湿润而紧实的种床。",
+          "timing": "幼苗及花后籽粒形成期要避免持续缺水。",
+          "caution": "能在有限水分下结籽，不代表能形成同样优质长纤维。"
+        },
+        "soil": {
+          "texture": "排水良好的中等质地土壤便于管理。",
+          "drainage": "不宜让种床长期湿透。",
+          "phNote": "按土测安排酸碱和养分管理。"
+        },
+        "season": {
+          "type": "一年生油料兼纤维作物。",
+          "timing": "温带常春播，具体日期取决于土温与强霜风险。",
+          "explanation": "长而温和的生长季更利于优质纤维生产。"
+        },
+        "stress": {
+          "cold": "幼苗容易受强霜伤害。",
+          "heat": "热旱不利充实籽粒。",
+          "drought": "小苗期干土易导致缺苗。",
+          "waterlogging": "积水妨碍根区通气。"
+        },
+        "regions": [
+          {
+            "name": "加拿大萨斯喀彻温",
+            "why": "省级资料明确记录亚麻籽生产。",
+            "caution": "区域点不代表每块草原土壤或每一年都同样适宜。"
+          },
+          {
+            "name": "美国北达科他州",
+            "why": "OSU说明美国亚麻生产集中于北达科他和蒙大拿等地。",
+            "caution": "以油用亚麻说明，不能据此断言这里同样生产优质长纤维。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "茎纤维和含油种子分别形成两种用途。",
+          "practice": "选明确用途的品种，保墒建苗并控制杂草竞争。",
+          "tradeoff": "过旺或过密可增加倒伏，纤维与籽粒目标也有取舍。"
+        },
+        "misconception": "亚麻籽田和亚麻布原料田虽同种，却不能照搬同一套株形与收获标准。",
+        "sources": [
+          {
+            "title": "Kew POWO：Linum usitatissimum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A544772-1",
+            "supports": "当前分类接受名、科与生活型；原生/引入分布不直接代表农业适宜性"
+          },
+          {
+            "title": "FAO EcoCrop：亚麻（历史条目）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=7336",
+            "supports": "物种或条目所指栽培型的环境与形态参考，不用于新增全球适宜性推算"
+          },
+          {
+            "title": "OSU：春亚麻栽培与试验",
+            "url": "https://extension.oregonstate.edu/catalog/em-9877-spring-flax-columbia-basin",
+            "supports": "纤维与油用目标、幼苗霜害、杂草、水分与美国生产地区"
+          },
+          {
+            "title": "萨斯喀彻温大学：亚麻生产研究",
+            "url": "https://harvest.usask.ca/bitstreams/d942ca12-9e0f-4726-bc3d-dc64909fe2c2/download",
+            "supports": "形态、油用与纤维型、土壤和温度限制"
+          },
+          {
+            "title": "SaskOilseeds：亚麻播种",
+            "url": "https://saskoilseeds.com/resource/flax-seeding/",
+            "supports": "湿润紧实种床、建苗和保墒"
+          },
+          {
+            "title": "加拿大萨斯喀彻温：栽培地区依据",
+            "url": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview",
+            "supports": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "flax",
+        "crop": "flax",
+        "group": "纤维与油料",
+        "title": "亚麻｜温和季节与湿润种床",
+        "lon": -105.5,
+        "lat": 51,
+        "subtitle": "亚麻可收种子榨油，也可利用茎部纤维制亚麻布。纤维型常较高、分枝较少，油用型更重视结籽，不能把两种生产目标的环境要求完全混为一谈。",
+        "shape": "flax",
+        "text": "看亚麻细长的茎、常见的蓝色五瓣花，以及装着种子的圆形蒴果。它既能提供纤维，也能提供油籽，但两类品种的株形与收获目标不同。先看加拿大萨斯喀彻温，这里有明确的亚麻籽生产记录。较温和的生长季有利，播种仍要兼顾湿润种床与强霜风险，小苗也怕杂草竞争。再到美国北达科他，同样可以看到油用亚麻的生产实例。能在有限水分下收种子，不等于能收同样优质的长纤维；热旱仍会影响结籽。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A544772-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=7336",
+          "https://extension.oregonstate.edu/catalog/em-9877-spring-flax-columbia-basin",
+          "https://harvest.usask.ca/bitstreams/d942ca12-9e0f-4726-bc3d-dc64909fe2c2/download",
+          "https://saskoilseeds.com/resource/flax-seeding/",
+          "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview"
+        ],
+        "labels": [
+          {
+            "text": "加拿大萨斯喀彻温",
+            "lon": -105.5,
+            "lat": 51,
+            "kind": "region"
+          },
+          {
+            "text": "美国北达科他州",
+            "lon": -100,
+            "lat": 48,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "flax",
+          "label": "亚麻",
+          "parts": [
+            "细长茎",
+            "五瓣花",
+            "圆形蒴果"
+          ],
+          "note": "亚麻同一种可育成纤维型或油用型；模型展示蓝花常见类型，花色与株形存在差异。"
+        },
+        "beats": [
+          {
+            "text": "看亚麻细长的茎、常见的蓝色五瓣花，以及装着种子的圆形蒴果。它既能提供纤维，也能提供油籽，但两类品种的株形与收获目标不同。",
+            "lon": -105.5,
+            "lat": 51,
+            "label": "加拿大萨斯喀彻温",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看加拿大萨斯喀彻温，这里有明确的亚麻籽生产记录。较温和的生长季有利，播种仍要兼顾湿润种床与强霜风险，小苗也怕杂草竞争。",
+            "lon": -105.5,
+            "lat": 51,
+            "label": "加拿大萨斯喀彻温",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再到美国北达科他，同样可以看到油用亚麻的生产实例。能在有限水分下收种子，不等于能收同样优质的长纤维；热旱仍会影响结籽。",
+            "lon": -100,
+            "lat": 48,
+            "label": "美国北达科他州",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "flax-region1",
+          "cropId": "flax",
+          "region": "加拿大萨斯喀彻温",
+          "lon": -105.5,
+          "lat": 51,
+          "chapterId": "flax",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.saskatchewan.ca/business/agriculture-natural-resources-and-industry/agribusiness-farmers-and-ranchers/saskatchewan-import-and-export-information/resources-for-importers/agriculture-sector-overview",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "flax-region2",
+          "cropId": "flax",
+          "region": "美国北达科他州",
+          "lon": -100,
+          "lat": 48,
+          "chapterId": "flax",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://extension.oregonstate.edu/catalog/em-9877-spring-flax-columbia-basin",
+          "sourceScope": "资料明确列出此区域的栽培或生产；坐标为编辑选择的区域中心示意，非农田、标本或实测观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "rubber",
+        "name": "橡胶树",
+        "latin": "Hevea brasiliensis",
+        "synonyms": [],
+        "group": "工业原料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Euphorbiaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "热带湿润"
+        ],
+        "uses": [
+          "工业原料"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖湿润与深厚通气土壤",
+        "limits": "低温、长旱与积水；病害影响商业种植",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information",
+          "https://www.rrisl.gov.lk/content/files/downDoc/Handbook_Volume_1.pdf"
+        ]
+      },
+      "profile": {
+        "id": "rubber",
+        "summary": "橡胶树是多年生工业原料树，天然橡胶取自乳胶，而不是木材熬制。其原生地与今天的主要栽培区并不相同。",
+        "temperatureNote": "偏好持续温暖的湿热环境，低温会限制生长。",
+        "water": {
+          "summary": "生长依赖较均匀的有效供水。",
+          "timing": "幼树建株和抽梢期需要避免长期失水。",
+          "caution": "多雨地区仍要区分空气湿润与土壤积水。"
+        },
+        "soil": {
+          "texture": "可适应多种土质，深厚肥沃土更便于根系发展。",
+          "drainage": "排水是重要前提，不宜长期饱和。",
+          "phNote": "酸碱和养分应按园地土测及当地试验判断。"
+        },
+        "season": {
+          "type": "多年生乔木，有季节性换叶过程。",
+          "timing": "定植、养树与开割分属不同阶段。",
+          "explanation": "能存活的幼树不等于已具备长期产胶能力。"
+        },
+        "stress": {
+          "cold": "冷凉与霜冻构成热带树种的重要边界。",
+          "heat": "炎热伴随干风会加大水分压力。",
+          "drought": "长旱削弱生长与生产表现。",
+          "waterlogging": "积水使根区通气不足。"
+        },
+        "regions": [
+          {
+            "name": "马来西亚",
+            "why": "Kew记载这里有橡胶栽培，温暖湿润背景符合其生态需求。",
+            "caution": "只标示国家尺度栽培实例，仍须核对具体土壤和管理。"
+          },
+          {
+            "name": "斯里兰卡",
+            "why": "同一来源明确列出斯里兰卡种植橡胶；当地研究手册补充栽培管理。",
+            "caution": "季风雨量不能代替园地排水和干季供水核查。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "三小叶复叶与多年生木质茎支持持续生长，树皮内有乳胶分泌系统。",
+          "practice": "用当地适宜材料，保障排水并按树龄树势管理割胶。",
+          "tradeoff": "产胶还受割胶制度和病害影响，原生亚马孙地区的叶疫病限制不能由温暖气候消除。"
+        },
+        "misconception": "有乳白汁液的植物不全是橡胶树，气候相似也不意味着产胶条件相同。",
+        "sources": [
+          {
+            "title": "Kew POWO：Hevea brasiliensis",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "Kew：橡胶树形态与栽培",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information",
+            "supports": "三小叶、乳胶来源、温暖湿润与排水、马来西亚及斯里兰卡栽培、南美叶疫病。"
+          },
+          {
+            "title": "斯里兰卡橡胶研究所：橡胶栽培手册",
+            "url": "https://www.rrisl.gov.lk/content/files/downDoc/Handbook_Volume_1.pdf",
+            "supports": "本地橡胶栽培环境、建园与多年生管理；不外推为全球适生地图。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "rubber",
+        "crop": "rubber",
+        "group": "工业原料",
+        "title": "橡胶树｜温暖湿润与深厚通气土壤",
+        "lon": 102,
+        "lat": 4,
+        "subtitle": "橡胶树是多年生工业原料树，天然橡胶取自乳胶，而不是木材熬制。其原生地与今天的主要栽培区并不相同。",
+        "shape": "rubber",
+        "text": "先看橡胶树的三小叶复叶，树干旁的小杯表示乳胶采集。天然橡胶来自树皮内的分泌系统；模型里的割线和容器属于管理示意，不是植物器官。来到马来西亚，这里有橡胶树栽培。持续温暖和较均匀水分有利生长，但多雨仍要配合排水，土壤长期积水并不会让热带树长得更好。再看斯里兰卡的栽培实例，季风供水与园地管理同样重要。能长树不等于能稳定产胶，树龄、割胶制度、干旱和病害都会影响结果。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information",
+          "https://www.rrisl.gov.lk/content/files/downDoc/Handbook_Volume_1.pdf"
+        ],
+        "labels": [
+          {
+            "text": "马来西亚",
+            "lon": 102,
+            "lat": 4,
+            "kind": "region"
+          },
+          {
+            "text": "斯里兰卡",
+            "lon": 80.3,
+            "lat": 6.7,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "rubber",
+          "label": "橡胶树",
+          "parts": [
+            "三小叶复叶",
+            "木质树干",
+            "乳胶采集"
+          ],
+          "note": "乳胶来自树皮内的分泌系统；小杯与割线为采集方式示意，不是自然器官。"
+        },
+        "beats": [
+          {
+            "text": "先看橡胶树的三小叶复叶，树干旁的小杯表示乳胶采集。天然橡胶来自树皮内的分泌系统；模型里的割线和容器属于管理示意，不是植物器官。",
+            "lon": 102,
+            "lat": 4,
+            "label": "马来西亚",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "来到马来西亚，这里有橡胶树栽培。持续温暖和较均匀水分有利生长，但多雨仍要配合排水，土壤长期积水并不会让热带树长得更好。",
+            "lon": 102,
+            "lat": 4,
+            "label": "马来西亚",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看斯里兰卡的栽培实例，季风供水与园地管理同样重要。能长树不等于能稳定产胶，树龄、割胶制度、干旱和病害都会影响结果。",
+            "lon": 80.3,
+            "lat": 6.7,
+            "label": "斯里兰卡",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "rubber-region1",
+          "cropId": "rubber",
+          "region": "马来西亚",
+          "lon": 102,
+          "lat": 4,
+          "chapterId": "rubber",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information",
+          "sourceScope": "Kew物种介绍明确列出马来西亚的栽培，不用引入分布表代替栽培证据。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "rubber-region2",
+          "cropId": "rubber",
+          "region": "斯里兰卡",
+          "lon": 80.3,
+          "lat": 6.7,
+          "chapterId": "rubber",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A349913-1/general-information",
+          "sourceScope": "Kew物种介绍明确列出斯里兰卡栽培；点位只作国家内区域示意。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "mango",
+        "name": "芒果",
+        "latin": "Mangifera indica",
+        "synonyms": [],
+        "group": "热带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Anacardiaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A69913-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "热带季节性湿润",
+          "亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖日照与花期相对干燥",
+        "limits": "霜冻、花期湿冷与长期排水不良",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A69913-1",
+          "https://edis.ifas.ufl.edu/publication/MG216/pdf",
+          "https://nriipm.res.in/pusa/t/production-technology.html"
+        ]
+      },
+      "profile": {
+        "id": "mango",
+        "summary": "芒果是常绿果树，适合温暖、光照足的环境。它的生长用水与开花所需天气并不相同，雨量的季节分配比单个年总量更能解释产地差别。",
+        "temperatureNote": "大多适合少霜的热带和暖亚热带。",
+        "water": {
+          "summary": "幼树建株和严重干旱时需要补水。",
+          "timing": "花期较干燥常有利，膨果期则不能长期缺水。",
+          "caution": "花期降雨和潮湿会妨碍授粉并加重病害。"
+        },
+        "soil": {
+          "texture": "土质适应范围较宽，深厚土层便于根系发展。",
+          "drainage": "可短暂忍受偏湿，但长期排水不良仍不理想。",
+          "phNote": "不同土壤的酸碱和微量元素问题应现场判断。"
+        },
+        "season": {
+          "type": "多年生常绿乔木，分期抽梢并季节性开花。",
+          "timing": "根据当地花期、品种和雨季安排管理。",
+          "explanation": "营养生长旺盛与形成成熟果实不是同一结果。"
+        },
+        "stress": {
+          "cold": "尤其幼树怕严霜，花期低温也会降低坐果。",
+          "heat": "高温叠加低湿和强风更容易造成胁迫。",
+          "drought": "成熟树相对耐旱，不等于幼树或膨果期可断水。",
+          "waterlogging": "根区长期积水影响树势。"
+        },
+        "regions": [
+          {
+            "name": "印度",
+            "why": "UF/IFAS明确记载印度长期栽培芒果，ICAR资料解释花期与雨季关系。",
+            "caution": "此为国家尺度示例，不代表印度所有海拔和季节。"
+          },
+          {
+            "name": "美国迈阿密戴德",
+            "why": "UF/IFAS明确列出戴德县商业芒果生产。",
+            "caution": "温暖并不能消除花期低温、炭疽病和排水问题。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "枝端多花圆锥花序形成核果，品种影响熟期和树形。",
+          "practice": "选择当地适用品种，合理修剪并观察花期天气。",
+          "tradeoff": "控树与病害管理需要持续投入，不能只按热带标签选址。"
+        },
+        "misconception": "芒果并非越湿热越好；花期雨多可能比短暂偏干更不利于结果。",
+        "sources": [
+          {
+            "title": "Kew POWO：Mangifera indica",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A69913-1",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "UF/IFAS：芒果种植",
+            "url": "https://edis.ifas.ufl.edu/publication/MG216/pdf",
+            "supports": "形态、印度及戴德县栽培、低温与花期病害、土壤及水分管理。"
+          },
+          {
+            "title": "ICAR：芒果生产技术",
+            "url": "https://nriipm.res.in/pusa/t/production-technology.html",
+            "supports": "花期干湿、降雨分配、强风、霜冻与排水条件。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "mango",
+        "crop": "mango",
+        "group": "热带果树",
+        "title": "芒果｜温暖日照与花期相对干燥",
+        "lon": 78.2,
+        "lat": 20.5,
+        "subtitle": "芒果是常绿果树，适合温暖、光照足的环境。它的生长用水与开花所需天气并不相同，雨量的季节分配比单个年总量更能解释产地差别。",
+        "shape": "mango",
+        "text": "看芒果修长的革质叶，成熟果实里面有一枚较大的种子。它是常绿乔木，果皮不一定都变成黄色，颜色与成熟判断会随品种而改变。地球来到印度，芒果在这里有悠久栽培历史。温暖与日照支持生长，但开花前后的天气也关键，花期雨多可能妨碍授粉并增加病害。再看美国迈阿密戴德的芒果种植。当地暖季适合果树，却仍要面对花期低温和湿润病害；根区排水以及品种熟期不能被热带标签替代。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A69913-1",
+          "https://edis.ifas.ufl.edu/publication/MG216/pdf",
+          "https://nriipm.res.in/pusa/t/production-technology.html"
+        ],
+        "labels": [
+          {
+            "text": "印度",
+            "lon": 78.2,
+            "lat": 20.5,
+            "kind": "region"
+          },
+          {
+            "text": "美国迈阿密戴德",
+            "lon": -80.5,
+            "lat": 25.5,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "mango",
+          "label": "芒果",
+          "parts": [
+            "披针形革质叶",
+            "枝端花序",
+            "核果"
+          ],
+          "note": "成熟果皮颜色因品种而异；叶、花果可并置，仅作器官识别。"
+        },
+        "beats": [
+          {
+            "text": "看芒果修长的革质叶，成熟果实里面有一枚较大的种子。它是常绿乔木，果皮不一定都变成黄色，颜色与成熟判断会随品种而改变。",
+            "lon": 78.2,
+            "lat": 20.5,
+            "label": "印度",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "地球来到印度，芒果在这里有悠久栽培历史。温暖与日照支持生长，但开花前后的天气也关键，花期雨多可能妨碍授粉并增加病害。",
+            "lon": 78.2,
+            "lat": 20.5,
+            "label": "印度",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看美国迈阿密戴德的芒果种植。当地暖季适合果树，却仍要面对花期低温和湿润病害；根区排水以及品种熟期不能被热带标签替代。",
+            "lon": -80.5,
+            "lat": 25.5,
+            "label": "美国迈阿密戴德",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "mango-region1",
+          "cropId": "mango",
+          "region": "印度",
+          "lon": 78.2,
+          "lat": 20.5,
+          "chapterId": "mango",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://edis.ifas.ufl.edu/publication/MG216/pdf",
+          "sourceScope": "UF/IFAS记载印度的栽培历史及生产；点位不对应特定果园。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "mango-region2",
+          "cropId": "mango",
+          "region": "美国迈阿密戴德",
+          "lon": -80.5,
+          "lat": 25.5,
+          "chapterId": "mango",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://edis.ifas.ufl.edu/publication/MG216/pdf",
+          "sourceScope": "UF/IFAS直接列出Dade County的商业栽培。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "pineapple",
+        "name": "菠萝",
+        "latin": "Ananas comosus",
+        "synonyms": [],
+        "group": "热带水果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Bromeliaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A12322-2",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带湿润",
+          "亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖日照与疏松排水根层",
+        "limits": "霜冻、过度遮阴和长期积水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A12322-2",
+          "https://edis.ifas.ufl.edu/publication/MG055/pdf",
+          "https://kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf",
+          "https://agris.fao.org/search/en/providers/122535/records/65df492b63b8185d9cac1816"
+        ]
+      },
+      "profile": {
+        "id": "pineapple",
+        "summary": "菠萝是矮生多年生草本，叶片围成莲座，果实由花序中多个小花相关组织融合形成。虽能忍受一定干旱，生产仍需要合适水分与充足光照。",
+        "temperatureNote": "温暖促进发育，持续冷凉或过热都会拖慢生长。",
+        "water": {
+          "summary": "较耐短期干土，但缺水会降低生长和产量。",
+          "timing": "新栽植株及果实发育阶段需关注有效水分。",
+          "caution": "能存活与结出较大商品果不是同一标准。"
+        },
+        "soil": {
+          "texture": "疏松的沙壤等通气土层较便于管理。",
+          "drainage": "极怕持续湿涝，湿土会增加根腐风险。",
+          "phNote": "常适应偏酸土，高酸或其他失衡仍要土测核实。"
+        },
+        "season": {
+          "type": "多年生草本，主株结果后可管理侧芽延续生产。",
+          "timing": "利用无霜暖季，种苗大小影响到果时间。",
+          "explanation": "冠芽、吸芽等用于营养繁殖，长成新株后再结果。"
+        },
+        "stress": {
+          "cold": "霜冻及近冰点低温会造成叶果损伤。",
+          "heat": "过热可使发育变慢，强烈曝晒也需结合树势判断。",
+          "drought": "耐旱不能替代商业生产的水分管理。",
+          "waterlogging": "长期积水会显著损害根系。"
+        },
+        "regions": [
+          {
+            "name": "哥斯达黎加",
+            "why": "农业研究明确记录哥斯达黎加菠萝生产系统。",
+            "caution": "国家尺度栽培证据不表示全国每一气候带都适合。"
+          },
+          {
+            "name": "美国佛罗里达南部",
+            "why": "UF/IFAS介绍南部温暖沿海及家庭环境中的菠萝种植。",
+            "caution": "这里是家庭种植示例，不声称属于大规模商业主产区。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "莲座叶与较厚组织有助缓冲短时失水。",
+          "practice": "选择健壮营养繁殖苗，保障光照和排水。",
+          "tradeoff": "寒地保护措施能帮助存活，但光照与低温仍会延长生产周期。"
+        },
+        "misconception": "菠萝长在低矮草本上，顶部冠芽可以繁殖，并不是树上长出的松果。",
+        "sources": [
+          {
+            "title": "Kew POWO：Ananas comosus",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A12322-2",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "UF/IFAS：菠萝家庭种植",
+            "url": "https://edis.ifas.ufl.edu/publication/MG055/pdf",
+            "supports": "草本莲座、聚花果、佛州家庭种植、低温旱涝反应与营养繁殖。"
+          },
+          {
+            "title": "喀拉拉农业大学：菠萝生产技术",
+            "url": "https://kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf",
+            "supports": "商业菠萝栽培的土壤、排水及生育管理，区域建议不直接全球套用。"
+          },
+          {
+            "title": "哥斯达黎加菠萝生产研究（FAO AGRIS收录）",
+            "url": "https://agris.fao.org/search/en/providers/122535/records/65df492b63b8185d9cac1816",
+            "supports": "证明该国存在本物种生产系统及其管理问题；不提供地图示意点的实测坐标。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "pineapple",
+        "crop": "pineapple",
+        "group": "热带水果",
+        "title": "菠萝｜温暖日照与疏松排水根层",
+        "lon": -84.1,
+        "lat": 10.1,
+        "subtitle": "菠萝是矮生多年生草本，叶片围成莲座，果实由花序中多个小花相关组织融合形成。虽能忍受一定干旱，生产仍需要合适水分与充足光照。",
+        "shape": "pineapple",
+        "text": "先看菠萝贴近地面的莲座状叶片，顶部果实由许多小花相关组织共同形成。它是草本，果顶的冠芽还可以用来繁殖，并不长在树上。地球来到哥斯达黎加，这里有明确的菠萝生产系统。温暖与日照支持发育，根区却需要良好排水；热带多雨不是可以长期积水的理由。再看佛罗里达南部的家庭种植。温暖沿海能提供条件，但低温会拖慢生长并伤叶伤果；菠萝虽能忍受短期干旱，缺水仍会影响收成。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A12322-2",
+          "https://edis.ifas.ufl.edu/publication/MG055/pdf",
+          "https://kau.in/sites/default/files/documents/production_technology_for_vazhakulam_pineapple_mauritius.pdf",
+          "https://agris.fao.org/search/en/providers/122535/records/65df492b63b8185d9cac1816"
+        ],
+        "labels": [
+          {
+            "text": "哥斯达黎加",
+            "lon": -84.1,
+            "lat": 10.1,
+            "kind": "region"
+          },
+          {
+            "text": "美国佛罗里达南部",
+            "lon": -80.5,
+            "lat": 25.7,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "pineapple",
+          "label": "菠萝",
+          "parts": [
+            "莲座状剑形叶",
+            "聚花果",
+            "顶端冠芽"
+          ],
+          "note": "菠萝不是长在树上的单一子房果；小果与相关组织融合形成聚花果。"
+        },
+        "beats": [
+          {
+            "text": "先看菠萝贴近地面的莲座状叶片，顶部果实由许多小花相关组织共同形成。它是草本，果顶的冠芽还可以用来繁殖，并不长在树上。",
+            "lon": -84.1,
+            "lat": 10.1,
+            "label": "哥斯达黎加",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "地球来到哥斯达黎加，这里有明确的菠萝生产系统。温暖与日照支持发育，根区却需要良好排水；热带多雨不是可以长期积水的理由。",
+            "lon": -84.1,
+            "lat": 10.1,
+            "label": "哥斯达黎加",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看佛罗里达南部的家庭种植。温暖沿海能提供条件，但低温会拖慢生长并伤叶伤果；菠萝虽能忍受短期干旱，缺水仍会影响收成。",
+            "lon": -80.5,
+            "lat": 25.7,
+            "label": "美国佛罗里达南部",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "pineapple-region1",
+          "cropId": "pineapple",
+          "region": "哥斯达黎加",
+          "lon": -84.1,
+          "lat": 10.1,
+          "chapterId": "pineapple",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://agris.fao.org/search/en/providers/122535/records/65df492b63b8185d9cac1816",
+          "sourceScope": "FAO AGRIS收录的哥斯达黎加农业研究描述Ananas comosus var. comosus生产系统。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "pineapple-region2",
+          "cropId": "pineapple",
+          "region": "美国佛罗里达南部",
+          "lon": -80.5,
+          "lat": 25.7,
+          "chapterId": "pineapple",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://edis.ifas.ufl.edu/publication/MG055/pdf",
+          "sourceScope": "UF/IFAS明确描述佛州家庭种植和东南、西南温暖沿海适应环境。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "avocado",
+        "name": "鳄梨（牛油果）",
+        "latin": "Persea americana",
+        "synonyms": [
+          "Persea gratissima"
+        ],
+        "group": "亚热带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Lauraceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A325643-2",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "亚热带",
+          "热带高地"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温和热量与排水良好根区",
+        "limits": "霜冻、盐分和积水根腐",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A325643-2",
+          "https://ipm.ucanr.edu/home-and-landscape/avocado-site-selection/",
+          "https://www.ucanr.edu/?legacy-file=166823.pdf&legacy-file-path=sites%2Falternativefruits%2Ffiles%2F",
+          "https://ucanr.edu/county/uc-cooperative-extension-san-diego-county/new-irrigation-tools-may-assist-avocado-growers",
+          "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Avocado+Annual_Guadalajara_Mexico_MX2026-0019.pdf"
+        ]
+      },
+      "profile": {
+        "id": "avocado",
+        "summary": "鳄梨是多年生果树，墨西哥型、危地马拉型、西印度型及其杂交材料对冷暖、盐分和湿度的反应不同。判断一个产地必须同时考虑品种与砧木。",
+        "temperatureNote": "适应温暖热带到亚热带，耐寒性有明显种质差异。",
+        "water": {
+          "summary": "根区需要持续可利用水分，同时保持通气。",
+          "timing": "树体生长和果实发育阶段都需匹配蒸散供水。",
+          "caution": "当地有降雨也不代表全年供水充足。"
+        },
+        "soil": {
+          "texture": "可生于多种土壤，根层不应有严重硬盘或滞水。",
+          "drainage": "良好排水是重要条件，久湿容易引发根腐。",
+          "phNote": "盐分、石灰性土及酸碱问题需按水土检测处理。"
+        },
+        "season": {
+          "type": "多年生常绿果树，花期和熟期随品种地点变化。",
+          "timing": "依据当地冷害、花期天气和水源制定管理。",
+          "explanation": "热带高地与温和海岸可提供不同温度组合。"
+        },
+        "stress": {
+          "cold": "墨西哥型通常较耐冷，但持续冻害仍会伤树。",
+          "heat": "高温与干旱叠加可损害生产。",
+          "drought": "干季供水不足会限制树体和果实生长。",
+          "waterlogging": "积水和根腐风险密切相关。"
+        },
+        "regions": [
+          {
+            "name": "墨西哥米却肯",
+            "why": "USDA报告明确记录米却肯产区及火山土、高地环境。",
+            "caution": "本图只说明栽培存在，不能据此推断土地可开垦或水源充足。"
+          },
+          {
+            "name": "美国圣迭戈县",
+            "why": "UC县级推广项目直接针对圣迭戈鳄梨果园研究灌溉。",
+            "caution": "海岸影响、土壤、水质及内陆热度存在差别。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "种质与砧木差异改变耐冷耐盐表现，不能只看果皮。",
+          "practice": "因地选择品种砧木并保持排水、监测根区水分。",
+          "tradeoff": "灌溉能够补水，也需核实水质和可持续水源。"
+        },
+        "misconception": "一处种得好不代表所有鳄梨都适合那里，品种与砧木常是关键差别。",
+        "sources": [
+          {
+            "title": "Kew POWO：Persea americana",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A325643-2",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "UC IPM：鳄梨选址",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/avocado-site-selection/",
+            "supports": "根层排水、石灰、低温及种质差异。"
+          },
+          {
+            "title": "UC：加州鳄梨生产资料",
+            "url": "https://www.ucanr.edu/?legacy-file=166823.pdf&legacy-file-path=sites%2Falternativefruits%2Ffiles%2F",
+            "supports": "三类种质与耐冷、耐盐差别、砧木及品种。"
+          },
+          {
+            "title": "UC圣迭戈：鳄梨灌溉研究",
+            "url": "https://ucanr.edu/county/uc-cooperative-extension-san-diego-county/new-irrigation-tools-may-assist-avocado-growers",
+            "supports": "圣迭戈果园实例及根区供水管理。"
+          },
+          {
+            "title": "USDA：墨西哥鳄梨年度报告2026",
+            "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Avocado+Annual_Guadalajara_Mexico_MX2026-0019.pdf",
+            "supports": "米却肯栽培区域、高地火山土与热旱影响；不采用产量预测作适生判断。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "avocado",
+        "crop": "avocado",
+        "group": "亚热带果树",
+        "title": "鳄梨（牛油果）｜温和热量与排水良好根区",
+        "lon": -101.9,
+        "lat": 19.4,
+        "subtitle": "鳄梨是多年生果树，墨西哥型、危地马拉型、西印度型及其杂交材料对冷暖、盐分和湿度的反应不同。判断一个产地必须同时考虑品种与砧木。",
+        "shape": "avocado",
+        "text": "看鳄梨常绿的叶片和含有大种子的果实，果形不一定都是梨形。不同品种和砧木对寒冷、盐分的反应不同，不能只凭果皮颜色判断。转到墨西哥米却肯，官方农业报告记载这里的高地鳄梨产区。温度、火山土和排水共同提供条件，但热旱与实际供水仍然影响生产。再看加州圣迭戈，果园研究强调根区水分和灌溉。鳄梨需要水，却不适合让根长期泡水；土壤通气不足还会增加根腐的风险。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A325643-2",
+          "https://ipm.ucanr.edu/home-and-landscape/avocado-site-selection/",
+          "https://www.ucanr.edu/?legacy-file=166823.pdf&legacy-file-path=sites%2Falternativefruits%2Ffiles%2F",
+          "https://ucanr.edu/county/uc-cooperative-extension-san-diego-county/new-irrigation-tools-may-assist-avocado-growers",
+          "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Avocado+Annual_Guadalajara_Mexico_MX2026-0019.pdf"
+        ],
+        "labels": [
+          {
+            "text": "墨西哥米却肯",
+            "lon": -101.9,
+            "lat": 19.4,
+            "kind": "region"
+          },
+          {
+            "text": "美国圣迭戈县",
+            "lon": -117,
+            "lat": 33,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "avocado",
+          "label": "鳄梨（牛油果）",
+          "parts": [
+            "常绿叶",
+            "含大种子的果实",
+            "分枝树冠"
+          ],
+          "note": "果形可圆也可梨形；不同品种与砧木的耐冷、耐盐差异不能由模型判断。"
+        },
+        "beats": [
+          {
+            "text": "看鳄梨常绿的叶片和含有大种子的果实，果形不一定都是梨形。不同品种和砧木对寒冷、盐分的反应不同，不能只凭果皮颜色判断。",
+            "lon": -101.9,
+            "lat": 19.4,
+            "label": "墨西哥米却肯",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "转到墨西哥米却肯，官方农业报告记载这里的高地鳄梨产区。温度、火山土和排水共同提供条件，但热旱与实际供水仍然影响生产。",
+            "lon": -101.9,
+            "lat": 19.4,
+            "label": "墨西哥米却肯",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看加州圣迭戈，果园研究强调根区水分和灌溉。鳄梨需要水，却不适合让根长期泡水；土壤通气不足还会增加根腐的风险。",
+            "lon": -117,
+            "lat": 33,
+            "label": "美国圣迭戈县",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "avocado-region1",
+          "cropId": "avocado",
+          "region": "墨西哥米却肯",
+          "lon": -101.9,
+          "lat": 19.4,
+          "chapterId": "avocado",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Avocado+Annual_Guadalajara_Mexico_MX2026-0019.pdf",
+          "sourceScope": "USDA 2026年产区报告直接记载米却肯生产；不使用其中产量预测作为地理适生等级。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "avocado-region2",
+          "cropId": "avocado",
+          "region": "美国圣迭戈县",
+          "lon": -117,
+          "lat": 33,
+          "chapterId": "avocado",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://ucanr.edu/county/uc-cooperative-extension-san-diego-county/new-irrigation-tools-may-assist-avocado-growers",
+          "sourceScope": "UC资料明确描述圣迭戈县鳄梨生产和果园灌溉研究。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "blackpepper",
+        "name": "胡椒",
+        "latin": "Piper nigrum",
+        "synonyms": [],
+        "group": "香辛料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Piperaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "热带湿润"
+        ],
+        "uses": [
+          "食用",
+          "调味"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖湿润与有支撑的通气根区",
+        "limits": "长旱、强曝晒和积水根病",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1",
+          "https://www.spices.res.in/pages/about-mandate-crops",
+          "https://keralaagriculture.gov.in/wp-content/uploads/2023/02/Farmguide-2023.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1/general-information"
+        ]
+      },
+      "profile": {
+        "id": "blackpepper",
+        "summary": "胡椒是多年生攀援藤本，香辛料来自果实。它适合湿热条件，但尤其需要根区排水与合适遮阴，长期积水和干季失水都会限制生长。",
+        "temperatureNote": "温暖湿润有利，冷凉和强烈热旱不利。",
+        "water": {
+          "summary": "降雨分配比单个年总量更能说明供水条件。",
+          "timing": "雨季启动抽梢开花后，供水中断会影响结实。",
+          "caution": "喜湿不能解释为耐涝，短期滞水也可能伤根。"
+        },
+        "soil": {
+          "texture": "轻而疏松、含有机质的土壤较有利。",
+          "drainage": "宜避免排水不足的黏重洼地。",
+          "phNote": "酸碱和养分依据土测与本地技术判断。"
+        },
+        "season": {
+          "type": "多年生藤本，通常围绕季风组织生长和开花。",
+          "timing": "幼苗建立应配合雨季与支持树管理。",
+          "explanation": "相同纬度若雨季时序不同，管理窗口也不同。"
+        },
+        "stress": {
+          "cold": "冷凉会限制热带藤本的活动。",
+          "heat": "幼株需防止强烈日晒与热旱。",
+          "drought": "开花结实阶段的干旱可显著影响收获。",
+          "waterlogging": "积水与根病是主要限制之一。"
+        },
+        "regions": [
+          {
+            "name": "印度喀拉拉邦",
+            "why": "IISR明确列为胡椒栽培地区，湿热季风背景与需求相符。",
+            "caution": "年雨量之外还需查看开花后的连续供水和排水。"
+          },
+          {
+            "name": "印度卡纳塔克邦",
+            "why": "IISR明确列出卡纳塔克邦胡椒栽培。",
+            "caution": "邦域内海拔和干湿差别很大，点位不是全邦适种证明。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "气生攀附根帮助藤蔓利用树干或支柱展开叶片。",
+          "practice": "选择健康种苗、合适支撑与遮阴，保持排水。",
+          "tradeoff": "遮阴过密与根病风险需平衡，支撑系统也需长期维护。"
+        },
+        "misconception": "胡椒不是长在胡椒树上的辣椒，黑白胡椒也不必来自两个物种。",
+        "sources": [
+          {
+            "title": "Kew POWO：Piper nigrum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "ICAR-IISR：主要香料作物",
+            "url": "https://www.spices.res.in/pages/about-mandate-crops",
+            "supports": "多年生胡椒藤本、果实用途及喀拉拉和卡纳塔克栽培。"
+          },
+          {
+            "title": "喀拉拉农业部：Farm Guide 2023",
+            "url": "https://keralaagriculture.gov.in/wp-content/uploads/2023/02/Farmguide-2023.pdf",
+            "supports": "胡椒气候、关键期供水、遮阴、支持树和排水要求。"
+          },
+          {
+            "title": "Kew：胡椒形态资料",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1/general-information",
+            "supports": "攀援习性、叶与果穗形态；不代表产区覆盖范围。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "blackpepper",
+        "crop": "blackpepper",
+        "group": "香辛料",
+        "title": "胡椒｜温暖湿润与有支撑的通气根区",
+        "lon": 76,
+        "lat": 10.3,
+        "subtitle": "胡椒是多年生攀援藤本，香辛料来自果实。它适合湿热条件，但尤其需要根区排水与合适遮阴，长期积水和干季失水都会限制生长。",
+        "shape": "blackpepper",
+        "text": "观察胡椒攀援的藤茎和串状果穗，香辛料来自这些小果实。黑胡椒与白胡椒可以是同一物种的不同采收加工结果，胡椒也不是辣椒。先看印度喀拉拉邦，香料研究所明确记录当地栽培。温暖湿润支持生长，但开花结实阶段若突然断水，仍会影响后来形成的果穗。再到卡纳塔克邦，胡椒同样有栽培。这里也要选择合适支撑与遮阴，保证根区通气；喜湿并不代表耐涝，地面积水会增加伤根风险。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1",
+          "https://www.spices.res.in/pages/about-mandate-crops",
+          "https://keralaagriculture.gov.in/wp-content/uploads/2023/02/Farmguide-2023.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A682369-1/general-information"
+        ],
+        "labels": [
+          {
+            "text": "印度喀拉拉邦",
+            "lon": 76,
+            "lat": 10.3,
+            "kind": "region"
+          },
+          {
+            "text": "印度卡纳塔克邦",
+            "lon": 75.7,
+            "lat": 13.2,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "blackpepper",
+          "label": "胡椒",
+          "parts": [
+            "攀援藤茎",
+            "卵形叶",
+            "串状果穗"
+          ],
+          "note": "黑胡椒与白胡椒可来自同一物种的不同采收和加工方式；并非辣椒属。"
+        },
+        "beats": [
+          {
+            "text": "观察胡椒攀援的藤茎和串状果穗，香辛料来自这些小果实。黑胡椒与白胡椒可以是同一物种的不同采收加工结果，胡椒也不是辣椒。",
+            "lon": 76,
+            "lat": 10.3,
+            "label": "印度喀拉拉邦",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先看印度喀拉拉邦，香料研究所明确记录当地栽培。温暖湿润支持生长，但开花结实阶段若突然断水，仍会影响后来形成的果穗。",
+            "lon": 76,
+            "lat": 10.3,
+            "label": "印度喀拉拉邦",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再到卡纳塔克邦，胡椒同样有栽培。这里也要选择合适支撑与遮阴，保证根区通气；喜湿并不代表耐涝，地面积水会增加伤根风险。",
+            "lon": 75.7,
+            "lat": 13.2,
+            "label": "印度卡纳塔克邦",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "blackpepper-region1",
+          "cropId": "blackpepper",
+          "region": "印度喀拉拉邦",
+          "lon": 76,
+          "lat": 10.3,
+          "chapterId": "blackpepper",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.spices.res.in/pages/about-mandate-crops",
+          "sourceScope": "印度香料研究所直接列出喀拉拉邦胡椒栽培。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "blackpepper-region2",
+          "cropId": "blackpepper",
+          "region": "印度卡纳塔克邦",
+          "lon": 75.7,
+          "lat": 13.2,
+          "chapterId": "blackpepper",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.spices.res.in/pages/about-mandate-crops",
+          "sourceScope": "印度香料研究所直接列出卡纳塔克邦胡椒栽培；点位示意该邦西部区域。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "ginger",
+        "name": "姜",
+        "latin": "Zingiber officinale",
+        "synonyms": [],
+        "group": "香辛料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Zingiberaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带湿润",
+          "亚热带"
+        ],
+        "uses": [
+          "食用",
+          "调味"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖湿润与松软排水土壤",
+        "limits": "冷凉、长期干旱与根茎腐烂",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1",
+          "https://www.spices.res.in/pages/about-mandate-crops",
+          "https://spices.res.in/storage/app/public/pdfs/GINGER/2ENG.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/general-information"
+        ]
+      },
+      "profile": {
+        "id": "ginger",
+        "summary": "姜是以地下根茎为收获器官的多年生草本，农业上常按一季收获。食用姜块是茎的变态，不是膨大的根；鲜姜与干姜的收获阶段也可不同。",
+        "temperatureNote": "较长的温暖季有利根茎形成，冷凉会使生长放慢。",
+        "water": {
+          "summary": "需要分布适宜的水分，尤忌长期旱涝交替。",
+          "timing": "萌芽建株及根茎膨大阶段要保持有效供水。",
+          "caution": "高湿空气不能代替根区排水。"
+        },
+        "soil": {
+          "texture": "松软、易碎且富有机质的土壤便于根茎扩展。",
+          "drainage": "雨季应排走多余水分，避免低洼地。",
+          "phNote": "按本地土测评估酸碱，不能以一种土色判断适生。"
+        },
+        "season": {
+          "type": "多年生草本，常用带芽种姜开始一个生产季。",
+          "timing": "依降雨、地温及收获用途安排种植。",
+          "explanation": "地上叶片衰老与根茎成熟关联，嫩姜可提前收获。"
+        },
+        "stress": {
+          "cold": "寒冷限制地上生长，冻害可伤种姜。",
+          "heat": "热与缺水同时发生会加大压力。",
+          "drought": "持续缺水影响叶片与根茎生长。",
+          "waterlogging": "积水有利根茎腐烂等病害发生。"
+        },
+        "regions": [
+          {
+            "name": "印度阿萨姆邦",
+            "why": "IISR列出阿萨姆邦姜生产，东北地区技术资料解释当地管理。",
+            "caution": "雨季充足并不能消除积水和种姜带病风险。"
+          },
+          {
+            "name": "印度卡纳塔克邦",
+            "why": "IISR明确列出卡纳塔克邦姜生产。",
+            "caution": "需要按本地雨季和种姜类型安排，不能全邦同一播期。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "根茎贮藏养分并带有芽，可营养繁殖形成新株。",
+          "practice": "使用健康种姜，覆盖保湿并轮作、排水。",
+          "tradeoff": "营养繁殖也会带入病原，种姜健康不能省略。"
+        },
+        "misconception": "姜不是只要埋一块就可全年高产；根茎质量取决于种苗、季节和根区条件。",
+        "sources": [
+          {
+            "title": "Kew POWO：Zingiber officinale",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "ICAR-IISR：主要香料作物",
+            "url": "https://www.spices.res.in/pages/about-mandate-crops",
+            "supports": "姜的根茎用途、多年生习性和阿萨姆、卡纳塔克生产。"
+          },
+          {
+            "title": "ICAR-IISR：姜栽培手册",
+            "url": "https://spices.res.in/storage/app/public/pdfs/GINGER/2ENG.pdf",
+            "supports": "温暖湿润条件、根茎繁殖、排水、轮作、收获与病害。"
+          },
+          {
+            "title": "Kew：姜形态资料",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/general-information",
+            "supports": "根茎和叶鞘假茎等形态，栽培植株开花情况。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "ginger",
+        "crop": "ginger",
+        "group": "香辛料",
+        "title": "姜｜温暖湿润与松软排水土壤",
+        "lon": 92.2,
+        "lat": 26.2,
+        "subtitle": "姜是以地下根茎为收获器官的多年生草本，农业上常按一季收获。食用姜块是茎的变态，不是膨大的根；鲜姜与干姜的收获阶段也可不同。",
+        "shape": "ginger",
+        "text": "看姜在土下分枝的根茎，上面有节和芽，地上的狭长叶围成假茎。我们吃的是地下茎，不是根；带芽的种姜还能长成新的植株。地球来到印度阿萨姆邦，官方研究资料记录这里的姜生产。温暖和合适雨季支持生长，但松软土层必须排水，湿润空气不能抵消积水。再看卡纳塔克邦，姜也被广泛栽培。根茎膨大需要有效供水，种姜健康同样关键；用病姜繁殖或让土壤久湿，都可能造成腐烂损失。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1",
+          "https://www.spices.res.in/pages/about-mandate-crops",
+          "https://spices.res.in/storage/app/public/pdfs/GINGER/2ENG.pdf",
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A798372-1/general-information"
+        ],
+        "labels": [
+          {
+            "text": "印度阿萨姆邦",
+            "lon": 92.2,
+            "lat": 26.2,
+            "kind": "region"
+          },
+          {
+            "text": "印度卡纳塔克邦",
+            "lon": 75.9,
+            "lat": 13.8,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "ginger",
+          "label": "姜",
+          "parts": [
+            "地下根茎",
+            "叶鞘形成的假茎",
+            "狭长叶"
+          ],
+          "note": "食用部分为有节与芽的地下根茎；地上假茎主要由叶鞘包合，不是木质树干。"
+        },
+        "beats": [
+          {
+            "text": "看姜在土下分枝的根茎，上面有节和芽，地上的狭长叶围成假茎。我们吃的是地下茎，不是根；带芽的种姜还能长成新的植株。",
+            "lon": 92.2,
+            "lat": 26.2,
+            "label": "印度阿萨姆邦",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "地球来到印度阿萨姆邦，官方研究资料记录这里的姜生产。温暖和合适雨季支持生长，但松软土层必须排水，湿润空气不能抵消积水。",
+            "lon": 92.2,
+            "lat": 26.2,
+            "label": "印度阿萨姆邦",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看卡纳塔克邦，姜也被广泛栽培。根茎膨大需要有效供水，种姜健康同样关键；用病姜繁殖或让土壤久湿，都可能造成腐烂损失。",
+            "lon": 75.9,
+            "lat": 13.8,
+            "label": "印度卡纳塔克邦",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "ginger-region1",
+          "cropId": "ginger",
+          "region": "印度阿萨姆邦",
+          "lon": 92.2,
+          "lat": 26.2,
+          "chapterId": "ginger",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.spices.res.in/pages/about-mandate-crops",
+          "sourceScope": "印度香料研究所明确将阿萨姆列为姜生产邦。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "ginger-region2",
+          "cropId": "ginger",
+          "region": "印度卡纳塔克邦",
+          "lon": 75.9,
+          "lat": 13.8,
+          "chapterId": "ginger",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.spices.res.in/pages/about-mandate-crops",
+          "sourceScope": "印度香料研究所明确将卡纳塔克列为姜生产邦。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "cinnamon",
+        "name": "锡兰肉桂",
+        "latin": "Cinnamomum verum",
+        "synonyms": [
+          "Cinnamomum zeylanicum"
+        ],
+        "group": "香辛料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Lauraceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A463752-1",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "热带湿润"
+        ],
+        "uses": [
+          "食用",
+          "调味"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖湿润与深厚排水土壤",
+        "limits": "长旱、浅薄土与根区积水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A463752-1",
+          "https://cinnamon.gov.lk/about-cinnamon/environmental-factors/",
+          "https://www.srilankabusiness.com/pdfs/spices/pcc/ccgi-guide-book-for-farmers-english.pdf",
+          "https://pureceyloncinnamon.edb.gov.lk/wp-content/uploads/2022/05/Cultivation-and-Management-of-Cinnamon.pdf"
+        ]
+      },
+      "profile": {
+        "id": "cinnamon",
+        "summary": "锡兰肉桂原为多年生常绿乔木，商业种植常通过反复采收维持多茎矮灌状。香料主要取自树皮，不能把所有称作桂皮的商品都视为本物种。",
+        "temperatureNote": "偏好温暖的热带环境，凉冷会限制生长。",
+        "water": {
+          "summary": "湿润地区可雨养，较干地区需评估补充灌溉。",
+          "timing": "新梢生长及采收后恢复都依赖有效水分。",
+          "caution": "雨量足不表示地下水位高的地块也适宜。"
+        },
+        "soil": {
+          "texture": "土质范围较宽，深厚的壤土或沙壤土有利。",
+          "drainage": "不宜浅薄、排水不良或长期水位波动的地块。",
+          "phNote": "可在偏酸土生产，酸碱与盐分仍需当地检测。"
+        },
+        "season": {
+          "type": "多年生木本，反复萌蘖并分批采枝剥皮。",
+          "timing": "按降雨、枝条成熟度和树势安排采收。",
+          "explanation": "树形是生长习性与采收制度共同造成。"
+        },
+        "stress": {
+          "cold": "不适合把热带木本直接套用寒冷露地环境。",
+          "heat": "炎热且少雨会加强水分胁迫。",
+          "drought": "长旱会减慢新枝恢复。",
+          "waterlogging": "涝湿与不良通气限制根系。"
+        },
+        "regions": [
+          {
+            "name": "斯里兰卡加勒",
+            "why": "官方农户指南把加勒所在西南沿海列入锡兰肉桂栽培区域。",
+            "caution": "坡地必须同时考虑排水、土层和水土保持。"
+          },
+          {
+            "name": "斯里兰卡马塔拉",
+            "why": "同一指南明确列出马塔拉沿海栽培。",
+            "caution": "同属湿润产区也不表示所有洼地或坡地适合。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "基部萌发新枝使重复采收成为可能。",
+          "practice": "保持更新枝、适当株形并安排水土保持。",
+          "tradeoff": "频繁采收需要恢复时间；陡坡和薄土也会带来侵蚀与管理限制。"
+        },
+        "misconception": "锡兰肉桂香料不是树的果实，而是加工后的树皮；它与中国肉桂不是同一物种。",
+        "sources": [
+          {
+            "title": "Kew POWO：Cinnamomum verum",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A463752-1",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "斯里兰卡肉桂发展部：环境条件",
+            "url": "https://cinnamon.gov.lk/about-cinnamon/environmental-factors/",
+            "supports": "常绿木本、采收形成多茎矮状、温湿、土层、排水与盐分条件。"
+          },
+          {
+            "title": "斯里兰卡出口发展局：锡兰肉桂农户指南",
+            "url": "https://www.srilankabusiness.com/pdfs/spices/pcc/ccgi-guide-book-for-farmers-english.pdf",
+            "supports": "锡兰肉桂沿海栽培带、土壤与管理要求。"
+          },
+          {
+            "title": "斯里兰卡出口发展局：肉桂栽培与管理",
+            "url": "https://pureceyloncinnamon.edb.gov.lk/wp-content/uploads/2022/05/Cultivation-and-Management-of-Cinnamon.pdf",
+            "supports": "加勒与马塔拉栽培、采枝剥皮及与cassia区别；历史数值不作为当前地图阈值。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "cinnamon",
+        "crop": "cinnamon",
+        "group": "香辛料",
+        "title": "锡兰肉桂｜温暖湿润与深厚排水土壤",
+        "lon": 80.3,
+        "lat": 6.2,
+        "subtitle": "锡兰肉桂原为多年生常绿乔木，商业种植常通过反复采收维持多茎矮灌状。香料主要取自树皮，不能把所有称作桂皮的商品都视为本物种。",
+        "shape": "cinnamon",
+        "text": "看锡兰肉桂的叶片和木质枝条，旁边卷起的薄片表示加工后的树皮。它天然可以长成乔木，种植园常靠反复采枝，让植株保持多茎矮形。先到斯里兰卡加勒所在的西南沿海，官方指南记录了肉桂栽培带。温暖湿润帮助新枝生长，但土层要有足够深度，还应排走过多雨水。再看马塔拉，这里也有锡兰肉桂种植。采枝后的恢复需要水分与时间；同叫桂皮的商品可能来自不同物种，不能把一种环境要求套给全部。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A463752-1",
+          "https://cinnamon.gov.lk/about-cinnamon/environmental-factors/",
+          "https://www.srilankabusiness.com/pdfs/spices/pcc/ccgi-guide-book-for-farmers-english.pdf",
+          "https://pureceyloncinnamon.edb.gov.lk/wp-content/uploads/2022/05/Cultivation-and-Management-of-Cinnamon.pdf"
+        ],
+        "labels": [
+          {
+            "text": "斯里兰卡加勒",
+            "lon": 80.3,
+            "lat": 6.2,
+            "kind": "region"
+          },
+          {
+            "text": "斯里兰卡马塔拉",
+            "lon": 80.6,
+            "lat": 6.1,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "cinnamon",
+          "label": "锡兰肉桂",
+          "parts": [
+            "芳香叶片",
+            "萌蘖枝",
+            "剥取的内层树皮"
+          ],
+          "note": "仅代表锡兰肉桂Cinnamomum verum；商业桂皮还可能来自其他肉桂属物种。"
+        },
+        "beats": [
+          {
+            "text": "看锡兰肉桂的叶片和木质枝条，旁边卷起的薄片表示加工后的树皮。它天然可以长成乔木，种植园常靠反复采枝，让植株保持多茎矮形。",
+            "lon": 80.3,
+            "lat": 6.2,
+            "label": "斯里兰卡加勒",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "先到斯里兰卡加勒所在的西南沿海，官方指南记录了肉桂栽培带。温暖湿润帮助新枝生长，但土层要有足够深度，还应排走过多雨水。",
+            "lon": 80.3,
+            "lat": 6.2,
+            "label": "斯里兰卡加勒",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看马塔拉，这里也有锡兰肉桂种植。采枝后的恢复需要水分与时间；同叫桂皮的商品可能来自不同物种，不能把一种环境要求套给全部。",
+            "lon": 80.6,
+            "lat": 6.1,
+            "label": "斯里兰卡马塔拉",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "cinnamon-region1",
+          "cropId": "cinnamon",
+          "region": "斯里兰卡加勒",
+          "lon": 80.3,
+          "lat": 6.2,
+          "chapterId": "cinnamon",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.srilankabusiness.com/pdfs/spices/pcc/ccgi-guide-book-for-farmers-english.pdf",
+          "sourceScope": "斯里兰卡出口发展局农户指南描述尼甘布至马塔拉沿海栽培带，包含加勒地区。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "cinnamon-region2",
+          "cropId": "cinnamon",
+          "region": "斯里兰卡马塔拉",
+          "lon": 80.6,
+          "lat": 6.1,
+          "chapterId": "cinnamon",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.srilankabusiness.com/pdfs/spices/pcc/ccgi-guide-book-for-farmers-english.pdf",
+          "sourceScope": "官方指南明确列出Matara沿海栽培区；点位不是种植面积边界。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "vanilla",
+        "name": "香荚兰",
+        "latin": "Vanilla planifolia",
+        "synonyms": [],
+        "group": "香辛料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Orchidaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A262578-2",
+          "nameStatus": "accepted"
+        },
+        "lifeForm": "藤本",
+        "habitats": [
+          "热带湿润"
+        ],
+        "uses": [
+          "食用",
+          "调味"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖湿润、遮阴与通气基质",
+        "limits": "低温、直射热害和根茎病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A262578-2",
+          "https://edis.ifas.ufl.edu/publication/HS1348/pdf",
+          "https://www.gob.mx/firco/articulos/vainilla-antes-del-extracto-una-bella-orquidea?idiom=es%2F1000",
+          "https://www.kew.org/plants/vanilla"
+        ]
+      },
+      "profile": {
+        "id": "vanilla",
+        "summary": "香荚兰是有肉质茎叶的攀援兰科植物，根可附着支撑物，也可接触地面基质。商品香草香气来自果实后续加工，适合生长并不自动意味着能生产香料。",
+        "temperatureNote": "喜温暖湿润，低温会造成寒害。",
+        "water": {
+          "summary": "基质需保湿但通气，不能长期饱和。",
+          "timing": "新扦插株建立及长旱期尤其要关注水分。",
+          "caution": "短暂偏干可与开花节律有关，不等于应让整季缺水。"
+        },
+        "soil": {
+          "texture": "疏松、富有机质的基质利于根系。",
+          "drainage": "覆盖层与轻坡可帮助避免积水。",
+          "phNote": "酸碱和基质状况需按当地栽培条件判断。"
+        },
+        "season": {
+          "type": "多年生攀援兰，成熟藤蔓季节性开花。",
+          "timing": "单朵花开放时间短，果实成熟还需数月。",
+          "explanation": "营养生长、授粉、采收与加工是独立环节。"
+        },
+        "stress": {
+          "cold": "冷凉与霜冻限制露地种植。",
+          "heat": "直射强光和热旱可伤植株。",
+          "drought": "短时耐失水不等于商业生产可长期断水。",
+          "waterlogging": "积水可加重根茎腐烂。"
+        },
+        "regions": [
+          {
+            "name": "马达加斯加",
+            "why": "UF/IFAS明确记载马达加斯加商业香草生产，本条指主要商业种香荚兰。",
+            "caution": "国家生产资料不验证这个示意坐标的具体园地。"
+          },
+          {
+            "name": "墨西哥韦拉克鲁斯",
+            "why": "墨西哥政府资料明确介绍韦拉克鲁斯香草栽培及其生长条件。",
+            "caution": "原产区域的种植也需要关注授粉效率和病害。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "气生根帮助攀附，地面根吸收水分与养分。",
+          "practice": "提供支撑及适当遮阴，商业生产常需人工授粉。",
+          "tradeoff": "人工授粉和后续加工需要技术与持续劳动。"
+        },
+        "misconception": "香草豆不是豆类；地理上能长藤，仍可能因为授粉和加工条件而不能得到商品香料。",
+        "sources": [
+          {
+            "title": "Kew POWO：Vanilla planifolia",
+            "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A262578-2",
+            "supports": "核对接受学名、科及原生/引入范围；该范围不用于证明某个栽培地点或适生等级。"
+          },
+          {
+            "title": "UF/IFAS：香荚兰栽培",
+            "url": "https://edis.ifas.ufl.edu/publication/HS1348/pdf",
+            "supports": "V. planifolia形态、根、蒴果、马达加斯加生产、寒害、基质、授粉与栽培环节。"
+          },
+          {
+            "title": "墨西哥政府：香草首先是一株兰花",
+            "url": "https://www.gob.mx/firco/articulos/vainilla-antes-del-extracto-una-bella-orquidea?idiom=es%2F1000",
+            "supports": "韦拉克鲁斯栽培及支撑、遮阴、腐殖质和排水条件。"
+          },
+          {
+            "title": "Kew：香荚兰",
+            "url": "https://www.kew.org/plants/vanilla",
+            "supports": "兰科攀援植物、香荚兰的花果及人工授粉背景。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "vanilla",
+        "crop": "vanilla",
+        "group": "香辛料",
+        "title": "香荚兰｜温暖湿润、遮阴与通气基质",
+        "lon": 49.2,
+        "lat": -16,
+        "subtitle": "香荚兰是有肉质茎叶的攀援兰科植物，根可附着支撑物，也可接触地面基质。商品香草香气来自果实后续加工，适合生长并不自动意味着能生产香料。",
+        "shape": "vanilla",
+        "text": "看香荚兰肉质的藤茎和气生根，它会沿支撑物攀爬，开出兰花。所谓香草豆其实是长蒴果，不是豆类，浓郁香气还要经过采后加工。地球转到马达加斯加，这里有商业香草生产。温暖湿润配合适度遮阴支持藤蔓生长，但根部仍要通气，积水会加重根茎病害风险。再看墨西哥韦拉克鲁斯的香草种植。能长藤还不够，花开放时间短，商业生产常需人工授粉；果实成熟和加工也都需要时间与技术。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A262578-2",
+          "https://edis.ifas.ufl.edu/publication/HS1348/pdf",
+          "https://www.gob.mx/firco/articulos/vainilla-antes-del-extracto-una-bella-orquidea?idiom=es%2F1000",
+          "https://www.kew.org/plants/vanilla"
+        ],
+        "labels": [
+          {
+            "text": "马达加斯加",
+            "lon": 49.2,
+            "lat": -16,
+            "kind": "region"
+          },
+          {
+            "text": "墨西哥韦拉克鲁斯",
+            "lon": -97.2,
+            "lat": 20.4,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "vanilla",
+          "label": "香荚兰",
+          "parts": [
+            "肉质攀援茎",
+            "兰花与气生根",
+            "长蒴果"
+          ],
+          "note": "所谓香草豆是兰科植物的蒴果，不是豆科荚果；花与果不同阶段并置。"
+        },
+        "beats": [
+          {
+            "text": "看香荚兰肉质的藤茎和气生根，它会沿支撑物攀爬，开出兰花。所谓香草豆其实是长蒴果，不是豆类，浓郁香气还要经过采后加工。",
+            "lon": 49.2,
+            "lat": -16,
+            "label": "马达加斯加",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "地球转到马达加斯加，这里有商业香草生产。温暖湿润配合适度遮阴支持藤蔓生长，但根部仍要通气，积水会加重根茎病害风险。",
+            "lon": 49.2,
+            "lat": -16,
+            "label": "马达加斯加",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "再看墨西哥韦拉克鲁斯的香草种植。能长藤还不够，花开放时间短，商业生产常需人工授粉；果实成熟和加工也都需要时间与技术。",
+            "lon": -97.2,
+            "lat": 20.4,
+            "label": "墨西哥韦拉克鲁斯",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "vanilla-region1",
+          "cropId": "vanilla",
+          "region": "马达加斯加",
+          "lon": 49.2,
+          "lat": -16,
+          "chapterId": "vanilla",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://edis.ifas.ufl.edu/publication/HS1348/pdf",
+          "sourceScope": "UF/IFAS介绍主要商业种V. planifolia并列出马达加斯加生产；点位只示意该国东北部。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        },
+        {
+          "id": "vanilla-region2",
+          "cropId": "vanilla",
+          "region": "墨西哥韦拉克鲁斯",
+          "lon": -97.2,
+          "lat": 20.4,
+          "chapterId": "vanilla",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "cultivation_region",
+          "sourceUrl": "https://www.gob.mx/firco/articulos/vainilla-antes-del-extracto-una-bella-orquidea?idiom=es%2F1000",
+          "sourceScope": "墨西哥政府农业资料明确列出Veracruz的香草栽培；不把原生范围当作农田范围。坐标为编辑选择的区域中心示意，不是农田或观测坐标。",
+          "coordinatePrecision": "editorial-region-center"
+        }
+      ]
+    }
+  ]
+}

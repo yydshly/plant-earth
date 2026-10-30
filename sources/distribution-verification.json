@@ -1,0 +1,137 @@
+{
+  "catalogueCount": 140,
+  "statusCounts": {
+    "available": 137,
+    "unsupported": 3
+  },
+  "nameMatchCounts": {
+    "exact-accepted": 133,
+    "exact-synonym-to-accepted": 4,
+    "unmatched": 3
+  },
+  "recordCount": 11754,
+  "geometryCount": 369,
+  "geometryRepairs": [
+    {
+      "code": "AND",
+      "sourceIssue": "Nested shells[92.7826446199999 12.2881051556348]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "BAN",
+      "sourceIssue": "Nested shells[90.516974 22.1622064951172]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "BIS",
+      "sourceIssue": "Nested shells[149.053574 -6.09419350488282]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "BOR",
+      "sourceIssue": "Nested shells[118.51054462 4.52920515563474]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "CHS",
+      "sourceIssue": "Nested shells[114.31414462 22.3428051556347]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "GER",
+      "sourceIssue": "Nested shells[11.013374 54.3775064951172]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "GRC",
+      "sourceIssue": "Nested shells[25.399174 36.3944064951172]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "GST",
+      "sourceIssue": "Nested shells[55.6174446199999 25.5700051556347]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "JAP",
+      "sourceIssue": "Nested shells[129.83334462 33.3411051556347]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "LAB",
+      "sourceIssue": "Nested shells[-55.778026 53.2897064951172]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "NCA",
+      "sourceIssue": "Nested shells[-77.8233337402344 34.1638793945312]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "NFL",
+      "sourceIssue": "Nested shells[-55.9939553800001 51.2003051556348]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "NOR",
+      "sourceIssue": "Nested shells[5.778374 58.9475064951172]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "NUN",
+      "sourceIssue": "Nested shells[-67.572826 62.1297064951172]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "NWC",
+      "sourceIssue": "Nested shells[164.285522460938 -20.2586135864258]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "NWG",
+      "sourceIssue": "Nested shells[130.66974462 -0.328894844365252]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "PHI",
+      "sourceIssue": "Nested shells[126.236674 9.00930649511717]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "VEN",
+      "sourceIssue": "Nested shells[-61.206626 9.58580649511717]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    },
+    {
+      "code": "VIE",
+      "sourceIssue": "Nested shells[106.948074 20.9364064951172]",
+      "operation": "polygon union removes redundant overlapping nested shells"
+    }
+  ],
+  "validOutputGeometryCount": 369,
+  "regionChineseNameCount": 369,
+  "unmappedRegionCodes": [],
+  "unmatched": [
+    {
+      "cropId": "sphagnum",
+      "scientificName": "Sphagnum palustre",
+      "candidateCount": 0,
+      "reason": "no-exact-match"
+    },
+    {
+      "cropId": "liverwort",
+      "scientificName": "Marchantia polymorpha",
+      "candidateCount": 0,
+      "reason": "no-exact-match"
+    },
+    {
+      "cropId": "hornwort",
+      "scientificName": "Anthoceros agrestis",
+      "candidateCount": 0,
+      "reason": "no-exact-match"
+    }
+  ],
+  "sourceArchiveSha256": "d32ea2b3a85e489b14e83bcc9eae7274532e1d113753f7be290d4b2dfde573fa",
+  "sourceVersion": "16",
+  "sourceExtractedAt": "2026-06-04"
+}

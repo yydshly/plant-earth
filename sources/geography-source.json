@@ -1,0 +1,23 @@
+{
+  "source_module": "https://esm.sh/@d3-maps/atlas@1.0.0/world/countries/countries-110m",
+  "source_dataset": "Natural Earth Admin 0 Countries, 1:110 million",
+  "primary_source": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+  "license": "Natural Earth data public domain; @d3-maps/atlas package MIT",
+  "license_source": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "conversion": "topojson-client@3.1.0 feature(world, world.objects.features); coordinates rounded to 2 decimal places",
+  "feature_count": 177,
+  "geojson_file": "world-110m.json",
+  "geojson_bytes": 177308,
+  "topology_file": "world-topology.json",
+  "topology_bytes": 110733,
+  "validation": "D3 geoArea: all features below 2*pi steradians; CHN correctly contains [116.4,39.9]; original winding preserved.",
+  "notes": [
+    "Geographic coordinates are [longitude,latitude], EPSG:4326/WGS84-style degrees.",
+    "Use d3.geoOrthographic or another d3-geo projection; do not draw longitude/latitude as Cartesian canvas coordinates.",
+    "Natural Earth uses de facto borders by default. Boundaries are generalized at 110m scale and omit many small islands.",
+    "177 polygon features are not a complete inventory of all sovereign states or territories.",
+    "France geometry includes distant territories: computed country centroid may not be a sensible camera location.",
+    "Russia/Fiji/Antarctica contain antimeridian features: let d3-geo perform spherical clipping rather than connecting raw planar vertices.",
+    "GeoJSON properties.id is the atlas's adm0A3 identifier; usually ISO3. Preserve it as a string without numerical conversion."
+  ]
+}

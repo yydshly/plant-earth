@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "chapterCount": 141,
+  "plantCount": 140,
+  "globalAudioSeconds": 7674.516,
+  "globalAudioBytes": 123034212,
+  "minChapterSeconds": 46.296,
+  "maxChapterSeconds": 73.332,
+  "totalCharacters": 34301,
+  "providerCueBoundaryBeats": 254,
+  "withinCueEstimatedBeats": 169,
+  "evidenceChecks": 1584,
+  "segmentsHash": "2d1113d818a8e993999f5ba0c0ddee7f4372c2a0c4b176ca1b5d7346c7536c75",
+  "audioStatusCounts": {
+    "ready": 141
+  },
+  "preservedOriginalPlantRecordings": 100,
+  "versionedIntroduction": "global-intro-v2",
+  "connectionRecovery": "Seven failed connections across the two new packs were reviewed individually, each retried once; receipts retained in audio/*.attempt-review.json. Billing for lost responses is unknown. No completed recording was regenerated.",
+  "scope": "Catalog entries include cultivated groups and hybrids; 140 entries are not 140 independent species."
+}

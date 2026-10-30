@@ -1,0 +1,6348 @@
+{
+  "passed": true,
+  "chapterCount": 141,
+  "checkCount": 1584,
+  "productionChapters": 92,
+  "botanicalAvailableChapters": 45,
+  "unsupportedChapters": 3,
+  "segmentsHash": "2d1113d818a8e993999f5ba0c0ddee7f4372c2a0c4b176ca1b5d7346c7536c75",
+  "limits": "Cross-checks values and geographic actions against source snapshots, not independent new taxonomic research or listening QA.",
+  "checks": [
+    {
+      "label": "141 unique chapters",
+      "passed": true
+    },
+    {
+      "label": "All and only the 140 catalogue plant IDs",
+      "passed": true
+    },
+    {
+      "label": "global-intro-v2: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-intro-v2: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-rice: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-rice: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-rice: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-rice: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-rice: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-rice: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-rice: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-rice: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-rice: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-rice: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-rice: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-rice: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-rice: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-wheat: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-maize: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-maize: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-maize: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-maize: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-maize: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-maize: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-maize: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-maize: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-maize: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-maize: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-maize: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-maize: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-barley: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-barley: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-barley: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-barley: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-barley: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-barley: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-barley: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-barley: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-barley: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-barley: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-barley: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-barley: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-oats: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-oats: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-oats: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-oats: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-oats: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-oats: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-oats: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-oats: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-oats: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-oats: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-oats: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-oats: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-oats: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-rye: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-rye: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-rye: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-rye: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-rye: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-rye: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-rye: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-rye: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-rye: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-rye: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-rye: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-rye: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-rye: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-sorghum: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-foxtail: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-pearl: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-potato: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-potato: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-potato: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-potato: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-potato: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-potato: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-potato: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-potato: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-potato: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-potato: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-potato: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-potato: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cassava: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-sweetpotato: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-soybean: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-peanut: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-sunflower: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-rapeseed: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-chickpea: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-lentil: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cowpea: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-cotton: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-sugarcane: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-sugarbeet: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-tea: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-tea: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-tea: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-tea: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-tea: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-tea: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-tea: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-tea: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-tea: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-tea: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-tea: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-tea: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-arabica: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-robusta: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cocoa: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-oilpalm: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-banana: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-banana: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-banana: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-banana: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-banana: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-banana: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-banana: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-banana: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-banana: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-banana: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-banana: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-banana: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-banana: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-coconut: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-grape: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-grape: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-grape: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-grape: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-grape: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-grape: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-grape: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-grape: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-grape: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-grape: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-grape: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-grape: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-olive: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-olive: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-olive: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-olive: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-olive: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-olive: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-olive: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-olive: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-olive: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-olive: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-olive: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-olive: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-citrus: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-apple: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-apple: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-apple: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-apple: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-apple: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-apple: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-apple: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-apple: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-apple: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-apple: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-apple: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-apple: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-date: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-date: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-date: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-date: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-date: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-date: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-date: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-date: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-date: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-date: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-date: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-date: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-tomato: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-pepper: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-eggplant: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cucumber: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pumpkin: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-watermelon: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-melon: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-melon: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-melon: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-melon: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-melon: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-melon: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-melon: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-melon: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-melon: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-melon: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-melon: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-melon: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cabbage: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-carrot: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-onion: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-onion: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-onion: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-onion: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-onion: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-onion: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-onion: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-onion: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-onion: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-onion: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-onion: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-onion: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-onion: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-onion: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-garlic: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-lettuce: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-spinach: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pea: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pea: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pea: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pea: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pea: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pea: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pea: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pea: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pea: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pea: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pea: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pea: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-sesame: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-buckwheat: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-quinoa: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-flax: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-flax: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-flax: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-flax: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-flax: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-flax: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-flax: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-flax: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-flax: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-flax: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-flax: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-flax: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-rubber: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-mango: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-mango: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-mango: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-mango: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-mango: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-mango: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-mango: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-mango: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-mango: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-mango: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-mango: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-mango: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-mango: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pineapple: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-avocado: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-blackpepper: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-ginger: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-cinnamon: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-vanilla: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-englishoak: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-silverbirch: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-sugarmaple: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-baobab: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-eucalyptus: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-redmangrove: coastal habitat differs from filled terrestrial region",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-bamboo: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-saguaro: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-pricklypear: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-agave: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-agave: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-agave: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-agave: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-agave: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-agave: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-agave: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-agave: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-agave: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-aloe: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-lotus: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-waterlily: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-eelgrass: coastal habitat differs from filled terrestrial region",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-duckweed: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-lavender: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-rosemary: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-dogrose: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-tulip: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-orchid: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-venusflytrap: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-sundew: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-edelweiss: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-ginkgo: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-scotspine: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-norwayspruce: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-coastredwood: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-dawnredwood: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-cedar: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-cycad: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-welwitschia: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-treefern: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-birdsnestfern: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-maidenhair: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-horsetail: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-clubmoss: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-resurrection: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-sphagnum: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sphagnum: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sphagnum: unsupported range never gets an invented geographic anchor",
+      "passed": true
+    },
+    {
+      "label": "global-sphagnum: missing is not absence",
+      "passed": true
+    },
+    {
+      "label": "global-liverwort: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-liverwort: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-liverwort: unsupported range never gets an invented geographic anchor",
+      "passed": true
+    },
+    {
+      "label": "global-liverwort: missing is not absence",
+      "passed": true
+    },
+    {
+      "label": "global-hornwort: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-hornwort: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-hornwort: unsupported range never gets an invented geographic anchor",
+      "passed": true
+    },
+    {
+      "label": "global-hornwort: missing is not absence",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-waterchestnut: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-teff: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-teff: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-teff: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-teff: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-teff: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-teff: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-teff: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-teff: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-teff: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-fonio: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-proso: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-proso: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-proso: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-proso: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-proso: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-proso: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-proso: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-proso: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-proso: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-proso: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-proso: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-proso: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-proso: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-amaranth: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-mungbean: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-adzuki: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pigeonpea: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-faba: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-faba: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-faba: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-faba: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-faba: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-faba: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-faba: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-faba: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-faba: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-faba: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-faba: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-faba: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-faba: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-commonbean: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-lupin: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-taro: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-taro: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-taro: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-taro: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-taro: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-taro: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-taro: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-taro: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-taro: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-taro: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-taro: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-taro: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-yam: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-yam: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-yam: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-yam: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-yam: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-yam: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-yam: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-yam: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-yam: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-yam: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-yam: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-yam: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-yam: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-yacon: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-jerusalemartichoke: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-okra: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-okra: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-okra: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-okra: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-okra: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-okra: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-okra: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-okra: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-okra: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-okra: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-okra: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-okra: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-broccoli: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-cauliflower: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-beetroot: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-radish: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-radish: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-radish: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-radish: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-radish: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-radish: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-radish: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-radish: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-radish: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-radish: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-almond: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-almond: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-almond: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-almond: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-almond: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-almond: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-almond: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-almond: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-almond: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-almond: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-almond: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-almond: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-almond: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-walnut: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cashew: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pistachio: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-hazelnut: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-chestnut: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-pear: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-pear: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-pear: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-pear: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-pear: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-pear: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-pear: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-pear: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-pear: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-pear: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-pear: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-pear: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-pear: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-peach: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-peach: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-peach: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-peach: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-peach: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-peach: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-peach: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-peach: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-peach: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-peach: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-peach: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-peach: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-peach: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-plum: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-plum: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-plum: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-plum: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-plum: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-plum: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-plum: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-plum: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-plum: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-plum: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-plum: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-plum: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-plum: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-cherry: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-apricot: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-strawberry: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-blueberry: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-raspberry: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-papaya: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-guava: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-guava: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-guava: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-guava: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-guava: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-guava: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-guava: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-guava: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-guava: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-guava: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-guava: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-guava: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-guava: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-guava: cultigen context explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-sisal: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-jute: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-jute: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-jute: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-jute: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-jute: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-jute: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-jute: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-jute: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-jute: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-jute: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-jute: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-jute: broader commodity is explicitly spoken",
+      "passed": true
+    },
+    {
+      "label": "global-jute: environmental switch retains source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: exact filtered WCVP region counts",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: selected region is in source range",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: regional identity preserved",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: cartographic anchor preserved",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: introduced not substituted for cultivation",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: coarse region is not continuous habitat",
+      "passed": true
+    },
+    {
+      "label": "global-alfalfa: exact source climate field",
+      "passed": true
+    },
+    {
+      "label": "global-clove: exact three-beat text",
+      "passed": true
+    },
+    {
+      "label": "global-clove: every action has sources",
+      "passed": true
+    },
+    {
+      "label": "global-clove: independent FAO World total",
+      "passed": true
+    },
+    {
+      "label": "global-clove: positive country count",
+      "passed": true
+    },
+    {
+      "label": "global-clove: same source year",
+      "passed": true
+    },
+    {
+      "label": "global-clove: same commodity item",
+      "passed": true
+    },
+    {
+      "label": "global-clove: commodity scope preserved",
+      "passed": true
+    },
+    {
+      "label": "global-clove: maximum source-country record",
+      "passed": true
+    },
+    {
+      "label": "global-clove: exact provenance flag",
+      "passed": true
+    },
+    {
+      "label": "global-clove: spoken country maps to the same ISO3",
+      "passed": true
+    },
+    {
+      "label": "global-clove: share uses source World denominator",
+      "passed": true
+    },
+    {
+      "label": "global-clove: environmental switch retains source climate field",
+      "passed": true
+    }
+  ]
+}

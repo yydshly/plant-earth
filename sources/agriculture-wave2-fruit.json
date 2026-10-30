@@ -1,0 +1,3839 @@
+{
+  "metadata": {
+    "version": 1,
+    "checkedAt": "2026-10-29",
+    "entryCount": 20,
+    "scope": "果树、坚果、纤维与饲草代表条目；定性环境资料与真实植物区系地区状态；不建立新适生模型。",
+    "nameScope": "按列明学名界定；人工杂交和栽培起源条目单独说明。",
+    "geographySource": "Kew WCVP v16 official cached names/distribution; region centers from WGSRPD polygons",
+    "narrationStatus": "新增教学脚本；录音状态由播放清单单独决定。"
+  },
+  "entries": [
+    {
+      "plant": {
+        "id": "almond",
+        "name": "扁桃",
+        "latin": "Prunus amygdalus",
+        "synonyms": [
+          "Prunus dulcis"
+        ],
+        "group": "坚果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60439867-2",
+          "nameStatus": "accepted",
+          "nameId": "2917141"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "温带",
+          "地中海气候"
+        ],
+        "uses": [
+          "食用",
+          "油料"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "充足日照、排水土层与合适的花期",
+        "limits": "晚霜、根区长期过湿与授粉不足",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60439867-2",
+          "https://extension.usu.edu/yardandgarden/research/almonds-in-the-home-garden"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "WCVP v16接受名为Prunus amygdalus；Prunus dulcis为常见旧名，须与指向甜樱桃的同名记录区分。"
+      },
+      "profile": {
+        "id": "almond",
+        "summary": "扁桃与桃同属李属，食用部分是硬核里的种仁。它是落叶果树，晴暖的生长季有利于成熟，开花时的低温却可能使当年无果。",
+        "temperatureNote": "冬季休眠与春季开花需要分开看；植株能越冬，也不保证早开的花能避开霜冻。",
+        "water": {
+          "summary": "成树仍需根区供水；不应把适合干爽天气理解成无需水分。",
+          "timing": "建园初期及果实发育阶段要核对水源，避免根团干枯。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "较深且通气的土层便于根系发育。",
+          "drainage": "长期湿土不利于扁桃，低洼积水处风险较高。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "落叶多年生；先开花，再完成果实与种仁发育。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "品种、砧木及授粉搭配会改变成活、花期和结果表现。"
+        },
+        "stress": {
+          "cold": "早花易受春霜影响。",
+          "heat": "晴暖不代表热量越高越好，仍需当地管理。",
+          "drought": "缺水可限制生长和结果。",
+          "waterlogging": "不耐长期湿土。"
+        },
+        "regions": [
+          {
+            "name": "外高加索",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的来源范围相关记录。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "西班牙",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "核果外层成熟变干，食用的是内部种仁。",
+          "practice": "按当地花期、授粉品种和砧木条件选材。",
+          "tradeoff": "树体存活、正常开花与稳定收获是三个不同门槛。"
+        },
+        "misconception": "超市里的甜扁桃，不能代表所有野生或观赏“杏仁”。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Prunus amygdalus",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60439867-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "USU Extension：扁桃栽培",
+            "url": "https://extension.usu.edu/yardandgarden/research/almonds-in-the-home-garden",
+            "supports": "扁桃的核果与种仁、日照、排水、花期霜冻、砧木及授粉；犹他州建议不能直接推广到全球"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "almond",
+        "crop": "almond",
+        "group": "坚果",
+        "title": "扁桃｜充足日照、排水土层与合适的花期",
+        "lon": 46.346,
+        "lat": 41.068,
+        "subtitle": "扁桃与桃同属李属，食用部分是硬核里的种仁。它是落叶果树，晴暖的生长季有利于成熟，开花时的低温却可能使当年无果。",
+        "shape": "almond",
+        "text": "扁桃与桃同属李属，食用部分是硬核里的种仁。它是落叶果树，晴暖的生长季有利于成熟，开花时的低温却可能使当年无果。形态上注意落叶树冠、核果外壳、食用种仁。小模型只示意生长类型，请配合形态文字观察。把地球转到外高加索，再与西班牙比较。Kew资料分别记录为来源范围相关记录和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。冬季休眠与春季开花需要分开看；植株能越冬，也不保证早开的花能避开霜冻。成树仍需根区供水；不应把适合干爽天气理解成无需水分。长期湿土不利于扁桃，低洼积水处风险较高。超市里的甜扁桃，不能代表所有野生或观赏“杏仁”。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60439867-2",
+          "https://extension.usu.edu/yardandgarden/research/almonds-in-the-home-garden"
+        ],
+        "labels": [
+          {
+            "text": "外高加索",
+            "lon": 46.346,
+            "lat": 41.068,
+            "kind": "region"
+          },
+          {
+            "text": "西班牙",
+            "lon": -3.494,
+            "lat": 39.848,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "almond",
+          "label": "扁桃",
+          "parts": [
+            "落叶树冠",
+            "核果外壳",
+            "食用种仁"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "扁桃与桃同属李属，食用部分是硬核里的种仁。它是落叶果树，晴暖的生长季有利于成熟，开花时的低温却可能使当年无果。形态上注意落叶树冠、核果外壳、食用种仁。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 46.346,
+            "lat": 41.068,
+            "label": "外高加索",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到外高加索，再与西班牙比较。Kew资料分别记录为来源范围相关记录和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 46.346,
+            "lat": 41.068,
+            "label": "外高加索",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "冬季休眠与春季开花需要分开看；植株能越冬，也不保证早开的花能避开霜冻。成树仍需根区供水；不应把适合干爽天气理解成无需水分。长期湿土不利于扁桃，低洼积水处风险较高。超市里的甜扁桃，不能代表所有野生或观赏“杏仁”。",
+            "lon": -3.494,
+            "lat": 39.848,
+            "label": "西班牙",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "almond-region1",
+          "cropId": "almond",
+          "region": "外高加索",
+          "lon": 46.346,
+          "lat": 41.068,
+          "chapterId": "almond",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60439867-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2668558；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "TCS"
+        },
+        {
+          "id": "almond-region2",
+          "cropId": "almond",
+          "region": "西班牙",
+          "lon": -3.494,
+          "lat": 39.848,
+          "chapterId": "almond",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60439867-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2668565；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "SPA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "walnut",
+        "name": "核桃",
+        "latin": "Juglans regia",
+        "synonyms": [],
+        "group": "坚果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Juglandaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:442427-1",
+          "nameStatus": "accepted",
+          "nameId": "2331747"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用",
+          "油料",
+          "木材"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "日照、深厚通气土层与生长季供水",
+        "limits": "霜洼、限制根系的硬层与极端高温",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:442427-1",
+          "https://extension.oregonstate.edu/catalog/em-8907-growing-walnuts-oregon"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "walnut",
+        "summary": "这里的核桃指Juglans regia，不包含全部胡桃属物种。它是温带落叶乔木，深厚土层既提供根系空间，也能缓冲生长季的水分变化。",
+        "temperatureNote": "需考虑春季霜冻和夏季高温；在特定发育阶段，热浪可能灼伤青皮或妨碍种仁品质。",
+        "water": {
+          "summary": "深土有助于储水，但不能消除持续干旱的影响。",
+          "timing": "树冠扩大、种仁发育时仍需核实根区有效水分。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "深厚土层比单看表土肥力更重要；浅岩层和密实底土会限根。",
+          "drainage": "高水位和紧实底层降低通气，表土看似干燥也可能有问题。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生落叶乔木，经历休眠、展叶、果实发育与成熟。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "当地品种、砧木及雄雌花期匹配会影响产量。"
+        },
+        "stress": {
+          "cold": "低洼冷空气汇集可增加霜害。",
+          "heat": "高温可伤果皮与种仁。",
+          "drought": "深根不等于不受缺水限制。",
+          "waterlogging": "根区长期缺氧限制生长。"
+        },
+        "regions": [
+          {
+            "name": "伊朗",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "中国东南部",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "较大的多年生树冠依赖广泛根系和稳定的土壤资源。",
+          "practice": "检查土层剖面、排水与冷空气流向，再选择园址。",
+          "tradeoff": "适合长树的地点，不一定适合每年稳定结仁。"
+        },
+        "misconception": "本条不是美洲黑核桃；不同胡桃属物种不能共用全部耐受结论。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Juglans regia",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:442427-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "OSU Extension：俄勒冈核桃栽培",
+            "url": "https://extension.oregonstate.edu/catalog/em-8907-growing-walnuts-oregon",
+            "supports": "Juglans regia的日照、深厚排水土层、霜洼与高温灼伤；区域栽培建议"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "walnut",
+        "crop": "walnut",
+        "group": "坚果",
+        "title": "核桃｜日照、深厚通气土层与生长季供水",
+        "lon": 53.74,
+        "lat": 32.683,
+        "subtitle": "这里的核桃指Juglans regia，不包含全部胡桃属物种。它是温带落叶乔木，深厚土层既提供根系空间，也能缓冲生长季的水分变化。",
+        "shape": "walnut",
+        "text": "这里的核桃指Juglans regia，不包含全部胡桃属物种。它是温带落叶乔木，深厚土层既提供根系空间，也能缓冲生长季的水分变化。形态上注意复叶、青皮果实、坚硬内壳。小模型只示意生长类型，请配合形态文字观察。把地球转到伊朗，再与中国东南部比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。需考虑春季霜冻和夏季高温；在特定发育阶段，热浪可能灼伤青皮或妨碍种仁品质。深土有助于储水，但不能消除持续干旱的影响。高水位和紧实底层降低通气，表土看似干燥也可能有问题。本条不是美洲黑核桃；不同胡桃属物种不能共用全部耐受结论。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:442427-1",
+          "https://extension.oregonstate.edu/catalog/em-8907-growing-walnuts-oregon"
+        ],
+        "labels": [
+          {
+            "text": "伊朗",
+            "lon": 53.74,
+            "lat": 32.683,
+            "kind": "region"
+          },
+          {
+            "text": "中国东南部",
+            "lon": 115.231,
+            "lat": 28.304,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "walnut",
+          "label": "核桃",
+          "parts": [
+            "复叶",
+            "青皮果实",
+            "坚硬内壳"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "这里的核桃指Juglans regia，不包含全部胡桃属物种。它是温带落叶乔木，深厚土层既提供根系空间，也能缓冲生长季的水分变化。形态上注意复叶、青皮果实、坚硬内壳。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 53.74,
+            "lat": 32.683,
+            "label": "伊朗",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到伊朗，再与中国东南部比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 53.74,
+            "lat": 32.683,
+            "label": "伊朗",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "需考虑春季霜冻和夏季高温；在特定发育阶段，热浪可能灼伤青皮或妨碍种仁品质。深土有助于储水，但不能消除持续干旱的影响。高水位和紧实底层降低通气，表土看似干燥也可能有问题。本条不是美洲黑核桃；不同胡桃属物种不能共用全部耐受结论。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "walnut-region1",
+          "cropId": "walnut",
+          "region": "伊朗",
+          "lon": 53.74,
+          "lat": 32.683,
+          "chapterId": "walnut",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:442427-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 4196718；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "IRN"
+        },
+        {
+          "id": "walnut-region2",
+          "cropId": "walnut",
+          "region": "中国东南部",
+          "lon": 115.231,
+          "lat": 28.304,
+          "chapterId": "walnut",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:442427-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 2274435；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "CHS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "cashew",
+        "name": "腰果",
+        "latin": "Anacardium occidentale",
+        "synonyms": [],
+        "group": "坚果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Anacardiaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:319068-2",
+          "nameStatus": "accepted",
+          "nameId": "2635912"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "热带",
+          "有旱季的热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "无霜温暖、日照与排水",
+        "limits": "冻结低温、洪涝与果期缺水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:319068-2",
+          "https://ask.ifas.ufl.edu/publication/HS377"
+        ],
+        "genericShape": "citrus",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "cashew",
+        "summary": "腰果是热带常绿乔木，弯曲的真果位于膨大果梗形成的“腰果苹果”外侧。它适应有旱季的热带，但坐果和生长仍依赖水分。",
+        "temperatureNote": "对霜冻敏感，不能依据夏季炎热就判断一个冬冷地区适合露地栽培。",
+        "water": {
+          "summary": "成树有一定耐旱能力，坐果和果实发育时水分充足更有利于生产。",
+          "timing": "雨量在一年中的分配比单一年雨量更能说明开花与结果条件。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "可在多种土壤上栽培，幼树根团应避免移栽损伤。",
+          "drainage": "选择暴雨后能排水的地点，长期积水不利于根系。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "常绿多年生；开花、真果与腰果苹果成熟存在先后。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "品种和季节改变果形与采收时期。"
+        },
+        "stress": {
+          "cold": "不耐霜冻。",
+          "heat": "温暖有利生长，仍需水分配合。",
+          "drought": "耐旱生存不等于缺水时丰产。",
+          "waterlogging": "洪涝会损根。"
+        },
+        "regions": [
+          {
+            "name": "巴西东北部",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "印度",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "膨大的果梗与外侧真果承担不同结构功能。",
+          "practice": "按旱雨季安排幼树建立，并保持根团完整。",
+          "tradeoff": "低投入下存活与稳定商品产量的要求不同。"
+        },
+        "misconception": "“腰果苹果”不是包住腰果仁的普通苹果状果实。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Anacardium occidentale",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:319068-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UF/IFAS：腰果苹果与腰果树",
+            "url": "https://ask.ifas.ufl.edu/publication/HS377",
+            "supports": "季节性干燥的热带气候、无霜要求、坐果供水及排涝；果实结构"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "cashew",
+        "crop": "cashew",
+        "group": "坚果",
+        "title": "腰果｜无霜温暖、日照与排水",
+        "lon": -41.131,
+        "lat": -9.639,
+        "subtitle": "腰果是热带常绿乔木，弯曲的真果位于膨大果梗形成的“腰果苹果”外侧。它适应有旱季的热带，但坐果和生长仍依赖水分。",
+        "shape": "cashew",
+        "text": "腰果是热带常绿乔木，弯曲的真果位于膨大果梗形成的“腰果苹果”外侧。它适应有旱季的热带，但坐果和生长仍依赖水分。形态上注意常绿树冠、膨大果梗、外侧弯曲真果。小模型只示意生长类型，请配合形态文字观察。把地球转到巴西东北部，再与印度比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。对霜冻敏感，不能依据夏季炎热就判断一个冬冷地区适合露地栽培。成树有一定耐旱能力，坐果和果实发育时水分充足更有利于生产。选择暴雨后能排水的地点，长期积水不利于根系。“腰果苹果”不是包住腰果仁的普通苹果状果实。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:319068-2",
+          "https://ask.ifas.ufl.edu/publication/HS377"
+        ],
+        "labels": [
+          {
+            "text": "巴西东北部",
+            "lon": -41.131,
+            "lat": -9.639,
+            "kind": "region"
+          },
+          {
+            "text": "印度",
+            "lon": 79.789,
+            "lat": 20.375,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "cashew",
+          "label": "腰果",
+          "parts": [
+            "常绿树冠",
+            "膨大果梗",
+            "外侧弯曲真果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "腰果是热带常绿乔木，弯曲的真果位于膨大果梗形成的“腰果苹果”外侧。它适应有旱季的热带，但坐果和生长仍依赖水分。形态上注意常绿树冠、膨大果梗、外侧弯曲真果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": -41.131,
+            "lat": -9.639,
+            "label": "巴西东北部",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到巴西东北部，再与印度比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": -41.131,
+            "lat": -9.639,
+            "label": "巴西东北部",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "对霜冻敏感，不能依据夏季炎热就判断一个冬冷地区适合露地栽培。成树有一定耐旱能力，坐果和果实发育时水分充足更有利于生产。选择暴雨后能排水的地点，长期积水不利于根系。“腰果苹果”不是包住腰果仁的普通苹果状果实。",
+            "lon": 79.789,
+            "lat": 20.375,
+            "label": "印度",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "cashew-region1",
+          "cropId": "cashew",
+          "region": "巴西东北部",
+          "lon": -41.131,
+          "lat": -9.639,
+          "chapterId": "cashew",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:319068-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2023981；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "BZE"
+        },
+        {
+          "id": "cashew-region2",
+          "cropId": "cashew",
+          "region": "印度",
+          "lon": 79.789,
+          "lat": 20.375,
+          "chapterId": "cashew",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:319068-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2023959；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "IND"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "pistachio",
+        "name": "开心果",
+        "latin": "Pistacia vera",
+        "synonyms": [],
+        "group": "坚果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Anacardiaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:70280-1",
+          "nameStatus": "accepted",
+          "nameId": "2407011"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "温带",
+          "夏季干燥"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "冬季休眠冷量、花期匹配与日照",
+        "limits": "冬季偏暖造成的开花紊乱、授粉不足",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:70280-1",
+          "https://www.ucanr.edu/site/california-pistachio-research/climate-cultivars",
+          "https://www.climatehubs.usda.gov/hubs/california/topic/climate-vulnerabilities-california-specialty-crops"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。 图中左侧小株示意雄花，主株示意雌花和果实，分属不同植株。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "pistachio",
+        "summary": "开心果是落叶乔木，雌花与雄花通常长在不同植株上。它需要合适的冬季冷量与春季花期搭配，不能只根据炎热夏天判断能否结果。",
+        "temperatureNote": "暖冬可能使雄雌花期错开；不同品种与砧木的冷量和低温反应并不相同。",
+        "water": {
+          "summary": "水分管理需结合土层与树龄，不能以其干旱地区分布推断无需灌溉。",
+          "timing": "花期匹配与当年果实发育，应和全年供水分别观察。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "砧木能改变盐分、根病和低温反应，不能把砧木结论当作全部开心果共同耐受。",
+          "drainage": "建园需核实根区排水，地区记录不能替代土壤剖面。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "冬季落叶休眠，春季授粉，果实逐渐发育。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "有大小年现象，单年产量变化不全由气候造成。"
+        },
+        "stress": {
+          "cold": "休眠所需冷量与冻害是不同概念。",
+          "heat": "夏季温暖不能补回不足的冬季冷量。",
+          "drought": "缺水管理结论应按当地果园核实。",
+          "waterlogging": "需结合砧木和根区条件判断。"
+        },
+        "regions": [
+          {
+            "name": "伊朗",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "意大利",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "雌雄异株并由风传粉，雄树花期必须与雌树相遇。",
+          "practice": "同时核对雌雄品种、冬季冷量和砧木。",
+          "tradeoff": "适应暖冬的品种可能改变花期、成熟期与采收节奏。"
+        },
+        "misconception": "只有一棵健康雌树，不代表一定能收到开心果。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Pistacia vera",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:70280-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UC ANR：开心果气候与品种",
+            "url": "https://www.ucanr.edu/site/california-pistachio-research/climate-cultivars",
+            "supports": "落叶休眠、雌雄异株、花期匹配、品种与砧木差异"
+          },
+          {
+            "title": "USDA Climate Hubs：加州特色作物气候风险",
+            "url": "https://www.climatehubs.usda.gov/hubs/california/topic/climate-vulnerabilities-california-specialty-crops",
+            "supports": "开心果冬季需冷量不足与品种适应差异"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "pistachio",
+        "crop": "pistachio",
+        "group": "坚果",
+        "title": "开心果｜冬季休眠冷量、花期匹配与日照",
+        "lon": 53.74,
+        "lat": 32.683,
+        "subtitle": "开心果是落叶乔木，雌花与雄花通常长在不同植株上。它需要合适的冬季冷量与春季花期搭配，不能只根据炎热夏天判断能否结果。",
+        "shape": "pistachio",
+        "text": "开心果是落叶乔木，雌花与雄花通常长在不同植株上。它需要合适的冬季冷量与春季花期搭配，不能只根据炎热夏天判断能否结果。形态上注意落叶树冠、雌雄花序、成簇核果。小模型只示意生长类型，请配合形态文字观察。把地球转到伊朗，再与意大利比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。暖冬可能使雄雌花期错开；不同品种与砧木的冷量和低温反应并不相同。水分管理需结合土层与树龄，不能以其干旱地区分布推断无需灌溉。建园需核实根区排水，地区记录不能替代土壤剖面。只有一棵健康雌树，不代表一定能收到开心果。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:70280-1",
+          "https://www.ucanr.edu/site/california-pistachio-research/climate-cultivars",
+          "https://www.climatehubs.usda.gov/hubs/california/topic/climate-vulnerabilities-california-specialty-crops"
+        ],
+        "labels": [
+          {
+            "text": "伊朗",
+            "lon": 53.74,
+            "lat": 32.683,
+            "kind": "region"
+          },
+          {
+            "text": "意大利",
+            "lon": 12.694,
+            "lat": 42.474,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "pistachio",
+          "label": "开心果",
+          "parts": [
+            "落叶树冠",
+            "雌雄花序",
+            "成簇核果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "开心果是落叶乔木，雌花与雄花通常长在不同植株上。它需要合适的冬季冷量与春季花期搭配，不能只根据炎热夏天判断能否结果。形态上注意落叶树冠、雌雄花序、成簇核果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 53.74,
+            "lat": 32.683,
+            "label": "伊朗",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到伊朗，再与意大利比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 53.74,
+            "lat": 32.683,
+            "label": "伊朗",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "暖冬可能使雄雌花期错开；不同品种与砧木的冷量和低温反应并不相同。水分管理需结合土层与树龄，不能以其干旱地区分布推断无需灌溉。建园需核实根区排水，地区记录不能替代土壤剖面。只有一棵健康雌树，不代表一定能收到开心果。",
+            "lon": 12.694,
+            "lat": 42.474,
+            "label": "意大利",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "pistachio-region1",
+          "cropId": "pistachio",
+          "region": "伊朗",
+          "lon": 53.74,
+          "lat": 32.683,
+          "chapterId": "pistachio",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:70280-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 4199303；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "IRN"
+        },
+        {
+          "id": "pistachio-region2",
+          "cropId": "pistachio",
+          "region": "意大利",
+          "lon": 12.694,
+          "lat": 42.474,
+          "chapterId": "pistachio",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:70280-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 2254309；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "ITA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "hazelnut",
+        "name": "欧洲榛",
+        "latin": "Corylus avellana",
+        "synonyms": [],
+        "group": "坚果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Betulaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295446-1",
+          "nameStatus": "accepted",
+          "nameId": "47841"
+        },
+        "lifeForm": "灌木或乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用",
+          "油料"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "通气土层、适度水分与合适花期",
+        "limits": "生长期湿土、浅薄土层和霜洼",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295446-1",
+          "https://extension.oregonstate.edu/catalog/em-9076-growing-hazelnuts-pacific-northwest-orchard-site-selection"
+        ],
+        "genericShape": "tea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "hazelnut",
+        "summary": "欧洲榛可呈灌木或小乔木，坚果外有叶状总苞。它适合温带条件；对果园而言，土壤深度、通气与夏季保水同样重要。",
+        "temperatureNote": "低洼处的春霜可伤幼嫩组织；地区平均温度会掩盖坡位差异。",
+        "water": {
+          "summary": "表层较浅的吸收根在干季较早缺水，深层可利用水取决于土壤结构。",
+          "timing": "夏季少雨时要检查根区有效储水，灌溉不能解决不透水底层。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "深厚中等质地的土壤有利于长期树势；硬层和浅岩限制根系。",
+          "drainage": "生长季不耐长期湿土。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "落叶多年生，树体与果实在不同季节发育。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "园艺整形可改变外观，灌木形态不代表所有生产树形。"
+        },
+        "stress": {
+          "cold": "冷空气积聚处有霜害风险。",
+          "heat": "热旱叠加会增加水分压力。",
+          "drought": "浅根土层使夏旱更明显。",
+          "waterlogging": "长期湿土妨碍根系活动。"
+        },
+        "regions": [
+          {
+            "name": "土耳其亚洲部分",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "俄勒冈",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "根系分布与土层储水共同影响旱季表现。",
+          "practice": "比较土壤剖面、排水与坡位，而不仅看省或国家。",
+          "tradeoff": "浅土上前期长势尚可，也可能随树龄增加而失去生产力。"
+        },
+        "misconception": "超市榛子并不代表全部榛属植物；本条只指欧洲榛。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Corylus avellana",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295446-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "OSU Extension：榛园选址",
+            "url": "https://extension.oregonstate.edu/catalog/em-9076-growing-hazelnuts-pacific-northwest-orchard-site-selection",
+            "supports": "欧洲榛果园的土层、排水、夏季水分、霜洼与坡地差异"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "hazelnut",
+        "crop": "hazelnut",
+        "group": "坚果",
+        "title": "欧洲榛｜通气土层、适度水分与合适花期",
+        "lon": 35.53,
+        "lat": 39.014,
+        "subtitle": "欧洲榛可呈灌木或小乔木，坚果外有叶状总苞。它适合温带条件；对果园而言，土壤深度、通气与夏季保水同样重要。",
+        "shape": "hazelnut",
+        "text": "欧洲榛可呈灌木或小乔木，坚果外有叶状总苞。它适合温带条件；对果园而言，土壤深度、通气与夏季保水同样重要。形态上注意灌木状分枝、圆形叶片、总苞坚果。小模型只示意生长类型，请配合形态文字观察。把地球转到土耳其亚洲部分，再与俄勒冈比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。低洼处的春霜可伤幼嫩组织；地区平均温度会掩盖坡位差异。表层较浅的吸收根在干季较早缺水，深层可利用水取决于土壤结构。生长季不耐长期湿土。超市榛子并不代表全部榛属植物；本条只指欧洲榛。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295446-1",
+          "https://extension.oregonstate.edu/catalog/em-9076-growing-hazelnuts-pacific-northwest-orchard-site-selection"
+        ],
+        "labels": [
+          {
+            "text": "土耳其亚洲部分",
+            "lon": 35.53,
+            "lat": 39.014,
+            "kind": "region"
+          },
+          {
+            "text": "俄勒冈",
+            "lon": -120.517,
+            "lat": 43.987,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "hazelnut",
+          "label": "欧洲榛",
+          "parts": [
+            "灌木状分枝",
+            "圆形叶片",
+            "总苞坚果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "欧洲榛可呈灌木或小乔木，坚果外有叶状总苞。它适合温带条件；对果园而言，土壤深度、通气与夏季保水同样重要。形态上注意灌木状分枝、圆形叶片、总苞坚果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 35.53,
+            "lat": 39.014,
+            "label": "土耳其亚洲部分",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到土耳其亚洲部分，再与俄勒冈比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 35.53,
+            "lat": 39.014,
+            "label": "土耳其亚洲部分",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "低洼处的春霜可伤幼嫩组织；地区平均温度会掩盖坡位差异。表层较浅的吸收根在干季较早缺水，深层可利用水取决于土壤结构。生长季不耐长期湿土。超市榛子并不代表全部榛属植物；本条只指欧洲榛。",
+            "lon": -120.517,
+            "lat": 43.987,
+            "label": "俄勒冈",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "hazelnut-region1",
+          "cropId": "hazelnut",
+          "region": "土耳其亚洲部分",
+          "lon": 35.53,
+          "lat": 39.014,
+          "chapterId": "hazelnut",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295446-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 19162；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "TUR"
+        },
+        {
+          "id": "hazelnut-region2",
+          "cropId": "hazelnut",
+          "region": "俄勒冈",
+          "lon": -120.517,
+          "lat": 43.987,
+          "chapterId": "hazelnut",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295446-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 1519746；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "ORE"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "chestnut",
+        "name": "欧洲栗",
+        "latin": "Castanea sativa",
+        "synonyms": [],
+        "group": "坚果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fagaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295349-1",
+          "nameStatus": "accepted",
+          "nameId": "35042"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用",
+          "木材"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "日照、排水与适宜土壤酸碱环境",
+        "limits": "根区湿涝、土壤不适与病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295349-1",
+          "https://ies-ows.jrc.ec.europa.eu/efdac/download/Atlas/pdf/Castanea_sativa.pdf",
+          "https://www.rhs.org.uk/plants/208364/castanea-vulgaris/details"
+        ],
+        "genericShape": "oak",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "chestnut",
+        "summary": "欧洲栗是落叶乔木，食用坚果被多刺壳斗包围。它与中国常见的板栗是不同物种，本条不把一种栗树的环境要求推广到整个栗属。",
+        "temperatureNote": "属于温带树种，实际果实成熟仍受当地生长季长度和品种影响。",
+        "water": {
+          "summary": "较湿润环境可以支持树体生长，但土中水分仍需与通气平衡。",
+          "timing": "幼树建立及干旱阶段需核对根区水分。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "宜排水的壤土或砂质土，偏酸至中性条件是园艺资料的常见建议。",
+          "drainage": "湿润土壤与长期积水不同，排水不良会增加根部风险。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "落叶多年生，花序出现后形成包裹坚果的壳斗。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "人类长期栽培和木材利用使分布解释较复杂。"
+        },
+        "stress": {
+          "cold": "温带分布不能代替当地品种的越冬验证。",
+          "heat": "光照与生长季共同影响表现。",
+          "drought": "干旱期表现受根区土量限制。",
+          "waterlogging": "不宜久涝。"
+        },
+        "regions": [
+          {
+            "name": "土耳其亚洲部分",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "大不列颠",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "壳斗上的刺保护发育中的坚果。",
+          "practice": "先分清栗树种类，再结合土测和病害背景选园。",
+          "tradeoff": "作为林木生长良好，不等于果园稳定高产。"
+        },
+        "misconception": "欧洲栗、板栗与马栗不是同一种植物。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Castanea sativa",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295349-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "欧盟JRC：欧洲栗树种档案",
+            "url": "https://ies-ows.jrc.ec.europa.eu/efdac/download/Atlas/pdf/Castanea_sativa.pdf",
+            "supports": "欧洲栗的树形、环境生态、分布与长期人为传播背景"
+          },
+          {
+            "title": "RHS：欧洲栗园艺档案（同物异名页）",
+            "url": "https://www.rhs.org.uk/plants/208364/castanea-vulgaris/details",
+            "supports": "日照、排水、酸至中性土、叶片与刺状壳斗；园艺范围仅供区域参考"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "chestnut",
+        "crop": "chestnut",
+        "group": "坚果",
+        "title": "欧洲栗｜日照、排水与适宜土壤酸碱环境",
+        "lon": 35.53,
+        "lat": 39.014,
+        "subtitle": "欧洲栗是落叶乔木，食用坚果被多刺壳斗包围。它与中国常见的板栗是不同物种，本条不把一种栗树的环境要求推广到整个栗属。",
+        "shape": "chestnut",
+        "text": "欧洲栗是落叶乔木，食用坚果被多刺壳斗包围。它与中国常见的板栗是不同物种，本条不把一种栗树的环境要求推广到整个栗属。形态上注意锯齿长叶、雄性柔荑花序、多刺壳斗。小模型只示意生长类型，请配合形态文字观察。把地球转到土耳其亚洲部分，再与大不列颠比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。属于温带树种，实际果实成熟仍受当地生长季长度和品种影响。较湿润环境可以支持树体生长，但土中水分仍需与通气平衡。湿润土壤与长期积水不同，排水不良会增加根部风险。欧洲栗、板栗与马栗不是同一种植物。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295349-1",
+          "https://ies-ows.jrc.ec.europa.eu/efdac/download/Atlas/pdf/Castanea_sativa.pdf",
+          "https://www.rhs.org.uk/plants/208364/castanea-vulgaris/details"
+        ],
+        "labels": [
+          {
+            "text": "土耳其亚洲部分",
+            "lon": 35.53,
+            "lat": 39.014,
+            "kind": "region"
+          },
+          {
+            "text": "大不列颠",
+            "lon": -2.023,
+            "lat": 54.367,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "chestnut",
+          "label": "欧洲栗",
+          "parts": [
+            "锯齿长叶",
+            "雄性柔荑花序",
+            "多刺壳斗"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "欧洲栗是落叶乔木，食用坚果被多刺壳斗包围。它与中国常见的板栗是不同物种，本条不把一种栗树的环境要求推广到整个栗属。形态上注意锯齿长叶、雄性柔荑花序、多刺壳斗。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 35.53,
+            "lat": 39.014,
+            "label": "土耳其亚洲部分",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到土耳其亚洲部分，再与大不列颠比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 35.53,
+            "lat": 39.014,
+            "label": "土耳其亚洲部分",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "属于温带树种，实际果实成熟仍受当地生长季长度和品种影响。较湿润环境可以支持树体生长，但土中水分仍需与通气平衡。湿润土壤与长期积水不同，排水不良会增加根部风险。欧洲栗、板栗与马栗不是同一种植物。",
+            "lon": -2.023,
+            "lat": 54.367,
+            "label": "大不列颠",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "chestnut-region1",
+          "cropId": "chestnut",
+          "region": "土耳其亚洲部分",
+          "lon": 35.53,
+          "lat": 39.014,
+          "chapterId": "chestnut",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295349-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 111279；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "TUR"
+        },
+        {
+          "id": "chestnut-region2",
+          "cropId": "chestnut",
+          "region": "大不列颠",
+          "lon": -2.023,
+          "lat": 54.367,
+          "chapterId": "chestnut",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:295349-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 111250；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "GRB"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "pear",
+        "name": "欧洲梨",
+        "latin": "Pyrus communis",
+        "synonyms": [],
+        "group": "温带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30065762-2",
+          "nameStatus": "accepted",
+          "nameId": "2963115"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "合适冬季冷量、日照与排水",
+        "limits": "暖冬失配、花期低温和根区积水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30065762-2",
+          "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-pear/",
+          "https://ask.ifas.ufl.edu/publication/HS1393"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "pear",
+        "summary": "欧洲梨是温带落叶果树，是许多西洋梨品种的基础。本条不包含所有亚洲梨与杂交梨；相同中文“梨”字可能指向不同种。",
+        "temperatureNote": "冬季冷量影响芽正常萌发和花果发育；低冷量品种不能代表全部欧洲梨。",
+        "water": {
+          "summary": "果实发育需要根区供水，土层与天气决定补水方式。",
+          "timing": "休眠期、萌芽期和果实膨大期应分开评估。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "通气、排水的土层较稳妥；砧木选择会改变土壤适应表现。",
+          "drainage": "低洼处积水可增加根病风险。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "落叶多年生；休眠结束后开花、展叶与果实发育。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "品种和砧木共同影响需冷、花期与病害反应。"
+        },
+        "stress": {
+          "cold": "开放花朵比休眠枝条更易受冻。",
+          "heat": "暖冬可能影响萌芽整齐度。",
+          "drought": "缺水影响长势与果实。",
+          "waterlogging": "忌根区久湿。"
+        },
+        "regions": [
+          {
+            "name": "法国",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "俄勒冈",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "冬季休眠使树体生长与季节变化协调。",
+          "practice": "核对具体欧洲梨品种、授粉与砧木，不按国家整片推荐。",
+          "tradeoff": "适合暖冬的梨常涉及特定杂交背景，不能混为同一物种。"
+        },
+        "misconception": "梨形果实不一定都属于欧洲梨。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Pyrus communis",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30065762-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UC IPM：梨的栽培环境",
+            "url": "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-pear/",
+            "supports": "冬季冷量、低洼积水、种植与供水；需冷量因品种而异"
+          },
+          {
+            "title": "UF/IFAS：佛州梨树与品种",
+            "url": "https://ask.ifas.ufl.edu/publication/HS1393",
+            "supports": "欧洲梨、亚洲梨及杂交型区别；暖冬适应与病害限制"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "pear",
+        "crop": "pear",
+        "group": "温带果树",
+        "title": "欧洲梨｜合适冬季冷量、日照与排水",
+        "lon": 2.134,
+        "lat": 46.716,
+        "subtitle": "欧洲梨是温带落叶果树，是许多西洋梨品种的基础。本条不包含所有亚洲梨与杂交梨；相同中文“梨”字可能指向不同种。",
+        "shape": "pear",
+        "text": "欧洲梨是温带落叶果树，是许多西洋梨品种的基础。本条不包含所有亚洲梨与杂交梨；相同中文“梨”字可能指向不同种。形态上注意落叶树冠、白色花簇、梨果。小模型只示意生长类型，请配合形态文字观察。把地球转到法国，再与俄勒冈比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。冬季冷量影响芽正常萌发和花果发育；低冷量品种不能代表全部欧洲梨。果实发育需要根区供水，土层与天气决定补水方式。低洼处积水可增加根病风险。梨形果实不一定都属于欧洲梨。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30065762-2",
+          "https://ipm.ucanr.edu/home-and-landscape/cultural-tips-for-growing-pear/",
+          "https://ask.ifas.ufl.edu/publication/HS1393"
+        ],
+        "labels": [
+          {
+            "text": "法国",
+            "lon": 2.134,
+            "lat": 46.716,
+            "kind": "region"
+          },
+          {
+            "text": "俄勒冈",
+            "lon": -120.517,
+            "lat": 43.987,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "pear",
+          "label": "欧洲梨",
+          "parts": [
+            "落叶树冠",
+            "白色花簇",
+            "梨果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "欧洲梨是温带落叶果树，是许多西洋梨品种的基础。本条不包含所有亚洲梨与杂交梨；相同中文“梨”字可能指向不同种。形态上注意落叶树冠、白色花簇、梨果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到法国，再与俄勒冈比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "冬季冷量影响芽正常萌发和花果发育；低冷量品种不能代表全部欧洲梨。果实发育需要根区供水，土层与天气决定补水方式。低洼处积水可增加根病风险。梨形果实不一定都属于欧洲梨。",
+            "lon": -120.517,
+            "lat": 43.987,
+            "label": "俄勒冈",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "pear-region1",
+          "cropId": "pear",
+          "region": "法国",
+          "lon": 2.134,
+          "lat": 46.716,
+          "chapterId": "pear",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30065762-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2662211；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "FRA"
+        },
+        {
+          "id": "pear-region2",
+          "cropId": "pear",
+          "region": "俄勒冈",
+          "lon": -120.517,
+          "lat": 43.987,
+          "chapterId": "pear",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30065762-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2857511；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "ORE"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "peach",
+        "name": "桃",
+        "latin": "Prunus persica",
+        "synonyms": [],
+        "group": "温带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1212858-2",
+          "nameStatus": "accepted",
+          "nameId": "2901279"
+        },
+        "lifeForm": "灌木或乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "日照、排水与能避开关键霜冻的季节",
+        "limits": "花期晚霜、重土缺氧与品种失配",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1212858-2",
+          "https://extension.usu.edu/yardandgarden/research/peaches-in-the-garden"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "peach",
+        "summary": "桃是落叶核果树，果肉包围坚硬果核。WCVP把其起源写作中国北中部的栽培起源，这不等于已经确定一片现代野生祖先分布。",
+        "temperatureNote": "桃容易在春季晚霜时失去花果；暖墙旁早萌动也可能增加暴露风险。",
+        "water": {
+          "summary": "果实膨大与枝叶生长需要水分，灌溉应避免让根区持续饱和。",
+          "timing": "花期看低温，膨果期看有效供水，不能仅用全年均温解释。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "排水土层适合根系，重黏土中可能出现通气或缺铁问题。",
+          "drainage": "根系对积水敏感，砧木也会改变土壤反应。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "落叶多年生，春季开花后结果。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "砧木改变树势、大小、抗寒和病害反应。"
+        },
+        "stress": {
+          "cold": "晚霜可毁当年花果。",
+          "heat": "较长暖季并不能排除花期低温风险。",
+          "drought": "缺水影响果实发育。",
+          "waterlogging": "湿涝损害根系。"
+        },
+        "regions": [
+          {
+            "name": "中国北中部",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的来源范围相关记录。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "法国",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "核果把种子包在坚硬内果皮之内。",
+          "practice": "按坡位、具体品种和砧木选址。",
+          "tradeoff": "避风保温的角落可能提前开花，仍需比较春霜时序。"
+        },
+        "misconception": "一年能长出健康树冠，不等于年年有桃。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Prunus persica",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1212858-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "USU Extension：桃树栽培",
+            "url": "https://extension.usu.edu/yardandgarden/research/peaches-in-the-garden",
+            "supports": "桃树的春霜、坡位、日照、排水及砧木差异"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "peach",
+        "crop": "peach",
+        "group": "温带果树",
+        "title": "桃｜日照、排水与能避开关键霜冻的季节",
+        "lon": 113.148,
+        "lat": 37.272,
+        "subtitle": "桃是落叶核果树，果肉包围坚硬果核。WCVP把其起源写作中国北中部的栽培起源，这不等于已经确定一片现代野生祖先分布。",
+        "shape": "peach",
+        "text": "桃是落叶核果树，果肉包围坚硬果核。WCVP把其起源写作中国北中部的栽培起源，这不等于已经确定一片现代野生祖先分布。形态上注意披针形叶、粉色花、核果。小模型只示意生长类型，请配合形态文字观察。把地球转到中国北中部，再与法国比较。Kew资料分别记录为来源范围相关记录和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。桃容易在春季晚霜时失去花果；暖墙旁早萌动也可能增加暴露风险。果实膨大与枝叶生长需要水分，灌溉应避免让根区持续饱和。根系对积水敏感，砧木也会改变土壤反应。一年能长出健康树冠，不等于年年有桃。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1212858-2",
+          "https://extension.usu.edu/yardandgarden/research/peaches-in-the-garden"
+        ],
+        "labels": [
+          {
+            "text": "中国北中部",
+            "lon": 113.148,
+            "lat": 37.272,
+            "kind": "region"
+          },
+          {
+            "text": "法国",
+            "lon": 2.134,
+            "lat": 46.716,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "peach",
+          "label": "桃",
+          "parts": [
+            "披针形叶",
+            "粉色花",
+            "核果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "桃是落叶核果树，果肉包围坚硬果核。WCVP把其起源写作中国北中部的栽培起源，这不等于已经确定一片现代野生祖先分布。形态上注意披针形叶、粉色花、核果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 113.148,
+            "lat": 37.272,
+            "label": "中国北中部",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到中国北中部，再与法国比较。Kew资料分别记录为来源范围相关记录和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 113.148,
+            "lat": 37.272,
+            "label": "中国北中部",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "桃容易在春季晚霜时失去花果；暖墙旁早萌动也可能增加暴露风险。果实膨大与枝叶生长需要水分，灌溉应避免让根区持续饱和。根系对积水敏感，砧木也会改变土壤反应。一年能长出健康树冠，不等于年年有桃。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "peach-region1",
+          "cropId": "peach",
+          "region": "中国北中部",
+          "lon": 113.148,
+          "lat": 37.272,
+          "chapterId": "peach",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1212858-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2285315；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "CHN"
+        },
+        {
+          "id": "peach-region2",
+          "cropId": "peach",
+          "region": "法国",
+          "lon": 2.134,
+          "lat": 46.716,
+          "chapterId": "peach",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:1212858-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2660322；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "FRA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "plum",
+        "name": "欧洲李",
+        "latin": "Prunus domestica",
+        "synonyms": [],
+        "group": "温带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30221374-2",
+          "nameStatus": "accepted",
+          "nameId": "2959531"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "日照、排水与匹配的品种和授粉",
+        "limits": "重湿土、缺水与品种授粉不匹配",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30221374-2",
+          "https://extension.usu.edu/yardandgarden/research/plums-in-the-home-garden"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "plum",
+        "summary": "欧洲李包括许多鲜食品种和适合制干的西梅型。它与中国李、北美李及它们的杂交型不同，果形和耐寒性也不能一概而论。",
+        "temperatureNote": "温带生长节奏和品种熟期共同决定当地能否完成成熟。",
+        "water": {
+          "summary": "成树有一定耐旱能力，充足而不过量的供水更有利于产量和果实品质。",
+          "timing": "幼树建立和果实发育时尤其要核对根区水分。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "可在多种土壤上生长，但排水比土名更重要。",
+          "drainage": "湿重土易发生根部问题，过量灌溉也可能加重黄化和衰弱。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生落叶果树，果实成熟季因品种而异。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "部分欧洲李能自花结实，但授粉搭配仍需按品种确认。"
+        },
+        "stress": {
+          "cold": "花期仍应关注霜冻。",
+          "heat": "熟期不能由一种李的表现推断全部品种。",
+          "drought": "缺水可降低果实品质。",
+          "waterlogging": "久涝增加根病。"
+        },
+        "regions": [
+          {
+            "name": "外高加索",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "法国",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "制干型较高的糖分和果实结构支持不同利用方式。",
+          "practice": "先确认欧洲李品种，再安排授粉与土壤管理。",
+          "tradeoff": "鲜食、加工和制干对品质与采收的要求不同。"
+        },
+        "misconception": "西梅是欧洲李的一部分，不是所有李子的统称。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Prunus domestica",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30221374-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "USU Extension：李树栽培",
+            "url": "https://extension.usu.edu/yardandgarden/research/plums-in-the-home-garden",
+            "supports": "欧洲李与其他李类区别、排水、供水、授粉与果实用途"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "plum",
+        "crop": "plum",
+        "group": "温带果树",
+        "title": "欧洲李｜日照、排水与匹配的品种和授粉",
+        "lon": 46.346,
+        "lat": 41.068,
+        "subtitle": "欧洲李包括许多鲜食品种和适合制干的西梅型。它与中国李、北美李及它们的杂交型不同，果形和耐寒性也不能一概而论。",
+        "shape": "plum",
+        "text": "欧洲李包括许多鲜食品种和适合制干的西梅型。它与中国李、北美李及它们的杂交型不同，果形和耐寒性也不能一概而论。形态上注意落叶分枝、花朵、李核果。小模型只示意生长类型，请配合形态文字观察。把地球转到外高加索，再与法国比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。温带生长节奏和品种熟期共同决定当地能否完成成熟。成树有一定耐旱能力，充足而不过量的供水更有利于产量和果实品质。湿重土易发生根部问题，过量灌溉也可能加重黄化和衰弱。西梅是欧洲李的一部分，不是所有李子的统称。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30221374-2",
+          "https://extension.usu.edu/yardandgarden/research/plums-in-the-home-garden"
+        ],
+        "labels": [
+          {
+            "text": "外高加索",
+            "lon": 46.346,
+            "lat": 41.068,
+            "kind": "region"
+          },
+          {
+            "text": "法国",
+            "lon": 2.134,
+            "lat": 46.716,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "plum",
+          "label": "欧洲李",
+          "parts": [
+            "落叶分枝",
+            "花朵",
+            "李核果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "欧洲李包括许多鲜食品种和适合制干的西梅型。它与中国李、北美李及它们的杂交型不同，果形和耐寒性也不能一概而论。形态上注意落叶分枝、花朵、李核果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 46.346,
+            "lat": 41.068,
+            "label": "外高加索",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到外高加索，再与法国比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 46.346,
+            "lat": 41.068,
+            "label": "外高加索",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "温带生长节奏和品种熟期共同决定当地能否完成成熟。成树有一定耐旱能力，充足而不过量的供水更有利于产量和果实品质。湿重土易发生根部问题，过量灌溉也可能加重黄化和衰弱。西梅是欧洲李的一部分，不是所有李子的统称。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "plum-region1",
+          "cropId": "plum",
+          "region": "外高加索",
+          "lon": 46.346,
+          "lat": 41.068,
+          "chapterId": "plum",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30221374-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 4885770；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "TCS"
+        },
+        {
+          "id": "plum-region2",
+          "cropId": "plum",
+          "region": "法国",
+          "lon": 2.134,
+          "lat": 46.716,
+          "chapterId": "plum",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30221374-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2660499；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "FRA"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "cherry",
+        "name": "甜樱桃",
+        "latin": "Prunus avium",
+        "synonyms": [],
+        "group": "温带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30093848-2",
+          "nameStatus": "accepted",
+          "nameId": "2917143"
+        },
+        "lifeForm": "乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用",
+          "木材"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "日照、排水及合适的花期和成熟季",
+        "limits": "春霜、成熟期雨水裂果与病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30093848-2",
+          "https://www.extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "cherry",
+        "summary": "甜樱桃是落叶核果树，本条与酸樱桃分开。除了冬季条件，成熟前的雨水也会影响收获，树上已有果实不代表最终能得到完好商品果。",
+        "temperatureNote": "花期的低温与冬季休眠是不同问题；应按具体品种和地点评估。",
+        "water": {
+          "summary": "根区供水与果面淋雨要分开看：生长需要水，成熟期过多降雨却可能引起裂果。",
+          "timing": "接近成熟时，降雨时序会改变果实完整性。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "选通气排水的园址，避免长期缺氧。",
+          "drainage": "低洼湿土不利于根系与果园健康。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "落叶多年生，开花后形成核果。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "花期、成熟期及授粉需求随品种改变。"
+        },
+        "stress": {
+          "cold": "开放花朵易受春霜影响。",
+          "heat": "极端天气须结合果实阶段评估。",
+          "drought": "旱情影响树势和果实。",
+          "waterlogging": "降雨过多可裂果，久涝也伤根。"
+        },
+        "regions": [
+          {
+            "name": "土耳其亚洲部分",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "华盛顿",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "薄果皮与果实水分变化使成熟期裂果成为重要问题。",
+          "practice": "同时核对授粉搭配、成熟期降雨与排水。",
+          "tradeoff": "避开冬季严寒仍可能遭遇成熟期多雨。"
+        },
+        "misconception": "酸樱桃的耐寒结论不能直接移用到甜樱桃。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Prunus avium",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30093848-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UMD Extension：核果类与甜樱桃",
+            "url": "https://www.extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+            "supports": "甜樱桃的春霜、排水、褐腐与成熟期雨水裂果；与酸樱桃不同"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "cherry",
+        "crop": "cherry",
+        "group": "温带果树",
+        "title": "甜樱桃｜日照、排水及合适的花期和成熟季",
+        "lon": 35.53,
+        "lat": 39.014,
+        "subtitle": "甜樱桃是落叶核果树，本条与酸樱桃分开。除了冬季条件，成熟前的雨水也会影响收获，树上已有果实不代表最终能得到完好商品果。",
+        "shape": "cherry",
+        "text": "甜樱桃是落叶核果树，本条与酸樱桃分开。除了冬季条件，成熟前的雨水也会影响收获，树上已有果实不代表最终能得到完好商品果。形态上注意白色花簇、有柄核果、落叶树冠。小模型只示意生长类型，请配合形态文字观察。把地球转到土耳其亚洲部分，再与华盛顿比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。花期的低温与冬季休眠是不同问题；应按具体品种和地点评估。根区供水与果面淋雨要分开看：生长需要水，成熟期过多降雨却可能引起裂果。低洼湿土不利于根系与果园健康。酸樱桃的耐寒结论不能直接移用到甜樱桃。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30093848-2",
+          "https://www.extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums"
+        ],
+        "labels": [
+          {
+            "text": "土耳其亚洲部分",
+            "lon": 35.53,
+            "lat": 39.014,
+            "kind": "region"
+          },
+          {
+            "text": "华盛顿",
+            "lon": -119.738,
+            "lat": 47.325,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "cherry",
+          "label": "甜樱桃",
+          "parts": [
+            "白色花簇",
+            "有柄核果",
+            "落叶树冠"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "甜樱桃是落叶核果树，本条与酸樱桃分开。除了冬季条件，成熟前的雨水也会影响收获，树上已有果实不代表最终能得到完好商品果。形态上注意白色花簇、有柄核果、落叶树冠。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 35.53,
+            "lat": 39.014,
+            "label": "土耳其亚洲部分",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到土耳其亚洲部分，再与华盛顿比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 35.53,
+            "lat": 39.014,
+            "label": "土耳其亚洲部分",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "花期的低温与冬季休眠是不同问题；应按具体品种和地点评估。根区供水与果面淋雨要分开看：生长需要水，成熟期过多降雨却可能引起裂果。低洼湿土不利于根系与果园健康。酸樱桃的耐寒结论不能直接移用到甜樱桃。",
+            "lon": -119.738,
+            "lat": 47.325,
+            "label": "华盛顿",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "cherry-region1",
+          "cropId": "cherry",
+          "region": "土耳其亚洲部分",
+          "lon": 35.53,
+          "lat": 39.014,
+          "chapterId": "cherry",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30093848-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2668646；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "TUR"
+        },
+        {
+          "id": "cherry-region2",
+          "cropId": "cherry",
+          "region": "华盛顿",
+          "lon": -119.738,
+          "lat": 47.325,
+          "chapterId": "cherry",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30093848-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2856116；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "WAS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "apricot",
+        "name": "杏",
+        "latin": "Prunus armeniaca",
+        "synonyms": [],
+        "group": "温带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:729463-1",
+          "nameStatus": "accepted",
+          "nameId": "2901800"
+        },
+        "lifeForm": "灌木或乔木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "合适冬季与能保护早花的春季条件",
+        "limits": "花期霜冻、根区积水与病害",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:729463-1",
+          "https://extension.usu.edu/productionhort/small-acreage/fruit/faq",
+          "https://www.extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums"
+        ],
+        "genericShape": "apple",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "apricot",
+        "summary": "杏是温带落叶核果树。它说明了一个常见误区：休眠树体能忍受冬冷，与早春花朵能否躲过霜冻，是两件不同的事。",
+        "temperatureNote": "杏常较早开花，春季短时低温可让当年减产，即使树体安全越冬。",
+        "water": {
+          "summary": "果树仍需要根区水分，湿涝与缺水都要通过当地土层判断。",
+          "timing": "特别留意花期低温发生在萌动之前还是之后。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "果园以通气、排水土层较稳妥。",
+          "drainage": "根区久湿增加核果类根部问题。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "落叶多年生，早春开花后结果。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "晚花品种、坡位和冷空气流向会改变霜害暴露。"
+        },
+        "stress": {
+          "cold": "早花可能被春霜杀伤。",
+          "heat": "温暖过早可促使提前萌动。",
+          "drought": "缺水限制果实与树势。",
+          "waterlogging": "长期积水不利。"
+        },
+        "regions": [
+          {
+            "name": "哈萨克斯坦",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "土耳其亚洲部分",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "休眠枝条与展开的花组织，抗低温能力不同。",
+          "practice": "按花期、霜冻时序和微地形选择品种与地点。",
+          "tradeoff": "较暖小环境可能促早花，需要同时考虑倒春寒。"
+        },
+        "misconception": "只看最低冬温或耐寒区，解释不了杏为何有时不开好果。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Prunus armeniaca",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:729463-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "USU Extension：果树气候与杏的春霜",
+            "url": "https://extension.usu.edu/productionhort/small-acreage/fruit/faq",
+            "supports": "杏树冬季耐寒与早花春霜风险的区别、微气候与冷空气汇集"
+          },
+          {
+            "title": "UMD Extension：核果类果树",
+            "url": "https://www.extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums",
+            "supports": "杏的核果结构、日照排水与病害背景"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "apricot",
+        "crop": "apricot",
+        "group": "温带果树",
+        "title": "杏｜合适冬季与能保护早花的春季条件",
+        "lon": 66.373,
+        "lat": 48.116,
+        "subtitle": "杏是温带落叶核果树。它说明了一个常见误区：休眠树体能忍受冬冷，与早春花朵能否躲过霜冻，是两件不同的事。",
+        "shape": "apricot",
+        "text": "杏是温带落叶核果树。它说明了一个常见误区：休眠树体能忍受冬冷，与早春花朵能否躲过霜冻，是两件不同的事。形态上注意早春花朵、宽卵形叶、杏核果。小模型只示意生长类型，请配合形态文字观察。把地球转到哈萨克斯坦，再与土耳其亚洲部分比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。杏常较早开花，春季短时低温可让当年减产，即使树体安全越冬。果树仍需要根区水分，湿涝与缺水都要通过当地土层判断。根区久湿增加核果类根部问题。只看最低冬温或耐寒区，解释不了杏为何有时不开好果。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:729463-1",
+          "https://extension.usu.edu/productionhort/small-acreage/fruit/faq",
+          "https://www.extension.umd.edu/resource/growing-stone-fruits-home-garden-cherries-peaches-plums"
+        ],
+        "labels": [
+          {
+            "text": "哈萨克斯坦",
+            "lon": 66.373,
+            "lat": 48.116,
+            "kind": "region"
+          },
+          {
+            "text": "土耳其亚洲部分",
+            "lon": 35.53,
+            "lat": 39.014,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "apricot",
+          "label": "杏",
+          "parts": [
+            "早春花朵",
+            "宽卵形叶",
+            "杏核果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "杏是温带落叶核果树。它说明了一个常见误区：休眠树体能忍受冬冷，与早春花朵能否躲过霜冻，是两件不同的事。形态上注意早春花朵、宽卵形叶、杏核果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 66.373,
+            "lat": 48.116,
+            "label": "哈萨克斯坦",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到哈萨克斯坦，再与土耳其亚洲部分比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 66.373,
+            "lat": 48.116,
+            "label": "哈萨克斯坦",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "杏常较早开花，春季短时低温可让当年减产，即使树体安全越冬。果树仍需要根区水分，湿涝与缺水都要通过当地土层判断。根区久湿增加核果类根部问题。只看最低冬温或耐寒区，解释不了杏为何有时不开好果。",
+            "lon": 35.53,
+            "lat": 39.014,
+            "label": "土耳其亚洲部分",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "apricot-region1",
+          "cropId": "apricot",
+          "region": "哈萨克斯坦",
+          "lon": 66.373,
+          "lat": 48.116,
+          "chapterId": "apricot",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:729463-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 2810641；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "KAZ"
+        },
+        {
+          "id": "apricot-region2",
+          "cropId": "apricot",
+          "region": "土耳其亚洲部分",
+          "lon": 35.53,
+          "lat": 39.014,
+          "chapterId": "apricot",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:729463-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 2812577；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "TUR"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "strawberry",
+        "name": "栽培草莓",
+        "latin": "Fragaria × ananassa",
+        "synonyms": [],
+        "group": "浆果与小果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30117681-2",
+          "nameStatus": "accepted",
+          "nameId": "2948609"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "设施栽培"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "日照、排水根区与匹配的结果类型",
+        "limits": "积水、干旱、叶片久湿与品种时序不合",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30117681-2",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-strawberries-in-the-home-garden",
+          "https://www.extension.umd.edu/resource/growing-strawberries-home-garden"
+        ],
+        "genericShape": "pea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "栽培草莓是人工杂交种条目，不把所有野草莓合并。来源把个别地区归为原生类；这一分类不证明人工杂交种在当地野外自然起源。"
+      },
+      "profile": {
+        "id": "strawberry",
+        "summary": "常见大果草莓是人工杂交背景的多年生草本，匍匐茎能长出子株。红色可食部分主要来自膨大的花托，表面小颗粒才是瘦果。",
+        "temperatureNote": "结果类型影响开花时序；温带露地与暖地设施栽培不能共用一个固定采收月份。",
+        "water": {
+          "summary": "根系较浅，表层土太干会较快影响植株。",
+          "timing": "开花结果与子株建立阶段，应保持合适的根区水分和通气。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "通气、保水而不积水的表土有利于浅根活动。",
+          "drainage": "长期湿土与叶面久湿都会增加栽培问题。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生草本；六月结实型、四季型与日中性型的结果节奏不同。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "名字中的“日中性”描述光周期反应，不表示不受温度限制。"
+        },
+        "stress": {
+          "cold": "露地越冬与开放花朵的抗冻能力不同。",
+          "heat": "炎热条件会改变品种的开花与果实表现。",
+          "drought": "浅根易受表土干旱影响。",
+          "waterlogging": "根区积水和叶片久湿均不利。"
+        },
+        "regions": [
+          {
+            "name": "法国",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "日本",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "匍匐茎在节处生根，形成相连子株。",
+          "practice": "选择与当地季节相合的结果类型，控制过密子株并通风。",
+          "tradeoff": "增加子株数量不一定增加当年果实收获。"
+        },
+        "misconception": "人工杂交种的植物区系记录不能直接解释为野生祖先的原生地。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Fragaria × ananassa",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30117681-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UMN Extension：草莓生长与结果类型",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-strawberries-in-the-home-garden",
+            "supports": "日照、匍匐茎、六月结实型、四季型和日中性型；区域物候不能当全球统一日期"
+          },
+          {
+            "title": "UMD Extension：草莓根区与管理",
+            "url": "https://www.extension.umd.edu/resource/growing-strawberries-home-garden",
+            "supports": "浅根、叶片湿度、通风与竞争管理"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "strawberry",
+        "crop": "strawberry",
+        "group": "浆果与小果",
+        "title": "栽培草莓｜日照、排水根区与匹配的结果类型",
+        "lon": 2.134,
+        "lat": 46.716,
+        "subtitle": "常见大果草莓是人工杂交背景的多年生草本，匍匐茎能长出子株。红色可食部分主要来自膨大的花托，表面小颗粒才是瘦果。",
+        "shape": "strawberry",
+        "text": "常见大果草莓是人工杂交背景的多年生草本，匍匐茎能长出子株。红色可食部分主要来自膨大的花托，表面小颗粒才是瘦果。形态上注意三出复叶、匍匐茎、膨大花托。小模型只示意生长类型，请配合形态文字观察。把地球转到法国，再与日本比较。Kew资料分别记录为引入地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。结果类型影响开花时序；温带露地与暖地设施栽培不能共用一个固定采收月份。根系较浅，表层土太干会较快影响植株。长期湿土与叶面久湿都会增加栽培问题。人工杂交种的植物区系记录不能直接解释为野生祖先的原生地。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30117681-2",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-strawberries-in-the-home-garden",
+          "https://www.extension.umd.edu/resource/growing-strawberries-home-garden"
+        ],
+        "labels": [
+          {
+            "text": "法国",
+            "lon": 2.134,
+            "lat": 46.716,
+            "kind": "region"
+          },
+          {
+            "text": "日本",
+            "lon": 143.265,
+            "lat": 43.541,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "strawberry",
+          "label": "栽培草莓",
+          "parts": [
+            "三出复叶",
+            "匍匐茎",
+            "膨大花托"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "常见大果草莓是人工杂交背景的多年生草本，匍匐茎能长出子株。红色可食部分主要来自膨大的花托，表面小颗粒才是瘦果。形态上注意三出复叶、匍匐茎、膨大花托。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到法国，再与日本比较。Kew资料分别记录为引入地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 2.134,
+            "lat": 46.716,
+            "label": "法国",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "结果类型影响开花时序；温带露地与暖地设施栽培不能共用一个固定采收月份。根系较浅，表层土太干会较快影响植株。长期湿土与叶面久湿都会增加栽培问题。人工杂交种的植物区系记录不能直接解释为野生祖先的原生地。",
+            "lon": 143.265,
+            "lat": 43.541,
+            "label": "日本",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "strawberry-region1",
+          "cropId": "strawberry",
+          "region": "法国",
+          "lon": 2.134,
+          "lat": 46.716,
+          "chapterId": "strawberry",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30117681-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2668265；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "FRA"
+        },
+        {
+          "id": "strawberry-region2",
+          "cropId": "strawberry",
+          "region": "日本",
+          "lon": 143.265,
+          "lat": 43.541,
+          "chapterId": "strawberry",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30117681-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2862623；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "JAP"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "blueberry",
+        "name": "高丛蓝莓",
+        "latin": "Vaccinium corymbosum",
+        "synonyms": [],
+        "group": "浆果与小果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Ericaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:261823-2",
+          "nameStatus": "accepted",
+          "nameId": "2458789"
+        },
+        "lifeForm": "灌木",
+        "habitats": [
+          "温带",
+          "酸性土"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "适合的酸性根区、通气与稳定水分",
+        "limits": "土壤偏碱、排水不良与品种气候失配",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:261823-2",
+          "https://extension.oregonstate.edu/catalog/ec-1304-growing-blueberries-your-home-garden",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-blueberries-in-the-home-garden"
+        ],
+        "genericShape": "tea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "blueberry",
+        "summary": "高丛蓝莓是杜鹃花科灌木，是蓝莓栽培的重要类群之一。它使我们看到：同样是温带果树，根区酸碱条件也能成为决定性差别。",
+        "temperatureNote": "品种与杂交背景改变越冬和需冷表现，北方高丛与南方高丛不能混用一个温度结论。",
+        "water": {
+          "summary": "需稳定水分，同时维持根区通气。",
+          "timing": "干季、开花与膨果阶段应关注有效供水。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "偏酸且有适当有机质的根区有利于蓝莓；并非任何堆肥都适合。",
+          "drainage": "有机质丰富也不能弥补积水缺氧。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生灌木，芽形成与下一季结果相关。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "需按当地气候与土壤选具体栽培类型。"
+        },
+        "stress": {
+          "cold": "耐寒性因品种与杂交背景不同。",
+          "heat": "类型选择决定对暖冬和夏热的适应。",
+          "drought": "水分不稳影响长势和果实。",
+          "waterlogging": "忌根区缺氧。"
+        },
+        "regions": [
+          {
+            "name": "新泽西",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "华盛顿",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "酸性根区需求使它与许多普通果树产生明显土壤差别。",
+          "practice": "先检测土壤或基质，再决定品种和改良方案。",
+          "tradeoff": "容器可以控制基质，却增加供水管理需求。"
+        },
+        "misconception": "蓝莓不是单一物种；本条不代表兔眼蓝莓和所有低丛蓝莓。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Vaccinium corymbosum",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:261823-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "OSU Extension：蓝莓土壤与栽培",
+            "url": "https://extension.oregonstate.edu/catalog/ec-1304-growing-blueberries-your-home-garden",
+            "supports": "酸性根区、有机质、排水、土壤改良材料与蓝莓类型差异"
+          },
+          {
+            "title": "UMN Extension：蓝莓气候和授粉",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-blueberries-in-the-home-garden",
+            "supports": "日照、适地品种与授粉；含当地育成半高丛品种，不能全部等同本物种"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "blueberry",
+        "crop": "blueberry",
+        "group": "浆果与小果",
+        "title": "高丛蓝莓｜适合的酸性根区、通气与稳定水分",
+        "lon": -74.407,
+        "lat": 40.104,
+        "subtitle": "高丛蓝莓是杜鹃花科灌木，是蓝莓栽培的重要类群之一。它使我们看到：同样是温带果树，根区酸碱条件也能成为决定性差别。",
+        "shape": "blueberry",
+        "text": "高丛蓝莓是杜鹃花科灌木，是蓝莓栽培的重要类群之一。它使我们看到：同样是温带果树，根区酸碱条件也能成为决定性差别。形态上注意灌木分枝、钟形花、蓝色浆果。小模型只示意生长类型，请配合形态文字观察。把地球转到新泽西，再与华盛顿比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。品种与杂交背景改变越冬和需冷表现，北方高丛与南方高丛不能混用一个温度结论。需稳定水分，同时维持根区通气。有机质丰富也不能弥补积水缺氧。蓝莓不是单一物种；本条不代表兔眼蓝莓和所有低丛蓝莓。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:261823-2",
+          "https://extension.oregonstate.edu/catalog/ec-1304-growing-blueberries-your-home-garden",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-blueberries-in-the-home-garden"
+        ],
+        "labels": [
+          {
+            "text": "新泽西",
+            "lon": -74.407,
+            "lat": 40.104,
+            "kind": "region"
+          },
+          {
+            "text": "华盛顿",
+            "lon": -119.738,
+            "lat": 47.325,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "blueberry",
+          "label": "高丛蓝莓",
+          "parts": [
+            "灌木分枝",
+            "钟形花",
+            "蓝色浆果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "高丛蓝莓是杜鹃花科灌木，是蓝莓栽培的重要类群之一。它使我们看到：同样是温带果树，根区酸碱条件也能成为决定性差别。形态上注意灌木分枝、钟形花、蓝色浆果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": -74.407,
+            "lat": 40.104,
+            "label": "新泽西",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到新泽西，再与华盛顿比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": -74.407,
+            "lat": 40.104,
+            "label": "新泽西",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "品种与杂交背景改变越冬和需冷表现，北方高丛与南方高丛不能混用一个温度结论。需稳定水分，同时维持根区通气。有机质丰富也不能弥补积水缺氧。蓝莓不是单一物种；本条不代表兔眼蓝莓和所有低丛蓝莓。",
+            "lon": -119.738,
+            "lat": 47.325,
+            "label": "华盛顿",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "blueberry-region1",
+          "cropId": "blueberry",
+          "region": "新泽西",
+          "lon": -74.407,
+          "lat": 40.104,
+          "chapterId": "blueberry",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:261823-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 3751885；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "NWJ"
+        },
+        {
+          "id": "blueberry-region2",
+          "cropId": "blueberry",
+          "region": "华盛顿",
+          "lon": -119.738,
+          "lat": 47.325,
+          "chapterId": "blueberry",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:261823-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 3751867；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "WAS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "raspberry",
+        "name": "红树莓",
+        "latin": "Rubus idaeus",
+        "synonyms": [],
+        "group": "浆果与小果",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Rosaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:298089-2",
+          "nameStatus": "accepted",
+          "nameId": "2982071"
+        },
+        "lifeForm": "灌木",
+        "habitats": [
+          "温带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "日照、通风、排水与稳定供水",
+        "limits": "根区积水、干风与错误的结果枝修剪",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:298089-2",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-raspberries-in-the-home-garden"
+        ],
+        "genericShape": "dogrose",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "raspberry",
+        "summary": "红树莓是蔷薇科灌木，许多小核果聚在一起形成可食果。地下部分可多年生长，地上枝条的年龄却决定何时开花结果。",
+        "temperatureNote": "栽培品种的越冬与结果季节不同，应核对当地类型。",
+        "water": {
+          "summary": "砂土和干季需要特别注意根区供水。",
+          "timing": "果实发育和新枝生长都消耗水分，强风可增加干燥压力。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "有机质较好的排水土壤便于根系活动。",
+          "drainage": "积水可因缺氧与病害使植株死亡。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多数品种在二年生枝结果，也有当年生枝可结果的类型。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "按枝龄修剪，不能把所有枝条每年一概剪除。"
+        },
+        "stress": {
+          "cold": "越冬能力因品种与枝条状态而异。",
+          "heat": "热旱期需留意水分压力。",
+          "drought": "枝条易受干燥影响。",
+          "waterlogging": "积水易伤根。"
+        },
+        "regions": [
+          {
+            "name": "大不列颠",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "新西兰南岛",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "多年生根系与分年龄的枝条构成更新系统。",
+          "practice": "识别结果枝类型，保持通风和排水，再安排修剪。",
+          "tradeoff": "增加枝条密度可能减少通风，并不一定增加好果。"
+        },
+        "misconception": "“覆盆子”中文名可涉及多个悬钩子属种，本条只指Rubus idaeus。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Rubus idaeus",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:298089-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UMN Extension：红树莓栽培",
+            "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-raspberries-in-the-home-garden",
+            "supports": "多年生根部、结果枝类型、日照、排水、干风与土壤供水"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "raspberry",
+        "crop": "raspberry",
+        "group": "浆果与小果",
+        "title": "红树莓｜日照、通风、排水与稳定供水",
+        "lon": -2.023,
+        "lat": 54.367,
+        "subtitle": "红树莓是蔷薇科灌木，许多小核果聚在一起形成可食果。地下部分可多年生长，地上枝条的年龄却决定何时开花结果。",
+        "shape": "raspberry",
+        "text": "红树莓是蔷薇科灌木，许多小核果聚在一起形成可食果。地下部分可多年生长，地上枝条的年龄却决定何时开花结果。形态上注意更新枝条、复叶、聚合小核果。小模型只示意生长类型，请配合形态文字观察。把地球转到大不列颠，再与新西兰南岛比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。栽培品种的越冬与结果季节不同，应核对当地类型。砂土和干季需要特别注意根区供水。积水可因缺氧与病害使植株死亡。“覆盆子”中文名可涉及多个悬钩子属种，本条只指Rubus idaeus。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:298089-2",
+          "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/growing-raspberries-in-the-home-garden"
+        ],
+        "labels": [
+          {
+            "text": "大不列颠",
+            "lon": -2.023,
+            "lat": 54.367,
+            "kind": "region"
+          },
+          {
+            "text": "新西兰南岛",
+            "lon": 171.378,
+            "lat": -43.406,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "raspberry",
+          "label": "红树莓",
+          "parts": [
+            "更新枝条",
+            "复叶",
+            "聚合小核果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "红树莓是蔷薇科灌木，许多小核果聚在一起形成可食果。地下部分可多年生长，地上枝条的年龄却决定何时开花结果。形态上注意更新枝条、复叶、聚合小核果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": -2.023,
+            "lat": 54.367,
+            "label": "大不列颠",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到大不列颠，再与新西兰南岛比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": -2.023,
+            "lat": 54.367,
+            "label": "大不列颠",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "栽培品种的越冬与结果季节不同，应核对当地类型。砂土和干季需要特别注意根区供水。积水可因缺氧与病害使植株死亡。“覆盆子”中文名可涉及多个悬钩子属种，本条只指Rubus idaeus。",
+            "lon": 171.378,
+            "lat": -43.406,
+            "label": "新西兰南岛",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "raspberry-region1",
+          "cropId": "raspberry",
+          "region": "大不列颠",
+          "lon": -2.023,
+          "lat": 54.367,
+          "chapterId": "raspberry",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:298089-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2678262；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "GRB"
+        },
+        {
+          "id": "raspberry-region2",
+          "cropId": "raspberry",
+          "region": "新西兰南岛",
+          "lon": 171.378,
+          "lat": -43.406,
+          "chapterId": "raspberry",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:298089-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2845958；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "NZS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "papaya",
+        "name": "番木瓜",
+        "latin": "Carica papaya",
+        "synonyms": [],
+        "group": "热带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Caricaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30011248-2",
+          "nameStatus": "accepted",
+          "nameId": "2700919"
+        },
+        "lifeForm": "树状草本",
+        "habitats": [
+          "热带",
+          "暖亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "无霜温暖、光照与良好排水",
+        "limits": "霜冻、凉土与根区积水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30011248-2",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/papaya/",
+          "https://aggie-horticulture.tamu.edu/fruit-nut/fact-sheets/papaya/",
+          "https://ask.ifas.ufl.edu/publication/MG054"
+        ],
+        "genericShape": "banana",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。 番木瓜呈树状，但没有典型木本的次生增粗；Kew摘要的生活型字段为tree，此处结合植物结构解释为树状大型草本。"
+      },
+      "profile": {
+        "id": "papaya",
+        "summary": "番木瓜有直立茎干和顶端掌状大叶，果实常贴近上部茎干。它不是蔷薇科的木瓜，常绿外形也不表示能耐寒冷冬季。 茎干呈树状，但缺少典型木本的次生增粗，属于树状大型草本。",
+        "temperatureNote": "不耐冷，低温会减慢根系活动和开花，冻结可造成严重伤害。",
+        "water": {
+          "summary": "大型叶片和连续生长需要供水，但根区不能长时间积水。",
+          "timing": "幼苗建立和连续果实发育时，注意水分与排水平衡。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "以排水顺畅的土层为宜，园址条件比“热带”二字更具体。",
+          "drainage": "根区缺氧与湿涝是重要风险。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "温暖条件下连续生长，花性与品种影响是否结果。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "雄株、雌株及两性花类型的搭配，不能从叶形判断。"
+        },
+        "stress": {
+          "cold": "霜冻敏感。",
+          "heat": "温暖生长仍需水分和根区通气。",
+          "drought": "缺水限制叶片和果实生长。",
+          "waterlogging": "久涝不利于根系。"
+        },
+        "regions": [
+          {
+            "name": "墨西哥东南部",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "中国东南部",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "顶端大型叶片与沿茎结果形成辨认线索。",
+          "practice": "先确认种植材料的花性与当地冬温。",
+          "tradeoff": "设施或防寒可扩大可种范围，也增加管理要求。"
+        },
+        "misconception": "热带番木瓜不是中国传统蔷薇科木瓜。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Carica papaya",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30011248-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UF/IFAS：番木瓜",
+            "url": "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/papaya/",
+            "supports": "无霜温暖条件、低温伤害、花性与栽培类型差异"
+          },
+          {
+            "title": "Texas A&M：番木瓜栽培",
+            "url": "https://aggie-horticulture.tamu.edu/fruit-nut/fact-sheets/papaya/",
+            "supports": "掌状大叶、树干形态、排水与暖地栽培限制"
+          },
+          {
+            "title": "UF/IFAS：Papaya Growing in the Florida Home Landscape",
+            "url": "https://ask.ifas.ufl.edu/publication/MG054",
+            "supports": "番木瓜树状大型草本、无典型次生木质增粗的结构说明；不扩展为全球栽培范围。"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "papaya",
+        "crop": "papaya",
+        "group": "热带果树",
+        "title": "番木瓜｜无霜温暖、光照与良好排水",
+        "lon": -91.398,
+        "lat": 18.099,
+        "subtitle": "番木瓜有直立茎干和顶端掌状大叶，果实常贴近上部茎干。它不是蔷薇科的木瓜，常绿外形也不表示能耐寒冷冬季。",
+        "shape": "papaya",
+        "text": "番木瓜有直立茎干和顶端掌状大叶，果实常贴近上部茎干。它不是蔷薇科的木瓜，常绿外形也不表示能耐寒冷冬季。形态上注意直立茎干、掌状大叶、沿茎果实。小模型只示意生长类型，请配合形态文字观察。把地球转到墨西哥东南部，再与中国东南部比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。不耐冷，低温会减慢根系活动和开花，冻结可造成严重伤害。大型叶片和连续生长需要供水，但根区不能长时间积水。根区缺氧与湿涝是重要风险。热带番木瓜不是中国传统蔷薇科木瓜。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30011248-2",
+          "https://gardeningsolutions.ifas.ufl.edu/plants/edibles/fruits/papaya/",
+          "https://aggie-horticulture.tamu.edu/fruit-nut/fact-sheets/papaya/"
+        ],
+        "labels": [
+          {
+            "text": "墨西哥东南部",
+            "lon": -91.398,
+            "lat": 18.099,
+            "kind": "region"
+          },
+          {
+            "text": "中国东南部",
+            "lon": 115.231,
+            "lat": 28.304,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "papaya",
+          "label": "番木瓜",
+          "parts": [
+            "直立茎干",
+            "掌状大叶",
+            "沿茎果实"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "番木瓜有直立茎干和顶端掌状大叶，果实常贴近上部茎干。它不是蔷薇科的木瓜，常绿外形也不表示能耐寒冷冬季。形态上注意直立茎干、掌状大叶、沿茎果实。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": -91.398,
+            "lat": 18.099,
+            "label": "墨西哥东南部",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到墨西哥东南部，再与中国东南部比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": -91.398,
+            "lat": 18.099,
+            "label": "墨西哥东南部",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "不耐冷，低温会减慢根系活动和开花，冻结可造成严重伤害。大型叶片和连续生长需要供水，但根区不能长时间积水。根区缺氧与湿涝是重要风险。热带番木瓜不是中国传统蔷薇科木瓜。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "papaya-region1",
+          "cropId": "papaya",
+          "region": "墨西哥东南部",
+          "lon": -91.398,
+          "lat": 18.099,
+          "chapterId": "papaya",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30011248-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2077193；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "MXT"
+        },
+        {
+          "id": "papaya-region2",
+          "cropId": "papaya",
+          "region": "中国东南部",
+          "lon": 115.231,
+          "lat": 28.304,
+          "chapterId": "papaya",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30011248-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 4413654；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "CHS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "guava",
+        "name": "番石榴",
+        "latin": "Psidium guajava",
+        "synonyms": [],
+        "group": "热带果树",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Myrtaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:600841-1",
+          "nameStatus": "accepted",
+          "nameId": "166741"
+        },
+        "lifeForm": "灌木或乔木",
+        "habitats": [
+          "热带",
+          "暖亚热带"
+        ],
+        "uses": [
+          "食用"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖、日照与能排涝的根区",
+        "limits": "寒冻、长时间洪涝与果期缺水",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:600841-1",
+          "https://ask.ifas.ufl.edu/publication/MG045"
+        ],
+        "genericShape": "citrus",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "guava",
+        "summary": "番石榴是常绿灌木或小乔木，果实含许多种子。它适应温暖环境，成树一定程度的耐旱或短期耐湿，并不等于任何恶劣条件下都能正常结果。",
+        "temperatureNote": "低温会减缓生长；幼树与成树的抗寒表现不同。",
+        "water": {
+          "summary": "干旱会使生长减弱，虽然树体可能存活，果实产出仍受影响。",
+          "timing": "果实发育期与干季需关注供水，暴雨后同时检查排水。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "可适应多种土壤，实际营养与盐分要按土测判断。",
+          "drainage": "可耐短期湿土，不等于能忍受持续洪涝；后者可造成落叶、枝枯甚至死亡。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生常绿或暖地持续生长，开花结果节奏随环境与管理改变。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "品种影响果肉颜色、酸甜和果形。"
+        },
+        "stress": {
+          "cold": "幼树较易受冻。",
+          "heat": "温暖有利于生长，极端条件仍需地方核实。",
+          "drought": "耐旱生存不等于稳定产果。",
+          "waterlogging": "持续洪涝会伤树。"
+        },
+        "regions": [
+          {
+            "name": "秘鲁",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的来源范围相关记录。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "中国东南部",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "多籽浆果与常绿枝叶便于识别。",
+          "practice": "按当地引种和生态管理要求选择材料并防止逸生。",
+          "tradeoff": "容易传播和适应暖地，也意味着某些引入地需要管理扩散。"
+        },
+        "misconception": "WCVP的栽培起源记录不是现代野生祖先范围的直接证明。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Psidium guajava",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:600841-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UF/IFAS：番石榴生长环境",
+            "url": "https://ask.ifas.ufl.edu/publication/MG045",
+            "supports": "热带亚热带、低温、干旱与短期湿涝反应、日照和果实差异"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "guava",
+        "crop": "guava",
+        "group": "热带果树",
+        "title": "番石榴｜温暖、日照与能排涝的根区",
+        "lon": -75.803,
+        "lat": -9.195,
+        "subtitle": "番石榴是常绿灌木或小乔木，果实含许多种子。它适应温暖环境，成树一定程度的耐旱或短期耐湿，并不等于任何恶劣条件下都能正常结果。",
+        "shape": "guava",
+        "text": "番石榴是常绿灌木或小乔木，果实含许多种子。它适应温暖环境，成树一定程度的耐旱或短期耐湿，并不等于任何恶劣条件下都能正常结果。形态上注意对生叶、白色花、多籽浆果。小模型只示意生长类型，请配合形态文字观察。把地球转到秘鲁，再与中国东南部比较。Kew资料分别记录为来源范围相关记录和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。低温会减缓生长；幼树与成树的抗寒表现不同。干旱会使生长减弱，虽然树体可能存活，果实产出仍受影响。可耐短期湿土，不等于能忍受持续洪涝；后者可造成落叶、枝枯甚至死亡。WCVP的栽培起源记录不是现代野生祖先范围的直接证明。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:600841-1",
+          "https://ask.ifas.ufl.edu/publication/MG045"
+        ],
+        "labels": [
+          {
+            "text": "秘鲁",
+            "lon": -75.803,
+            "lat": -9.195,
+            "kind": "region"
+          },
+          {
+            "text": "中国东南部",
+            "lon": 115.231,
+            "lat": 28.304,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "guava",
+          "label": "番石榴",
+          "parts": [
+            "对生叶",
+            "白色花",
+            "多籽浆果"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "番石榴是常绿灌木或小乔木，果实含许多种子。它适应温暖环境，成树一定程度的耐旱或短期耐湿，并不等于任何恶劣条件下都能正常结果。形态上注意对生叶、白色花、多籽浆果。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": -75.803,
+            "lat": -9.195,
+            "label": "秘鲁",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到秘鲁，再与中国东南部比较。Kew资料分别记录为来源范围相关记录和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": -75.803,
+            "lat": -9.195,
+            "label": "秘鲁",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "低温会减缓生长；幼树与成树的抗寒表现不同。干旱会使生长减弱，虽然树体可能存活，果实产出仍受影响。可耐短期湿土，不等于能忍受持续洪涝；后者可造成落叶、枝枯甚至死亡。WCVP的栽培起源记录不是现代野生祖先范围的直接证明。",
+            "lon": 115.231,
+            "lat": 28.304,
+            "label": "中国东南部",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "guava-region1",
+          "cropId": "guava",
+          "region": "秘鲁",
+          "lon": -75.803,
+          "lat": -9.195,
+          "chapterId": "guava",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:600841-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 667521；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "PER"
+        },
+        {
+          "id": "guava-region2",
+          "cropId": "guava",
+          "region": "中国东南部",
+          "lon": 115.231,
+          "lat": 28.304,
+          "chapterId": "guava",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:600841-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 1369927；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。栽培起源或人工杂交背景，不能当作野生祖先原产地证明。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "CHS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "sisal",
+        "name": "剑麻",
+        "latin": "Agave sisalana",
+        "synonyms": [],
+        "group": "纤维作物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Asparagaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:6701-2",
+          "nameStatus": "accepted",
+          "nameId": "294215"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带",
+          "干旱与半干旱"
+        ],
+        "uses": [
+          "纤维",
+          "材料"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "强光、透水土层与温暖季节",
+        "limits": "根区积水、低温和长期资源不足",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:6701-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=339",
+          "https://apps.worldagroforestry.org/downloads/Publications/PDFS/B19034.pdf"
+        ],
+        "genericShape": "agave",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "sisal",
+        "summary": "剑麻是多年生莲座状植物，粗长叶片中取出纤维。它能适应季节性缺水，仍需要建立植株的水分和能排水的根区。",
+        "temperatureNote": "温暖和较强光照有利于生长，不能把热带分布直接扩大为所有温带露地可种。",
+        "water": {
+          "summary": "肉质叶片有助应对旱期，但叶片产出仍受有效水分影响。",
+          "timing": "新植苗建立与长期叶片生长需要区分。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "透水的砂质或中等质地土层较有利。",
+          "drainage": "排水顺畅比长期湿土更合适。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生莲座叶簇，成熟后可抽出高大花序。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "叶片取纤维的生产方式不同于以种子为收获物的作物。"
+        },
+        "stress": {
+          "cold": "非所有寒冷地点都可露地越冬。",
+          "heat": "耐热需与供水条件一起看。",
+          "drought": "可适应干旱，但不表示无水丰产。",
+          "waterlogging": "根区久湿不利。"
+        },
+        "regions": [
+          {
+            "name": "墨西哥东南部",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "莫桑比克",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "肉质剑形叶聚成莲座，同时是纤维收获部位。",
+          "practice": "结合土壤透水性与长期叶片采收管理。",
+          "tradeoff": "耐旱与较高纤维产量不是同一个指标。"
+        },
+        "misconception": "剑麻是龙舌兰属植物，不是麻类作物的单一统称。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Agave sisalana",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:6701-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "FAO EcoCrop：剑麻（历史资料）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=339",
+            "supports": "多年生莲座形、叶纤维用途、强光和排水；历史范围不作新全球适生模型"
+          },
+          {
+            "title": "World Agroforestry：半干旱区剑麻",
+            "url": "https://apps.worldagroforestry.org/downloads/Publications/PDFS/B19034.pdf",
+            "supports": "储水叶片、干旱适应、透水深土与叶纤维用途"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "sisal",
+        "crop": "sisal",
+        "group": "纤维作物",
+        "title": "剑麻｜强光、透水土层与温暖季节",
+        "lon": -91.398,
+        "lat": 18.099,
+        "subtitle": "剑麻是多年生莲座状植物，粗长叶片中取出纤维。它能适应季节性缺水，仍需要建立植株的水分和能排水的根区。",
+        "shape": "sisal",
+        "text": "剑麻是多年生莲座状植物，粗长叶片中取出纤维。它能适应季节性缺水，仍需要建立植株的水分和能排水的根区。形态上注意莲座叶簇、长剑形叶、叶内纤维。小模型只示意生长类型，请配合形态文字观察。把地球转到墨西哥东南部，再与莫桑比克比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。温暖和较强光照有利于生长，不能把热带分布直接扩大为所有温带露地可种。肉质叶片有助应对旱期，但叶片产出仍受有效水分影响。排水顺畅比长期湿土更合适。剑麻是龙舌兰属植物，不是麻类作物的单一统称。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:6701-2",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=339",
+          "https://apps.worldagroforestry.org/downloads/Publications/PDFS/B19034.pdf"
+        ],
+        "labels": [
+          {
+            "text": "墨西哥东南部",
+            "lon": -91.398,
+            "lat": 18.099,
+            "kind": "region"
+          },
+          {
+            "text": "莫桑比克",
+            "lon": 34.685,
+            "lat": -18.652,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "sisal",
+          "label": "剑麻",
+          "parts": [
+            "莲座叶簇",
+            "长剑形叶",
+            "叶内纤维"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "剑麻是多年生莲座状植物，粗长叶片中取出纤维。它能适应季节性缺水，仍需要建立植株的水分和能排水的根区。形态上注意莲座叶簇、长剑形叶、叶内纤维。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": -91.398,
+            "lat": 18.099,
+            "label": "墨西哥东南部",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到墨西哥东南部，再与莫桑比克比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": -91.398,
+            "lat": 18.099,
+            "label": "墨西哥东南部",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "温暖和较强光照有利于生长，不能把热带分布直接扩大为所有温带露地可种。肉质叶片有助应对旱期，但叶片产出仍受有效水分影响。排水顺畅比长期湿土更合适。剑麻是龙舌兰属植物，不是麻类作物的单一统称。",
+            "lon": 34.685,
+            "lat": -18.652,
+            "label": "莫桑比克",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "sisal-region1",
+          "cropId": "sisal",
+          "region": "墨西哥东南部",
+          "lon": -91.398,
+          "lat": 18.099,
+          "chapterId": "sisal",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:6701-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 337853；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "MXT"
+        },
+        {
+          "id": "sisal-region2",
+          "cropId": "sisal",
+          "region": "莫桑比克",
+          "lon": 34.685,
+          "lat": -18.652,
+          "chapterId": "sisal",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:6701-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 524443；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "MOZ"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "jute",
+        "name": "圆果黄麻",
+        "latin": "Corchorus capsularis",
+        "synonyms": [],
+        "group": "纤维作物",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Malvaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:833552-1",
+          "nameStatus": "accepted",
+          "nameId": "2736337"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "热带",
+          "亚热带",
+          "季风湿热"
+        ],
+        "uses": [
+          "纤维",
+          "材料"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "湿热生长季、合适日长与根区条件",
+        "limits": "幼苗积水、长期滞水与不合适播期",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:833552-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=4849",
+          "https://www.nfsm.gov.in/BriefNote/BN_Jute.pdf"
+        ],
+        "genericShape": "cotton",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "jute",
+        "summary": "圆果黄麻是以茎部韧皮纤维为主要产品的一年生植物。它常与季风湿热环境联系，但幼苗、成株与纤维品质对积水的反应并不相同。",
+        "temperatureNote": "温暖湿润支持营养生长，较冷条件不利于建立植株。",
+        "water": {
+          "summary": "生长季需较充足水分，湿润不等于从播种起就长时间淹没。",
+          "timing": "幼苗对积水更敏感；较成熟植株耐湿程度可提高。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "土层供水与养分共同影响茎部生长。",
+          "drainage": "长期滞水可能损害纤维品质，不能只以成株耐湿判断管理。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "一年生，收获重点是茎纤维。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "短日照促进生殖转变，播期和日长会改变营养生长期。"
+        },
+        "stress": {
+          "cold": "冷凉不利于萌发和生长。",
+          "heat": "需湿热，但极端高温并非越高越好。",
+          "drought": "缺水限制茎部生长。",
+          "waterlogging": "幼苗与长期滞水需分别评估。"
+        },
+        "regions": [
+          {
+            "name": "孟加拉国",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "坦桑尼亚",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "直立长茎中的韧皮纤维形成工业原料。",
+          "practice": "区分圆果黄麻与长果黄麻，再按季风和日长安排生产。",
+          "tradeoff": "能耐一定淹水，不代表纤维品质不受影响。"
+        },
+        "misconception": "FAOSTAT“黄麻”商品可能包括其他种，不能全部归为圆果黄麻。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Corchorus capsularis",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:833552-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "FAO EcoCrop：圆果黄麻（历史资料）",
+            "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=4849",
+            "supports": "直立草本、茎纤维、湿热生长、幼苗与成株耐湿差异以及日长反应"
+          },
+          {
+            "title": "印度农业部门：黄麻技术简介",
+            "url": "https://www.nfsm.gov.in/BriefNote/BN_Jute.pdf",
+            "supports": "圆果黄麻与长果黄麻的差别；长期积水与纤维品质限制"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "jute",
+        "crop": "jute",
+        "group": "纤维作物",
+        "title": "圆果黄麻｜湿热生长季、合适日长与根区条件",
+        "lon": 89.894,
+        "lat": 23.625,
+        "subtitle": "圆果黄麻是以茎部韧皮纤维为主要产品的一年生植物。它常与季风湿热环境联系，但幼苗、成株与纤维品质对积水的反应并不相同。",
+        "shape": "jute",
+        "text": "圆果黄麻是以茎部韧皮纤维为主要产品的一年生植物。它常与季风湿热环境联系，但幼苗、成株与纤维品质对积水的反应并不相同。形态上注意直立细长茎、叶片、茎部韧皮纤维。小模型只示意生长类型，请配合形态文字观察。把地球转到孟加拉国，再与坦桑尼亚比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。温暖湿润支持营养生长，较冷条件不利于建立植株。生长季需较充足水分，湿润不等于从播种起就长时间淹没。长期滞水可能损害纤维品质，不能只以成株耐湿判断管理。FAOSTAT“黄麻”商品可能包括其他种，不能全部归为圆果黄麻。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:833552-1",
+          "https://ecocrop.apps.fao.org/ecocrop/srv/en/cropView?id=4849",
+          "https://www.nfsm.gov.in/BriefNote/BN_Jute.pdf"
+        ],
+        "labels": [
+          {
+            "text": "孟加拉国",
+            "lon": 89.894,
+            "lat": 23.625,
+            "kind": "region"
+          },
+          {
+            "text": "坦桑尼亚",
+            "lon": 34.253,
+            "lat": -6.368,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "jute",
+          "label": "圆果黄麻",
+          "parts": [
+            "直立细长茎",
+            "叶片",
+            "茎部韧皮纤维"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "圆果黄麻是以茎部韧皮纤维为主要产品的一年生植物。它常与季风湿热环境联系，但幼苗、成株与纤维品质对积水的反应并不相同。形态上注意直立细长茎、叶片、茎部韧皮纤维。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 89.894,
+            "lat": 23.625,
+            "label": "孟加拉国",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到孟加拉国，再与坦桑尼亚比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 89.894,
+            "lat": 23.625,
+            "label": "孟加拉国",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "温暖湿润支持营养生长，较冷条件不利于建立植株。生长季需较充足水分，湿润不等于从播种起就长时间淹没。长期滞水可能损害纤维品质，不能只以成株耐湿判断管理。FAOSTAT“黄麻”商品可能包括其他种，不能全部归为圆果黄麻。",
+            "lon": 34.253,
+            "lat": -6.368,
+            "label": "坦桑尼亚",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "jute-region1",
+          "cropId": "jute",
+          "region": "孟加拉国",
+          "lon": 89.894,
+          "lat": 23.625,
+          "chapterId": "jute",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:833552-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 2107742；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "BAN"
+        },
+        {
+          "id": "jute-region2",
+          "cropId": "jute",
+          "region": "坦桑尼亚",
+          "lon": 34.253,
+          "lat": -6.368,
+          "chapterId": "jute",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:833552-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 2107740；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "TAN"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "alfalfa",
+        "name": "紫花苜蓿",
+        "latin": "Medicago sativa",
+        "synonyms": [],
+        "group": "饲草与绿肥",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Fabaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30234961-2",
+          "nameStatus": "accepted",
+          "nameId": "2369031"
+        },
+        "lifeForm": "草本",
+        "habitats": [
+          "温带",
+          "半干旱灌溉"
+        ],
+        "uses": [
+          "饲草",
+          "绿肥"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "深厚通气根区、适地品种与生长季供水",
+        "limits": "幼苗干旱、久涝、硬层与刈割压力",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30234961-2",
+          "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+          "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/117595.pdf"
+        ],
+        "genericShape": "pea",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "alfalfa",
+        "summary": "紫花苜蓿是豆科饲草，能反复刈割利用。成株深根帮助获取深层水，严重干旱时可能暂时休眠，但幼苗远没有成株耐旱。",
+        "temperatureNote": "高温叠加干旱会明显影响建立和再生，冬季表现还取决于当地品种。",
+        "water": {
+          "summary": "浓密叶冠和较长生长季使总耗水可观，耐旱生存与高产需水必须分开。",
+          "timing": "刈割后再生、成冠前幼苗与旱期休眠的用水状态不同。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "深厚且无阻根硬层的土壤支持根系向下利用水分。",
+          "drainage": "活动生长期不耐久湿，高水位会缩短群落寿命。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生饲草，刈割后从冠部芽再生。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "休眠与再生使它能跨季存活，但会牺牲旱期产量。"
+        },
+        "stress": {
+          "cold": "需按当地越冬类型选择品种。",
+          "heat": "热旱叠加减缓生长。",
+          "drought": "成株可休眠避旱，幼苗易受损。",
+          "waterlogging": "久涝伤根。"
+        },
+        "regions": [
+          {
+            "name": "伊朗",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "华盛顿",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "根系、根冠储备和再生芽共同支持反复收获。",
+          "practice": "按土层、群落年龄与再生阶段安排水分和刈割。",
+          "tradeoff": "频繁收获与保存根冠储备之间需要平衡。"
+        },
+        "misconception": "会固氮和耐旱，不等于无需水肥或任何土壤都能高产。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Medicago sativa",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30234961-2",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "UMN Extension：苜蓿干旱反应",
+            "url": "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+            "supports": "深根、幼苗脆弱性、旱期休眠与恢复、缺水减产和水分利用"
+          },
+          {
+            "title": "UC Davis：苜蓿土壤与选址",
+            "url": "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/117595.pdf",
+            "supports": "根系土层限制、活动生长期不耐湿土与高水位"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "alfalfa",
+        "crop": "alfalfa",
+        "group": "饲草与绿肥",
+        "title": "紫花苜蓿｜深厚通气根区、适地品种与生长季供水",
+        "lon": 53.74,
+        "lat": 32.683,
+        "subtitle": "紫花苜蓿是豆科饲草，能反复刈割利用。成株深根帮助获取深层水，严重干旱时可能暂时休眠，但幼苗远没有成株耐旱。",
+        "shape": "alfalfa",
+        "text": "紫花苜蓿是豆科饲草，能反复刈割利用。成株深根帮助获取深层水，严重干旱时可能暂时休眠，但幼苗远没有成株耐旱。形态上注意三出复叶、紫色蝶形花、根冠再生芽。小模型只示意生长类型，请配合形态文字观察。把地球转到伊朗，再与华盛顿比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。高温叠加干旱会明显影响建立和再生，冬季表现还取决于当地品种。浓密叶冠和较长生长季使总耗水可观，耐旱生存与高产需水必须分开。活动生长期不耐久湿，高水位会缩短群落寿命。会固氮和耐旱，不等于无需水肥或任何土壤都能高产。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30234961-2",
+          "https://extension.umn.edu/agriculture/crop-production/forages/alfalfa-during-drought",
+          "https://alfalfa.ucdavis.edu/sites/g/files/dgvnsk12586/files/media/documents/117595.pdf"
+        ],
+        "labels": [
+          {
+            "text": "伊朗",
+            "lon": 53.74,
+            "lat": 32.683,
+            "kind": "region"
+          },
+          {
+            "text": "华盛顿",
+            "lon": -119.738,
+            "lat": 47.325,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "alfalfa",
+          "label": "紫花苜蓿",
+          "parts": [
+            "三出复叶",
+            "紫色蝶形花",
+            "根冠再生芽"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "紫花苜蓿是豆科饲草，能反复刈割利用。成株深根帮助获取深层水，严重干旱时可能暂时休眠，但幼苗远没有成株耐旱。形态上注意三出复叶、紫色蝶形花、根冠再生芽。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 53.74,
+            "lat": 32.683,
+            "label": "伊朗",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到伊朗，再与华盛顿比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 53.74,
+            "lat": 32.683,
+            "label": "伊朗",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "高温叠加干旱会明显影响建立和再生，冬季表现还取决于当地品种。浓密叶冠和较长生长季使总耗水可观，耐旱生存与高产需水必须分开。活动生长期不耐久湿，高水位会缩短群落寿命。会固氮和耐旱，不等于无需水肥或任何土壤都能高产。",
+            "lon": -119.738,
+            "lat": 47.325,
+            "label": "华盛顿",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "alfalfa-region1",
+          "cropId": "alfalfa",
+          "region": "伊朗",
+          "lon": 53.74,
+          "lat": 32.683,
+          "chapterId": "alfalfa",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30234961-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 2415571；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "IRN"
+        },
+        {
+          "id": "alfalfa-region2",
+          "cropId": "alfalfa",
+          "region": "华盛顿",
+          "lon": -119.738,
+          "lat": 47.325,
+          "chapterId": "alfalfa",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30234961-2",
+          "sourceScope": "WCVP v16地区状态，记录ID 4830480；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "WAS"
+        }
+      ]
+    },
+    {
+      "plant": {
+        "id": "clove",
+        "name": "丁香（香料树）",
+        "latin": "Syzygium aromaticum",
+        "synonyms": [],
+        "group": "香辛料",
+        "collection": "agriculture",
+        "taxonomy": {
+          "clade": "被子植物",
+          "family": "Myrtaceae",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601421-1",
+          "nameStatus": "accepted",
+          "nameId": "199236"
+        },
+        "lifeForm": "灌木或乔木",
+        "habitats": [
+          "湿润热带"
+        ],
+        "uses": [
+          "香辛料",
+          "芳香材料"
+        ],
+        "mapModel": "reference-only",
+        "typical": [],
+        "conditional": [],
+        "needs": "温暖湿润、全年水分与排水土层",
+        "limits": "长旱、寒冷与根区久涝",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601421-1",
+          "https://www.indianspices.com/node/24.html",
+          "https://spices.res.in/products/spices/clove.html"
+        ],
+        "genericShape": "cinnamon",
+        "modelNote": "教学形态示意，关键器官比例简化；花果可能跨阶段并置，品种外形有差异，非实物重建。",
+        "nameNote": "本条按所列学名界定，不代表全部同中文名称的种、品种或杂交栽培型。"
+      },
+      "profile": {
+        "id": "clove",
+        "summary": "作为香料的丁香来自常绿桃金娘科树的未开放花蕾，与花园里紫色花的木犀科丁香不同。湿润热带有利于它的多年生长。",
+        "temperatureNote": "暖湿热带条件与温带落叶果树的冬季休眠需求不同。",
+        "water": {
+          "summary": "全年有较稳定的土壤水分较有利，长旱会打断生长。",
+          "timing": "幼树建立与花蕾发育都需考虑季节供水。",
+          "caution": "供水须结合土层、季节与管理；年雨量不能直接证明农田供水。"
+        },
+        "soil": {
+          "texture": "较肥沃、富有机质的土层有利生长。",
+          "drainage": "需水不等于耐涝，土壤应能排走多余水。",
+          "phNote": "除来源明确的定性要求外，不设置未经逐条核验的最佳酸碱数值；请结合当地土测。"
+        },
+        "season": {
+          "type": "多年生常绿树，香料在花蕾尚未开放时采收。",
+          "timing": "按当地气候和具体栽培型判断，地图不设置全球统一播种或采收月份。",
+          "explanation": "种树到形成可收花蕾需多年，不能按一年生蔬菜理解。"
+        },
+        "stress": {
+          "cold": "寒冷地点需谨慎核实栽培条件。",
+          "heat": "温暖需与空气湿度和根区水分配合。",
+          "drought": "长期干旱不利。",
+          "waterlogging": "久涝不能代替稳定湿润。"
+        },
+        "regions": [
+          {
+            "name": "马鲁古群岛",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的原生地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          },
+          {
+            "name": "马达加斯加",
+            "why": "Kew WCVP v16将本植物列为该植物地理区的引入地区。",
+            "caution": "这是植物区系地区记录，不代表该区域每处均有植株或整个区域适合农业生产。"
+          }
+        ],
+        "adaptation": {
+          "mechanism": "芳香物质丰富的未开放花蕾形成商品香料。",
+          "practice": "观察旱季供水、土层排水和花蕾成熟阶段。",
+          "tradeoff": "树能成活与进入稳定花蕾采收期存在时间差。"
+        },
+        "misconception": "香料丁香不是温带庭院丁香属植物。",
+        "sources": [
+          {
+            "title": "Kew WCVP v16 / POWO：Syzygium aromaticum",
+            "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601421-1",
+            "supports": "接受名、科、生活型、来源范围及植物区系地区状态；不是农田位置、种植面积或适生验证。"
+          },
+          {
+            "title": "印度香料局：丁香",
+            "url": "https://www.indianspices.com/node/24.html",
+            "supports": "丁香香料是未开放花蕾、湿润热带、全年土壤水分与排水；所列引种栽培地"
+          },
+          {
+            "title": "ICAR-IISR：丁香",
+            "url": "https://spices.res.in/products/spices/clove.html",
+            "supports": "常绿树、花蕾采收、马鲁古起源与暖湿生态"
+          }
+        ]
+      },
+      "chapter": {
+        "id": "clove",
+        "crop": "clove",
+        "group": "香辛料",
+        "title": "丁香（香料树）｜温暖湿润、全年水分与排水土层",
+        "lon": 126.738,
+        "lat": -3.5,
+        "subtitle": "作为香料的丁香来自常绿桃金娘科树的未开放花蕾，与花园里紫色花的木犀科丁香不同。湿润热带有利于它的多年生长。",
+        "shape": "clove",
+        "text": "作为香料的丁香来自常绿桃金娘科树的未开放花蕾，与花园里紫色花的木犀科丁香不同。湿润热带有利于它的多年生长。形态上注意对生常绿叶、花蕾簇、干燥未开放花蕾。小模型只示意生长类型，请配合形态文字观察。把地球转到马鲁古群岛，再与马达加斯加比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。暖湿热带条件与温带落叶果树的冬季休眠需求不同。全年有较稳定的土壤水分较有利，长旱会打断生长。需水不等于耐涝，土壤应能排走多余水。香料丁香不是温带庭院丁香属植物。",
+        "sources": [
+          "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601421-1",
+          "https://www.indianspices.com/node/24.html",
+          "https://spices.res.in/products/spices/clove.html"
+        ],
+        "labels": [
+          {
+            "text": "马鲁古群岛",
+            "lon": 126.738,
+            "lat": -3.5,
+            "kind": "region"
+          },
+          {
+            "text": "马达加斯加",
+            "lon": 46.713,
+            "lat": -18.925,
+            "kind": "region"
+          }
+        ],
+        "morphology": {
+          "type": "clove",
+          "label": "丁香（香料树）",
+          "parts": [
+            "对生常绿叶",
+            "花蕾簇",
+            "干燥未开放花蕾"
+          ],
+          "note": "教学形态示意；器官比例放大，品种与生长阶段有差异，非实物重建。"
+        },
+        "beats": [
+          {
+            "text": "作为香料的丁香来自常绿桃金娘科树的未开放花蕾，与花园里紫色花的木犀科丁香不同。湿润热带有利于它的多年生长。形态上注意对生常绿叶、花蕾簇、干燥未开放花蕾。小模型只示意生长类型，请配合形态文字观察。",
+            "lon": 126.738,
+            "lat": -3.5,
+            "label": "马鲁古群岛",
+            "shapeMode": "morphology"
+          },
+          {
+            "text": "把地球转到马鲁古群岛，再与马达加斯加比较。Kew资料分别记录为原生地区和引入地区。这说明植物地理记录中的关系，不能据此把整个地区视为农田或推荐种植区。",
+            "lon": 126.738,
+            "lat": -3.5,
+            "label": "马鲁古群岛",
+            "shapeMode": "geography"
+          },
+          {
+            "text": "暖湿热带条件与温带落叶果树的冬季休眠需求不同。全年有较稳定的土壤水分较有利，长旱会打断生长。需水不等于耐涝，土壤应能排走多余水。香料丁香不是温带庭院丁香属植物。",
+            "lon": 46.713,
+            "lat": -18.925,
+            "label": "马达加斯加",
+            "shapeMode": "geography"
+          }
+        ]
+      },
+      "placements": [
+        {
+          "id": "clove-region1",
+          "cropId": "clove",
+          "region": "马鲁古群岛",
+          "lon": 126.738,
+          "lat": -3.5,
+          "chapterId": "clove",
+          "beatIndex": 1,
+          "role": "representative",
+          "evidenceType": "native_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601421-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 82801；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "MOL"
+        },
+        {
+          "id": "clove-region2",
+          "cropId": "clove",
+          "region": "马达加斯加",
+          "lon": 46.713,
+          "lat": -18.925,
+          "chapterId": "clove",
+          "beatIndex": 2,
+          "role": "representative",
+          "evidenceType": "introduced_region",
+          "sourceUrl": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:601421-1",
+          "sourceScope": "WCVP v16地区状态，记录ID 688065；地区内部标签点仅供教学定位，不是植株、标本或农田坐标。",
+          "coordinatePrecision": "editorial-region-center",
+          "regionCode": "MDG"
+        }
+      ]
+    }
+  ]
+}

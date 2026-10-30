@@ -1,0 +1,8 @@
+node_modules/
+_site/
+.env
+.env.*
+*.pem
+*.key
+.plant-earth-publication
+__pycache__/

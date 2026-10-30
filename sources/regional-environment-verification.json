@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "errors": [],
+  "checkedAt": "2026-10-29T05:34:06.215407+00:00",
+  "regions": 85,
+  "plants": 140,
+  "legacyRegionsPreserved": 25,
+  "legacyPrimaryMappingsPreserved": 40,
+  "climateAvailable": 85,
+  "climateMonths": 1020,
+  "soilAvailable": 81,
+  "soilNotApplicable": 4,
+  "soilSeparateSamples": [
+    "mexico-plateau",
+    "liguria",
+    "netherlands",
+    "ryukyu",
+    "punjab-india",
+    "shandong-plain",
+    "ethiopia-highlands",
+    "mali-sikasso",
+    "washington-wenatchee",
+    "brazil-cerrado"
+  ],
+  "waterSatelliteSamples": 85,
+  "waterDocumented": 0,
+  "countryProductionRelations": 193,
+  "mechanismComparisonRelations": 13,
+  "sha256": "9aa46a4eeb26d7b6a81ce64ec54ebdba2e74f1bdc89312b3152c57c9d9e25c38",
+  "checks": [
+    "All 25 original case fields and 40 primary mappings retained",
+    "60 new named regional samples with actual NASA, SoilGrids and JRC raw responses",
+    "140 plant IDs mapped through cropToRegions",
+    "Climate period and daily/monthly units explicit",
+    "Country production evidence never represented as a plant/field occurrence",
+    "No invented missing values"
+  ],
+  "limitations": [
+    "Gridded estimates are not local sensor or soil laboratory measurements",
+    "Country production associations do not locate fields",
+    "Surface-water occurrence does not measure plant available water, salinity or water depth",
+    "No global parcel-suitability claim"
+  ]
+}

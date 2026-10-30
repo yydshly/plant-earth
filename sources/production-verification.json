@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checkedValueFlagNotePairs": 14760,
+  "plants": 92,
+  "uniqueCommodities": 85,
+  "countryCommodityRecords": 7288,
+  "uniqueStatisticalAreas": 196,
+  "explicitZeroValuesPreserved": 278,
+  "missingProductionValuesPreserved": 139,
+  "missingProductionWithReportedArea": 14,
+  "worldTotalIsIndependent": true,
+  "notes": [
+    "Every shipped value, status flag and source note matches the official-source CSV row.",
+    "Coverage and sums are deliberately separate; missing data were not imputed."
+  ]
+}

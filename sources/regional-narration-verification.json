@@ -1,0 +1,1513 @@
+{
+  "passed": true,
+  "complete": true,
+  "chapterCount": 86,
+  "expectedChapterCount": 86,
+  "regionCount": 85,
+  "missingIds": [],
+  "assertions": 4502,
+  "spokenNumericFactsChecked": 318,
+  "characters": 31070,
+  "totalDuration": 7125.732,
+  "cues": 620,
+  "segmentsSha256": "627b012c7e8a333b30cbae174ff466840f4f5f6170345bdd370ef6337e0f9795",
+  "regionalEvidenceSha256": "9aa46a4eeb26d7b6a81ce64ec54ebdba2e74f1bdc89312b3152c57c9d9e25c38",
+  "audioFormat": "MP3 / 32000 Hz / mono / nominal 128 kbps",
+  "alignment": "Original MiniMax sentence times; whitespace-only restoration to frozen display script audited separately. Sentence interiors use proportional estimates, not forced word alignment.",
+  "displayWhitespaceRestorations": [
+    {
+      "id": "region-course-sonoran-v1",
+      "kind": "display-whitespace-only",
+      "rawTextHash": "1c62d53ed918c0383c85918957b1b79f19929719f138bdb30399a0b31af0be42",
+      "frozenTextHash": "7d2607d6c50282b38fb12959e3c60fb438f139566196ec6282637c861923fa6d",
+      "rawCharacters": 314,
+      "displayCharacters": 315,
+      "sentenceTimesUnchanged": true,
+      "wordsAndPunctuationUnchanged": true
+    },
+    {
+      "id": "region-course-carolina-wetland-v1",
+      "kind": "display-whitespace-only",
+      "rawTextHash": "7af244e9f66ecfa9eaa062f12145eb620fb97aec202ab989bf8d5a43a3511cbd",
+      "frozenTextHash": "caf3122073e845c6855cc61acf8b3e226b469f4fe82071ff6ae885b0c601bd13",
+      "rawCharacters": 332,
+      "displayCharacters": 333,
+      "sentenceTimesUnchanged": true,
+      "wordsAndPunctuationUnchanged": true
+    },
+    {
+      "id": "region-course-namib-v1",
+      "kind": "display-whitespace-only",
+      "rawTextHash": "81ce147ba233f4a1204b4ac8bf8809bfb2b6063e1fc8e8364d1c364efa129e17",
+      "frozenTextHash": "e9c64127b466787776aad21b0fd1e92e5cd068482380256b768e2445f328c71f",
+      "rawCharacters": 338,
+      "displayCharacters": 339,
+      "sentenceTimesUnchanged": true,
+      "wordsAndPunctuationUnchanged": true
+    }
+  ],
+  "chapters": [
+    {
+      "id": "region-course-overview-v1",
+      "classId": "regional-overview",
+      "regionId": "namib",
+      "characters": 426,
+      "duration": 103.284,
+      "ffprobeDuration": 103.284,
+      "audioBytes": 1654260,
+      "audioSha256": "d68707ad819cddb118482f25b8e61b866a5792996b857a7137f67126d10c556f",
+      "textHash": "efebc253ad3de9c4a659dd8ab395bd5cac357454b3f45c7e0761d5afbdab4c07",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        132,
+        264
+      ]
+    },
+    {
+      "id": "region-course-uk-lowland-v2",
+      "classId": "uk-lowland",
+      "regionId": "uk-lowland",
+      "characters": 419,
+      "duration": 97.956,
+      "ffprobeDuration": 97.956,
+      "audioBytes": 1569012,
+      "audioSha256": "631c8fe687fb22a30966f08df0e651dccecb7036169a09f2fe434a3e3e7562dc",
+      "textHash": "80365a794d9e6a7a0bdeb763b1281de566a099eb376c7a248797756a645e3f77",
+      "cues": 9,
+      "beatOffsets": [
+        0,
+        158,
+        288
+      ]
+    },
+    {
+      "id": "region-course-finland-forest-v1",
+      "classId": "finland-forest",
+      "regionId": "finland-forest",
+      "characters": 297,
+      "duration": 68.364,
+      "ffprobeDuration": 68.364,
+      "audioBytes": 1095540,
+      "audioSha256": "5f57095aa39b6bbdc7c19c8fdfaa8e12f811ba1f435e71fdfecaf70aec68806a",
+      "textHash": "9c87691070ad6e88f634082f1fac0aa4b372093ec3e83d76ed580929639c630e",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        93,
+        181
+      ]
+    },
+    {
+      "id": "region-course-quebec-forest-v1",
+      "classId": "quebec-forest",
+      "regionId": "quebec-forest",
+      "characters": 299,
+      "duration": 69.444,
+      "ffprobeDuration": 69.444,
+      "audioBytes": 1112820,
+      "audioSha256": "5737dd7f0275c502455f7e4d291c21b9867ba727ad8d24104b3167b7a6cf8ce9",
+      "textHash": "032e124b63a55c1dad1efd583266073bf80d9a9559d4bd98cfc61818e4c308c4",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        98,
+        184
+      ]
+    },
+    {
+      "id": "region-course-limpopo-v1",
+      "classId": "limpopo",
+      "regionId": "limpopo",
+      "characters": 288,
+      "duration": 65.808,
+      "ffprobeDuration": 65.808,
+      "audioBytes": 1054644,
+      "audioSha256": "eb03bbbacf4d07992398ea57fe7e62ed52f5029bd6b80109132d75a5602a6e4b",
+      "textHash": "4b6013781af31a372fd7a471c0ac1bbf6fb009b95069345b08fc1ee06288f10c",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        91,
+        176
+      ]
+    },
+    {
+      "id": "region-course-tasmania-v1",
+      "classId": "tasmania",
+      "regionId": "tasmania",
+      "characters": 307,
+      "duration": 69.084,
+      "ffprobeDuration": 69.084,
+      "audioBytes": 1107060,
+      "audioSha256": "45a266b0032913143a00d9c5e01012916d9397893d2862649079f1a71fe7fa5d",
+      "textHash": "5249fc53145d53e81d2ba6a1cce4c7778ca7f9cd27c6ca2ea3640b4afe5ccceb",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        94,
+        184
+      ]
+    },
+    {
+      "id": "region-course-florida-coast-v1",
+      "classId": "florida-coast",
+      "regionId": "florida-coast",
+      "characters": 302,
+      "duration": 68.436,
+      "ffprobeDuration": 68.436,
+      "audioBytes": 1096692,
+      "audioSha256": "333adc23550b41146e9e1c1507619b528af57b12224829672f465b24297f333b",
+      "textHash": "3002fd5380fb150db65785aca88479d2b11dc709fe6ede92ea92cce66f330d4a",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        91,
+        175
+      ]
+    },
+    {
+      "id": "region-course-zhejiang-v1",
+      "classId": "zhejiang",
+      "regionId": "zhejiang",
+      "characters": 310,
+      "duration": 69.588,
+      "ffprobeDuration": 69.588,
+      "audioBytes": 1115124,
+      "audioSha256": "0a5819e3457c669881327e600119156719e1e387417b4cbf51b6bc3587919e99",
+      "textHash": "1e7970a346a9865cf0633700f76eaa6cb95ea7aec2ca9b1bc4284287472b602e",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        96,
+        181
+      ]
+    },
+    {
+      "id": "region-course-sonoran-v1",
+      "classId": "sonoran",
+      "regionId": "sonoran",
+      "characters": 315,
+      "duration": 73.692,
+      "ffprobeDuration": 73.692,
+      "audioBytes": 1180788,
+      "audioSha256": "253c9f6129d368cdc9b2c1679ffe9e1bb1f29c4f2a718e1d68198a2b56c3370e",
+      "textHash": "7d2607d6c50282b38fb12959e3c60fb438f139566196ec6282637c861923fa6d",
+      "cues": 5,
+      "beatOffsets": [
+        0,
+        97,
+        189
+      ]
+    },
+    {
+      "id": "region-course-mexico-plateau-v1",
+      "classId": "mexico-plateau",
+      "regionId": "mexico-plateau",
+      "characters": 313,
+      "duration": 71.64,
+      "ffprobeDuration": 71.64,
+      "audioBytes": 1147956,
+      "audioSha256": "6cb769a8b6954cb0d5957e1bf022affec9d1b955b678e485485f013dde8cb6eb",
+      "textHash": "6dcbd98e49a7d7c058b0b40ae7867d61731950d9a983eaf8cb412fe3ec890081",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        94,
+        183
+      ]
+    },
+    {
+      "id": "region-course-oman-v1",
+      "classId": "oman",
+      "regionId": "oman",
+      "characters": 314,
+      "duration": 71.424,
+      "ffprobeDuration": 71.424,
+      "audioBytes": 1144500,
+      "audioSha256": "cf3f17562e79f44389f5203eeec5c457fd27a9625ae01133fde69f51cb39de26",
+      "textHash": "d47ca993805536facd60d9a0cfa3909c042b2eae8f36bdd33d29665dfac3bba1",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        94,
+        181
+      ]
+    },
+    {
+      "id": "region-course-tomales-bay-v2",
+      "classId": "tomales-bay",
+      "regionId": "tomales-bay",
+      "characters": 401,
+      "duration": 90.612,
+      "ffprobeDuration": 90.612,
+      "audioBytes": 1451508,
+      "audioSha256": "83f37a8234c01def325bf9486e0f01575f60c6f198ee4306b86453d05733c1db",
+      "textHash": "ca9e874f83ed24a050f2df90b993a12d7486b0ab00794f751cc79014ba106504",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        127,
+        247
+      ]
+    },
+    {
+      "id": "region-course-liguria-v1",
+      "classId": "liguria",
+      "regionId": "liguria",
+      "characters": 330,
+      "duration": 83.088,
+      "ffprobeDuration": 83.088,
+      "audioBytes": 1331124,
+      "audioSha256": "761ba0d879a62e08376bfc5086c86081a804548e758475c6bca389d17df44168",
+      "textHash": "26a5198789e7cfeddaad52e3616a6d2169eaa73e381624000993e016b4140b07",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        105,
+        195
+      ]
+    },
+    {
+      "id": "region-course-netherlands-v1",
+      "classId": "netherlands",
+      "regionId": "netherlands",
+      "characters": 328,
+      "duration": 79.92,
+      "ffprobeDuration": 79.92,
+      "audioBytes": 1280436,
+      "audioSha256": "1a6512700bc07509b6d9a3eb766fc739f63b8e26cee9c056cb052fdba928288f",
+      "textHash": "701d8fa21e505f5daa938d83cd770e2b484e77dd4408a3d1c1845ec552a8d364",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        94,
+        190
+      ]
+    },
+    {
+      "id": "region-course-java-v1",
+      "classId": "java",
+      "regionId": "java",
+      "characters": 326,
+      "duration": 71.64,
+      "ffprobeDuration": 71.64,
+      "audioBytes": 1147956,
+      "audioSha256": "45ffa96e78b502930f543c866b64dd8d5b4e8b8dc197fe0141b17b769c1f1bd7",
+      "textHash": "b6702ffe6151af4f04aa6f3baf7678cb9eb52a88276c7903b697da6662ef5f1d",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        115,
+        199
+      ]
+    },
+    {
+      "id": "region-course-carolina-wetland-v1",
+      "classId": "carolina-wetland",
+      "regionId": "carolina-wetland",
+      "characters": 333,
+      "duration": 77.004,
+      "ffprobeDuration": 77.004,
+      "audioBytes": 1233780,
+      "audioSha256": "4a8f57c76037392d8a81fefc8d925eb9a5ece7ddddac03b01e8d3e8975229b8f",
+      "textHash": "caf3122073e845c6855cc61acf8b3e226b469f4fe82071ff6ae885b0c601bd13",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        96,
+        198
+      ]
+    },
+    {
+      "id": "region-course-scotland-wetland-v1",
+      "classId": "scotland-wetland",
+      "regionId": "scotland-wetland",
+      "characters": 325,
+      "duration": 76.356,
+      "ffprobeDuration": 76.356,
+      "audioBytes": 1223412,
+      "audioSha256": "0d01e7b8afd8bd35184dc8d6eba84fb0f0abf03f9ba69ba2628793703c1b3d57",
+      "textHash": "ba3232edbc87917b5caf144c0efc7485b2c6f31eda45d2ae94a8f793e6ea84dc",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        91,
+        187
+      ]
+    },
+    {
+      "id": "region-course-alps-v1",
+      "classId": "alps",
+      "regionId": "alps",
+      "characters": 306,
+      "duration": 70.884,
+      "ffprobeDuration": 70.884,
+      "audioBytes": 1135860,
+      "audioSha256": "e5b062bae5886af5501f7337ac5739a3793b1224f56dda540b6254e51301eb14",
+      "textHash": "655905d5fcc9d666da5970c4447abb96151b05b96f5afb609d0eb3d081a5268c",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        89,
+        182
+      ]
+    },
+    {
+      "id": "region-course-california-coast-v2",
+      "classId": "california-coast",
+      "regionId": "california-coast",
+      "characters": 402,
+      "duration": 95.328,
+      "ffprobeDuration": 95.328,
+      "audioBytes": 1526964,
+      "audioSha256": "dd3e589e8bcd4038e4f645ad640aa69c79398822ce3ffb1cf44142323242ab95",
+      "textHash": "8be1a761c4c00389213567fb6ba32f9f968f44a5d03c317490d9e31f8469eeac",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        150,
+        261
+      ]
+    },
+    {
+      "id": "region-course-hubei-valley-v1",
+      "classId": "hubei-valley",
+      "regionId": "hubei-valley",
+      "characters": 302,
+      "duration": 70.344,
+      "ffprobeDuration": 70.344,
+      "audioBytes": 1127220,
+      "audioSha256": "36b4f716956f66b977b2951905171fe8138668566f8c6b6511ed6edf472fe72f",
+      "textHash": "539f4c2424c69c397a760daf5d4f82b637978897483402472fb36fe6fbbd1355",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        83,
+        181
+      ]
+    },
+    {
+      "id": "region-course-lebanon-mountains-v1",
+      "classId": "lebanon-mountains",
+      "regionId": "lebanon-mountains",
+      "characters": 298,
+      "duration": 68.544,
+      "ffprobeDuration": 68.544,
+      "audioBytes": 1098420,
+      "audioSha256": "b39ff76c92752d0f394780758734f7c1391f24eda1a816eecd267b43014026e2",
+      "textHash": "21fd3f732b8f24b90862bdfe892aa45cdaa7db5058522e64b5f82fd612567094",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        79,
+        174
+      ]
+    },
+    {
+      "id": "region-course-ryukyu-v1",
+      "classId": "ryukyu",
+      "regionId": "ryukyu",
+      "characters": 292,
+      "duration": 66.204,
+      "ffprobeDuration": 66.204,
+      "audioBytes": 1060980,
+      "audioSha256": "bdcafc4e1a142b2ee0c174ce4eecef933e1bc2836b6fb0ef32ce192154ffe745",
+      "textHash": "519c8efc7de5a015238f9b6f92e01e623a01764fad38b56d6add12e45d95d1b4",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        77,
+        173
+      ]
+    },
+    {
+      "id": "region-course-namib-v1",
+      "classId": "namib",
+      "regionId": "namib",
+      "characters": 339,
+      "duration": 78.876,
+      "ffprobeDuration": 78.876,
+      "audioBytes": 1263732,
+      "audioSha256": "5816c93375b608a84c96d764288157ede49982125d8bd6a0e2428a763c1d7152",
+      "textHash": "e9c64127b466787776aad21b0fd1e92e5cd068482380256b768e2445f328c71f",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        107,
+        206
+      ]
+    },
+    {
+      "id": "region-course-borneo-v1",
+      "classId": "borneo",
+      "regionId": "borneo",
+      "characters": 308,
+      "duration": 75.132,
+      "ffprobeDuration": 75.132,
+      "audioBytes": 1203828,
+      "audioSha256": "699fb8e42660b2a49530597aae335d26137209c5338d02a0212ac35627e96515",
+      "textHash": "d8934fefc86b4533799def344813dd2207c0291d8c169e220341f5355df0baba",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        103,
+        187
+      ]
+    },
+    {
+      "id": "region-course-yunnan-v1",
+      "classId": "yunnan",
+      "regionId": "yunnan",
+      "characters": 301,
+      "duration": 66.06,
+      "ffprobeDuration": 66.06,
+      "audioBytes": 1058676,
+      "audioSha256": "8daf27aee9d61c38799a25bb822afed3d6d0b3c76e3191dab9ebb74647f6a5ed",
+      "textHash": "40f3ca299c3064215f9ffd54cf7d404582917e7257b0b3a81f7a8aedf266f565",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        87,
+        183
+      ]
+    },
+    {
+      "id": "region-course-chihuahua-v1",
+      "classId": "chihuahua",
+      "regionId": "chihuahua",
+      "characters": 317,
+      "duration": 72.576,
+      "ffprobeDuration": 72.576,
+      "audioBytes": 1162932,
+      "audioSha256": "c458bc889b08fbaec58ad6c0324eadaed29b511cf5bf4525628b3d6d789057ea",
+      "textHash": "83b236815d50fe73598f2c9155b20d01b3b82a094ac104a6d3a706e51325b93a",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        93,
+        190
+      ]
+    },
+    {
+      "id": "region-course-punjab-india-v2",
+      "classId": "punjab-india",
+      "regionId": "punjab-india",
+      "characters": 409,
+      "duration": 94.068,
+      "ffprobeDuration": 94.068,
+      "audioBytes": 1506804,
+      "audioSha256": "4cfbead81f78cc8d53c31dfda0fdf8b4a68f8864ccf860701880cdfeb5dd7df0",
+      "textHash": "7e6335aa9e6af2c12962749e449a6af140d1a632d6dbcff7e462abcf50073a43",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        146,
+        274
+      ]
+    },
+    {
+      "id": "region-course-ganges-plain-v1",
+      "classId": "ganges-plain",
+      "regionId": "ganges-plain",
+      "characters": 367,
+      "duration": 82.512,
+      "ffprobeDuration": 82.512,
+      "audioBytes": 1321908,
+      "audioSha256": "86ca7b327b8e6f5f32d0d38711dc3d3536bbc7c066598c9c75b08c09d0b11f6e",
+      "textHash": "ad8bdac1ba60287975aa93e605d714fd0db21efacdd406068039a07de1a87053",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        133,
+        247
+      ]
+    },
+    {
+      "id": "region-course-deccan-plateau-v1",
+      "classId": "deccan-plateau",
+      "regionId": "deccan-plateau",
+      "characters": 371,
+      "duration": 87.948,
+      "ffprobeDuration": 87.948,
+      "audioBytes": 1408884,
+      "audioSha256": "4e082e85d60cc9cda385647fb19462fbea51c2c61c69f68d2b62d9b6362e81bf",
+      "textHash": "2c583b9b5e889cce89f7a7436141c422b47be67a5fb49585f13aab69c6931899",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        138,
+        249
+      ]
+    },
+    {
+      "id": "region-course-kerala-wayanad-v1",
+      "classId": "kerala-wayanad",
+      "regionId": "kerala-wayanad",
+      "characters": 387,
+      "duration": 90.684,
+      "ffprobeDuration": 90.684,
+      "audioBytes": 1452660,
+      "audioSha256": "6a3bf75c10c4a1afc3e864fb4f43c59c7414696d5f60b75fbe84850190afa49e",
+      "textHash": "41e443ddacc19e0cd69d24d90d61b5df8496d26e5a961aac5123dac869067df2",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        155,
+        266
+      ]
+    },
+    {
+      "id": "region-course-assam-valley-v1",
+      "classId": "assam-valley",
+      "regionId": "assam-valley",
+      "characters": 358,
+      "duration": 83.988,
+      "ffprobeDuration": 83.988,
+      "audioBytes": 1345524,
+      "audioSha256": "c61a40db32936a0183d47ae0a328d670b89b2b0ff25e9c2bf871eb7263350bd4",
+      "textHash": "f132637f7b8b4f2d090df6ac7e144087edc20a50982450159d85928ff79b06fa",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        133,
+        244
+      ]
+    },
+    {
+      "id": "region-course-bangladesh-delta-v1",
+      "classId": "bangladesh-delta",
+      "regionId": "bangladesh-delta",
+      "characters": 373,
+      "duration": 82.224,
+      "ffprobeDuration": 82.224,
+      "audioBytes": 1317300,
+      "audioSha256": "0fe2b2508595bbca0bab1b15474ecaeaeacbad35fe4c1709a65d355e2948ae62",
+      "textHash": "a1b03999a36b1b7ba770e845767ec7bedefab5fc2a3fcb522455434a3636ce86",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        135,
+        247
+      ]
+    },
+    {
+      "id": "region-course-mekong-delta-v1",
+      "classId": "mekong-delta",
+      "regionId": "mekong-delta",
+      "characters": 390,
+      "duration": 87.516,
+      "ffprobeDuration": 87.516,
+      "audioBytes": 1401972,
+      "audioSha256": "7bbc15df6c5e69ee50075bb1f5e5290fc15b2e8b635889c32fd5d2f987c0c58c",
+      "textHash": "0c922713e773332628da3e2dc5edab274440fbfc2b0b42f91ffd4358a7d4ecbb",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        151,
+        267
+      ]
+    },
+    {
+      "id": "region-course-vietnam-highlands-v1",
+      "classId": "vietnam-highlands",
+      "regionId": "vietnam-highlands",
+      "characters": 396,
+      "duration": 88.596,
+      "ffprobeDuration": 88.596,
+      "audioBytes": 1419252,
+      "audioSha256": "67fb4ad6f297ef5a09abde510d4a0205534631f30915ec3aea9173c220448b99",
+      "textHash": "97a858e1d8f2a5d11173801e5944808639096d79496ea8460400a65d45202ee2",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        162,
+        270
+      ]
+    },
+    {
+      "id": "region-course-sumatra-riau-v1",
+      "classId": "sumatra-riau",
+      "regionId": "sumatra-riau",
+      "characters": 397,
+      "duration": 92.736,
+      "ffprobeDuration": 92.736,
+      "audioBytes": 1485492,
+      "audioSha256": "84b0613f65bb576f330700000813455afbc8a33173aa1b1bdd1b4bf42b2e2db6",
+      "textHash": "e4dabde822d235d8b9f8c994a8e4ec7ce56977495570e808bc28efb08e5f279d",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        155,
+        266
+      ]
+    },
+    {
+      "id": "region-course-sulawesi-highlands-v1",
+      "classId": "sulawesi-highlands",
+      "regionId": "sulawesi-highlands",
+      "characters": 386,
+      "duration": 88.416,
+      "ffprobeDuration": 88.416,
+      "audioBytes": 1416372,
+      "audioSha256": "d1e6a5415c98fcd9c24f0dea3c1575d1b2aa4b5994c2ea00d1a6c11cc6b11c4e",
+      "textHash": "b868d8154d77a8d892014ac21bcf10b6947a895f0890b46c51a08a7016d4804f",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        153,
+        262
+      ]
+    },
+    {
+      "id": "region-course-luzon-plain-v1",
+      "classId": "luzon-plain",
+      "regionId": "luzon-plain",
+      "characters": 387,
+      "duration": 86.004,
+      "ffprobeDuration": 86.004,
+      "audioBytes": 1377780,
+      "audioSha256": "cc1c471a75b81b0f2a4d7aa95c67e37cb3a424265a3adc2acb9dc369f6ea9a13",
+      "textHash": "9d9bec12cef338875291aea6c566bbe1026c2087cc44174adde64fdc37f16c16",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        156,
+        266
+      ]
+    },
+    {
+      "id": "region-course-sri-lanka-kandy-v1",
+      "classId": "sri-lanka-kandy",
+      "regionId": "sri-lanka-kandy",
+      "characters": 397,
+      "duration": 88.128,
+      "ffprobeDuration": 88.128,
+      "audioBytes": 1411764,
+      "audioSha256": "285025cce84112a7062c0ed63303668759f9478756e58ebef4ba8218b91ef718",
+      "textHash": "000386409b3ecaadd88fc960bf2c6bbcd3dde1e991172e1d2a80cc54b6d53410",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        155,
+        267
+      ]
+    },
+    {
+      "id": "region-course-madagascar-sava-v1",
+      "classId": "madagascar-sava",
+      "regionId": "madagascar-sava",
+      "characters": 386,
+      "duration": 88.308,
+      "ffprobeDuration": 88.308,
+      "audioBytes": 1414644,
+      "audioSha256": "9c481948dc0180cd3128c0b3e783c9e55a518ef5e8b0fb874051e74b16b3ed3b",
+      "textHash": "396811ec622f8ace2a278d6f725408c86a711dae896f16f4edb18ef1d94df138",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        156,
+        265
+      ]
+    },
+    {
+      "id": "region-course-north-china-plain-v1",
+      "classId": "north-china-plain",
+      "regionId": "north-china-plain",
+      "characters": 372,
+      "duration": 82.368,
+      "ffprobeDuration": 82.368,
+      "audioBytes": 1319604,
+      "audioSha256": "ff1ce896280ee97b0b5dd2bb6b08478b9c9aebf8e01590a45ddc40c456733ac3",
+      "textHash": "19460262600ee289697c7de82a05c978ecbd0645746a95227319876547f3b302",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        136,
+        247
+      ]
+    },
+    {
+      "id": "region-course-northeast-china-v1",
+      "classId": "northeast-china",
+      "regionId": "northeast-china",
+      "characters": 366,
+      "duration": 79.56,
+      "ffprobeDuration": 79.56,
+      "audioBytes": 1274676,
+      "audioSha256": "0d1f17d9e0372c4207f441b51be61371a20b72bba9c7a6a865576e47d7a5fdbc",
+      "textHash": "f43c052b17bb116f6324f411a965b8bc289aa27a88ed1f4ddb7f3cef7001df0e",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        140,
+        249
+      ]
+    },
+    {
+      "id": "region-course-loess-plateau-v1",
+      "classId": "loess-plateau",
+      "regionId": "loess-plateau",
+      "characters": 374,
+      "duration": 88.884,
+      "ffprobeDuration": 88.884,
+      "audioBytes": 1423860,
+      "audioSha256": "f467044d5a5d7817a54d8b0408b80aa7a58664b95a31a556d7f793d0a7aa0e1c",
+      "textHash": "acd7ff60319f64462f34af6a450855eb2aeafdddbeddb1def53ab24ea0b4976d",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        143,
+        253
+      ]
+    },
+    {
+      "id": "region-course-sichuan-basin-v1",
+      "classId": "sichuan-basin",
+      "regionId": "sichuan-basin",
+      "characters": 365,
+      "duration": 80.46,
+      "ffprobeDuration": 80.46,
+      "audioBytes": 1289076,
+      "audioSha256": "d3887d8836113481af5fef89d738c19af6031ee14f8a15ba14f91e9fbb7150f1",
+      "textHash": "bf2b0f87a2b9d667adabaee7ec904943fe728d36b5cf174d9ad1dac0acdd7269",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        128,
+        239
+      ]
+    },
+    {
+      "id": "region-course-turpan-oasis-v1",
+      "classId": "turpan-oasis",
+      "regionId": "turpan-oasis",
+      "characters": 373,
+      "duration": 82.404,
+      "ffprobeDuration": 82.404,
+      "audioBytes": 1320180,
+      "audioSha256": "7175a7649e869601041d55dad1fb3b8272d7e4ab8528fe9257ca1e739a0a910f",
+      "textHash": "a3d81da7745a420d49d441a4445229d89e8998b9cd5f28edba27489b05b986a5",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        135,
+        245
+      ]
+    },
+    {
+      "id": "region-course-shandong-plain-v1",
+      "classId": "shandong-plain",
+      "regionId": "shandong-plain",
+      "characters": 361,
+      "duration": 81.144,
+      "ffprobeDuration": 81.144,
+      "audioBytes": 1300020,
+      "audioSha256": "5211bcb6b521e53eddddf1044240d2383fbe518e351659d9e74f937c5d0192a4",
+      "textHash": "194f59281632475631c9a15adba1b8652ac45334ab09ccb3c8c5b288109298c4",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        129,
+        240
+      ]
+    },
+    {
+      "id": "region-course-nagano-valley-v1",
+      "classId": "nagano-valley",
+      "regionId": "nagano-valley",
+      "characters": 366,
+      "duration": 79.164,
+      "ffprobeDuration": 79.164,
+      "audioBytes": 1268340,
+      "audioSha256": "26927a87304ce3d54ed3a1d18e095cd746e17c4ae290136387f6bd38a2744d9f",
+      "textHash": "499542363a4cf0307a6388b7941ae918a71e1ffd50a4c8a10018996930deceb3",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        140,
+        244
+      ]
+    },
+    {
+      "id": "region-course-indus-sindh-v1",
+      "classId": "indus-sindh",
+      "regionId": "indus-sindh",
+      "characters": 360,
+      "duration": 82.692,
+      "ffprobeDuration": 82.692,
+      "audioBytes": 1324788,
+      "audioSha256": "1893b0eda4f28ccef9f5966e940152d10317962149aee96c2706d20622682f8e",
+      "textHash": "77860a530523bb2ba4c52a783466537806436fe8c63cdc0053e2480d71ee5093",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        132,
+        233
+      ]
+    },
+    {
+      "id": "region-course-nile-minya-v1",
+      "classId": "nile-minya",
+      "regionId": "nile-minya",
+      "characters": 366,
+      "duration": 83.052,
+      "ffprobeDuration": 83.052,
+      "audioBytes": 1330548,
+      "audioSha256": "6190e61be8868cae57ce07652f6b1f6d6fcd7e1f8dac3e4c2dddf8640216c3fc",
+      "textHash": "969ca2bbcc01cec7b61a9aabc333acf0e59bd53f4d7a7185ca69ca0e2b04f64b",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        134,
+        240
+      ]
+    },
+    {
+      "id": "region-course-morocco-souss-v1",
+      "classId": "morocco-souss",
+      "regionId": "morocco-souss",
+      "characters": 360,
+      "duration": 81.972,
+      "ffprobeDuration": 81.972,
+      "audioBytes": 1313268,
+      "audioSha256": "7f088028fd8535e11c428b139b50dd6a5124cfaacb7f6ef70482449eaaaa5ebc",
+      "textHash": "d0d15e71375dd03566ce6288a23bf0005f68bf1fe6488e283850073064c0bf12",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        130,
+        235
+      ]
+    },
+    {
+      "id": "region-course-ethiopia-highlands-v1",
+      "classId": "ethiopia-highlands",
+      "regionId": "ethiopia-highlands",
+      "characters": 395,
+      "duration": 93.024,
+      "ffprobeDuration": 93.024,
+      "audioBytes": 1490100,
+      "audioSha256": "7b7915c21acb8e5807f70700cb98eb8a74aaf0d8a9e61a8ac9248bda6c92ae90",
+      "textHash": "839ccf6275ba7546e70d430ba62680baf3b5ce3be68f1471fa6bdddc9e10fd13",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        162,
+        275
+      ]
+    },
+    {
+      "id": "region-course-ghana-ashanti-v1",
+      "classId": "ghana-ashanti",
+      "regionId": "ghana-ashanti",
+      "characters": 384,
+      "duration": 87.588,
+      "ffprobeDuration": 87.588,
+      "audioBytes": 1403124,
+      "audioSha256": "9767db152214027624875246593563cbfb05d04be6774c9f3d778c295b0c9fee",
+      "textHash": "97415c82b74e4568cc1c8c5bc18b4cbd7c0501dc092a85c30e4c4afb1777ae06",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        153,
+        259
+      ]
+    },
+    {
+      "id": "region-course-ivory-coast-daloa-v1",
+      "classId": "ivory-coast-daloa",
+      "regionId": "ivory-coast-daloa",
+      "characters": 387,
+      "duration": 86.94,
+      "ffprobeDuration": 86.94,
+      "audioBytes": 1392756,
+      "audioSha256": "4288343b1b8f6c4dcb52977cda9cdede6ba03c637a1cba2defd33251ed7ee54c",
+      "textHash": "e36a11e49d75d22a3180920bab157704c66382e6d90efe5b8d361dbc76aba485",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        158,
+        265
+      ]
+    },
+    {
+      "id": "region-course-senegal-thies-v1",
+      "classId": "senegal-thies",
+      "regionId": "senegal-thies",
+      "characters": 389,
+      "duration": 89.424,
+      "ffprobeDuration": 89.424,
+      "audioBytes": 1432500,
+      "audioSha256": "3ec343a9b8c6d891c1eb572d6ae53ee9789a3f6f89a269b3cf3812095f242f63",
+      "textHash": "b5f3c2c93b92c4e2f1ddac3ae5d7cf8ae8055b269923b122194b2077e81cc94e",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        154,
+        259
+      ]
+    },
+    {
+      "id": "region-course-mali-sikasso-v1",
+      "classId": "mali-sikasso",
+      "regionId": "mali-sikasso",
+      "characters": 366,
+      "duration": 84.492,
+      "ffprobeDuration": 84.492,
+      "audioBytes": 1353588,
+      "audioSha256": "1edb5147c50d7158b871ee631f2ba4cad6bf7aa38287fa2e8ad5af35d395beb5",
+      "textHash": "370fc325bb7e90aebc69ac23949a3e48854f1d688605549d190c536640ae458b",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        136,
+        242
+      ]
+    },
+    {
+      "id": "region-course-nigeria-benue-v1",
+      "classId": "nigeria-benue",
+      "regionId": "nigeria-benue",
+      "characters": 382,
+      "duration": 84.42,
+      "ffprobeDuration": 84.42,
+      "audioBytes": 1352436,
+      "audioSha256": "8aa24bbd6537a848bbc994435c27d05fe143a6132f376c0631d9cda7e311232c",
+      "textHash": "657861862d896791a351eef6a6e52b2143c994547d9aac038df8c473e4131575",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        149,
+        258
+      ]
+    },
+    {
+      "id": "region-course-kenya-kericho-v1",
+      "classId": "kenya-kericho",
+      "regionId": "kenya-kericho",
+      "characters": 382,
+      "duration": 89.64,
+      "ffprobeDuration": 89.64,
+      "audioBytes": 1435956,
+      "audioSha256": "262ed086d0c22c13f828ab83f40a6bd2899aed189a6b7f6198fd37a6d86efe65",
+      "textHash": "7fea3ba807419c2188b0e276e97ecd050eb1b9c3fb59d22389526d30679006cc",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        152,
+        258
+      ]
+    },
+    {
+      "id": "region-course-tanzania-morogoro-v1",
+      "classId": "tanzania-morogoro",
+      "regionId": "tanzania-morogoro",
+      "characters": 383,
+      "duration": 85.608,
+      "ffprobeDuration": 85.608,
+      "audioBytes": 1371444,
+      "audioSha256": "37bf683819ae108d399871bdd57d572f2680b6602cf443b86297b80a949a1489",
+      "textHash": "518ce73889d0863ce1e85ddb68d72b2e1929145014a881794a02d6da9800caf1",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        153,
+        260
+      ]
+    },
+    {
+      "id": "region-course-cape-winelands-v1",
+      "classId": "cape-winelands",
+      "regionId": "cape-winelands",
+      "characters": 359,
+      "duration": 81.864,
+      "ffprobeDuration": 81.864,
+      "audioBytes": 1311540,
+      "audioSha256": "c9fd059cad39679d7391518c4791d970152fda1a5b772afe6d4c7c9f562ce687",
+      "textHash": "16015af275a48a3a3e65f72e6a4ed2500275ee280e6c396b8c4cbc72f34438fb",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        135,
+        241
+      ]
+    },
+    {
+      "id": "region-course-france-beauce-v1",
+      "classId": "france-beauce",
+      "regionId": "france-beauce",
+      "characters": 358,
+      "duration": 79.38,
+      "ffprobeDuration": 79.38,
+      "audioBytes": 1271796,
+      "audioSha256": "4b4387777ea6cde670086d15b2914b6b00540ee2d83de8d58025e0e39cd06b23",
+      "textHash": "78903d98b4a2dbd0f46d6fb6fdf1bc39b0e8983f53fa8be75cc9a7ae5d77bfcf",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        129,
+        237
+      ]
+    },
+    {
+      "id": "region-course-spain-andalusia-v1",
+      "classId": "spain-andalusia",
+      "regionId": "spain-andalusia",
+      "characters": 369,
+      "duration": 85.284,
+      "ffprobeDuration": 85.284,
+      "audioBytes": 1366260,
+      "audioSha256": "1aceb4516bc814378a1da71ec88dd46afc48a293eac40de0707b10c7b8e0b1a1",
+      "textHash": "ca87b0529dcae9e7ae891990ed581c87b80097cd10df74d29d07dbb67927b2d1",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        137,
+        246
+      ]
+    },
+    {
+      "id": "region-course-spain-valencia-v1",
+      "classId": "spain-valencia",
+      "regionId": "spain-valencia",
+      "characters": 355,
+      "duration": 81.036,
+      "ffprobeDuration": 81.036,
+      "audioBytes": 1298292,
+      "audioSha256": "a49b0ea295472f578cb1420a265ca8ff6d6b73285c5b66cdde8681f188cbc47f",
+      "textHash": "bb8c27b36f47dd002420c19191068b04372bb69235b62c6c2bf4a35073c59924",
+      "cues": 6,
+      "beatOffsets": [
+        0,
+        129,
+        233
+      ]
+    },
+    {
+      "id": "region-course-italy-po-v1",
+      "classId": "italy-po",
+      "regionId": "italy-po",
+      "characters": 358,
+      "duration": 81.0,
+      "ffprobeDuration": 81.0,
+      "audioBytes": 1297716,
+      "audioSha256": "21a9f61bcb7d6a229916e72962d8649ddb8312a65c7637284f3f65afd17df2b0",
+      "textHash": "ffa25400ea5c18f730809963fe8bcd384b567a2a042c2a87e6b8c2b7453797e6",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        128,
+        236
+      ]
+    },
+    {
+      "id": "region-course-italy-piedmont-v1",
+      "classId": "italy-piedmont",
+      "regionId": "italy-piedmont",
+      "characters": 378,
+      "duration": 88.092,
+      "ffprobeDuration": 88.092,
+      "audioBytes": 1411188,
+      "audioSha256": "54f8a5cad66f204ad6fd44ef7dd96b725df73bfac4c9b989b750622192a9e9df",
+      "textHash": "570f6502c5023aa0759ba932ad6d278f2ec151b77c6a1cc72e631ff34aefb82a",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        138,
+        254
+      ]
+    },
+    {
+      "id": "region-course-turkey-blacksea-v1",
+      "classId": "turkey-blacksea",
+      "regionId": "turkey-blacksea",
+      "characters": 357,
+      "duration": 81.252,
+      "ffprobeDuration": 81.252,
+      "audioBytes": 1301748,
+      "audioSha256": "70cc51a58483e14ec6f36891d19be073540f865a20610721524eb77fdc165a0e",
+      "textHash": "45c63fc98669b9ff83eec2b418d174c1c36dcd3a80b67e0e97966f2e8f3bebf5",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        131,
+        233
+      ]
+    },
+    {
+      "id": "region-course-ukraine-cherkasy-v1",
+      "classId": "ukraine-cherkasy",
+      "regionId": "ukraine-cherkasy",
+      "characters": 378,
+      "duration": 88.74,
+      "ffprobeDuration": 88.74,
+      "audioBytes": 1421556,
+      "audioSha256": "16ef6f52cf389a018c60200b62027386b2da404b2360b39aa16fcbe2fdbe269a",
+      "textHash": "cb3045cb3194f8dd3e1c0de614d663d74882cabfdcd9dbad120ea6390bcd80c6",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        141,
+        253
+      ]
+    },
+    {
+      "id": "region-course-poland-mazovia-v1",
+      "classId": "poland-mazovia",
+      "regionId": "poland-mazovia",
+      "characters": 363,
+      "duration": 82.944,
+      "ffprobeDuration": 82.944,
+      "audioBytes": 1328820,
+      "audioSha256": "25f0570139a4e1e8c4b6ce39419e7e23f1a0dea6b298eba9683e2f4f0bfa873a",
+      "textHash": "ad8894b8b9d6af870b6f72f60856a9de7b09d07163972afe0308b5120accb6fd",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        139,
+        244
+      ]
+    },
+    {
+      "id": "region-course-netherlands-flevo-v1",
+      "classId": "netherlands-flevo",
+      "regionId": "netherlands-flevo",
+      "characters": 365,
+      "duration": 84.852,
+      "ffprobeDuration": 84.852,
+      "audioBytes": 1359348,
+      "audioSha256": "f888f997c67c394e21bb1a7a2850863a0e0f36c66cd6a634e362eae53a42a5e6",
+      "textHash": "2cb709e87875fa7169fc4642c50277a4328a4d11dce8392b092c2272d33ea70a",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        135,
+        241
+      ]
+    },
+    {
+      "id": "region-course-germany-saxony-v2",
+      "classId": "germany-saxony",
+      "regionId": "germany-saxony",
+      "characters": 368,
+      "duration": 85.788,
+      "ffprobeDuration": 85.788,
+      "audioBytes": 1374324,
+      "audioSha256": "ebb2ec9cc6206dcca5f1a7fb96593c0c36368dbbe0588c7d105f758599b960e4",
+      "textHash": "5b01dbf9286cb53ce0eb1d6861cf41f46edb4d150a2da72331f56ed02913ef60",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        139,
+        247
+      ]
+    },
+    {
+      "id": "region-course-scotland-perth-v1",
+      "classId": "scotland-perth",
+      "regionId": "scotland-perth",
+      "characters": 362,
+      "duration": 84.42,
+      "ffprobeDuration": 84.42,
+      "audioBytes": 1352436,
+      "audioSha256": "578fab15593602991af98e0c5a115d798bdf0b6c5284e201c2cb6d22cfb8336d",
+      "textHash": "50166ab3847c62eec42d0ce5ad2dc4bcc26937b40242267ea7bbee86963b18c8",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        131,
+        239
+      ]
+    },
+    {
+      "id": "region-course-iowa-cornbelt-v2",
+      "classId": "iowa-cornbelt",
+      "regionId": "iowa-cornbelt",
+      "characters": 417,
+      "duration": 92.484,
+      "ffprobeDuration": 92.484,
+      "audioBytes": 1481460,
+      "audioSha256": "aed67501ba8ac14b82564885c9991272d25d1538f35a5b2c894da2b55abf3997",
+      "textHash": "8083c2599ba707ef42513dec7f9e062e583406ced3689d0a370d7c9cc2722491",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        156,
+        273
+      ]
+    },
+    {
+      "id": "region-course-california-central-v1",
+      "classId": "california-central",
+      "regionId": "california-central",
+      "characters": 369,
+      "duration": 82.908,
+      "ffprobeDuration": 82.908,
+      "audioBytes": 1328244,
+      "audioSha256": "feb16ac0422e92a94df2c505fdc9e1280707804e90c3acfe7d7f47c2fce23ced",
+      "textHash": "e8de9ae5d9d0d4471073a26b7fd94b2d89cb0fdbe88b2a194fa4f55f37eda24d",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        129,
+        239
+      ]
+    },
+    {
+      "id": "region-course-washington-wenatchee-v1",
+      "classId": "washington-wenatchee",
+      "regionId": "washington-wenatchee",
+      "characters": 370,
+      "duration": 85.788,
+      "ffprobeDuration": 85.788,
+      "audioBytes": 1374324,
+      "audioSha256": "199b8b1505da151e119bff11b61c1e9195fd354fb37ebd77d6157d84024e3cfb",
+      "textHash": "45f42724049a2861c44f28dcdb124aa75d2ef37a7573e2ef104909540d190c74",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        140,
+        247
+      ]
+    },
+    {
+      "id": "region-course-michigan-fruit-v1",
+      "classId": "michigan-fruit",
+      "regionId": "michigan-fruit",
+      "characters": 369,
+      "duration": 86.796,
+      "ffprobeDuration": 86.796,
+      "audioBytes": 1390452,
+      "audioSha256": "502b65d76434979bde1fc3e51a6baef55f3e6363daa1a7854629b0c767e9dbcb",
+      "textHash": "d4677c37bad1fbe22747f375c82262ccccd0009c9884339c882a6705c38bcdbb",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        143,
+        248
+      ]
+    },
+    {
+      "id": "region-course-canada-saskatchewan-v1",
+      "classId": "canada-saskatchewan",
+      "regionId": "canada-saskatchewan",
+      "characters": 367,
+      "duration": 83.484,
+      "ffprobeDuration": 83.484,
+      "audioBytes": 1337460,
+      "audioSha256": "9875e46a04ca263b5d676618d6ecf8df33d13497c51db00e0f2e242bf6e5964d",
+      "textHash": "e58918a92c31a4a7d5200d9c841b4f8e8e5085e972d5751905a2b056c097b697",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        139,
+        245
+      ]
+    },
+    {
+      "id": "region-course-mexico-oaxaca-v1",
+      "classId": "mexico-oaxaca",
+      "regionId": "mexico-oaxaca",
+      "characters": 395,
+      "duration": 93.42,
+      "ffprobeDuration": 93.42,
+      "audioBytes": 1496436,
+      "audioSha256": "cf3e185a3673cf190d6d49f2b0ecd398900e86ed3cfeb3cec529ca3e862f7563",
+      "textHash": "4fc8608678c0d28b31f8f4bf44a0958778999a1230b9ec57bd67c6c360c1176b",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        166,
+        270
+      ]
+    },
+    {
+      "id": "region-course-mexico-veracruz-v1",
+      "classId": "mexico-veracruz",
+      "regionId": "mexico-veracruz",
+      "characters": 383,
+      "duration": 90.144,
+      "ffprobeDuration": 90.144,
+      "audioBytes": 1444020,
+      "audioSha256": "cd5256d1e8592d849ea77ae616600a8abdce26a521353af6c13e6e68411644f3",
+      "textHash": "814c6f4ef41d5cbc58c80ec4e5ca385e50c49bc8f93a3b5f44b895bd1515e421",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        151,
+        260
+      ]
+    },
+    {
+      "id": "region-course-brazil-cerrado-v1",
+      "classId": "brazil-cerrado",
+      "regionId": "brazil-cerrado",
+      "characters": 388,
+      "duration": 87.516,
+      "ffprobeDuration": 87.516,
+      "audioBytes": 1401972,
+      "audioSha256": "ca46841f57dde9711da23677750e77cd83dba67a91708b56d127c81e4794a970",
+      "textHash": "7c96e7f8bc5c360d263829b063203550be22b312fd7114aad6e3aba2a1854dc8",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        154,
+        263
+      ]
+    },
+    {
+      "id": "region-course-brazil-minas-v1",
+      "classId": "brazil-minas",
+      "regionId": "brazil-minas",
+      "characters": 388,
+      "duration": 86.832,
+      "ffprobeDuration": 86.832,
+      "audioBytes": 1391028,
+      "audioSha256": "095b77d492711f5e59048f4118711f0688949818b8ff282201f84932f265ddb3",
+      "textHash": "eb32aa292ab7fe1aadcc1a29b6d91e7eefccf3021cfa1497a88fb1ce9f414820",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        158,
+        264
+      ]
+    },
+    {
+      "id": "region-course-ecuador-guayas-v1",
+      "classId": "ecuador-guayas",
+      "regionId": "ecuador-guayas",
+      "characters": 386,
+      "duration": 87.372,
+      "ffprobeDuration": 87.372,
+      "audioBytes": 1399668,
+      "audioSha256": "612a69d9cb619192d8c4d7dec7c1da01b68dee12f284d31a9aa0fbe748842114",
+      "textHash": "21b5b2de55b9629b7278c5972e480498b56032e6b8e848830331d48134fce80c",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        153,
+        258
+      ]
+    },
+    {
+      "id": "region-course-peru-andes-v1",
+      "classId": "peru-andes",
+      "regionId": "peru-andes",
+      "characters": 395,
+      "duration": 94.176,
+      "ffprobeDuration": 94.176,
+      "audioBytes": 1508532,
+      "audioSha256": "a456eaebdd8086e964a1539ed87967df5f3febe4829630ac50894710ebad044f",
+      "textHash": "50254556519bddfa8b76f9bbdf8d7d80f9c18db1b10cd469186281c7f60e55d0",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        157,
+        270
+      ]
+    },
+    {
+      "id": "region-course-chile-maule-v1",
+      "classId": "chile-maule",
+      "regionId": "chile-maule",
+      "characters": 366,
+      "duration": 82.836,
+      "ffprobeDuration": 82.836,
+      "audioBytes": 1327092,
+      "audioSha256": "d31d2984f6253d5a1a52749930b6059409774b4badd6b0ed8538ec2baf95e50d",
+      "textHash": "56a6dcfafb2d301c8de0c862da1572664884c90ad4d3e2e0af8670d06550037d",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        132,
+        239
+      ]
+    },
+    {
+      "id": "region-course-argentina-pampas-v1",
+      "classId": "argentina-pampas",
+      "regionId": "argentina-pampas",
+      "characters": 372,
+      "duration": 83.736,
+      "ffprobeDuration": 83.736,
+      "audioBytes": 1341492,
+      "audioSha256": "b795fc78333dd670ef0f14ab0bb3c28187f1a47c9f58ab1af8f566d6ce356d16",
+      "textHash": "a1fd71cd88a8fb585218359a442389fe4ca2fed1784c58c05bcc997d479084ac",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        141,
+        249
+      ]
+    },
+    {
+      "id": "region-course-australia-wheatbelt-v1",
+      "classId": "australia-wheatbelt",
+      "regionId": "australia-wheatbelt",
+      "characters": 365,
+      "duration": 86.76,
+      "ffprobeDuration": 86.76,
+      "audioBytes": 1389876,
+      "audioSha256": "9a63a527f1b3b2eb3beb813dd2b237bac46da5fffd8ac72ddf88bc2ce81181a3",
+      "textHash": "49e897c70ce762dc076d6ce6293b6a2874653fd9765fccb43638c0577d68777e",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        136,
+        241
+      ]
+    },
+    {
+      "id": "region-course-australia-burdekin-v1",
+      "classId": "australia-burdekin",
+      "regionId": "australia-burdekin",
+      "characters": 386,
+      "duration": 89.784,
+      "ffprobeDuration": 89.784,
+      "audioBytes": 1438260,
+      "audioSha256": "31e3450e1d7623028d760959391ffb18bd8a3f117b750a93d0e08a4dbe435bd6",
+      "textHash": "b9196ca4574ab44f65580abc9d06b1215ae224f91f8fc146410945b855d51626",
+      "cues": 8,
+      "beatOffsets": [
+        0,
+        151,
+        258
+      ]
+    },
+    {
+      "id": "region-course-newzealand-canterbury-v1",
+      "classId": "newzealand-canterbury",
+      "regionId": "newzealand-canterbury",
+      "characters": 365,
+      "duration": 81.72,
+      "ffprobeDuration": 81.72,
+      "audioBytes": 1309236,
+      "audioSha256": "f1e869d3b9b27f2d608475f6c7d80234ceb3e8199fd7ad4f401d5cf29b72d9fc",
+      "textHash": "a30453dc3460fccdbce21db801684df83624b0fab9898c679417aea08277b167",
+      "cues": 7,
+      "beatOffsets": [
+        0,
+        132,
+        239
+      ]
+    },
+    {
+      "id": "region-course-fiji-viti-v1",
+      "classId": "fiji-viti",
+      "regionId": "fiji-viti",
+      "characters": 386,
+      "duration": 90.072,
+      "ffprobeDuration": 90.072,
+      "audioBytes": 1442868,
+      "audioSha256": "0435917c661427e665cf5f8a604812f69374e85a0196fd51d328da6fe2c03447",
+      "textHash": "d3ec313ea2bfe593bbd292f043b7c8a9a8ca7f2a4c087260ee989e06c46c4635",
+      "cues": 9,
+      "beatOffsets": [
+        0,
+        150,
+        259
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "version": "2026-10-30",
+  "sourceCommit": null,
+  "plantCount": 140,
+  "regionCount": 85,
+  "audioCount": 437,
+  "imageCount": 21,
+  "assets": {
+    "app.js": "d21956398c1722521d594338d71d8715ea30cb167910f8a75d771dfe9470e594",
+    "data.js": "3fa8b6bec0e059c7c01b0d4c83ff951f7763c208cdb69564468f17608eeeb13d",
+    "styles.css": "81d4441b436b4b6cc2cfc056f3cd6ec1dfdeb44c59680c4b1873388c4586dcf9"
+  },
+  "delivery": "Static relative-path website; pre-generated narration files loaded separately from page data."
+}

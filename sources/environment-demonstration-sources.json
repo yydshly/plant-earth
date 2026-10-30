@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-29",
+  "scope": "Principle diagrams synchronized to unchanged existing narration. These references do not supply a measured local wind field, elevation model, rain forecast or species occurrence record.",
+  "sources": [
+    {
+      "title": "NOAA National Ocean Service — How many oceans are there?",
+      "url": "https://oceanservice.noaa.gov/facts/howmanyoceans.html",
+      "supports": ["The named ocean basins are connected parts of one global ocean.", "The diagram may distinguish land from ocean without depicting ocean-current measurements."],
+      "usedBy": ["foundation-landsea/ocean", "foundation-rainforest/ocean"]
+    },
+    {
+      "title": "NOAA — The water cycle",
+      "url": "https://www.noaa.gov/education/resource-collections/freshwater/water-cycle",
+      "supports": ["Water can evaporate from oceans, rivers and other wet surfaces.", "Plants return water to the atmosphere through transpiration.", "Water is transported through the atmosphere, may condense into clouds, and returns as precipitation or continues through surface and subsurface paths."],
+      "usedBy": ["foundation-water-cycle", "foundation-rainforest/evaporation", "foundation-rainforest/cloud", "foundation-check-pattern/wind"]
+    },
+    {
+      "title": "NOAA National Ocean Service — What do leeward and windward mean?",
+      "url": "https://oceanservice.noaa.gov/facts/windward-leeward.html",
+      "supports": ["Windward and leeward are relative to the incoming wind direction, not fixed east/west directions.", "Moist air may rise over terrain and form cloud and precipitation; descending air can warm and become relatively drier.", "Actual differences depend on wind and atmospheric conditions; the illustration is not a guarantee for every mountain."],
+      "usedBy": ["foundation-check-pattern/terrain"]
+    },
+    {
+      "title": "Meteorological Service Singapore — Winds",
+      "url": "https://www.weather.gov.sg/learn_winds/",
+      "supports": ["A wind direction is conventionally named for the direction the wind comes from.", "Monsoons are large-scale wind circulations that change with the seasons.", "The demonstration arrows show parcel movement in an explanatory section and do not report current Borneo wind direction or speed."],
+      "usedBy": ["foundation-rainforest/wind"]
+    }
+  ],
+  "boundaries": [
+    "No audio file, script, media cue or regional data package was modified.",
+    "Every new scene anchor is a literal substring of its existing chapter text.",
+    "No new geographic focus coordinate was introduced for mountains or wind.",
+    "The mountains and wind arrows illustrate processes, not measured topography or current circulation.",
+    "Nearshore seagrass habitat remains a comparison; it is not located at the lotus teaching marker."
+  ]
+}
