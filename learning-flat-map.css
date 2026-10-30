@@ -12,13 +12,14 @@ body.global-show-world #global-evidence[data-course-focus=true] .global-map-head
 body.global-show-world #global-evidence[data-course-focus=true] .global-map-heading span{font-size:10px}
 .learning-view-switch{position:fixed;z-index:39;display:flex;gap:4px;padding:3px;border:1px solid #7b9788;border-radius:7px;background:#18353df7;pointer-events:auto;box-shadow:0 4px 12px #0a1b2244}
 .learning-view-switch[hidden],.learning-flat-map[hidden]{display:none!important}
+.learning-view-switch[data-inline=true]{position:static;flex:none;order:0;box-shadow:none;align-self:center;max-width:100%;margin:0}
 .learning-view-switch button{font:inherit;min-height:32px;padding:6px 12px;font-size:12px;color:#e9eee2;border:1px solid #53716a;border-radius:4px;background:#25434a;cursor:pointer}
 .learning-view-switch button:focus-visible{outline:3px solid #f5d989;outline-offset:3px}
 .learning-flat-map{position:fixed;z-index:12;display:flex;flex-direction:column;box-sizing:border-box;padding:12px;border:1px solid #6c8a7e;border-radius:10px;background:#17343beF;color:#edf1e8;pointer-events:auto;overflow:hidden;box-shadow:0 10px 25px #06191f44}
 .learning-flat-map-heading{display:flex;gap:8px;justify-content:space-between;flex-wrap:wrap;flex:none;font-size:12px}.learning-flat-map-heading>span{font-size:11px;color:#dfdfb4}
 .learning-flat-map-note,.learning-flat-map-boundary{font-size:10px;line-height:1.6;margin:6px 0;color:#c2d7cc;flex:none}
 .learning-flat-map svg{display:block;width:100%;flex:1;min-height:0;height:100%;max-height:100%;background:#203b4b;border-radius:5px}
-body.is-learning-flat-map #map-labels,body.is-learning-flat-map #learning-map-labels,body.is-learning-flat-map #learning-map-key,body.is-learning-flat-map #geo-orientation-labels,body.is-learning-flat-map #geo-orientation-note,body.is-learning-flat-map #globe-guide-labels,body.is-learning-flat-map #globe-guide-controls,body.is-learning-flat-map #narration-scene-card{visibility:hidden!important}
+body.is-learning-flat-map #map-labels,body.is-learning-flat-map #learning-map-labels,body.is-learning-flat-map #learning-map-key,body.is-learning-flat-map #geo-orientation-labels,body.is-learning-flat-map #geo-orientation-note,body.is-learning-flat-map #globe-guide-labels,body.is-learning-flat-map #globe-guide-controls,body.is-learning-flat-map #narration-scene-card:not([data-docked=true]){visibility:hidden!important}
 @media(max-width:1100px) and (min-width:761px){body.global-show-world #global-evidence[data-course-focus=true] #global-map{left:60%;right:16px;min-height:145px}.global-head-actions .global-view-switch button{font-size:10px;padding:5px 6px}}
 @media(max-width:760px){
  .global-head-actions .global-view-switch button{font-size:10px;min-height:28px;padding:4px 6px}.global-view-switch{gap:2px;padding:2px}
@@ -35,21 +36,14 @@ body #global-evidence[data-course-focus=true]:has(#global-catalog:not([hidden]))
 
 /* While watching the full map, collapse the explanation to a compact title row.
    The map can then use both columns instead of leaving an empty reading pane. */
-body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel{
- position:fixed!important;left:205px!important;right:26px!important;top:var(--learning-map-controls-top,176px)!important;bottom:auto!important;
- width:auto!important;height:auto!important;min-height:0!important;max-height:none!important;box-sizing:border-box;padding:7px 11px!important;z-index:29;overflow:visible;
-}
-body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel-heading{display:flex!important;align-items:center!important;gap:10px}
-body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel-heading>div{display:flex;flex:1;align-items:center;gap:12px;min-width:0}
-body.is-learning-flat-map .learning-journey.learn-collapsed #learn-position{flex:0 1 auto;max-width:42%;padding:0!important;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:9px;line-height:1.5}
-body.is-learning-flat-map .learning-journey.learn-collapsed #learn-title{flex:1;min-width:0;margin:0!important;font-size:16px!important;line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-body.is-learning-flat-map .learning-journey.learn-collapsed #learn-collapse{position:static!important;flex:none;min-height:30px;padding:4px 8px;font-size:10px;white-space:nowrap}
+
+
+
+
+
+
 .learning-flat-map[data-wide=true] .learning-flat-map-note,.learning-flat-map[data-wide=true] .learning-flat-map-boundary{margin:4px 0}
-@media(max-width:760px){
- body.is-learning-flat-map .learning-journey.learn-collapsed .learn-panel{left:10px!important;right:10px!important;top:calc(var(--learning-map-controls-top,130px) + 43px)!important;padding:6px 9px!important}
- body.is-learning-flat-map .learning-journey.learn-collapsed #learn-position{display:none}
- body.is-learning-flat-map .learning-journey.learn-collapsed #learn-title{font-size:14px!important}
-}
+
 
 /* Medium windows need the whole world above the lesson, not a 300px side map.
    The lesson keeps its own live caption/controls; do not repeat a third pane. */

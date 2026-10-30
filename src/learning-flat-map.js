@@ -42,7 +42,7 @@ export function layoutLearningMapLabels(world,rect,input={}){
 
 // A second view of the same basemap. It deliberately adds no inferred plant
 // ranges, climate values or vegetation coverage to the introductory lessons.
-export function createLearningFlatMap({data,container=document.body,onModeChange,onLayout}={}){
+export function createLearningFlatMap({data,container=document.body,controlsHost,onModeChange,onLayout}={}){
   const world=data?.world;if(!world?.features)throw new TypeError('The learning map needs the existing world features');
   let enabled=false,mode='globe',context=normalizeLearningMapContext(),frame=0,lastControlBottom=-1;
   // A fresh module starts on the globe; a learner can explicitly unfold it.
@@ -60,7 +60,7 @@ export function createLearningFlatMap({data,container=document.body,onModeChange
   }
   const boundary=node('p','国家与教学位置只帮助定位；分布、环境机制和因果解释仍以当前课程的资料为准。','learning-flat-map-boundary');root.append(heading,note,map,boundary);
   const controls=node('nav',null,'learning-view-switch');controls.id='learning-map-view-controls';controls.hidden=true;controls.setAttribute('aria-label','入门课程地球与地图视图');
-  const globeButton=node('button','3D地球'),mapButton=node('button','展开地图');globeButton.type=mapButton.type='button';globeButton.id='learning-view-globe';mapButton.id='learning-view-map';controls.append(globeButton,mapButton);container.append(root,controls);
+  const globeButton=node('button','3D地球'),mapButton=node('button','展开地图');globeButton.type=mapButton.type='button';globeButton.id='learning-view-globe';mapButton.id='learning-view-map';controls.append(globeButton,mapButton);container.append(root);if(controlsHost){controls.dataset.inline='true';controlsHost.prepend(controls);}else container.append(controls);
   globeButton.onclick=()=>setMode('globe');mapButton.onclick=()=>setMode('map');
 
   function renderFocus(){
@@ -82,15 +82,18 @@ export function createLearningFlatMap({data,container=document.body,onModeChange
   }
   function layout(){
     frame=0;if(!enabled)return;
-    const margin=innerWidth<=760?10:26,header=document.querySelector('.learn-header')?.getBoundingClientRect(),player=document.querySelector('.imm-player')?.getBoundingClientRect();
-    const top=(header?.bottom||80)+8;controls.style.left=margin+'px';controls.style.top=top+'px';
+    const margin=innerWidth<=760?10:26,collapsed=document.querySelector('.learning-journey')?.classList.contains('learn-collapsed');
+    const compact=!!controlsHost&&!!collapsed&&innerWidth>=1180&&document.body.classList.contains('is-guided-journey');document.body.dataset.learningCompactHeader=String(compact);
+    const header=document.querySelector('.learn-header')?.getBoundingClientRect(),player=document.querySelector('.imm-player')?.getBoundingClientRect();
+    const top=compact?(header?.top||74):(header?.bottom||80)+8;if(!controlsHost){controls.style.left=margin+'px';controls.style.top=top+'px';}
     document.body.style.setProperty?.('--learning-map-controls-top',top+'px');
+    document.body.style.setProperty?.('--learning-toolbar-right',(compact?innerWidth-header.left+14:margin)+'px');
     // A collapsed explanation is a short title bar, not a reserved column.
     // Measure it after setting the control-row variable so the map starts below
     // both the view buttons and the live lesson title.
-    const panel=document.querySelector('.learn-panel')?.getBoundingClientRect(),collapsed=document.querySelector('.learning-journey')?.classList.contains('learn-collapsed');
+    const panel=document.querySelector('.learn-panel')?.getBoundingClientRect();
     const wideMap=mode==='map'&&!!collapsed;
-    const mapTop=Math.max(top+controls.getBoundingClientRect().height+9,wideMap?(panel?.bottom||0)+10:0);
+    const mapTop=controlsHost?(wideMap?(panel?.bottom||top)+10:(header?.bottom||80)+12):Math.max(top+controls.getBoundingClientRect().height+9,wideMap?(panel?.bottom||0)+10:0);
     const lower=wideMap?(player?.top||innerHeight-155)-12:innerWidth<=760?(panel?.top||innerHeight-220)-9:(player?.top||innerHeight-155)-12;
     root.dataset.wide=String(wideMap);root.style.left=margin+'px';root.style.top=mapTop+'px';
     root.style.right=(wideMap||innerWidth<=760?margin:Math.max(margin,innerWidth-(panel?.left||innerWidth-350)+18))+'px';root.style.bottom=Math.max(12,innerHeight-lower)+'px';
@@ -98,13 +101,13 @@ export function createLearningFlatMap({data,container=document.body,onModeChange
     const controlBottom=controls.getBoundingClientRect().bottom;if(controlBottom!==lastControlBottom){lastControlBottom=controlBottom;onLayout?.();}
   }
   function queueLayout(){if(frame)cancelAnimationFrame(frame);frame=requestAnimationFrame(layout);}
-  function apply(){root.hidden=!enabled||mode!=='map';controls.hidden=!enabled;globeButton.setAttribute('aria-pressed',String(mode==='globe'));mapButton.setAttribute('aria-pressed',String(mode==='map'));document.body.classList.toggle('is-learning-flat-map',enabled&&mode==='map');queueLayout();}
+  function apply(){root.hidden=!enabled||mode!=='map';controls.hidden=!enabled;if(!enabled)document.body.dataset.learningCompactHeader='false';globeButton.setAttribute('aria-pressed',String(mode==='globe'));mapButton.setAttribute('aria-pressed',String(mode==='map'));document.body.classList.toggle('is-learning-flat-map',enabled&&mode==='map');queueLayout();}
   function setMode(value){const next=value==='map'?'map':'globe';manualMode=true;if(mode===next){apply();return;}mode=next;try{localStorage.setItem('plant-earth-learning-map-view-v1',mode);}catch{}apply();onModeChange?.(mode);onLayout?.();}
   function setEnabled(value){if(value&&!enabled){mode='globe';manualMode=false;}enabled=!!value;apply();}
   function setContext(value){context=normalizeLearningMapContext(value);renderFocus();apply();}
-  window.addEventListener('resize',queueLayout);const observer=new ResizeObserver(()=>{if(enabled)queueLayout();});observer.observe(map);apply();
+  window.addEventListener('resize',queueLayout);const observer=new ResizeObserver(()=>{if(enabled)queueLayout();});observer.observe(map);if(controlsHost){observer.observe(controlsHost);const header=document.querySelector('.learn-header');if(header)observer.observe(header);}apply();
   return {setEnabled,setContext,setMode,getState:()=>({enabled,mode,manualMode,context:{...context}}),
-    getInsets(base={}){if(!enabled)return base;return {...base,top:Math.max(base.top||0,controls.getBoundingClientRect().bottom+12)};},
+    getInsets(base={}){if(!enabled||controlsHost)return base;return {...base,top:Math.max(base.top||0,controls.getBoundingClientRect().bottom+12)};},
     relayout:queueLayout,destroy(){setEnabled(false);if(frame)cancelAnimationFrame(frame);observer.disconnect();window.removeEventListener('resize',queueLayout);root.remove();controls.remove();}
   };
 }

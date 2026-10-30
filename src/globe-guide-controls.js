@@ -72,10 +72,11 @@ export function createGlobeGuideControls({guides,getContext,onChange}={}){
     const distributionHeader=!learning&&document.body.classList.contains('is-distribution')?rectIfVisible(document.querySelector('#distribution-ui .dist-toolbar')):null;
     const header=learningHeader||distributionHeader||rectIfVisible(document.querySelector('.imm-header'));
     const lessonPanel=learning?rectIfVisible(document.querySelector('.learn-panel')):(rectIfVisible(document.querySelector('.dist-analysis-side'))||rectIfVisible(document.querySelector('.imm-info')));
+    const collapsedLearning=learning&&document.querySelector('.learning-journey')?.classList.contains('learn-collapsed');
     const rightEdge=!narrow&&lessonPanel?lessonPanel.left-14:innerWidth-margin;
     const summaryWidth=Math.min(142,Math.max(110,summary.getBoundingClientRect().width||130));
-    const left=Math.max(margin,rightEdge-summaryWidth);
-    let top=(header?.bottom||60)+8;
+    const left=collapsedLearning?margin:Math.max(margin,rightEdge-summaryWidth);
+    let top=Math.max(header?.bottom||60,collapsedLearning?(lessonPanel?.bottom||0):0)+8;
     for(const selector of ['#geo-orientation-note','#learning-map-key']){const note=rectIfVisible(document.querySelector(selector));if(note&&left<note.right+6&&rightEdge>note.left-6&&top<note.bottom+6)top=note.bottom+7;}
     const player=rectIfVisible(document.getElementById('imm-player')),floor=(player?.top||innerHeight)-12;
     top=Math.max(margin,Math.min(top,floor-42));
