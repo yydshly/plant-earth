@@ -3,16 +3,21 @@ import {readFile,writeFile} from 'node:fs/promises';
 import {gzipSync,gunzipSync} from 'node:zlib';
 import {encodeAtlas,decodeAtlas} from './atlas-codec.mjs';
 import {timeAtCharacter,captionAtTime} from '../src/narration-clock.js';
+import {splitAtlas,hydrateAtlas} from '../src/atlas-hydration.js';
 const source=await readFile(new URL('../data.js',import.meta.url),'utf8');
 const data=JSON.parse(source.replace(/^window\.ATLAS_DATA=/,'').replace(/;\s*$/,''));
 const encoded=JSON.stringify(encodeAtlas(data)),compressed=gzipSync(encoded,{level:9});
 assert.equal(compressed[3]&2,0);compressed[9]=255;
 const restored=decodeAtlas(JSON.parse(gunzipSync(compressed).toString('utf8')));
 assert.deepStrictEqual(restored,data,'Every original field and value must survive the network representation');
+const {core,details}=splitAtlas(data),roundTrip=v=>decodeAtlas(JSON.parse(gunzipSync(gzipSync(JSON.stringify(encodeAtlas(v)))).toString('utf8')));
+const initial=roundTrip(core);
+assert.deepStrictEqual(hydrateAtlas(structuredClone(initial),roundTrip(details)),data,'Deferred rows and polygons must restore the complete canonical edition');
+assert.throws(()=>hydrateAtlas(structuredClone(initial),{version:9}),/Invalid/);
 let clockChecks=0,recordings=0;
 const packs=d=>[[d.chapters,d.audioManifest],[d.globalEvidence.narration.chapters,d.globalEvidence.narration.manifest],...[d.classroomNarration,d.biodiversityNarration,d.regionalNarration].map(p=>[p.chapters,p.manifest])];
 for(const [packIndex,[chapters,manifest]]of packs(data).entries()){
- const [nextChapters,nextManifest]=packs(restored)[packIndex];
+ const [nextChapters,nextManifest]=packs(initial)[packIndex];
  for(const [index,chapter]of chapters.entries()){
   const record=manifest.chapters.find(r=>r.id===chapter.id),next=nextChapters[index],nextRecord=nextManifest.chapters.find(r=>r.id===next.id);recordings++;
   let offset=0;

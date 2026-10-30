@@ -1,6 +1,6 @@
 """Check the complete online artifact and optionally stage exactly the allowlist."""
 from pathlib import Path
-import argparse,hashlib,json,re,shutil,sys
+import argparse,hashlib,json,re,shutil,sys,base64
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 def digest(p):
@@ -32,14 +32,18 @@ def main():
  assert set(audio)=={n for n in names if n.endswith('.mp3')}
  assert len(data['crops'])==140 and len(data['regionalEnvironment']['regions'])==85
  html=(ROOT/'index.html').read_text(encoding='utf-8')
- for name in re.findall(r'(?:src|href)="([^"#?]+)(?:\?[^\"]*)?"',html):
+ markup=re.sub(r'<script\b[^>]*>.*?</script>','',html,flags=re.S)
+ for name in re.findall(r'(?:src|href)="([^"#?]+)(?:\?[^\"]*)?"',markup):
   if name.startswith(('https:','http:','data:','#')):continue
   assert not name.startswith('/') and name in names,'Nonportable page resource: '+name
- assert html.count('rel="stylesheet"')==1
+ assert 'id="atlas-site-styles"' in html
  config=json.loads(re.search(r'<script id="atlas-startup-config" type="application/json">(.*?)</script>',html).group(1))
  assert config['dataUrl'] in names and digest(ROOT/config['dataUrl'])==config['dataSha256']
+ core=base64.b64decode(re.search(r'<script id="atlas-core" type="application/octet-stream">(.*?)</script>',html).group(1))
+ assert hashlib.sha256(core).hexdigest()==config['coreSha256']
+ assert config['detailUrl'] in names and digest(ROOT/config['detailUrl'])==config['detailSha256']
  assert not re.search(r'<script src="data\.js',html),'Full data fallback must not block normal startup'
- assert '<link rel="preload" as="fetch" crossorigin' in html and '<link rel="preload" as="script"' in html
+ assert not re.search(r'<script src="app\.js',html) and 'id="atlas-app"' in html
  for p in [ROOT/'data.js',ROOT/'app.js',*(ROOT/'src').glob('*.js'),*(ROOT/'sources').glob('*')]:
   if not p.is_file():continue
   text=p.read_text(encoding='utf-8')

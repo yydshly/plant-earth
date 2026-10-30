@@ -80,3 +80,8 @@ body.global-show-world #global-evidence[data-regional-focus=true][data-regional-
 @media(max-width:760px){#global-evidence[data-review-context=true] .global-header{grid-template-columns:minmax(0,1fr) auto}#global-evidence[data-review-context=true] .global-header h1{font-size:15px}}
 
 .globe-data-legend{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:6px;font-size:9px}.globe-data-legend span{display:inline-flex;align-items:center;gap:4px}.globe-data-legend i{display:inline-block;width:7px;height:7px;border-radius:50%}
+
+/* Deferred global rows never masquerade as zero or unrecorded data. */
+.global-data-loading{position:absolute;left:20px;top:100px;width:min(296px,calc(100vw - 40px));padding:16px;border:1px solid #67847d;border-radius:10px;background:#17313a;color:#e1ecd7;z-index:12;font-size:13px;line-height:1.7}
+.global-data-loading[hidden]{display:none}
+#global-evidence[data-global-pending="true"] .global-panel,#global-evidence[data-global-pending="true"] .global-list,#global-evidence[data-global-pending="true"] .global-key,#global-evidence[data-global-pending="true"] .global-tour,#global-evidence[data-global-pending="true"] #globe-data-controls{display:none!important}
