@@ -6,6 +6,7 @@ import {timeAtCharacter,captionAtTime} from '../src/narration-clock.js';
 const source=await readFile(new URL('../data.js',import.meta.url),'utf8');
 const data=JSON.parse(source.replace(/^window\.ATLAS_DATA=/,'').replace(/;\s*$/,''));
 const encoded=JSON.stringify(encodeAtlas(data)),compressed=gzipSync(encoded,{level:9});
+assert.equal(compressed[3]&2,0);compressed[9]=255;
 const restored=decodeAtlas(JSON.parse(gunzipSync(compressed).toString('utf8')));
 assert.deepStrictEqual(restored,data,'Every original field and value must survive the network representation');
 let clockChecks=0,recordings=0;

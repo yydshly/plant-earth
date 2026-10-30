@@ -10,11 +10,11 @@
     "data.js": "3fa8b6bec0e059c7c01b0d4c83ff951f7763c208cdb69564468f17608eeeb13d",
     "styles.css": "81d4441b436b4b6cc2cfc056f3cd6ec1dfdeb44c59680c4b1873388c4586dcf9",
     "startup.js": "7831e9bf8939bef14ba5f38142878bc2a6fa338febe9c428cf0cea9de5fe74ca",
-    "assets/atlas-data.76d96960376a063f.bin": "76d96960376a063f9a6c8bfabd9df3eaf83dfa5ee470fb41f0857e5b84be7ca5"
+    "assets/atlas-data.435ed4c3c13a796b.bin": "435ed4c3c13a796b6a2e5f2101cc3a04c7235136d4a386b09e3029e4d77fccfc"
   },
   "transport": {
     "format": "gzip / lossless object dictionary v1",
-    "file": "assets/atlas-data.76d96960376a063f.bin",
+    "file": "assets/atlas-data.435ed4c3c13a796b.bin",
     "bytes": 1248227,
     "canonicalBytes": 8766664,
     "deepEqualityVerified": true,

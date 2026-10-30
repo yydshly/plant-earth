@@ -16,6 +16,9 @@ const bundle=await esbuild.build({absWorkingDir:root,entryPoints:['src/app.js'],
 const dataSource=await readFile(join(root,'data.js'),'utf8');
 const data=JSON.parse(dataSource.replace(/^window\.ATLAS_DATA=/,'').replace(/;\s*$/,''));
 const packed=gzipSync(JSON.stringify(encodeAtlas(data)),{level:9,mtime:0});
+// Gzip's OS metadata differs between Windows and Linux. Normalize only that
+// header byte so both build hosts generate the same content-addressed URL.
+assert.equal(packed[3]&2,0);packed[9]=255;
 assert.deepStrictEqual(decodeAtlas(JSON.parse(gunzipSync(packed).toString('utf8'))),data);
 const dataHash=sha(packed),dataName='assets/atlas-data.'+dataHash.slice(0,16)+'.bin';
 await mkdir(join(root,'assets'),{recursive:true});await writeFile(join(root,dataName),packed);
