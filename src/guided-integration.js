@@ -14,7 +14,7 @@ export function connectGuidedLearning({learning,globalEvidence,audio,onLayout,on
   let navigating=false,journey,navigationEpoch=0;
   const rememberWelcome=()=>{try{localStorage.setItem('plant-earth-welcome-v2','seen');}catch{}};
   const mapLocation=location=>({...location,label:(location.cropName||location.cropId||'植物')+' · '+(location.tourIndex>=0?'读图 '+(location.tourIndex+1)+' / 3':'看全球与地区')});
-  const classLocation=loc=>{const c=loc.courseScope==='biodiversity'?BIODIVERSITY_COURSES.find(c=>c.id===loc.cropId):CROP_CLASSES.find(c=>c.id===loc.classId),q=loc.questionPath??journey?.getState().locations?.classes?.questionPath,questionPath=q==='grains'&&loc.classId==='grains'||q==='ginkgo'&&loc.courseScope==='biodiversity'&&loc.cropId==='ginkgo'?q:null;return {...loc,questionPath,label:c?(c.name||c.group)+' · '+(loc.step+1)+' / 4':loc.courseScope==='biodiversity'?'其他代表植物 · 40课':'农业与园艺 · 四条主线'};};
+  const classLocation=loc=>{const c=loc.courseScope==='biodiversity'?BIODIVERSITY_COURSES.find(c=>c.id===loc.cropId):CROP_CLASSES.find(c=>c.id===loc.classId),q=loc.questionPath??journey?.getState().locations?.classes?.questionPath,questionPath=q==='grains'&&loc.classId==='grains'||q==='ginkgo'&&loc.courseScope==='biodiversity'&&loc.cropId==='ginkgo'?q:null;return {...loc,questionPath,label:c?(c.name||c.group)+' · '+(loc.step+1)+' / 4':loc.courseScope==='biodiversity'?'其他代表植物 · '+BIODIVERSITY_COURSES.length+'课':'农业与园艺 · 四条主线'};};
   const pause=()=>{audio.pause();globalEvidence.pause();};
   function playCurrentGuidedNarration(){
     if(!journey?.isActive())return false;const stage=journey.getState().stage;
@@ -65,7 +65,7 @@ export function connectGuidedLearning({learning,globalEvidence,audio,onLayout,on
       ['地球基础',`${state.foundationViewed.length} / 7`,'浏览过的基础章节'],
       ['生态案例',`${state.answered} / 6`,'已作答；当前相符 '+state.correct+' 题'],
       ['农业分类',`${progress.classAttempted} / 13`,'已作答；当前相符 '+progress.classCorrect+' 题'],
-      ['其他植物',`${bioProgress.attempted} / 40`,'已作答；当前相符 '+bioProgress.correct+' 题']
+      ['其他植物',`${bioProgress.attempted} / ${bioProgress.total}`,'已作答；当前相符 '+bioProgress.correct+' 题']
     ]){const card=el('div');card.append(el('span',title),el('strong',value),el('small',note));counts.append(card);}
     const records=el('details',null,'course-review-records');records.append(el('summary','查看浏览、作答记录与待回看课程'),counts,el('p','这些记录帮助找到下一步；播放完成和答案相符不等于已经能独立解释。','course-review-note'));
     const revisit=el('section');revisit.append(el('h2','下一步补看哪里？'));

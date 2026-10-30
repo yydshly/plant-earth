@@ -82,7 +82,9 @@ export function createClassIntroPlayer({container,pack,labels={},onStep=()=>{},o
     catch{if(token===playToken&&classWhenStarted===activeClass){cancelContinuation();wantsPlayback=false;playFailed=true;sync(false);}return false;}
   };
   listen(button,'click',()=>isPlaying()?pause():play());
-  listen(seek,'input',()=>{cancelContinuation();seekTo(Number(seek.value),true);});
+  // Seeking during active playback keeps the explicit continuous-listening
+  // choice. Pausing or leaving the lesson still cancels continuation.
+  listen(seek,'input',()=>{if(!isPlaying())cancelContinuation();seekTo(Number(seek.value),true);});
   listen(rate,'change',()=>{audio.playbackRate=Number(rate.value);});
   listen(autoContinue,'change',()=>setAutoContinueEnabled(autoContinue.checked));
   listen(audio,'loadedmetadata',()=>{if(pendingSeek!==null)seekTo(pendingSeek,false);sync(false);});
@@ -106,7 +108,7 @@ export function createClassIntroPlayer({container,pack,labels={},onStep=()=>{},o
   };
   const seekStep=index=>{
     if(!available())return false;
-    cancelContinuation();
+    if(!isPlaying())cancelContinuation();
     const step=clamp(Math.trunc(index),0,chapter.beats.length-1);
     // The caller already selected this classroom step. Avoid calling it back
     // recursively when it reattaches this persistent container.

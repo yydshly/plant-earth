@@ -49,7 +49,7 @@ export function createBiodiversityClassroom({container,crops,narrationPack,regio
   function image(id){const figure=el('figure',null,'bio-organ-preview');figure.append(renderMiniaturePreview(id,{width:360,height:220}),el('figcaption',(crops.get(id)?.name||id)+' · 器官放大的形态示意'));return figure;}
   function renderHome(){
     heading('认识其他 '+BIODIVERSITY_COURSES.length+' 个代表植物','从草原、雨林、苔原与城市，到森林、旱地、水域、蕨类与苔藓：先分清类群与生活方式，再用真实地区资料找环境线索。');
-    const progress=biodiversityProgress();content.append(el('p',`已浏览 ${progress.viewed} / 40 · 已作答 ${progress.attempted} / 40 · 当前相符 ${progress.correct} 题。浏览与答题分别记录。`,'bio-progress'));
+    const progress=biodiversityProgress();content.append(el('p',`已浏览 ${progress.viewed} / ${progress.total} · 已作答 ${progress.attempted} / ${progress.total} · 当前相符 ${progress.correct} 题。浏览与答题分别记录。`,'bio-progress'));
     const grid=el('div',null,'bio-paths');for(const path of BIODIVERSITY_PATHS){const ids=idsFor(path),card=button('',()=>go({view:'path',pathId:path.id}),'bio-path-card');card.append(el('strong',path.title),el('span',path.intro||path.description),el('small',`${ids.length} 个课程 · `+ids.slice(0,5).map(id=>byId.get(id)?.name).filter(Boolean).join(' · ')));grid.append(card);}content.append(grid);
     let last;try{last=JSON.parse(localStorage.getItem('plant-earth-biodiversity-location-v1')||'null');}catch{}if(last?.cropId&&byId.has(last.cropId))content.append(button('继续：'+byId.get(last.cropId).name,()=>go(last),'classroom-continue'));
     content.append(el('p','这些主线分别使用生境、生活型或植物类群作入口，并不是同一层级的分类树。原生与引入图、地区环境采样和形态模型分别回答不同问题。','classroom-note'));

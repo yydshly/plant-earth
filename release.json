@@ -6,7 +6,7 @@
   "audioCount": 445,
   "imageCount": 25,
   "assets": {
-    "app.js": "5a96a9866d5a9913252d1538d5ff678a9fd6074de245812ec5596d1738e7c7ac",
+    "app.js": "556a5194c1bed6a76df8d5570d89d9d16b4fdee2344653c5aea8ee8acc4203f2",
     "data.js": "56c92dc42d1f6c120b7023029cc11364b0612db5b134703d6ad22fec24e8d7b0",
     "styles.css": "871f171c99036718412e6b60654d17fef3dba2fe4fa984a0ab1d269458d33ca2",
     "startup.js": "a69bc4487b9e89cb4c2e54612423dd4ce9e103fe2adb76f06e51f345c648835e",
@@ -17,7 +17,7 @@
     "format": "zstd boot / lossless object dictionary v1; gzip detail rows",
     "file": "assets/atlas-data.4f25a0ee8761b38e.bin",
     "bytes": 1272080,
-    "bootBytes": 780275,
+    "bootBytes": 780289,
     "coreBytes": 641733,
     "detailBytes": 613536,
     "canonicalBytes": 8950485,
